@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-17",
+  "parent_commit": "d7a8387ec26fc2b06b454337063f2336e418a686",
+  "original_record_commit": "d7a8387ec26fc2b06b454337063f2336e418a686",
+  "baseline_files_unchanged": 131,
+  "vendored_files_unchanged": 17,
+  "original_records_bytes_unchanged": true,
+  "source_of_audit": "user supplied Astra review; actual other-environment repair retest not supplied",
+  "upstream_dynamics_not_independently_verified_by_transport": true,
+  "changed_file_sha256": {
+    "README.md": "3426303b19b8abc1aafb367df93d7c002198eefb8c915e5ef25425bd7fff0a48",
+    "docs/RR56_PORTABILITY_REPAIR.md": "d2d37533bd0aab9111c40a88e8563df8bc80094eb3a49827c1c1e3dab47e7b3a",
+    "docs/RR56_THREE_PLUS_ONE_OUTBOUND.md": "c7e3d63335b9bce7dbd9539dbf9f8b154939bfb541a05164f9cfe58ebceb3b09",
+    "integrations/three_plus_one/README.md": "bae0a29d71b1817da059e94edaf57220a0da33758fe21cdd780053300852e3ad",
+    "integrations/three_plus_one/RR56-portability-independent-validation.log": "8bb9deab8132b784e1fdbcec77e7da233a2de4013420538fbfbead8add9c77ee",
+    "integrations/three_plus_one/RR56-portability-local-result.json": "fbc9d2033e752002fd2a96e8e11c1f80d59ae9d403b1145e42264c2e171fc9ef",
+    "integrations/three_plus_one/RR56-portability-validation.json": "f51780a71ae771598eacd06f01edd708af5209aae4185517ab4a86b4f56dd69c",
+    "integrations/three_plus_one/astra-audit-user-supplied.md": "4f5e5407f9268bbef69210b15230140615268c9e1063e3deae3b787eaa21a5c6",
+    "integrations/three_plus_one/outbound.py": "d56e91f1f76e37ecffe8e08cc3205ad133aa0cccc5dd7ef1f1bf0b946ac9a033",
+    "integrations/three_plus_one/records/manifest.json": "3859afa267de4331327a3d2f3b976705f03dcdf6d2d12d86911609ce14408860",
+    "integrations/three_plus_one/test_portability.py": "593a2e307ad2be5534f024ddd5c1d458b2bfbafc7ee105cc58806dd24c825bb6",
+    "integrations/three_plus_one/validate.py": "d0e611d2408b14bf1d12186c55cef911d84e969e77ab3d5e41a9df5808167de6"
+  }
+}

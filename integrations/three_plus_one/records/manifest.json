@@ -1,0 +1,150 @@
+{
+  "schema": "time-engine-3plus1-published-records-v1",
+  "source_repository": "residual-chart-lab/time-engine",
+  "source_commit": "d7a8387ec26fc2b06b454337063f2336e418a686",
+  "verification_scope": "authenticate published source snapshots; verify exact port and TE receiver; no local upstream SGD/J/K regeneration",
+  "trust": "obtain this manifest from the trusted pinned repository; a hash is not an author signature",
+  "records": [
+    {
+      "path": "records/keep-primary.record.json",
+      "sha256": "f3cc641162438b87d895f67f5d7396d9df99798c52767eef0c4f016de86a232d",
+      "bytes": 137860,
+      "config": {
+        "start_epoch": 728,
+        "carry_epochs": 8,
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "mode": "keep",
+      "spec": {
+        "gain": "1",
+        "reference_contact": 0
+      },
+      "free_choice": 1,
+      "requirement": {
+        "context": [
+          [
+            "35168927374491313/70368744177664000",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-879593857506459313/140737488355328000",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "949993491112804687/140737488355328000"
+          ]
+        ],
+        "result": [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        "tolerance": "1/1000000000000"
+      }
+    },
+    {
+      "path": "records/erase-primary.record.json",
+      "sha256": "3a78229dade41082fb42e1d2c60f6c7d356a6054bedeb12aee0cd8919695e359",
+      "bytes": 136709,
+      "config": {
+        "start_epoch": 728,
+        "carry_epochs": 8,
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "mode": "erase",
+      "spec": {
+        "gain": "1",
+        "reference_contact": 0
+      },
+      "free_choice": 1,
+      "requirement": {
+        "context": [
+          [
+            "35168927374491313/70368744177664000",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-879593857506459313/140737488355328000",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "949993491112804687/140737488355328000"
+          ]
+        ],
+        "result": [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        "tolerance": "1/1000000000000"
+      }
+    },
+    {
+      "path": "records/keep-alternate.record.json",
+      "sha256": "f5da53f3f237f793e55558e86a35b7f168a5550d7b02581e41d56dec6f51bbc1",
+      "bytes": 140461,
+      "config": {
+        "start_epoch": 728,
+        "carry_epochs": 8,
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "mode": "keep",
+      "spec": {
+        "gain": "1",
+        "reference_contact": 0
+      },
+      "free_choice": 1,
+      "requirement": {
+        "context": [
+          [
+            "4396115921662099/8796093022208000",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-879593857504070271/140737488355328000",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "949993491112804687/140737488355328000"
+          ]
+        ],
+        "result": [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        "tolerance": "1/1000000000000"
+      }
+    }
+  ]
+}

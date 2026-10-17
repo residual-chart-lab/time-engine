@@ -13,9 +13,11 @@ from pathlib import Path
 import hashlib
 import json
 import math
+import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[2]
+LOCAL_OUTPUT = ROOT / '.work/rr56-local'
 sys.path[:0] = [str(ROOT / 'baseline/v1/runtime'),
                str(ROOT / 'vendor/three-plus-one/src'),
                str(ROOT / 'vendor/three-plus-one/examples')]
@@ -339,6 +341,11 @@ def execute(receipt):
     # The caller supplies a trusted immutable commitment. No root, candidate
     # search, shape projection, or free-choice replacement occurs from here.
     contact = execute_contact(receipt.state, receipt.chosen.contact_index)
+    return _execute_receiver(receipt, contact)
+
+
+def _execute_receiver(receipt, contact):
+    """Exact receiver replay with a frozen, separately authenticated contact."""
     engine = receipt.receiver.anchor.producer_plan
     engine = event(engine, 'rr56-3plus1-contact-executed')
     plan = replace(engine.pending.plan, leaf=receipt.chosen.leaf)
@@ -371,6 +378,65 @@ def execute(receipt):
 def verify_occurrence(occurrence, receipt):
     if type(occurrence) is not Occurrence or occurrence.commitment != receipt or occurrence != execute(receipt):
         raise ValueError('the neural contact, fixed requirement, inheritance or actual flower was substituted')
+    return True
+
+
+def verify_transported_occurrence(occurrence, receipt):
+    """Check frozen data and exact receiver algebra without rerunning SGD.
+
+    The receipt must already be trusted, e.g. through the externally supplied
+    published record SHA-256 in import_occurrence(verification='transport').
+    Upstream binary64 trajectories/Jacobians are authenticated inputs here,
+    not independently reproduced floating-point dynamics.
+    """
+    if type(occurrence) is not Occurrence or occurrence.commitment != receipt:
+        raise ValueError('the transported occurrence and trusted commitment differ')
+    state = receipt.state
+    checkpoints = state.course.checkpoints
+    if (state.mode not in MODES or len(checkpoints) != state.course.config.carry_epochs+1
+            or any(len(s.network) != 17 or len(s.tangent) != 4 for s in checkpoints)
+            or len(state.radial) != 4 or len(state.vector) != 4
+            or len(state.response_matrix) != 4 or any(len(row) != 4 for row in state.response_matrix)):
+        raise ValueError('the frozen source dimensions or intervention are invalid')
+    r2 = dot(state.radial, state.radial)
+    if not r2:
+        raise ValueError('the frozen phase readout is singular')
+    phase = dot(state.radial, checkpoints[-1].tangent)/r2
+    visible = times(phase, state.radial)
+    hidden = subtract(state.vector, visible)
+    if (state.phase != phase or state.visible != visible or state.hidden != hidden
+            or dot(state.radial, hidden) != 0):
+        raise ValueError('the saved exact phase decomposition changed')
+    if ((state.mode in ('keep', 'restore') and state.vector != checkpoints[-1].tangent)
+            or (state.mode == 'erase' and state.vector != visible)
+            or (state.mode == 'flip' and state.vector != subtract(times(2, visible), checkpoints[-1].tangent))):
+        raise ValueError('the saved intervention changed its frozen source')
+    b = centered(mv(state.response_matrix, visible))
+    d = centered(mv(state.response_matrix, hidden))
+    if not dot(b, b) or state.shape != subtract(d, times(dot(b, d)/dot(b, b), b)):
+        raise ValueError('the saved response-shape projection changed')
+    if receipt.receiver.anchor.original.result != FIXED_RESULT:
+        raise ValueError('the receiver inherited a different fixed result')
+    candidates = tuple(contact_candidate(state, receipt.receiver, receipt.spec, i) for i in range(4))
+    allowed = tuple(c for c in candidates if admissible(c, receipt.receiver, receipt.requirement))
+    if type(receipt.free_choice) is not int or receipt.free_choice < 0 or not allowed:
+        raise ValueError('the saved current choice has no allowed candidate')
+    ordinal = receipt.free_choice % len(allowed)
+    chosen = allowed[ordinal]
+    if (receipt.chosen != chosen or receipt.allowed_count != len(allowed)
+            or receipt.selected_ordinal != ordinal
+            or receipt.predicted_endpoint != preview(chosen, receipt.receiver, receipt.requirement)[0]):
+        raise ValueError('the saved candidate family, fixed-C test or free choice changed')
+    contact = occurrence.neural_contact
+    expected_before = NeuralState(checkpoints[-1].network, state.vector)
+    sample, target = CONTACTS[chosen.contact_index]
+    if (contact.contact_index != chosen.contact_index or contact.sample != sample or contact.target != target
+            or contact.before != expected_before or len(contact.after.network) != 17
+            or len(contact.after.tangent) != 4
+            or contact.fixed_readout_response != dot(state.radial, subtract(contact.after.tangent, state.vector))/r2):
+        raise ValueError('the frozen contact snapshot or exact response changed')
+    if occurrence != _execute_receiver(receipt, contact):
+        raise ValueError('the exact receiver history, source publication or endpoint changed')
     return True
 
 
@@ -452,8 +518,36 @@ def export_occurrence(occurrence):
     return dict(schema='time-engine-3plus1-outbound-occurrence-v1', root=pack(occurrence), nodes=nodes)
 
 
-def import_occurrence(payload, expected_requirement, config=CourseConfig(), mode='keep', spec=PortSpec(), free_choice=0):
-    if payload.get('schema') != 'time-engine-3plus1-outbound-occurrence-v1':
+class LocalReproductionMismatch(ValueError):
+    """A record differs from this environment's exact binary64 reproduction."""
+
+
+def import_occurrence(payload, expected_requirement, config=CourseConfig(), mode='keep', spec=PortSpec(),
+                      free_choice=0, *, verification='reproduce', trusted_sha256=None):
+    """Restore exactly, with an explicit choice of verification scope.
+
+    reproduce (default): regenerate the source locally and require exact
+    agreement, including all upstream binary64 data. This can fail across
+    environments even when the qualitative result agrees.
+
+    transport: require original bytes plus an external trusted SHA-256;
+    preserve their source snapshots and verify port/receiver arithmetic in
+    exact rationals. This does not independently regenerate upstream SGD/K/J.
+    """
+    if verification not in ('reproduce', 'transport'):
+        raise ValueError('verification must be reproduce or transport')
+    if verification == 'transport':
+        if not isinstance(payload, (bytes, str)) or not isinstance(trusted_sha256, str):
+            raise ValueError('transport requires original serialized bytes and an external trusted SHA-256')
+        if not re.fullmatch('[0-9a-f]{64}', trusted_sha256):
+            raise ValueError('the trusted SHA-256 must contain 64 lowercase hexadecimal characters')
+        raw = payload.encode('utf-8') if isinstance(payload, str) else payload
+        if hashlib.sha256(raw).hexdigest() != trusted_sha256:
+            raise ValueError('the original record bytes do not match the external trusted SHA-256')
+        payload = json.loads(raw)
+    elif isinstance(payload, (bytes, str)):
+        payload = json.loads(payload)
+    if not isinstance(payload, dict) or payload.get('schema') != 'time-engine-3plus1-outbound-occurrence-v1':
         raise ValueError('unknown record schema')
     types, nodes, built, visiting = registry(), payload['nodes'], {}, set()
     def unpack(value):
@@ -477,15 +571,39 @@ def import_occurrence(payload, expected_requirement, config=CourseConfig(), mode
             cls = types[node['type']]
             if set(node['fields']) != {f.name for f in fields(cls)}:
                 raise ValueError('unknown dataclass fields')
-            obj = cls(**{name: unpack(x) for name, x in node['fields'].items()})
+            decoded_fields = {name: unpack(x) for name, x in node['fields'].items()}
+            obj = cls(**decoded_fields)
+            # Run every allowlisted constructor/validator first. Some of them
+            # copy immutable tuples while normalizing. Restore only identical
+            # canonical values so the serialized sharing graph also survives.
+            for name, value in decoded_fields.items():
+                normalized = getattr(obj, name)
+                if type(normalized) is not type(value) or normalized != value:
+                    raise ValueError('serialized fields must already be canonical')
+                object.__setattr__(obj, name, value)
         else:
             raise ValueError('unknown graph node or type')
         visiting.remove(index)
         built[index] = obj
         return obj
     record = unpack(payload['root'])
-    canonical = select(prepare(config, mode, spec), expected_requirement, free_choice)
-    verify_occurrence(record, canonical)
+    if type(record) is not Occurrence:
+        raise ValueError('the root must be a complete actual occurrence')
+    if verification == 'transport':
+        receipt = record.commitment
+        if (receipt.state.course.config != config or receipt.state.mode != mode or receipt.spec != spec
+                or receipt.requirement != expected_requirement or receipt.free_choice != free_choice):
+            raise ValueError('the original record does not match the external entry, intervention, C or choice')
+        verify_transported_occurrence(record, receipt)
+    else:
+        try:
+            canonical = select(prepare(config, mode, spec), expected_requirement, free_choice)
+            verify_occurrence(record, canonical)
+        except ValueError as cause:
+            raise LocalReproductionMismatch(
+                'the saved record differs from exact local reproduction; a floating-point environment '
+                'difference or changed data can cause this; use trusted-hash transport for a published record'
+            ) from cause
     return record
 
 
@@ -572,6 +690,8 @@ def run():
     root = Path(__file__).resolve().parent
     paths = ['integrations/three_plus_one/outbound.py', 'integrations/three_plus_one/test_outbound.py',
              'integrations/three_plus_one/validate.py',
+             'integrations/three_plus_one/test_portability.py',
+             'integrations/three_plus_one/records/manifest.json',
              'vendor/three-plus-one/SOURCE.json']
     return dict(note='RR56', passed=True, groups=len(checks), checks=checks,
         date='2026-10-17', time_engine_base_commit='c1a5bc2e6ae822633b59c6b132ad7a05c31f274d',
@@ -582,6 +702,7 @@ def run():
 
 if __name__ == '__main__':
     result = run()
-    target = Path(__file__).with_name('outbound_result.json')
+    LOCAL_OUTPUT.mkdir(parents=True, exist_ok=True)
+    target = LOCAL_OUTPUT / 'outbound_result.json'
     target.write_bytes((json.dumps(result, default=encode, ensure_ascii=False, indent=2)+'\n').encode('utf-8'))
     print(json.dumps(dict(passed=True, groups=result['groups'], keep_allowed=[0], erase_allowed=[0, 1, 2, 3])))

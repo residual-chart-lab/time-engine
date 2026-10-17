@@ -1,0 +1,187 @@
+{
+  "date": "2026-10-17",
+  "parent_commit": "d7a8387ec26fc2b06b454337063f2336e418a686",
+  "passed": true,
+  "scope": "record transport repair; no change to learning, port, C or closure arithmetic",
+  "main_groups": 9,
+  "total_tests": 78,
+  "original_tests": 68,
+  "added_portability_tests": 10,
+  "baseline_files_unchanged": 131,
+  "vendored_files_unchanged": 17,
+  "published_records_unchanged": 3,
+  "original_physics_results_identical_excluding_source_hashes": true,
+  "local_record_recreation_byte_identical_to_published": true,
+  "transported_record_reexport_byte_identical_to_original": true,
+  "independent_package_main_result_byte_identical": true,
+  "original_floating_point_history_is_trusted_input_in_transport": true,
+  "independent_upstream_dynamics_verified_by_transport": false,
+  "actual_second_os_or_astra_environment_retest_performed": false,
+  "environment_proxy": "one ulp nextafter drift; same decisions, strict mismatch, exact trusted transport",
+  "strict_default_kept": true,
+  "no_automatic_transport_fallback": true,
+  "fixed_F_and_tolerance_unchanged": true,
+  "full_baseline_252_rerun": false,
+  "published_transport": {
+    "passed": true,
+    "verification": "trusted-hash transport",
+    "published_records": 3,
+    "source_snapshots_preserved": true,
+    "exact_port_and_receiver_verified": true,
+    "upstream_floating_point_regenerated": false,
+    "independent_upstream_dynamics_verified": false,
+    "examples": [
+      {
+        "path": "records/keep-primary.record.json",
+        "sha256": "f3cc641162438b87d895f67f5d7396d9df99798c52767eef0c4f016de86a232d",
+        "exact_receiver_verified": true,
+        "contact_index": 0
+      },
+      {
+        "path": "records/erase-primary.record.json",
+        "sha256": "3a78229dade41082fb42e1d2c60f6c7d356a6054bedeb12aee0cd8919695e359",
+        "exact_receiver_verified": true,
+        "contact_index": 1
+      },
+      {
+        "path": "records/keep-alternate.record.json",
+        "sha256": "f5da53f3f237f793e55558e86a35b7f168a5550d7b02581e41d56dec6f51bbc1",
+        "exact_receiver_verified": true,
+        "contact_index": 1
+      }
+    ]
+  },
+  "initial_driver": {
+    "passed": true,
+    "date": "2026-10-17",
+    "groups": 9,
+    "tests": 78,
+    "outbound_tests": 33,
+    "upstream_three_plus_one_tests": 10,
+    "exact_joint_records": 3,
+    "main_result_sha256": "fbc9d2033e752002fd2a96e8e11c1f80d59ae9d403b1145e42264c2e171fc9ef",
+    "examples": [
+      {
+        "path": ".work/rr56-local/records/keep-primary.record.json",
+        "bytes": 137860,
+        "sha256": "f3cc641162438b87d895f67f5d7396d9df99798c52767eef0c4f016de86a232d",
+        "contact_index": 0,
+        "closure_error": 2.2857937824711947e-14
+      },
+      {
+        "path": ".work/rr56-local/records/erase-primary.record.json",
+        "bytes": 136709,
+        "sha256": "3a78229dade41082fb42e1d2c60f6c7d356a6054bedeb12aee0cd8919695e359",
+        "contact_index": 1,
+        "closure_error": 2.2857937824711947e-14
+      },
+      {
+        "path": ".work/rr56-local/records/keep-alternate.record.json",
+        "bytes": 140461,
+        "sha256": "f5da53f3f237f793e55558e86a35b7f168a5550d7b02581e41d56dec6f51bbc1",
+        "contact_index": 1,
+        "closure_error": 6.367191985982162e-15
+      }
+    ],
+    "seconds": 61.312,
+    "full_baseline_252_rerun": false,
+    "published_transport": {
+      "passed": true,
+      "verification": "trusted-hash transport",
+      "published_records": 3,
+      "source_snapshots_preserved": true,
+      "exact_port_and_receiver_verified": true,
+      "upstream_floating_point_regenerated": false,
+      "independent_upstream_dynamics_verified": false,
+      "examples": [
+        {
+          "path": "records/keep-primary.record.json",
+          "sha256": "f3cc641162438b87d895f67f5d7396d9df99798c52767eef0c4f016de86a232d",
+          "exact_receiver_verified": true,
+          "contact_index": 0
+        },
+        {
+          "path": "records/erase-primary.record.json",
+          "sha256": "3a78229dade41082fb42e1d2c60f6c7d356a6054bedeb12aee0cd8919695e359",
+          "exact_receiver_verified": true,
+          "contact_index": 1
+        },
+        {
+          "path": "records/keep-alternate.record.json",
+          "sha256": "f5da53f3f237f793e55558e86a35b7f168a5550d7b02581e41d56dec6f51bbc1",
+          "exact_receiver_verified": true,
+          "contact_index": 1
+        }
+      ]
+    }
+  },
+  "independent_driver": {
+    "passed": true,
+    "date": "2026-10-17",
+    "groups": 9,
+    "tests": 78,
+    "outbound_tests": 33,
+    "upstream_three_plus_one_tests": 10,
+    "exact_joint_records": 3,
+    "main_result_sha256": "fbc9d2033e752002fd2a96e8e11c1f80d59ae9d403b1145e42264c2e171fc9ef",
+    "examples": [
+      {
+        "path": ".work/rr56-local/records/keep-primary.record.json",
+        "bytes": 137860,
+        "sha256": "f3cc641162438b87d895f67f5d7396d9df99798c52767eef0c4f016de86a232d",
+        "contact_index": 0,
+        "closure_error": 2.2857937824711947e-14
+      },
+      {
+        "path": ".work/rr56-local/records/erase-primary.record.json",
+        "bytes": 136709,
+        "sha256": "3a78229dade41082fb42e1d2c60f6c7d356a6054bedeb12aee0cd8919695e359",
+        "contact_index": 1,
+        "closure_error": 2.2857937824711947e-14
+      },
+      {
+        "path": ".work/rr56-local/records/keep-alternate.record.json",
+        "bytes": 140461,
+        "sha256": "f5da53f3f237f793e55558e86a35b7f168a5550d7b02581e41d56dec6f51bbc1",
+        "contact_index": 1,
+        "closure_error": 6.367191985982162e-15
+      }
+    ],
+    "seconds": 61.516,
+    "full_baseline_252_rerun": false,
+    "published_transport": {
+      "passed": true,
+      "verification": "trusted-hash transport",
+      "published_records": 3,
+      "source_snapshots_preserved": true,
+      "exact_port_and_receiver_verified": true,
+      "upstream_floating_point_regenerated": false,
+      "independent_upstream_dynamics_verified": false,
+      "examples": [
+        {
+          "path": "records/keep-primary.record.json",
+          "sha256": "f3cc641162438b87d895f67f5d7396d9df99798c52767eef0c4f016de86a232d",
+          "exact_receiver_verified": true,
+          "contact_index": 0
+        },
+        {
+          "path": "records/erase-primary.record.json",
+          "sha256": "3a78229dade41082fb42e1d2c60f6c7d356a6054bedeb12aee0cd8919695e359",
+          "exact_receiver_verified": true,
+          "contact_index": 1
+        },
+        {
+          "path": "records/keep-alternate.record.json",
+          "sha256": "f5da53f3f237f793e55558e86a35b7f168a5550d7b02581e41d56dec6f51bbc1",
+          "exact_receiver_verified": true,
+          "contact_index": 1
+        }
+      ]
+    }
+  },
+  "independent_execution": {
+    "exit_code": 0,
+    "seconds": 64.562
+  },
+  "local_result_sha256": "fbc9d2033e752002fd2a96e8e11c1f80d59ae9d403b1145e42264c2e171fc9ef"
+}
