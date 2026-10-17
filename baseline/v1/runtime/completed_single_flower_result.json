@@ -1,0 +1,2157 @@
+{
+  "note": "RR52",
+  "passed": true,
+  "groups": 10,
+  "checks": [
+    {
+      "name": "34 declared near models complete from source production through actual recorded consumer closure",
+      "passed": true,
+      "cases": [
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "first",
+          "parameters": {
+            "head_first": "0",
+            "head_second": "0",
+            "current_readout": "0",
+            "future_readout": "0"
+          },
+          "petal_choice": 0,
+          "candidate_count": 2,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-12259964326927391104369094303556769418944558904176921184421269917117/12259964326927110866866776217202473468949912977468817408000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "280237502318086354295949994645926708103776421269917117/12259964326927110866866776217202473468949912977468817408000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 1,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "second",
+          "parameters": {
+            "head_first": "0",
+            "head_second": "0",
+            "current_readout": "0",
+            "future_readout": "0"
+          },
+          "petal_choice": 0,
+          "candidate_count": 2,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-5021681388309254112151911537876153721980938947575720457052562505277/5021681388309344611068631538566133132881884355571227610316800000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "90498916720000689979410900945407995507153264237494723/5021681388309344611068631538566133132881884355571227610316800000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 1,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "first",
+          "parameters": {
+            "head_first": "-1/100000000",
+            "head_second": "-1/100000000",
+            "current_readout": "-1/100000000",
+            "future_readout": "-1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-70401935016034913708845846228981634159115840917330261500702753370803142119749083651974047821196192437509619739694001362583389570138785767999682038805813968814353273523169740636024825387438180071567839115242270389639265273448538609927410673384912692554214607045590806582409429180085636091984562291882902218421757818881/70401935016035542418919917788283391024639740892877631666318323813520305890401974630477596261842153657639323063110467881448902973811613141599572263193371695867553274890523997711988501766367319366891287913168207755080649575160445073470090155128447303680000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "628710074071559301756865523899975547370165615570442717163770652890978503548440645961220129703323416466518865513403672827373599890224387557727053200001367354257075963676378929139295323448797925937365441384301711906463542679481743534611125785392954409193417590570819914363908015437708117097781578242181119/70401935016035542418919917788283391024639740892877631666318323813520305890401974630477596261842153657639323063110467881448902973811613141599572263193371695867553274890523997711988501766367319366891287913168207755080649575160445073470090155128447303680000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "second",
+          "parameters": {
+            "head_first": "-1/100000000",
+            "head_second": "-1/100000000",
+            "current_readout": "-1/100000000",
+            "future_readout": "-1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-18022895364105140955545007933712287043786859506983106783089324416534076746314624997512020175822575309136709087764174538285312911107436102431680805998491006367915889294472504360387736382629074074858889025108167072147658717790818977659718961732725057120507748161215934276339822036662224577734471003796041522789327966909841/18022895364105098859243498953800548102307773668576673706577490896261198307942905505402264643031591336355666704156279777650919161295772964249490499377503154142093638371974143414269056452190033757924169705771061185300646291241073938808343079712882509742080000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "42096301508979911738941479085838406433076511833520272878438371719492109755532790983972781042383607894760634393749811663138182190306620987852225822250922498360946118679930439040316934719319337105886847012426549745038851375882019842547378427748161215934276339822036662224577734471003796041522789327966909841/18022895364105098859243498953800548102307773668576673706577490896261198307942905505402264643031591336355666704156279777650919161295772964249490499377503154142093638371974143414269056452190033757924169705771061185300646291241073938808343079712882509742080000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "first",
+          "parameters": {
+            "head_first": "-1/100000000",
+            "head_second": "-1/100000000",
+            "current_readout": "-1/100000000",
+            "future_readout": "1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-70401935016034322010286579166928075370608798256620664652658914865696079543687092895624956321963672787108518115908806793296900460938291875697325126611907397831462836581300076792411870093160224337316849576787979666344948202751593430756452889991111769809005058246618269714746905657469870126079040002231450281592218296159/70401935016035542418919917788283391024639740892877631666318323813520305890401974630477596261842153657639323063110467881448902973811613141599572263193371695867553274890523997711988501766367319366891287913168207755080649575160445073470090155128447303680000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "1220408633338621355315654030942636256967013659408947824226346714881734852639939878480870530804947201661088152002512873321265902247136581464298036090438309223920919576631673207095029574438336380228088735701372408851642713637265137335533870994941753381730285253094342530129873920959997768549718407781703841/70401935016035542418919917788283391024639740892877631666318323813520305890401974630477596261842153657639323063110467881448902973811613141599572263193371695867553274890523997711988501766367319366891287913168207755080649575160445073470090155128447303680000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "second",
+          "parameters": {
+            "head_first": "-1/100000000",
+            "head_second": "-1/100000000",
+            "current_readout": "-1/100000000",
+            "future_readout": "1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-18022895364104928412042654834415703830003063588725610350740679469209453609732319006394819957091570823686136720687332315000445372486420193001904338127487770799912632863327934412605085343213903136640462721779893903018057496267770180812838584920441100062426187186565068020612879408865925020390412600740193260168162781727279/18022895364105098859243498953800548102307773668576673706577490896261198307942905505402264643031591336355666704156279777650919161295772964249490499377503154142093638371974143414269056452190033757924169705771061185300646291241073938808343079712882509742080000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "170447200844119384844272304710079851063355836811427051744698210586499007444685940020512669529983468947462650473788809352771247586161250015383342181005508646209001663971108976130621283706983991167282282588794973303757995504494792441409679653812813434931979387120591134074979609587399259806739831837218272721/18022895364105098859243498953800548102307773668576673706577490896261198307942905505402264643031591336355666704156279777650919161295772964249490499377503154142093638371974143414269056452190033757924169705771061185300646291241073938808343079712882509742080000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "first",
+          "parameters": {
+            "head_first": "-1/100000000",
+            "head_second": "-1/100000000",
+            "current_readout": "1/100000000",
+            "future_readout": "-1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-3520091681866050362414986167907447424950386588168687930655756487664882633675732022310825329183174991417849218418895119464583969220496409523532600573553664822393045463569258344958702941526229771647650427600116751452721900671232412212743908505247529276959/3520091681866156290256429219581986063788869175715619662758029906579977222310576842482912700543400874738800380774081666050052687034579085637897236397203079375055403137714663322681805373440000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "105927841443051674538638838482587546931732102273418915094588634844820172087371360225883320951162355186546585468717814082676114364635823649414552662357674145404977723102431913770228352349572399883248547278099328767587787256091494752470723041/3520091681866156290256429219581986063788869175715619662758029906579977222310576842482912700543400874738800380774081666050052687034579085637897236397203079375055403137714663322681805373440000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "second",
+          "parameters": {
+            "head_first": "-1/100000000",
+            "head_second": "-1/100000000",
+            "current_readout": "1/100000000",
+            "future_readout": "-1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-56321466909857462296538020041620419407596365022853035840236584797710063280286441990115158355907150933457213044622021700491012614826866612595949145013202443888463755249743098730618979001995622544814746536766064072991628975972211135478043677843727846689839/56321466909858500644102867513311777020621906811449914604128478505279635556969229479726603208694413995820806092385306656800842992553265370206355782355249270000886450203434613162908885975040000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "1038347564847471691357613025541788596878763891893707569572276682787489611444852787263062363593047763284956309830377726398757610406637342046826112422694953691514432289906973044377455185253463233935927008371024027788864521956322156272153310161/56321466909858500644102867513311777020621906811449914604128478505279635556969229479726603208694413995820806092385306656800842992553265370206355782355249270000886450203434613162908885975040000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "first",
+          "parameters": {
+            "head_first": "-1/100000000",
+            "head_second": "-1/100000000",
+            "current_readout": "1/100000000",
+            "future_readout": "1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-2306927284627824611035184648431135920428231523093110052918841119812092735347820051317129484254604597447078099266712107760274178431634993004609163387630418187939531575375361308146268610858326402358375554410412641417623648885076364543932484982746144561/2306927284627804186382453453345250386764673302996988502185102479576253872413459639489601667428123197268820217544102160662562528974981749563652332845271010099236309000332681755152747969537638400000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "20424652731195085885533663558220096121550733738640235838862934360411827527816826481400178257881722609947097711649456653243440956830542359408088703222575042679552993520641320688002358375554410412641417623648885076364543932484982746144561/2306927284627804186382453453345250386764673302996988502185102479576253872413459639489601667428123197268820217544102160662562528974981749563652332845271010099236309000332681755152747969537638400000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "second",
+          "parameters": {
+            "head_first": "-1/100000000",
+            "head_second": "-1/100000000",
+            "current_readout": "1/100000000",
+            "future_readout": "1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-14418295528924171057560984661474079183350338606396784156209742820746810806280693688295940654867320074521133286808646744861116724965962814896730500388663719324865742070069696856244554554079806635991811117918838844213090112110035806722417411241082388331483521/14418295528923776164890334083407814917279208143731178138656890497351586702584122746810010421425769982930126359650638504141015806093635934772827080282943813120226931252079260969704674809610240000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "394892670650578066264266071130462665606017552852323395224103696570941485930233441550091591006927158008240720100918872326880123903420105719906204638810817990435886539879744469566635991811117918838844213090112110035806722417411241082388331483521/14418295528923776164890334083407814917279208143731178138656890497351586702584122746810010421425769982930126359650638504141015806093635934772827080282943813120226931252079260969704674809610240000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "first",
+          "parameters": {
+            "head_first": "-1/100000000",
+            "head_second": "1/100000000",
+            "current_readout": "-1/100000000",
+            "future_readout": "-1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-31250840812733441167193283567328617070049468488502915692132465025397613965045309967274469891078183641872503329720778185295100011093992270808287498002706144567003374910346810788772550766597382811102684986712367477946833552352479139483866380957087434748028998417482922419634222776934683228452903204858850097/31250840812733882763776284829340739559488393836957988273347981316054953170851316940614790653817351201876225995429421260637056029243634898196419109125921673749786852213968596290712778016179753630765444270858808747391620693334524268820561920000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "441596583001262012122489438925348455072581215516290657339205806006973340320762739167560003722665708643075341956018149642627388131611123215529182783477303621785501940227249582370819662759284146441269444787140982045129336695539042912565251971001582517077580365777223065316771547096795141149903/31250840812733882763776284829340739559488393836957988273347981316054953170851316940614790653817351201876225995429421260637056029243634898196419109125921673749786852213968596290712778016179753630765444270858808747391620693334524268820561920000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "second",
+          "parameters": {
+            "head_first": "-1/100000000",
+            "head_second": "1/100000000",
+            "current_readout": "-1/100000000",
+            "future_readout": "-1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-52430210649684140158942902734399490220417507071397561350862048353776439748788459575074040309667288282128518349305156190221405608111687347215312195386439773726461943335036666501167879965715615736615432327779688618934365587859929645591645556213951163583740757605636286838367584137349278292859546449126122514737/52430210649685190164655170625937272518928163289571295218742612570341821721725744819715351559387492566173704879013441324470018660672277931217933382033315911958170397355382935718608707073749922149013610386816073985767865696214307391524463257321472000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "1050005712267891537782298510656218173733867880564216565381972937285244641311249720204284045186529708285134248613052560590584002621186646876138231708454020346269217440827108034306412398178059036385366833500108354377745932817701107520836416259242394363713161632415862650721707140453550873877485263/52430210649685190164655170625937272518928163289571295218742612570341821721725744819715351559387492566173704879013441324470018660672277931217933382033315911958170397355382935718608707073749922149013610386816073985767865696214307391524463257321472000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "first",
+          "parameters": {
+            "head_first": "-1/100000000",
+            "head_second": "1/100000000",
+            "current_readout": "-1/100000000",
+            "future_readout": "1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-16141963229717939015560078888806039706091579718911070401960999495236955241323678385581200687089939792866390844470325894844479258131970120437072934313135024387814614558220427765307369426995377097487094530666252376750661497695665614759753815840279061636539976404191769754057060961310949975224444008095063/16141963229717914650710890924246249772463013345536150967638420101268054323786837262714251370773425207580695245573048171816661172129976703613852845622893426523650233581595349323715277900919294230767274933294839229024597465565353444638720000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "24364849187964559789933628566373374919434322579393968900917536841122866949316316514585285695598897277723027818086001993416823220088690241597864164380976625078441592091526076082866719819597371413147726064032130312170121033815840279061636539976404191769754057060961310949975224444008095063/16141963229717914650710890924246249772463013345536150967638420101268054323786837262714251370773425207580695245573048171816661172129976703613852845622893426523650233581595349323715277900919294230767274933294839229024597465565353444638720000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "second",
+          "parameters": {
+            "head_first": "-1/100000000",
+            "head_second": "1/100000000",
+            "current_readout": "-1/100000000",
+            "future_readout": "1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-270817203769031843991174904857128712757519261182225171443419338512267126538466441983499654229975740890062141252853312778204123938577891122310753489787611172178158178695279672699091612721490091610850634092476924163855874398381226520795874338970104432005043985252882691480285438727068541684751296119996667362263/270817203769035073164541170588518969622562826908942640592678783937716021289905706713405741525761841767426161565152072956973236883637799231497589783229937561767409077248878800199425139843749597877136417287273109430619140992842496857047847403520000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "3229173366265731390256865043565726717469149259445425448894751439264729906087295786100877364020312298760178769112945059908109186836293442326389589250898553599127500333527122259506266285783194796185266763266594461270336251973064549895567994956014747117308519714561272931458315248703880003332637737/270817203769035073164541170588518969622562826908942640592678783937716021289905706713405741525761841767426161565152072956973236883637799231497589783229937561767409077248878800199425139843749597877136417287273109430619140992842496857047847403520000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "first",
+          "parameters": {
+            "head_first": "-1/100000000",
+            "head_second": "1/100000000",
+            "current_readout": "1/100000000",
+            "future_readout": "-1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-2716118603869693970793505656566387712839827164768692031360767941376992984953850517207729702498988040174053878407805337242900121596686928548796154080713986277862924956265250693489944015291061435862713469658831251840762247494574885378422091973383990042555905598417221113882328010168194552354552644476764446768931/2716118603869716337968875303060558193888905230675680074243940394700543232069352175834994208642897590781728035739574389666868005506874570774539283022478317143278180611440007875027323094438695996898724052921408440793933014176809491067672985600000000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "22367175369646494170481049078065906988042883172453323550247115501658627264506143909550607674157331769052423967883910187642225743128941764330865415255655174757181537379079147634561036010583262577188953170766682234605689250893626616009957444094401582778886117671989831805447645447355523235553231069/2716118603869716337968875303060558193888905230675680074243940394700543232069352175834994208642897590781728035739574389666868005506874570774539283022478317143278180611440007875027323094438695996898724052921408440793933014176809491067672985600000000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "second",
+          "parameters": {
+            "head_first": "-1/100000000",
+            "head_second": "1/100000000",
+            "current_readout": "1/100000000",
+            "future_readout": "-1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-3708407267150113671404643791808538019893123703260554543440375618029143400258642601066718531710357309325967687701949917830764267680873592583453285730158536709748690079798458500538168870230996957017477291253708286246030668725214522601814118266257409132880781240104808774307901377474447819467856457834920933317504017/3708407267150119373440171080445348787389651941615861861367726618897808359518688837406712092867102843947319344796432233358497116852052747297504301086690395672955809261486090752037305131606966267765724573588696324497316542022737225137729516339200000000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "5702035527288636810767496528238355307317927351000868664959260046236339993561156745534621351657094482315527732849171179154714051015356531858963207119181687632251499136261375969310748247282334988038251285873297522702535915398072942590867119218759895191225692098622525552180532143542165079066682495983/3708407267150119373440171080445348787389651941615861861367726618897808359518688837406712092867102843947319344796432233358497116852052747297504301086690395672955809261486090752037305131606966267765724573588696324497316542022737225137729516339200000000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "first",
+          "parameters": {
+            "head_first": "-1/100000000",
+            "head_second": "1/100000000",
+            "current_readout": "1/100000000",
+            "future_readout": "1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-905372867956563067691408933074878969880435906590764200614933856412907852107896329652072401766673792464581847537364472084230018577111842618774464338831943987400309125391012503381664319080793327043155984073097220722036135819193926705046541093878482571543144017961405525338417452287923803750886971453817543389423/905372867956572112656291767686852731296301743558560024747980131566847744023117391944998069547632530260576011913191463222289335168958190258179761007492772381092726870480002625009107698146231998966241350973802813597977671392269830355890995200000000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "9044964882834611973761415865836967795824133046275153939891915221062292925667780958737795994164375826991138059316591846347639405296668660828393692417745088990121627443379065438671923085366900705592875941535573075903650844454106121517428456855982038594474661582547712076196249113028546182456610577/905372867956572112656291767686852731296301743558560024747980131566847744023117391944998069547632530260576011913191463222289335168958190258179761007492772381092726870480002625009107698146231998966241350973802813597977671392269830355890995200000000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "second",
+          "parameters": {
+            "head_first": "-1/100000000",
+            "head_second": "1/100000000",
+            "current_readout": "1/100000000",
+            "future_readout": "1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-231775454196889533198132311272882207156974133233161877998270311413473357827487733911954457068999974720819640488022582338058662692387224247137615751909475711063928875274673989956282734224277204591129898867389503001387258519259589960616868640003019432541578071102106353543381059953416084258886302047705936488337423/231775454196882460840010692527834299211853246350991366335482913681113022469918052337919505804193927746707459049777014584906069803253296706094018817918149729559738078842880672002331570725435391735357785849293520281082283876421076571108094771200000000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "7072358121618745047907945120886882170511662787397732360335357569681574034951264806046974112181438245567753152592889133927541043596933991325981504190796431793317953951163498841812855772113018095982720304974642838513389508773868803019432541578071102106353543381059953416084258886302047705936488337423/231775454196882460840010692527834299211853246350991366335482913681113022469918052337919505804193927746707459049777014584906069803253296706094018817918149729559738078842880672002331570725435391735357785849293520281082283876421076571108094771200000000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "first",
+          "parameters": {
+            "head_first": "1/100000000",
+            "head_second": "-1/100000000",
+            "current_readout": "-1/100000000",
+            "future_readout": "-1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-481153342507745390016487705747975118152374703789588382901715883922903181377058884717904769929907371312608018550302252108642836544161083794880411759282866995812730587849429496512584834112135858626703346760947850358955607017546571095816342672256923638834045237866241361279104023030705303497418821613927491829302036177/481153342507750058497109054186799559702499814337597893472745262648930638449346069632345409800279737048592543730151605087291140830033597825773156200256032265791992089917076703388709077658896962414945319587865154616169384356039925737965898380083200000000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "4668480621348438824441550125110548009510571029378726027457072287184914440639870372365735984525179849352978648304285872514030892744440973165269979261502067647206876124243546761103788241972826917304257213777338493354642149555707826276361165954762133758638720895976969294696502581178386072508170697963823/481153342507750058497109054186799559702499814337597893472745262648930638449346069632345409800279737048592543730151605087291140830033597825773156200256032265791992089917076703388709077658896962414945319587865154616169384356039925737965898380083200000000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "second",
+          "parameters": {
+            "head_first": "1/100000000",
+            "head_second": "-1/100000000",
+            "current_readout": "-1/100000000",
+            "future_readout": "-1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-123175255681980402534447728832032716018867772682208466441424496696977432693212703347949299026346447411746788917137849006646071947137133559813723243044902589848812262587906143889390134271682298996540743049074819922436694412584897664695047218637522806292480880760473782185546145853193713500933719638845819229999946278177/123175255681984014975259917871820687283839952470425060729022787238126243443032593825880424908871612684439691194918810902346532052488601043397927987265544260042749975018771636067509523880677622378226001814493479581739362395146220988919269985301299200000000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "3612440812189039787971264972179788216594287598290541148810749819890477931125882525165272692902277780961895700460105351467483584204744220641670193937712430865492178119389608995323381685258765418659659302667982561323324224222766663776393707519119239526217814453854146806286499066280361154180770000053721823/123175255681984014975259917871820687283839952470425060729022787238126243443032593825880424908871612684439691194918810902346532052488601043397927987265544260042749975018771636067509523880677622378226001814493479581739362395146220988919269985301299200000000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "first",
+          "parameters": {
+            "head_first": "1/100000000",
+            "head_second": "-1/100000000",
+            "current_readout": "-1/100000000",
+            "future_readout": "1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-361497627729330831210245310921980159917292281587871300106365053580814645165745627938159323107673344940157092306315755461219909113342806032561384791191654478448429420829741997840239458606432802597276739282265527261913248304520972552999271022037023839384455430872316729596048697672119320163354685418940471436438853/361497627729338886924950453934485018559353729780313969551273675919557203943911397169305341698181620622533842021150717571217987099950111063691326972393713197439513215565046358669202913342522135548418722455195458013650927389962378465789555507200000000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "8055714705143012504858642061448192442669444908622338742558778165769231146018590508275682376749714834962109998077986607305031129942181202058718991083794735304360828963454736089332951141983172929930751737679085441405912790284485162976160615544569127683270403951302327880679836645314581059528563561147/361497627729338886924950453934485018559353729780313969551273675919557203943911397169305341698181620622533842021150717571217987099950111063691326972393713197439513215565046358669202913342522135548418722455195458013650927389962378465789555507200000000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "second",
+          "parameters": {
+            "head_first": "1/100000000",
+            "head_second": "-1/100000000",
+            "current_readout": "-1/100000000",
+            "future_readout": "1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-92543392698710143406347426155470756051281741828296448680460254286822026708246992786619891306329281305881026358731580749708794630153704452370980941287289565417631842554780434487056122004830179403857323610873038265199566432592010463512799818339691239147394259023146310757705350173672746938083318266186306586346749093/92543392698710755052787316207228164751194554823760376205126061035406644209641317675342167474734494879368663557414583698231804697587228432304979704932790578544515383184651867819315945815685666700395192948530037251494637411830368887242126209843200000000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "611646439890051757408699912812995463927524665806748584617501394324888722276168405213573487637198683002948523010067433523979933998763645501013126883540629871433332259823810855487296537869337656998986295070979238358423729326391503508760852605740976853689242294649826327253061916681733813693413653250907/92543392698710755052787316207228164751194554823760376205126061035406644209641317675342167474734494879368663557414583698231804697587228432304979704932790578544515383184651867819315945815685666700395192948530037251494637411830368887242126209843200000000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "first",
+          "parameters": {
+            "head_first": "1/100000000",
+            "head_second": "-1/100000000",
+            "current_readout": "1/100000000",
+            "future_readout": "-1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-103307065865921991612738782449647678289233304650507790721559456206428093851499068937241697836930042662775524162336569139781269762175744411067369403482722228579991823626636779735473322253638327714475471317101928183284898930325324386148350523694789233823555810690048758791921810135687066291888469845846547645857/103307065865920243753321786260673102540944723828045644546627813686229482513378010623966772220123693652285253975090277281954412509703429198541508552768078933451863851898709547230984051066529812082711308028022182386887864391609749773128271134720000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "1747859416996188974575748288580822462146174931642520198611338121058313274925616806349010490270187246291857826857252472315212525860850714643295128127971727927232504489271187108515631764163289079745796397034538715574613020079388974789233823555810690048758791921810135687066291888469845846547645857/103307065865920243753321786260673102540944723828045644546627813686229482513378010623966772220123693652285253975090277281954412509703429198541508552768078933451863851898709547230984051066529812082711308028022182386887864391609749773128271134720000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "second",
+          "parameters": {
+            "head_first": "1/100000000",
+            "head_second": "-1/100000000",
+            "current_readout": "1/100000000",
+            "future_readout": "-1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-9732352061096900831969971689019143254208949011900895215739035420253140303213746732389215367248279741303399139113394874684102997346259217191515590063660820398306888210975176074938334012683472152517553973234918140296281825694508228215904362658710251241447160704856070087473161258414189247451955982275707946068240151/9732352061096614323512938840045491644177320542392524081448713071752307088620315624862661677313412931594489206485304842178361293714140657936198437739175180162633189759673629025536545482875640536688066906703913758303931928604771306626868167059701760000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "286508457032848973651610031628469508371134290322348500833214593431107526553689934866809708909932628090032505741703632118559255317152324485640235673698451301547049401788529807831615829487066531004381992349897089736921589036195599008491241447160704856070087473161258414189247451955982275707946068240151/9732352061096614323512938840045491644177320542392524081448713071752307088620315624862661677313412931594489206485304842178361293714140657936198437739175180162633189759673629025536545482875640536688066906703913758303931928604771306626868167059701760000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "first",
+          "parameters": {
+            "head_first": "1/100000000",
+            "head_second": "-1/100000000",
+            "current_readout": "1/100000000",
+            "future_readout": "1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-21214843883179773034635162189862108760495848409077869939737356251413174644169056771622294240451676601414346584318739888429265119840049612713909973209357739639856255083844001277421448481737868839861069202353524545853020991245819449857478432381944043135444818046461131310878752759150725657485064765334170631647/21214843883180050056485723964245369271801148643259373433682497453422125873282984324564605009489687089308578941313181941829923997528382781843345506372016209548150612443484996306362796201162372124128215041468841025878757866134145042695984250880000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "277021850561774383260511305300234181503493945141202008951229113927552942310769038010487894232356994442053400658877688333169129435533162658469908294357359640995028941347719424503284267145839115316480025736874888325592838505818498055956864555181953538868689121247240849274342514935234665829368353/21214843883180050056485723964245369271801148643259373433682497453422125873282984324564605009489687089308578941313181941829923997528382781843345506372016209548150612443484996306362796201162372124128215041468841025878757866134145042695984250880000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "second",
+          "parameters": {
+            "head_first": "1/100000000",
+            "head_second": "-1/100000000",
+            "current_readout": "1/100000000",
+            "future_readout": "1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-45398726815609898485312082899757837304348249341718876466577066447352571174008213447899316332349109121504283719137107907272276146534936459563406970685189692029183019794723210570319175213246813880831249581465426305461774735433087033610159470691103825642255439624199952087571294334591290365185931172470067877103/45398726815611028914346070390882759856220737223988450525708282550448079713680772594111541351899302304813943820339614424155621195168003069090138485080700548863595054272530047932531990590673541862101769827190268260309886547427504637326498738470912000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "1130429033987491124922551872487882269574059131216103095508539672559146212225019550193183309660101202506516883345048633066609526731514395510856834412034477806837362212815377426727981270520245724841954848111811994417603716339267779808174357744560375800047912428705665408709634814068827529932122897/45398726815611028914346070390882759856220737223988450525708282550448079713680772594111541351899302304813943820339614424155621195168003069090138485080700548863595054272530047932531990590673541862101769827190268260309886547427504637326498738470912000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "first",
+          "parameters": {
+            "head_first": "1/100000000",
+            "head_second": "1/100000000",
+            "current_readout": "-1/100000000",
+            "future_readout": "-1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-10280790758753209365899705382452673439593241043657558570037234547128879992480797580428761217990835558216730543531956344175817693863718814493406188332258054692919305492142375801625557046683356090834546398832931874676958875900793997378266501000824637576758901/10280790758753251065277702723620987732369755356730024820797042725372396681176917265769894213174532444160626683232556375970130300683716618755781203045391584560254320945818382951163380272988160000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "41699377997341168314292776514313072466250759808178243516688696119685341132995183696885943896139700600031794312606819997804262375014713133529867335015453676007149537823226304803909165453601167068125323041124099206002621733498999175362423241099/10280790758753251065277702723620987732369755356730024820797042725372396681176917265769894213174532444160626683232556375970130300683716618755781203045391584560254320945818382951163380272988160000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "second",
+          "parameters": {
+            "head_first": "1/100000000",
+            "head_second": "1/100000000",
+            "current_readout": "-1/100000000",
+            "future_readout": "-1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-42110118947853842727404782577915087113917825376681446985802306779554249102711900859537793640176990697294590524530634266532299194390554038207705353362451000629407830230568609744521496557739755340504126646291135112440102724710767330572726229990309058317544614581/42110118947853316363377470355951565751786517941166181665984687003125336806100653120593486697162884891281926894520550915973653711600503270423679807673923930358801698594072096567965205598159503360000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "526364027312221963521362131307435515265319817619776428912296611247738944306943014105806012663630010083350558645482790050767784025545688527070270606131636496513176556290959580251980504126646291135112440102724710767330572726229990309058317544614581/42110118947853316363377470355951565751786517941166181665984687003125336806100653120593486697162884891281926894520550915973653711600503270423679807673923930358801698594072096567965205598159503360000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "first",
+          "parameters": {
+            "head_first": "1/100000000",
+            "head_second": "1/100000000",
+            "current_readout": "-1/100000000",
+            "future_readout": "1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-808152399964081545782781229451429521131062905013654048414061897132846250967828335024731393626199809003822597837022607861637048820421967844076078633758059811173603430754976273453987431076922544214320705462970498477040795220502959316725863853708727444957930744347/808152399964075559739349655698398603666121729081833791113213934556073358313955112427639844309223646370578542315544791602260002676145595967154448808992141679112471660908891447025050996499053281280000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "5986043431573753030917464941175931820257300847962576772892653873222597091549316976162633244055521477816259377046144276371876921629824765918132061131769846084826428936434577869262934320705462970498477040795220502959316725863853708727444957930744347/808152399964075559739349655698398603666121729081833791113213934556073358313955112427639844309223646370578542315544791602260002676145595967154448808992141679112471660908891447025050996499053281280000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "second",
+          "parameters": {
+            "head_first": "1/100000000",
+            "head_second": "1/100000000",
+            "current_readout": "-1/100000000",
+            "future_readout": "1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-5296307568404500853283808274709008022108757947024195453567154931476698469570217392078779168739201273733799535900352090819917833051607846743882111428941434733025306232613110220728019651322991386942708476990325994393866091289783786845852627438797722220777430608107/5296307568404565588307801903585025088986295363710705933439558841506682361046336224805780483664928088854223534919154346244571153538387777730343395714610899708231494276932510987223374210656195584196608000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "64735023993628876017066877537416686510479872403910029983891476118832727001314925726815120423999018802255424653320486779930986461284285669464975206188044319400766495354559333204197253899523009674005606133908710216213154147372561202277779222569391893/5296307568404565588307801903585025088986295363710705933439558841506682361046336224805780483664928088854223534919154346244571153538387777730343395714610899708231494276932510987223374210656195584196608000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "first",
+          "parameters": {
+            "head_first": "1/100000000",
+            "head_second": "1/100000000",
+            "current_readout": "1/100000000",
+            "future_readout": "-1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-63136815330112028435745288549590473806834916949232945279617783860308154899963869404531308541477444100119103946036239032475037369697701694592716341622840362089124812499086223880783512530199313785877619995903251659077775459761042084272343325898618963258029313185542701442693350800059567446490319060158211011584326176039380187/63136815330112958288789769627857036949782251250481382024682707670558146188326523587308720576414517059454757527934846800832947348760039207321672159734903952084682824245812563334294478518666096685309462453899798220915340191888323247969605557657930254631567360000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "929853044481078266563142947334301248436745064923810249991288362654182777412034937072959335653581898607768357909979062337512728955818112063589995558011746726339453510965988466782899431842457996546561837564732127281163697262231759311291373538046814457298557306649199940432553509680939841788988415673823960619813/63136815330112958288789769627857036949782251250481382024682707670558146188326523587308720576414517059454757527934846800832947348760039207321672159734903952084682824245812563334294478518666096685309462453899798220915340191888323247969605557657930254631567360000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "second",
+          "parameters": {
+            "head_first": "1/100000000",
+            "head_second": "1/100000000",
+            "current_readout": "1/100000000",
+            "future_readout": "-1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-63136815330113438055932238163342694892693942668389855389317091307078883819134813134718679004412954403273849934996142254050836527578113398262959651792906311843261840601184218684650986358731757000138468686588591610808910961980835815364840046286673424071680035742761199933348734255026342746163819401520223468814947663145757467/63136815330112958288789769627857036949782251250481382024682707670558146188326523587308720576414517059454757527934846800832947348760039207321672159734903952084682824245812563334294478518666096685309462453899798220915340191888323247969605557657930254631567360000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "479767142468535485657942911691417908473364634383636520737630808289547409958427998437343819092407061295453217889178818074190941287492058002359758579016355371655350356507840065660314829006232688793389893570770092512567395234488628743169440112675742761199933348734255026342746163819401520223468814947663145757467/63136815330112958288789769627857036949782251250481382024682707670558146188326523587308720576414517059454757527934846800832947348760039207321672159734903952084682824245812563334294478518666096685309462453899798220915340191888323247969605557657930254631567360000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "first",
+          "parameters": {
+            "head_first": "1/100000000",
+            "head_second": "1/100000000",
+            "current_readout": "1/100000000",
+            "future_readout": "1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-246628184883248647995502134042016255183343844894382830084225654153642937120425713395255354411417299829457913511234631693043805935716166100063197107941436227535827897131211744580079208907503690800739543193247751208102191052828670494643097576183715915100791481553574362159282215461094682349918842740402796018047251070354293/246628184883253743315585037608816550585086918947192898533916826838117758548150482762924689751619207263495146593495495315753700581093903153600281873964468562830792282210205325524587806713539440176990087710546086800450547624563762687381271709601290057154560000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "5095320082903566800295401743074052810068449691172684474821427724769367669335340201907434037233082260863622709894645377737053537084766023032335294964385078993580944508597806035749376250544517298335592348356571735092192738174133417574142053768518446425637840717784538905317650081157259597203981952748929645707/246628184883253743315585037608816550585086918947192898533916826838117758548150482762924689751619207263495146593495495315753700581093903153600281873964468562830792282210205325524587806713539440176990087710546086800450547624563762687381271709601290057154560000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        },
+        {
+          "status": "ONE_FLOWER_COMPLETE",
+          "completed": true,
+          "branch": "second",
+          "parameters": {
+            "head_first": "1/100000000",
+            "head_second": "1/100000000",
+            "current_readout": "1/100000000",
+            "future_readout": "1/100000000"
+          },
+          "petal_choice": 0,
+          "candidate_count": 1,
+          "selected_ordinal": 0,
+          "selected_indices": [
+            3,
+            4
+          ],
+          "consumer_steps": 2,
+          "fixed_result": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-63136815330111263421397539734980266223935787873231590814427650331841070848634710453129106365339192352088085030740286136601408378901967982985336421796982578165136555279500496954670429352891720985188706054514760688306801130295554505052508649607652798307861439673773949821395937159512507740864470675703808016160985789159349893/63136815330112958288789769627857036949782251250481382024682707670558146188326523587308720576414517059454757527934846800832947348760039207321672159734903952084682824245812563334294478518666096685309462453899798220915340191888323247969605557657930254631567360000000000000000000000000000000000000000000000000000000000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "closure_error": "1694867392229892876770725846463377249791210255057338717075339691813134179614211075324707366672497194560664231538969858071224336335737937921373919546268966312066379624049165774375700120756399385037532608539061592768742917096908050277456323705920326226050178604062840487492259135529324296191983839014210840650107/63136815330112958288789769627857036949782251250481382024682707670558146188326523587308720576414517059454757527934846800832947348760039207321672159734903952084682824245812563334294478518666096685309462453899798220915340191888323247969605557657930254631567360000000000000000000000000000000000000000000000000000000000000000000",
+          "output_level": 3,
+          "retained_exact_nested_word": true,
+          "discarded_candidate_count": 0,
+          "actual_new_source_count": 1,
+          "completed_consumer_cells": 1,
+          "events": [
+            "boundary-requested",
+            "context-arrived",
+            "correction-planned",
+            "correction-representative-selected",
+            "lower-cell-closed",
+            "same-level-operation-published",
+            "rr52-internal-context-emitted",
+            "rr52-internal-context-arrived",
+            "rr52-possible-continuations-checked",
+            "rr52-petal-committed",
+            "rr52-consumer-action-executed",
+            "rr52-consumer-action-executed",
+            "upper-cell-closed:rr52-committed-petal"
+          ],
+          "next_flower_requests": 0
+        }
+      ]
+    },
+    {
+      "name": "two baseline petals remain executable, including a detour whose connection distance increases",
+      "passed": true,
+      "comparisons": [
+        {
+          "branch": "first",
+          "short": {
+            "status": "ONE_FLOWER_COMPLETE",
+            "completed": true,
+            "branch": "first",
+            "parameters": {
+              "head_first": "0",
+              "head_second": "0",
+              "current_readout": "0",
+              "future_readout": "0"
+            },
+            "petal_choice": 0,
+            "candidate_count": 2,
+            "selected_ordinal": 0,
+            "selected_indices": [
+              3,
+              4
+            ],
+            "consumer_steps": 2,
+            "fixed_result": [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            "actual_endpoint": [
+              "-12259964326927391104369094303556769418944558904176921184421269917117/12259964326927110866866776217202473468949912977468817408000000000000",
+              "0",
+              "0",
+              "0"
+            ],
+            "closure_error": "280237502318086354295949994645926708103776421269917117/12259964326927110866866776217202473468949912977468817408000000000000",
+            "output_level": 3,
+            "retained_exact_nested_word": true,
+            "discarded_candidate_count": 1,
+            "actual_new_source_count": 1,
+            "completed_consumer_cells": 1,
+            "events": [
+              "boundary-requested",
+              "context-arrived",
+              "correction-planned",
+              "correction-representative-selected",
+              "lower-cell-closed",
+              "same-level-operation-published",
+              "rr52-internal-context-emitted",
+              "rr52-internal-context-arrived",
+              "rr52-possible-continuations-checked",
+              "rr52-petal-committed",
+              "rr52-consumer-action-executed",
+              "rr52-consumer-action-executed",
+              "upper-cell-closed:rr52-committed-petal"
+            ],
+            "next_flower_requests": 0
+          },
+          "long": {
+            "status": "ONE_FLOWER_COMPLETE",
+            "completed": true,
+            "branch": "first",
+            "parameters": {
+              "head_first": "0",
+              "head_second": "0",
+              "current_readout": "0",
+              "future_readout": "0"
+            },
+            "petal_choice": 1,
+            "candidate_count": 2,
+            "selected_ordinal": 1,
+            "selected_indices": [
+              3,
+              3,
+              4,
+              4
+            ],
+            "consumer_steps": 4,
+            "fixed_result": [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            "actual_endpoint": [
+              "-150306725297532197988489732057534544347583559115164334871456308690656762529400848288426442182184254935709433720753311356123764049591689/150306725297525326584926758194517569752043683130132471725266622178061377607334940381676735896625196994043838464000000000000000000000000",
+              "0",
+              "0",
+              "0"
+            ],
+            "closure_error": "6871403562973863016974595539875985031863146189686512595384922065907906749706285559057941665595256753311356123764049591689/150306725297525326584926758194517569752043683130132471725266622178061377607334940381676735896625196994043838464000000000000000000000000",
+            "output_level": 3,
+            "retained_exact_nested_word": true,
+            "discarded_candidate_count": 1,
+            "actual_new_source_count": 1,
+            "completed_consumer_cells": 1,
+            "events": [
+              "boundary-requested",
+              "context-arrived",
+              "correction-planned",
+              "correction-representative-selected",
+              "lower-cell-closed",
+              "same-level-operation-published",
+              "rr52-internal-context-emitted",
+              "rr52-internal-context-arrived",
+              "rr52-possible-continuations-checked",
+              "rr52-petal-committed",
+              "rr52-consumer-action-executed",
+              "rr52-consumer-action-executed",
+              "rr52-consumer-action-executed",
+              "rr52-consumer-action-executed",
+              "upper-cell-closed:rr52-committed-petal"
+            ],
+            "next_flower_requests": 0
+          },
+          "long_observed_distances": [
+            2,
+            1,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "branch": "second",
+          "short": {
+            "status": "ONE_FLOWER_COMPLETE",
+            "completed": true,
+            "branch": "second",
+            "parameters": {
+              "head_first": "0",
+              "head_second": "0",
+              "current_readout": "0",
+              "future_readout": "0"
+            },
+            "petal_choice": 0,
+            "candidate_count": 2,
+            "selected_ordinal": 0,
+            "selected_indices": [
+              3,
+              4
+            ],
+            "consumer_steps": 2,
+            "fixed_result": [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            "actual_endpoint": [
+              "-5021681388309254112151911537876153721980938947575720457052562505277/5021681388309344611068631538566133132881884355571227610316800000000",
+              "0",
+              "0",
+              "0"
+            ],
+            "closure_error": "90498916720000689979410900945407995507153264237494723/5021681388309344611068631538566133132881884355571227610316800000000",
+            "output_level": 3,
+            "retained_exact_nested_word": true,
+            "discarded_candidate_count": 1,
+            "actual_new_source_count": 1,
+            "completed_consumer_cells": 1,
+            "events": [
+              "boundary-requested",
+              "context-arrived",
+              "correction-planned",
+              "correction-representative-selected",
+              "lower-cell-closed",
+              "same-level-operation-published",
+              "rr52-internal-context-emitted",
+              "rr52-internal-context-arrived",
+              "rr52-possible-continuations-checked",
+              "rr52-petal-committed",
+              "rr52-consumer-action-executed",
+              "rr52-consumer-action-executed",
+              "upper-cell-closed:rr52-committed-petal"
+            ],
+            "next_flower_requests": 0
+          },
+          "long": {
+            "status": "ONE_FLOWER_COMPLETE",
+            "completed": true,
+            "branch": "second",
+            "parameters": {
+              "head_first": "0",
+              "head_second": "0",
+              "current_readout": "0",
+              "future_readout": "0"
+            },
+            "petal_choice": 1,
+            "candidate_count": 2,
+            "selected_ordinal": 1,
+            "selected_indices": [
+              3,
+              3,
+              4,
+              4
+            ],
+            "consumer_steps": 4,
+            "fixed_result": [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            "actual_endpoint": [
+              "-25217283965691557782407075702633143468917180893483924676937336491324206775713086452254208071811504191259016114759041520138994652846729/25217283965692466695858585664091912835251033133097885867486907778717261933758214791305130403126346010116241913796362240000000000000000",
+              "0",
+              "0",
+              "0"
+            ],
+            "closure_error": "908913451509961458769366333852239613961190549571287393055158045128339050922331314841818857225799037320719861005347153271/25217283965692466695858585664091912835251033133097885867486907778717261933758214791305130403126346010116241913796362240000000000000000",
+            "output_level": 3,
+            "retained_exact_nested_word": true,
+            "discarded_candidate_count": 1,
+            "actual_new_source_count": 1,
+            "completed_consumer_cells": 1,
+            "events": [
+              "boundary-requested",
+              "context-arrived",
+              "correction-planned",
+              "correction-representative-selected",
+              "lower-cell-closed",
+              "same-level-operation-published",
+              "rr52-internal-context-emitted",
+              "rr52-internal-context-arrived",
+              "rr52-possible-continuations-checked",
+              "rr52-petal-committed",
+              "rr52-consumer-action-executed",
+              "rr52-consumer-action-executed",
+              "rr52-consumer-action-executed",
+              "rr52-consumer-action-executed",
+              "upper-cell-closed:rr52-committed-petal"
+            ],
+            "next_flower_requests": 0
+          },
+          "long_observed_distances": [
+            2,
+            1,
+            2,
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "resuming a value checkpoint preserves the selected tail, full actual history and exact endpoint",
+      "passed": true,
+      "checkpoint_scope": "immutable in-process value; no portable serialization claim"
+    },
+    {
+      "name": "a bounded search without a witness stops open and is never mislabeled completed or impossible",
+      "passed": true,
+      "control": {
+        "status": "OPEN_WITHIN_SEARCH_CAP",
+        "completed": false,
+        "search_cap": 1,
+        "absence_is_not_global_impossibility": true
+      }
+    },
+    {
+      "name": "candidate proofs are discarded at commitment and do not enter the actual stock",
+      "passed": true,
+      "actual_new_source_count": 1,
+      "unchosen_histories_published": 0
+    },
+    {
+      "name": "the fixed requirement and actual rational endpoint remain distinct",
+      "passed": true,
+      "actual_endpoint_never_clamped": true
+    },
+    {
+      "name": "the full source and terminal cell survive faithful retention",
+      "passed": true,
+      "compression_claimed": false,
+      "next_operation_executed": false
+    },
+    {
+      "name": "the complete actual occurrence survives an exact JSON object-graph round trip",
+      "passed": true,
+      "lossy_summary_only": false,
+      "portable_closed_record": true,
+      "portable_live_checkpoint": false
+    },
+    {
+      "name": "the completed output stops after one consumer cell with no next request or internal arrival",
+      "passed": true,
+      "complete_state": "ONE_FLOWER_COMPLETE"
+    },
+    {
+      "name": "selection remains an explicit free entry condition rather than a uniquely derived law",
+      "passed": true,
+      "choice_rule": "petal_choice modulo the bounded candidate count in length-then-stock-index order",
+      "search_cap_is_not_future_deadline": true,
+      "source_branch_and_readout_law_are_declared": true,
+      "unique_macro_transport_proved": false,
+      "local_freedom_preserved": true
+    }
+  ],
+  "source_base_commit": "fc5fdef7569dcb94ed9eba7185c6818642cd5008",
+  "status": "complete executable one-flower minimal model within declared conditions",
+  "source_sha256": {
+    "completed_single_flower.py": "3338629c3b43d1060c062ce3e3419e254e4eea0b5593395f7dd428b3c1d3f2ef",
+    "test_completed_single_flower.py": "13ae8666493a258193c41316375fbce1551bf32e83db7610a80526be586f0609",
+    "run_one_flower.py": "009a39f74787b95d1d9134288779a4b445bc61b7f27e8d39d8d7778066f9a4ec",
+    "history_selection_gap.py": "e5a2383cffefdc7ee5fb3ab473140d19fc47ecc04473887125ce7ab1dc3293f6",
+    "test_history_selection_gap.py": "4455d24c0d8170c24018409ca41d21bb32d487fda7ebe00778e202ac75f34841",
+    "local_closure_selection.py": "c5f41aebde658311ee49485e636714dfc4eb60d2b9406557653713a5fa367eda",
+    "test_local_closure_selection.py": "c04a4324ef01d35bc53bf0cd33c583df8cd896956b3b37c2af90810a166ada5b",
+    "intrinsic_connection_progress.py": "c24e299c9b23a81454c351f8079dfceb345abb18898ae60b07bad0ff0e2e4828",
+    "test_intrinsic_connection_progress.py": "0fbeba696459a110d5a222e4e611960958fd3ced7c8553e8ba14fd11e61e0522",
+    "robust_flower_geometry.py": "ff7fd91bcaee32be9bf65b158ca5386d0f07f99fc6cebd6515b633c132cb59db",
+    "test_robust_flower_geometry.py": "d5512cac2a599edf5fa6d649042f0a995cae265207596e33632ed447f26a36c9",
+    "closure_causal_pullback.py": "a6f6810e8ad8d6a36940edd78809479074ef5feacb6f0f34206f53e6ed287db5",
+    "test_closure_causal_pullback.py": "07da8d73aa7dee4b82fb3b028499ec3eb51a86f9b8a2b10c3ad9d45f0c8b73fd",
+    "endogenous_flower_boundary.py": "11bc7e242071e007b643f099785f02a60cf28cb01debad53ecf5955109165929",
+    "test_endogenous_flower_boundary.py": "11c9391e04c070900f6f5116942b4cd3aac7d3f93bda8110ea10b0c781bec96a",
+    "intraflower_future_constraint.py": "ffea077dd5fc1140ca4045f32ed34ae76e3adf6fcf9da20cadb2979f5ad3c70d",
+    "test_intraflower_future_constraint.py": "f011ed80a1189013b4353236f39fab237a05ab3246a61ccdb12f29c5e6e3dfa8",
+    "single_flower_model.py": "eb91c481fae38b7ebf67d718714bb3f3ec71d4cee32767f67c8229eb041fc110",
+    "test_single_flower_model.py": "9af0ce66e91e23a51c50ce6b8061d8ee750e42eb6f176e5e9a80457089ada7b5",
+    "closure_native_context_source.py": "a225d558df0c61ef104f78d0d1ece0c543948b6b8d1ad42f2dadbf0497c2a280",
+    "test_closure_native_context_source.py": "4a2968beb0594083783d1fdf563cfaa3b53fbcbbcd4ce43a9985b486f82f5d5c",
+    "persistent_correction_cycle.py": "5a91e55d0bf2a931cd0da412750db0a5961771c7904eb4a9775fb91dad62e4de",
+    "test_persistent_correction_cycle.py": "ac556a90ba0331870183ed85635ed37d7d933628cde50279f29869769d7ecd80",
+    "certified_correction_release.py": "d5ff9a073b178c599fee397d3ff82bfa14ac571c97df3345074f23aca8816a55",
+    "test_certified_correction_release.py": "6e89a7049e1b3a87f0958864668f529cf469e37fc7b7e295c9c0a5618aae208f",
+    "same_level_continuation.py": "9db6fa9aaccfc5a30141551c6440878cfc3232aa0dfb87111203185130039ad7",
+    "test_same_level_continuation.py": "0e1b5bcca27431f22e0633e2c5359d8f1469cda16520fffd369cf10eace377cc",
+    "fixed_result_compatibility.py": "ac4abdbae0a814e9bc624d37393d0023951dc089a98e6e8226b0a8c6cb17734b",
+    "test_fixed_result_compatibility.py": "f4491cdedd6d0411a2a7d9734592a58dc7ffb8d1189db91ba7ebd5a3fa60b0b5",
+    "closed_boundary_loop.py": "ed78c7d0ac1d370ee99e735f5b891c5b9a2d5c6fe9efd4f4aa5ef4cc0f9e7db4",
+    "test_closed_boundary_loop.py": "3b97dc7e7f6c83c0d0d80612a42da981f7a5c2a3f7f4dd954f40168339a01c8b",
+    "recursive_upper_decoder.py": "7e1f3ecfb6731afc7ffb31a370d03209c5e05aa63a43ff096a74ba2072827f3d",
+    "test_recursive_upper_decoder.py": "1702382836b1b5b9544da1b6ff303853dbfa3c93e4712ce4d243007db25c3aab",
+    "certified_cell_bridge.py": "b95d343dfd9a096263f1ab4231923871095f315b5f6b2433f94efff448f05ee1",
+    "test_certified_cell_bridge.py": "dc604b27cce958ea3a60d5103e37df10a75a0c6a7ca3e494830f4310b04cec3c",
+    "residual_extraction_transport.py": "1df872dedda2bc805b531ffed7846eda1c4b7eb86124a17bfc3eadefbb4b9842",
+    "future_existence_residual.py": "fb772bd2134240cc8386544192b3c245d8eb7c3684662745f8616d76c38817d1",
+    "vendor/two_flower_kernel_certificate.py": "d0bf4cbfffc27e16a3651ead6859d3bc0d91124c778173dbc3429bb57883ccc3",
+    "vendor/internal_port_certificate.py": "d575bab5e6e6352ea5f2910bd1800dc1c1f97b55486d97ea7ee7f8e48b32c40d"
+  }
+}

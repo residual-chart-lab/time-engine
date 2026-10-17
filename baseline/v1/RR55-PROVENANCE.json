@@ -1,0 +1,28 @@
+{
+  "schema": "time-engine-three-flower-v1-editorial-provenance",
+  "date": "2026-10-16",
+  "parent_commit": "a67915066973a6bd5bf2c3d2fe06b0cede838b76",
+  "archive": "10_ARTIFACTS/TimeEngine/2026-10-16__chatgpt__three-flower-consolidation-v001",
+  "frozen_runtime_commit": "a67915066973a6bd5bf2c3d2fe06b0cede838b76",
+  "frozen_runtime_archive": "10_ARTIFACTS/TimeEngine/2026-10-16__chatgpt__three-flower-upper-constraint-v001",
+  "release_type": "consolidated specification and reproducible packaging",
+  "same_scale_flowers": 3,
+  "additional_upper_enclosure": 1,
+  "model_runtime_modified": false,
+  "full_numerical_rerun_performed": false,
+  "future_frame_origin": "explicit solvable fixture; independent supply principle remains open",
+  "astra_audit_source": "user report; audit text and logs not supplied",
+  "document_sha256": {
+    "EVIDENCE-MAP.md": "7682521e15dc927b0be5144f58c7eaf4733575ae36b71776afb0a742eaac02aa",
+    "frozen-runtime-manifest.json": "f5e9e361abd72ef5e850e5db0b433918a9697f455029f20e2a19450123131378",
+    "MODEL-SPEC.md": "dd1110ac476d7273fb50eac27b9bbfe42a63c2b98f2c00f4a64f256e5da4444b",
+    "note55-consolidated.md": "03bfa013b3c1c5bdc31befe9fef8cb6e7126d26fffc6055ab3a4b204e96b1858",
+    "README.md": "e35b3ad787de5d60b023151638a055fe53aa5111ca2abc77f714c10c685960f6",
+    "RR54-active-residual-update.md": "c5c239c48b6aa77c9625fcdaae688e79b66436ca69e515f392b94df9d46f9d87",
+    "RR55-current-snapshot.md": "b85c5798d1ef4e9aed37b18345d13f4c9624dd73a22155f92e72197c4b183f33",
+    "RR55-metadata.md": "295e5e15f021afe0c9be6cb5c49210417c67bc7ef4808325f5dd07d03b916e99",
+    "user-instruction-original.md": "18f31dbe3083ee71d4e478f7258dd84b2bbe25691f8931ec503c10023ec5d47c",
+    "user-reported-rr54-audit.md": "a0e22fed2f0281cfdb3a060b314dc6637325535dc7929984f97da0e191fcb5e0",
+    "verify_release.py": "0ab7d5f9ebe27eaa82bba7a47232a5707ba5bd61efe55a5af9ff4b1494b07083"
+  }
+}

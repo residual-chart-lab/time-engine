@@ -1,0 +1,31 @@
+{
+  "parent_commit": "5799036a001439795f6e890f755b67c56a7e4880",
+  "groups": 10,
+  "related_tests": 195,
+  "result_byte_identical": true,
+  "result_sha256": "5c1d9e27c3262389ef318864ed4acb39f723fcaf0f5fefe60c1c64dc1864c203",
+  "execution": [
+    {
+      "arguments": [
+        "completed_single_flower.py"
+      ],
+      "exit_code": 0,
+      "seconds": 116.25,
+      "stdout": "{\"passed\": true, \"groups\": 10, \"near_models\": 34, \"baseline_petal_variants\": 4}\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "-m",
+        "unittest",
+        "discover",
+        "-p",
+        "test_*.py"
+      ],
+      "exit_code": 0,
+      "seconds": 107.593,
+      "stdout": "",
+      "stderr": "...................................................................................................................................................................................................\n----------------------------------------------------------------------\nRan 195 tests in 107.111s\n\nOK\n"
+    }
+  ]
+}

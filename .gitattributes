@@ -1,0 +1,2 @@
+# Preserve the byte-exact frozen evidence, including original line endings.
+baseline/v1/** -text

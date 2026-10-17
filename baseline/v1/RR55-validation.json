@@ -1,0 +1,40 @@
+{
+  "schema": "time-engine-three-flower-v1-editorial-verification",
+  "passed": true,
+  "date": "2026-10-16",
+  "frozen_commit": "a67915066973a6bd5bf2c3d2fe06b0cede838b76",
+  "frozen_files_verified": 118,
+  "model_source_files_unchanged": 45,
+  "result_sha256": "f7dc278700ff0a603366108993881b095ffd49c94ea0d6046f0b9eabbc5e5004",
+  "saved_main_groups": 8,
+  "saved_main_groups_passed": true,
+  "saved_related_tests": 252,
+  "saved_related_tests_passed": true,
+  "saved_independent_result_byte_identical": true,
+  "saved_exact_macro_records": 2,
+  "exact_macro_records_bytes_verified": 2,
+  "saved_numerical_execution_seconds": 528.781,
+  "finite_paths": 64,
+  "first_choices_before": 4,
+  "first_choices_after": 1,
+  "continuations_checked_per_first": 16,
+  "minimum_rejected_error_approx": 0.0016817468200010424,
+  "fixed_tolerance": "1/1000000000000",
+  "upper_prefix_errors_approx": [
+    0.018582842123194974,
+    0.009749483392007176,
+    3.543284877999475e-15
+  ],
+  "alternate_first_choice": [
+    "second",
+    1
+  ],
+  "unbound_frame_first_choices": 4,
+  "same_scale_flowers": 3,
+  "additional_upper_enclosure": 1,
+  "evidence_method_references_verified": 23,
+  "release_document_hashes_verified": 11,
+  "full_numerical_rerun_performed": false,
+  "exact_record_reexecution_performed": false,
+  "audit_source": "user reported Astra acceptance; audit text not supplied"
+}

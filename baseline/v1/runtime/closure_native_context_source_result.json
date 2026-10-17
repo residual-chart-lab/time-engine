@@ -1,0 +1,206 @@
+{
+  "note": "RR44",
+  "passed": true,
+  "groups": 13,
+  "checks": [
+    {
+      "name": "both source rules use the same committed bootstrap with no supplied context schedule",
+      "passed": true,
+      "external_context_values_after_initial_history": 0,
+      "rounds": 4
+    },
+    {
+      "name": "messages contain published source cells and are emitted after a fixed request before arrival",
+      "passed": true
+    },
+    {
+      "name": "old certificates and whole ordered residues survive the context readout",
+      "passed": true,
+      "scope": "the boundary matrix is a context channel, not the full-word residue extractor"
+    },
+    {
+      "name": "the public order-sensitive port bootstraps a regular context from the old two-letter cell",
+      "passed": true,
+      "first_context": [
+        [
+          "1/3",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2/3",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "name": "direct feedback follows the exact inverse-cube branch and needs fresh production in every tested round",
+      "passed": true,
+      "a_parameters": [
+        "-1/3",
+        "27",
+        "-1/19683",
+        "7625597484987",
+        "-1/443426488243037769948249630619149892803"
+      ],
+      "formula": "a_next=-a^-3; log absolute magnitude changes sign and grows by factor three",
+      "stock_obstructions": [
+        {
+          "a": "-1/3",
+          "existing_magnitudes": [
+            "1/3",
+            "1/3",
+            "1",
+            "1/9"
+          ],
+          "required_magnitude": "9"
+        },
+        {
+          "a": "27",
+          "existing_magnitudes": [
+            "27",
+            "27",
+            "1",
+            "729",
+            "729"
+          ],
+          "required_magnitude": "1/729"
+        },
+        {
+          "a": "-1/19683",
+          "existing_magnitudes": [
+            "1/19683",
+            "1/19683",
+            "1",
+            "1/387420489",
+            "1/729",
+            "1/387420489"
+          ],
+          "required_magnitude": "387420489"
+        },
+        {
+          "a": "7625597484987",
+          "existing_magnitudes": [
+            "7625597484987",
+            "7625597484987",
+            "1",
+            "58149737003040059690390169",
+            "205891132094649",
+            "387420489",
+            "58149737003040059690390169"
+          ],
+          "required_magnitude": "1/58149737003040059690390169"
+        }
+      ]
+    },
+    {
+      "name": "normalized context port has an exact bound without deleting the source amplitude",
+      "passed": true,
+      "residual_L1_norm": "1/8",
+      "diagonal_deviation_bound": "1/16",
+      "scope": "readout only; no assertion that the whole producer state is bounded"
+    },
+    {
+      "name": "the canonical normalized diagonal branch bounds fresh coefficients after the bootstrap",
+      "passed": true,
+      "coefficient_limit": "28423/225",
+      "coefficient_maxima": [
+        "1768/15",
+        "22422431338/511724535",
+        "892899707219784408689512/20303914783643157759765",
+        "5664049361562383223549071354146164831958300041978298/128799232759944218615653021888301695061702861212935"
+      ],
+      "scope": "specified diagonal source, radius 1/8, zero-free-coordinate solver; not every chart or source"
+    },
+    {
+      "name": "bounded contexts do not imply bounded producer accumulation",
+      "passed": true,
+      "producer_values": [
+        "-72/5",
+        "-36557568/242225",
+        "-58570110494574409728/36978476783559875",
+        "-14947440096475904188152094610830749750731931648/899237530253713561074579309779065414593125"
+      ],
+      "per_fresh_cell_factor_lower_bound": "576/121",
+      "per_fresh_cell_factor_upper_bound": "576/25"
+    },
+    {
+      "name": "the persistent controller preserves fixed result, designated head and actual lower history",
+      "passed": true,
+      "initial_stock": 4,
+      "final_stock": 8,
+      "lower_tape": 9,
+      "consumer_tape": 13
+    },
+    {
+      "name": "source messages and pending requests resume without duplicate emission",
+      "passed": true,
+      "policies": 2,
+      "all_splits": 5,
+      "completed_rounds": 4,
+      "pending_messages": 1
+    },
+    {
+      "name": "the source has one queued endogenous context beyond the finite execution budget",
+      "passed": true
+    },
+    {
+      "name": "an isotropic readout does not mean the retained full word is inactive",
+      "passed": true,
+      "scope": "port degeneracy, not a zero full residual or a global impossibility"
+    },
+    {
+      "name": "the source-driven course has an ordinary history-preserving forward realization",
+      "passed": true,
+      "scope": "no independent unknown future input or non-forward causal advantage is claimed"
+    }
+  ],
+  "source_base_commit": "288a2bbf1e82d6fc9cc72f6587411f2664cd82a4",
+  "source_rule": "read actual published lower closure; public ordered boundary average; optional fixed-radius observation port",
+  "policies": [
+    "direct",
+    "normalized with radius 1/8"
+  ],
+  "rounds_per_policy": 4,
+  "no_external_context_schedule": true,
+  "supplied_resources": [
+    "committed initial history and frame",
+    "fixed result and designated head",
+    "continued lower producer and private boundary construction",
+    "publication rule and chosen context readout"
+  ],
+  "limits": [
+    "context source rule is proposed, not derived or uniquely selected by v18 G",
+    "direct inverse-cube branch is unstable; normalized port does not bound producer accumulation",
+    "the generated actual contexts do not replace the full admitted future family",
+    "future-boundary result selection and future-origin C remain unresolved"
+  ],
+  "source_sha256": {
+    "closure_native_context_source.py": "a225d558df0c61ef104f78d0d1ece0c543948b6b8d1ad42f2dadbf0497c2a280",
+    "test_closure_native_context_source.py": "4a2968beb0594083783d1fdf563cfaa3b53fbcbbcd4ce43a9985b486f82f5d5c",
+    "persistent_correction_cycle.py": "5a91e55d0bf2a931cd0da412750db0a5961771c7904eb4a9775fb91dad62e4de",
+    "test_persistent_correction_cycle.py": "ac556a90ba0331870183ed85635ed37d7d933628cde50279f29869769d7ecd80",
+    "certified_correction_release.py": "d5ff9a073b178c599fee397d3ff82bfa14ac571c97df3345074f23aca8816a55",
+    "test_certified_correction_release.py": "6e89a7049e1b3a87f0958864668f529cf469e37fc7b7e295c9c0a5618aae208f",
+    "same_level_continuation.py": "9db6fa9aaccfc5a30141551c6440878cfc3232aa0dfb87111203185130039ad7",
+    "test_same_level_continuation.py": "0e1b5bcca27431f22e0633e2c5359d8f1469cda16520fffd369cf10eace377cc",
+    "fixed_result_compatibility.py": "ac4abdbae0a814e9bc624d37393d0023951dc089a98e6e8226b0a8c6cb17734b",
+    "test_fixed_result_compatibility.py": "f4491cdedd6d0411a2a7d9734592a58dc7ffb8d1189db91ba7ebd5a3fa60b0b5",
+    "closed_boundary_loop.py": "ed78c7d0ac1d370ee99e735f5b891c5b9a2d5c6fe9efd4f4aa5ef4cc0f9e7db4",
+    "test_closed_boundary_loop.py": "3b97dc7e7f6c83c0d0d80612a42da981f7a5c2a3f7f4dd954f40168339a01c8b",
+    "recursive_upper_decoder.py": "7e1f3ecfb6731afc7ffb31a370d03209c5e05aa63a43ff096a74ba2072827f3d",
+    "test_recursive_upper_decoder.py": "1702382836b1b5b9544da1b6ff303853dbfa3c93e4712ce4d243007db25c3aab",
+    "certified_cell_bridge.py": "b95d343dfd9a096263f1ab4231923871095f315b5f6b2433f94efff448f05ee1",
+    "test_certified_cell_bridge.py": "dc604b27cce958ea3a60d5103e37df10a75a0c6a7ca3e494830f4310b04cec3c",
+    "residual_extraction_transport.py": "1df872dedda2bc805b531ffed7846eda1c4b7eb86124a17bfc3eadefbb4b9842",
+    "future_existence_residual.py": "fb772bd2134240cc8386544192b3c245d8eb7c3684662745f8616d76c38817d1",
+    "vendor/two_flower_kernel_certificate.py": "d0bf4cbfffc27e16a3651ead6859d3bc0d91124c778173dbc3429bb57883ccc3",
+    "vendor/internal_port_certificate.py": "d575bab5e6e6352ea5f2910bd1800dc1c1f97b55486d97ea7ee7f8e48b32c40d"
+  }
+}

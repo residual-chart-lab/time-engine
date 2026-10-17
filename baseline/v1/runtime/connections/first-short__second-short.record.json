@@ -1,0 +1,10890 @@
+{
+  "schema": "time-engine-two-flower-record-v1",
+  "root": {
+    "ref": 0
+  },
+  "nodes": [
+    {
+      "type": "two_flower_connection.ConnectedRecord",
+      "fields": {
+        "first": {
+          "ref": 1
+        },
+        "spec": {
+          "ref": 416
+        },
+        "raw_port": {
+          "ref": 417
+        },
+        "arrived_port": {
+          "ref": 421
+        },
+        "source_certificate": {
+          "ref": 425
+        },
+        "second": {
+          "ref": 429
+        }
+      }
+    },
+    {
+      "type": "completed_single_flower.FlowerRecord",
+      "fields": {
+        "commitment": {
+          "ref": 2
+        },
+        "fixed_result": {
+          "ref": 323
+        },
+        "tolerance": {
+          "fraction": [
+            "1",
+            "1000000000000"
+          ]
+        },
+        "actual_endpoint": {
+          "ref": 390
+        },
+        "closure_error": {
+          "fraction": [
+            "280237502318086354295949994645926708103776421269917117",
+            "12259964326927110866866776217202473468949912977468817408000000000000"
+          ]
+        },
+        "closed_engine": {
+          "ref": 391
+        },
+        "residue": {
+          "ref": 415
+        }
+      }
+    },
+    {
+      "type": "completed_single_flower.Commitment",
+      "fields": {
+        "anchor": {
+          "ref": 3
+        },
+        "problem": {
+          "ref": 352
+        },
+        "committed_engine": {
+          "ref": 381
+        },
+        "indices": {
+          "ref": 387
+        },
+        "word": {
+          "ref": 388
+        },
+        "predicted_endpoint": {
+          "ref": 389
+        },
+        "candidate_count": 2,
+        "selected_ordinal": 0
+      }
+    },
+    {
+      "type": "completed_single_flower.EntryAnchor",
+      "fields": {
+        "configuration": {
+          "ref": 4
+        },
+        "original": {
+          "ref": 6
+        },
+        "current_context": {
+          "ref": 324
+        },
+        "producer_plan": {
+          "ref": 328
+        }
+      }
+    },
+    {
+      "type": "completed_single_flower.Configuration",
+      "fields": {
+        "parameters": {
+          "ref": 5
+        },
+        "source_branch": "first",
+        "petal_choice": 0,
+        "search_cap": 4
+      }
+    },
+    {
+      "type": "robust_flower_geometry.Parameters",
+      "fields": {
+        "head_first": {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        "head_second": {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        "current_readout": {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        "future_readout": {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.PersistentEngine",
+      "fields": {
+        "lower": {
+          "ref": 7
+        },
+        "upper": {
+          "ref": 7
+        },
+        "stock": {
+          "ref": 284
+        },
+        "outputs": {
+          "ref": 290
+        },
+        "rounds": {
+          "ref": 290
+        },
+        "events": {
+          "ref": 321
+        },
+        "library": {
+          "ref": 17
+        },
+        "designated_head": {
+          "ref": 316
+        },
+        "result": {
+          "ref": 323
+        },
+        "max_existing_suffix": 2,
+        "phase": "IDLE",
+        "pending": null
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 8
+        },
+        "executed_word": {
+          "ref": 14
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 9
+        },
+        "accumulated": {
+          "ref": 13
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 10
+        },
+        {
+          "ref": 11
+        },
+        {
+          "ref": 12
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "2"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "-3",
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 15
+        },
+        {
+          "ref": 276
+        },
+        {
+          "ref": 278
+        },
+        {
+          "ref": 280
+        },
+        {
+          "ref": 282
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.AffineLetter",
+      "fields": {
+        "weights": {
+          "ref": 16
+        },
+        "library": {
+          "ref": 17
+        },
+        "level": 1
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 18
+        },
+        {
+          "ref": 47
+        },
+        {
+          "ref": 80
+        },
+        {
+          "ref": 117
+        },
+        {
+          "ref": 158
+        },
+        {
+          "ref": 211
+        }
+      ]
+    },
+    {
+      "type": "certified_cell_bridge.UpperOperation",
+      "fields": {
+        "visible": {
+          "ref": 19
+        },
+        "full_residue": {
+          "ref": 20
+        },
+        "active_carrier": {
+          "ref": 29
+        },
+        "source": {
+          "ref": 34
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_cell_bridge.FullTerminalResidue",
+      "fields": {
+        "active": {
+          "ref": 21
+        },
+        "ordered_cell_record": {
+          "ref": 22
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "fraction": [
+            "-1",
+            "3"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 23
+        },
+        {
+          "ref": 19
+        },
+        {
+          "ref": 26
+        },
+        "RR31-fixed-join"
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 24
+        },
+        {
+          "ref": 25
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 27
+        },
+        {
+          "ref": 28
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "residual_extraction_transport.ResidualCarrier",
+      "fields": {
+        "exact": {
+          "ref": 21
+        },
+        "frame": {
+          "ref": 30
+        },
+        "operation": "RR31-fixed-join"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 31
+        },
+        {
+          "ref": 32
+        },
+        {
+          "ref": 33
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_cell_bridge.CertifiedCell",
+      "fields": {
+        "witness": {
+          "ref": 35
+        },
+        "endpoint": {
+          "ref": 43
+        },
+        "certification": "unit-chart-T1-T2-T3"
+      }
+    },
+    {
+      "type": "certified_cell_bridge.CellWitness",
+      "fields": {
+        "committed_past": {
+          "ref": 36
+        },
+        "beta": {
+          "ref": 39
+        },
+        "required_result": {
+          "ref": 42
+        },
+        "connection": "RR31-fixed-join"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 37
+        },
+        {
+          "ref": 38
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 40
+        },
+        {
+          "ref": 41
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 44
+        },
+        {
+          "ref": 45
+        },
+        {
+          "ref": 46
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_cell_bridge.UpperOperation",
+      "fields": {
+        "visible": {
+          "ref": 48
+        },
+        "full_residue": {
+          "ref": 49
+        },
+        "active_carrier": {
+          "ref": 60
+        },
+        "source": {
+          "ref": 65
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_cell_bridge.FullTerminalResidue",
+      "fields": {
+        "active": {
+          "ref": 50
+        },
+        "ordered_cell_record": {
+          "ref": 51
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "3"
+          ]
+        },
+        {
+          "fraction": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 52
+        },
+        {
+          "ref": 48
+        },
+        {
+          "ref": 57
+        },
+        "RR31-fixed-join"
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 53
+        },
+        {
+          "ref": 54
+        },
+        {
+          "ref": 55
+        },
+        {
+          "ref": 56
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 58
+        },
+        {
+          "ref": 59
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "residual_extraction_transport.ResidualCarrier",
+      "fields": {
+        "exact": {
+          "ref": 50
+        },
+        "frame": {
+          "ref": 61
+        },
+        "operation": "RR31-fixed-join"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 62
+        },
+        {
+          "ref": 63
+        },
+        {
+          "ref": 64
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_cell_bridge.CertifiedCell",
+      "fields": {
+        "witness": {
+          "ref": 66
+        },
+        "endpoint": {
+          "ref": 76
+        },
+        "certification": "unit-chart-T1-T2-T3"
+      }
+    },
+    {
+      "type": "certified_cell_bridge.CellWitness",
+      "fields": {
+        "committed_past": {
+          "ref": 67
+        },
+        "beta": {
+          "ref": 72
+        },
+        "required_result": {
+          "ref": 75
+        },
+        "connection": "RR31-fixed-join"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 68
+        },
+        {
+          "ref": 69
+        },
+        {
+          "ref": 70
+        },
+        {
+          "ref": 71
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 73
+        },
+        {
+          "ref": 74
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 77
+        },
+        {
+          "ref": 78
+        },
+        {
+          "ref": 79
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_cell_bridge.UpperOperation",
+      "fields": {
+        "visible": {
+          "ref": 81
+        },
+        "full_residue": {
+          "ref": 82
+        },
+        "active_carrier": {
+          "ref": 95
+        },
+        "source": {
+          "ref": 100
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_cell_bridge.FullTerminalResidue",
+      "fields": {
+        "active": {
+          "ref": 83
+        },
+        "ordered_cell_record": {
+          "ref": 84
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "3"
+          ]
+        },
+        {
+          "fraction": [
+            "-1",
+            "3"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 85
+        },
+        {
+          "ref": 81
+        },
+        {
+          "ref": 92
+        },
+        "RR31-fixed-join"
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 86
+        },
+        {
+          "ref": 87
+        },
+        {
+          "ref": 88
+        },
+        {
+          "ref": 89
+        },
+        {
+          "ref": 90
+        },
+        {
+          "ref": 91
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 93
+        },
+        {
+          "ref": 94
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "residual_extraction_transport.ResidualCarrier",
+      "fields": {
+        "exact": {
+          "ref": 83
+        },
+        "frame": {
+          "ref": 96
+        },
+        "operation": "RR31-fixed-join"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 97
+        },
+        {
+          "ref": 98
+        },
+        {
+          "ref": 99
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_cell_bridge.CertifiedCell",
+      "fields": {
+        "witness": {
+          "ref": 101
+        },
+        "endpoint": {
+          "ref": 113
+        },
+        "certification": "unit-chart-T1-T2-T3"
+      }
+    },
+    {
+      "type": "certified_cell_bridge.CellWitness",
+      "fields": {
+        "committed_past": {
+          "ref": 102
+        },
+        "beta": {
+          "ref": 109
+        },
+        "required_result": {
+          "ref": 112
+        },
+        "connection": "RR31-fixed-join"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 103
+        },
+        {
+          "ref": 104
+        },
+        {
+          "ref": 105
+        },
+        {
+          "ref": 106
+        },
+        {
+          "ref": 107
+        },
+        {
+          "ref": 108
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 110
+        },
+        {
+          "ref": 111
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 114
+        },
+        {
+          "ref": 115
+        },
+        {
+          "ref": 116
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_cell_bridge.UpperOperation",
+      "fields": {
+        "visible": {
+          "ref": 118
+        },
+        "full_residue": {
+          "ref": 119
+        },
+        "active_carrier": {
+          "ref": 134
+        },
+        "source": {
+          "ref": 139
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_cell_bridge.FullTerminalResidue",
+      "fields": {
+        "active": {
+          "ref": 120
+        },
+        "ordered_cell_record": {
+          "ref": 121
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "2",
+            "75"
+          ]
+        },
+        {
+          "fraction": [
+            "23",
+            "75"
+          ]
+        },
+        {
+          "fraction": [
+            "12",
+            "25"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 122
+        },
+        {
+          "ref": 118
+        },
+        {
+          "ref": 131
+        },
+        "RR31-fixed-join"
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 123
+        },
+        {
+          "ref": 124
+        },
+        {
+          "ref": 125
+        },
+        {
+          "ref": 126
+        },
+        {
+          "ref": 127
+        },
+        {
+          "ref": 128
+        },
+        {
+          "ref": 129
+        },
+        {
+          "ref": 130
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 132
+        },
+        {
+          "ref": 133
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "residual_extraction_transport.ResidualCarrier",
+      "fields": {
+        "exact": {
+          "ref": 120
+        },
+        "frame": {
+          "ref": 135
+        },
+        "operation": "RR31-fixed-join"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 136
+        },
+        {
+          "ref": 137
+        },
+        {
+          "ref": 138
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_cell_bridge.CertifiedCell",
+      "fields": {
+        "witness": {
+          "ref": 140
+        },
+        "endpoint": {
+          "ref": 154
+        },
+        "certification": "unit-chart-T1-T2-T3"
+      }
+    },
+    {
+      "type": "certified_cell_bridge.CellWitness",
+      "fields": {
+        "committed_past": {
+          "ref": 141
+        },
+        "beta": {
+          "ref": 150
+        },
+        "required_result": {
+          "ref": 153
+        },
+        "connection": "RR31-fixed-join"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 142
+        },
+        {
+          "ref": 143
+        },
+        {
+          "ref": 144
+        },
+        {
+          "ref": 145
+        },
+        {
+          "ref": 146
+        },
+        {
+          "ref": 147
+        },
+        {
+          "ref": 148
+        },
+        {
+          "ref": 149
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 151
+        },
+        {
+          "ref": 152
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 155
+        },
+        {
+          "ref": 156
+        },
+        {
+          "ref": 157
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "9",
+            "25"
+          ]
+        },
+        {
+          "fraction": [
+            "12",
+            "25"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "12",
+            "25"
+          ]
+        },
+        {
+          "fraction": [
+            "16",
+            "25"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_cell_bridge.UpperOperation",
+      "fields": {
+        "visible": {
+          "ref": 159
+        },
+        "full_residue": {
+          "ref": 160
+        },
+        "active_carrier": {
+          "ref": 181
+        },
+        "source": {
+          "ref": 186
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_cell_bridge.FullTerminalResidue",
+      "fields": {
+        "active": {
+          "ref": 161
+        },
+        "ordered_cell_record": {
+          "ref": 162
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "2",
+            "75"
+          ]
+        },
+        {
+          "fraction": [
+            "-1",
+            "3"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "12",
+            "25"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 163
+        },
+        {
+          "ref": 159
+        },
+        {
+          "ref": 178
+        },
+        "RR31-fixed-join"
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 164
+        },
+        {
+          "ref": 165
+        },
+        {
+          "ref": 166
+        },
+        {
+          "ref": 167
+        },
+        {
+          "ref": 168
+        },
+        {
+          "ref": 169
+        },
+        {
+          "ref": 170
+        },
+        {
+          "ref": 171
+        },
+        {
+          "ref": 172
+        },
+        {
+          "ref": 173
+        },
+        {
+          "ref": 174
+        },
+        {
+          "ref": 175
+        },
+        {
+          "ref": 176
+        },
+        {
+          "ref": 177
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 179
+        },
+        {
+          "ref": 180
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "residual_extraction_transport.ResidualCarrier",
+      "fields": {
+        "exact": {
+          "ref": 161
+        },
+        "frame": {
+          "ref": 182
+        },
+        "operation": "RR31-fixed-join"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 183
+        },
+        {
+          "ref": 184
+        },
+        {
+          "ref": 185
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_cell_bridge.CertifiedCell",
+      "fields": {
+        "witness": {
+          "ref": 187
+        },
+        "endpoint": {
+          "ref": 207
+        },
+        "certification": "unit-chart-T1-T2-T3"
+      }
+    },
+    {
+      "type": "certified_cell_bridge.CellWitness",
+      "fields": {
+        "committed_past": {
+          "ref": 188
+        },
+        "beta": {
+          "ref": 203
+        },
+        "required_result": {
+          "ref": 206
+        },
+        "connection": "RR31-fixed-join"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 189
+        },
+        {
+          "ref": 190
+        },
+        {
+          "ref": 191
+        },
+        {
+          "ref": 192
+        },
+        {
+          "ref": 193
+        },
+        {
+          "ref": 194
+        },
+        {
+          "ref": 195
+        },
+        {
+          "ref": 196
+        },
+        {
+          "ref": 197
+        },
+        {
+          "ref": 198
+        },
+        {
+          "ref": 199
+        },
+        {
+          "ref": 200
+        },
+        {
+          "ref": 201
+        },
+        {
+          "ref": 202
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 204
+        },
+        {
+          "ref": 205
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 208
+        },
+        {
+          "ref": 209
+        },
+        {
+          "ref": 210
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "9",
+            "25"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "12",
+            "25"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "12",
+            "25"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "16",
+            "25"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_cell_bridge.UpperOperation",
+      "fields": {
+        "visible": {
+          "ref": 212
+        },
+        "full_residue": {
+          "ref": 213
+        },
+        "active_carrier": {
+          "ref": 240
+        },
+        "source": {
+          "ref": 245
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_cell_bridge.FullTerminalResidue",
+      "fields": {
+        "active": {
+          "ref": 214
+        },
+        "ordered_cell_record": {
+          "ref": 215
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "3"
+          ]
+        },
+        {
+          "fraction": [
+            "2",
+            "75"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "12",
+            "25"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 216
+        },
+        {
+          "ref": 212
+        },
+        {
+          "ref": 237
+        },
+        "RR31-fixed-join"
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 217
+        },
+        {
+          "ref": 218
+        },
+        {
+          "ref": 219
+        },
+        {
+          "ref": 220
+        },
+        {
+          "ref": 221
+        },
+        {
+          "ref": 222
+        },
+        {
+          "ref": 223
+        },
+        {
+          "ref": 224
+        },
+        {
+          "ref": 225
+        },
+        {
+          "ref": 226
+        },
+        {
+          "ref": 227
+        },
+        {
+          "ref": 228
+        },
+        {
+          "ref": 229
+        },
+        {
+          "ref": 230
+        },
+        {
+          "ref": 231
+        },
+        {
+          "ref": 232
+        },
+        {
+          "ref": 233
+        },
+        {
+          "ref": 234
+        },
+        {
+          "ref": 235
+        },
+        {
+          "ref": 236
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 238
+        },
+        {
+          "ref": 239
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "residual_extraction_transport.ResidualCarrier",
+      "fields": {
+        "exact": {
+          "ref": 214
+        },
+        "frame": {
+          "ref": 241
+        },
+        "operation": "RR31-fixed-join"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 242
+        },
+        {
+          "ref": 243
+        },
+        {
+          "ref": 244
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_cell_bridge.CertifiedCell",
+      "fields": {
+        "witness": {
+          "ref": 246
+        },
+        "endpoint": {
+          "ref": 272
+        },
+        "certification": "unit-chart-T1-T2-T3"
+      }
+    },
+    {
+      "type": "certified_cell_bridge.CellWitness",
+      "fields": {
+        "committed_past": {
+          "ref": 247
+        },
+        "beta": {
+          "ref": 268
+        },
+        "required_result": {
+          "ref": 271
+        },
+        "connection": "RR31-fixed-join"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 248
+        },
+        {
+          "ref": 249
+        },
+        {
+          "ref": 250
+        },
+        {
+          "ref": 251
+        },
+        {
+          "ref": 252
+        },
+        {
+          "ref": 253
+        },
+        {
+          "ref": 254
+        },
+        {
+          "ref": 255
+        },
+        {
+          "ref": 256
+        },
+        {
+          "ref": 257
+        },
+        {
+          "ref": 258
+        },
+        {
+          "ref": 259
+        },
+        {
+          "ref": 260
+        },
+        {
+          "ref": 261
+        },
+        {
+          "ref": 262
+        },
+        {
+          "ref": 263
+        },
+        {
+          "ref": 264
+        },
+        {
+          "ref": 265
+        },
+        {
+          "ref": 266
+        },
+        {
+          "ref": 267
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 269
+        },
+        {
+          "ref": 270
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 273
+        },
+        {
+          "ref": 274
+        },
+        {
+          "ref": 275
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "9",
+            "25"
+          ]
+        },
+        {
+          "fraction": [
+            "12",
+            "25"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "12",
+            "25"
+          ]
+        },
+        {
+          "fraction": [
+            "16",
+            "25"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.AffineLetter",
+      "fields": {
+        "weights": {
+          "ref": 277
+        },
+        "library": {
+          "ref": 17
+        },
+        "level": 1
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.AffineLetter",
+      "fields": {
+        "weights": {
+          "ref": 279
+        },
+        "library": {
+          "ref": 17
+        },
+        "level": 1
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.AffineLetter",
+      "fields": {
+        "weights": {
+          "ref": 281
+        },
+        "library": {
+          "ref": 17
+        },
+        "level": 1
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.AffineLetter",
+      "fields": {
+        "weights": {
+          "ref": 283
+        },
+        "library": {
+          "ref": 17
+        },
+        "level": 1
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 285
+        },
+        {
+          "ref": 298
+        },
+        {
+          "ref": 307
+        },
+        {
+          "ref": 316
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.RecursiveLetter",
+      "fields": {
+        "cell": {
+          "ref": 286
+        },
+        "visible": {
+          "ref": 297
+        },
+        "level": 2
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.WordCell",
+      "fields": {
+        "start": {
+          "ref": 287
+        },
+        "beta": {
+          "ref": 291
+        },
+        "target": {
+          "ref": 292
+        },
+        "endpoint": {
+          "ref": 293
+        },
+        "chart": "regular-affine-final-leaf"
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 288
+        },
+        "executed_word": {
+          "ref": 290
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 9
+        },
+        "accumulated": {
+          "ref": 289
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "2",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": []
+    },
+    {
+      "tuple": [
+        {
+          "ref": 15
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 294
+        },
+        "executed_word": {
+          "ref": 296
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 9
+        },
+        "accumulated": {
+          "ref": 295
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 15
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.RecursiveLetter",
+      "fields": {
+        "cell": {
+          "ref": 299
+        },
+        "visible": {
+          "ref": 306
+        },
+        "level": 2
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.WordCell",
+      "fields": {
+        "start": {
+          "ref": 293
+        },
+        "beta": {
+          "ref": 300
+        },
+        "target": {
+          "ref": 301
+        },
+        "endpoint": {
+          "ref": 302
+        },
+        "chart": "regular-affine-final-leaf"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 276
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-2",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 303
+        },
+        "executed_word": {
+          "ref": 305
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 9
+        },
+        "accumulated": {
+          "ref": 304
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-2",
+            "5"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 15
+        },
+        {
+          "ref": 276
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "2"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.RecursiveLetter",
+      "fields": {
+        "cell": {
+          "ref": 308
+        },
+        "visible": {
+          "ref": 315
+        },
+        "level": 2
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.WordCell",
+      "fields": {
+        "start": {
+          "ref": 302
+        },
+        "beta": {
+          "ref": 309
+        },
+        "target": {
+          "ref": 310
+        },
+        "endpoint": {
+          "ref": 311
+        },
+        "chart": "regular-affine-final-leaf"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 278
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 312
+        },
+        "executed_word": {
+          "ref": 314
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 9
+        },
+        "accumulated": {
+          "ref": 313
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 15
+        },
+        {
+          "ref": 276
+        },
+        {
+          "ref": 278
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-5",
+            "2"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.RecursiveLetter",
+      "fields": {
+        "cell": {
+          "ref": 317
+        },
+        "visible": {
+          "ref": 320
+        },
+        "level": 2
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.WordCell",
+      "fields": {
+        "start": {
+          "ref": 311
+        },
+        "beta": {
+          "ref": 318
+        },
+        "target": {
+          "ref": 319
+        },
+        "endpoint": {
+          "ref": 7
+        },
+        "chart": "regular-affine-final-leaf"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 280
+        },
+        {
+          "ref": 282
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 322
+        }
+      ]
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 0,
+        "round_number": 0,
+        "kind": "engine-started",
+        "lower": {
+          "ref": 7
+        },
+        "upper": {
+          "ref": 7
+        },
+        "stock": {
+          "ref": 284
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 325
+        },
+        {
+          "ref": 326
+        },
+        {
+          "ref": 327
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persistent_correction_cycle.PersistentEngine",
+      "fields": {
+        "lower": {
+          "ref": 329
+        },
+        "upper": {
+          "ref": 335
+        },
+        "stock": {
+          "ref": 284
+        },
+        "outputs": {
+          "ref": 290
+        },
+        "rounds": {
+          "ref": 290
+        },
+        "events": {
+          "ref": 337
+        },
+        "library": {
+          "ref": 17
+        },
+        "designated_head": {
+          "ref": 316
+        },
+        "result": {
+          "ref": 323
+        },
+        "max_existing_suffix": 2,
+        "phase": "PLANNED",
+        "pending": {
+          "ref": 341
+        }
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 330
+        },
+        "executed_word": {
+          "ref": 14
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 331
+        },
+        "accumulated": {
+          "ref": 13
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 332
+        },
+        {
+          "ref": 333
+        },
+        {
+          "ref": 334
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 336
+        },
+        "executed_word": {
+          "ref": 14
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 331
+        },
+        "accumulated": {
+          "ref": 13
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 322
+        },
+        {
+          "ref": 338
+        },
+        {
+          "ref": 339
+        },
+        {
+          "ref": 340
+        }
+      ]
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 1,
+        "round_number": 1,
+        "kind": "boundary-requested",
+        "lower": {
+          "ref": 7
+        },
+        "upper": {
+          "ref": 7
+        },
+        "stock": {
+          "ref": 284
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 2,
+        "round_number": 1,
+        "kind": "context-arrived",
+        "lower": {
+          "ref": 329
+        },
+        "upper": {
+          "ref": 335
+        },
+        "stock": {
+          "ref": 284
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 3,
+        "round_number": 1,
+        "kind": "correction-planned",
+        "lower": {
+          "ref": 329
+        },
+        "upper": {
+          "ref": 335
+        },
+        "stock": {
+          "ref": 284
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.PendingRound",
+      "fields": {
+        "number": 1,
+        "head": {
+          "ref": 316
+        },
+        "result": {
+          "ref": 323
+        },
+        "lower_before": {
+          "ref": 7
+        },
+        "upper_before": {
+          "ref": 7
+        },
+        "stock_before": {
+          "ref": 284
+        },
+        "arrived_context": {
+          "ref": 331
+        },
+        "consumer_start": {
+          "ref": 335
+        },
+        "decoded": {
+          "ref": 342
+        },
+        "trial_response": {
+          "ref": 346
+        },
+        "plan": {
+          "ref": 347
+        },
+        "issue": null
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.DecodeResult",
+      "fields": {
+        "state": {
+          "ref": 335
+        },
+        "outputs": {
+          "ref": 290
+        },
+        "tail": {
+          "ref": 343
+        },
+        "boundaries": {
+          "ref": 344
+        },
+        "stop": "NoTerminalPrefix"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 316
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 345
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "1",
+            "9"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_correction_release.CorrectionPlan",
+      "fields": {
+        "upper_snapshot": {
+          "ref": 342
+        },
+        "lower_start": {
+          "ref": 329
+        },
+        "speculative_response": {
+          "ref": 346
+        },
+        "wanted_action": {
+          "ref": 348
+        },
+        "leaf": {
+          "ref": 349
+        },
+        "lower_target": {
+          "ref": 351
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-9",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.AffineLetter",
+      "fields": {
+        "weights": {
+          "ref": 350
+        },
+        "library": {
+          "ref": 17
+        },
+        "level": 1
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "14",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "-13",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "9",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "intrinsic_connection_progress.Problem",
+      "fields": {
+        "parameters": {
+          "ref": 5
+        },
+        "branch": "first",
+        "entry": {
+          "ref": 6
+        },
+        "prepared": {
+          "ref": 353
+        },
+        "source": {
+          "ref": 361
+        },
+        "context": {
+          "ref": 375
+        },
+        "start": {
+          "ref": 379
+        },
+        "representative": {
+          "fraction": [
+            "949993491112804687",
+            "140737488355328000"
+          ]
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.PersistentEngine",
+      "fields": {
+        "lower": {
+          "ref": 354
+        },
+        "upper": {
+          "ref": 335
+        },
+        "stock": {
+          "ref": 360
+        },
+        "outputs": {
+          "ref": 290
+        },
+        "rounds": {
+          "ref": 290
+        },
+        "events": {
+          "ref": 366
+        },
+        "library": {
+          "ref": 17
+        },
+        "designated_head": {
+          "ref": 316
+        },
+        "result": {
+          "ref": 323
+        },
+        "max_existing_suffix": 2,
+        "phase": "AVAILABLE",
+        "pending": {
+          "ref": 370
+        }
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 355
+        },
+        "executed_word": {
+          "ref": 357
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 331
+        },
+        "accumulated": {
+          "ref": 356
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "9",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 15
+        },
+        {
+          "ref": 276
+        },
+        {
+          "ref": 278
+        },
+        {
+          "ref": 280
+        },
+        {
+          "ref": 282
+        },
+        {
+          "ref": 358
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.AffineLetter",
+      "fields": {
+        "weights": {
+          "ref": 359
+        },
+        "library": {
+          "ref": 17
+        },
+        "level": 1
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "35168927374491313",
+            "70368744177664000"
+          ]
+        },
+        {
+          "fraction": [
+            "-879593857506459313",
+            "140737488355328000"
+          ]
+        },
+        {
+          "fraction": [
+            "949993491112804687",
+            "140737488355328000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 285
+        },
+        {
+          "ref": 298
+        },
+        {
+          "ref": 307
+        },
+        {
+          "ref": 316
+        },
+        {
+          "ref": 361
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.RecursiveLetter",
+      "fields": {
+        "cell": {
+          "ref": 362
+        },
+        "visible": {
+          "ref": 365
+        },
+        "level": 2
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.WordCell",
+      "fields": {
+        "start": {
+          "ref": 329
+        },
+        "beta": {
+          "ref": 363
+        },
+        "target": {
+          "ref": 364
+        },
+        "endpoint": {
+          "ref": 354
+        },
+        "chart": "regular-affine-final-leaf"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 358
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "9",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-9",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 322
+        },
+        {
+          "ref": 338
+        },
+        {
+          "ref": 339
+        },
+        {
+          "ref": 340
+        },
+        {
+          "ref": 367
+        },
+        {
+          "ref": 368
+        },
+        {
+          "ref": 369
+        }
+      ]
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 4,
+        "round_number": 1,
+        "kind": "correction-representative-selected",
+        "lower": {
+          "ref": 329
+        },
+        "upper": {
+          "ref": 335
+        },
+        "stock": {
+          "ref": 284
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 5,
+        "round_number": 1,
+        "kind": "lower-cell-closed",
+        "lower": {
+          "ref": 354
+        },
+        "upper": {
+          "ref": 335
+        },
+        "stock": {
+          "ref": 284
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 6,
+        "round_number": 1,
+        "kind": "same-level-operation-published",
+        "lower": {
+          "ref": 354
+        },
+        "upper": {
+          "ref": 335
+        },
+        "stock": {
+          "ref": 360
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.PendingRound",
+      "fields": {
+        "number": 1,
+        "head": {
+          "ref": 316
+        },
+        "result": {
+          "ref": 323
+        },
+        "lower_before": {
+          "ref": 7
+        },
+        "upper_before": {
+          "ref": 7
+        },
+        "stock_before": {
+          "ref": 284
+        },
+        "arrived_context": {
+          "ref": 331
+        },
+        "consumer_start": {
+          "ref": 335
+        },
+        "decoded": {
+          "ref": 342
+        },
+        "trial_response": {
+          "ref": 346
+        },
+        "plan": {
+          "ref": 371
+        },
+        "issue": {
+          "ref": 372
+        }
+      }
+    },
+    {
+      "type": "certified_correction_release.CorrectionPlan",
+      "fields": {
+        "upper_snapshot": {
+          "ref": 342
+        },
+        "lower_start": {
+          "ref": 329
+        },
+        "speculative_response": {
+          "ref": 346
+        },
+        "wanted_action": {
+          "ref": 348
+        },
+        "leaf": {
+          "ref": 358
+        },
+        "lower_target": {
+          "ref": 351
+        }
+      }
+    },
+    {
+      "type": "certified_correction_release.LowerIssue",
+      "fields": {
+        "plan": {
+          "ref": 371
+        },
+        "decoded": {
+          "ref": 373
+        },
+        "operation": {
+          "ref": 361
+        },
+        "closed_at": 5
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.DecodeResult",
+      "fields": {
+        "state": {
+          "ref": 354
+        },
+        "outputs": {
+          "ref": 374
+        },
+        "tail": {
+          "ref": 290
+        },
+        "boundaries": {
+          "ref": 290
+        },
+        "stop": "InputExhausted"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 361
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 376
+        },
+        {
+          "ref": 377
+        },
+        {
+          "ref": 378
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "35168927374491313",
+            "70368744177664000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "-879593857506459313",
+            "140737488355328000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "949993491112804687",
+            "140737488355328000"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 380
+        },
+        "executed_word": {
+          "ref": 14
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 375
+        },
+        "accumulated": {
+          "ref": 13
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.PersistentEngine",
+      "fields": {
+        "lower": {
+          "ref": 354
+        },
+        "upper": {
+          "ref": 379
+        },
+        "stock": {
+          "ref": 360
+        },
+        "outputs": {
+          "ref": 290
+        },
+        "rounds": {
+          "ref": 290
+        },
+        "events": {
+          "ref": 382
+        },
+        "library": {
+          "ref": 17
+        },
+        "designated_head": {
+          "ref": 316
+        },
+        "result": {
+          "ref": 323
+        },
+        "max_existing_suffix": 2,
+        "phase": "RR52_COMMITTED",
+        "pending": {
+          "ref": 370
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 322
+        },
+        {
+          "ref": 338
+        },
+        {
+          "ref": 339
+        },
+        {
+          "ref": 340
+        },
+        {
+          "ref": 367
+        },
+        {
+          "ref": 368
+        },
+        {
+          "ref": 369
+        },
+        {
+          "ref": 383
+        },
+        {
+          "ref": 384
+        },
+        {
+          "ref": 385
+        },
+        {
+          "ref": 386
+        }
+      ]
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 7,
+        "round_number": 1,
+        "kind": "rr52-internal-context-emitted",
+        "lower": {
+          "ref": 354
+        },
+        "upper": {
+          "ref": 335
+        },
+        "stock": {
+          "ref": 360
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 8,
+        "round_number": 1,
+        "kind": "rr52-internal-context-arrived",
+        "lower": {
+          "ref": 354
+        },
+        "upper": {
+          "ref": 379
+        },
+        "stock": {
+          "ref": 360
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 9,
+        "round_number": 1,
+        "kind": "rr52-possible-continuations-checked",
+        "lower": {
+          "ref": 354
+        },
+        "upper": {
+          "ref": 379
+        },
+        "stock": {
+          "ref": 360
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 10,
+        "round_number": 1,
+        "kind": "rr52-petal-committed",
+        "lower": {
+          "ref": 354
+        },
+        "upper": {
+          "ref": 379
+        },
+        "stock": {
+          "ref": 360
+        }
+      }
+    },
+    {
+      "tuple": [
+        3,
+        4
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 316
+        },
+        {
+          "ref": 361
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-12259964326927391104369094303556769418944558904176921184421269917117",
+            "12259964326927110866866776217202473468949912977468817408000000000000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-12259964326927391104369094303556769418944558904176921184421269917117",
+            "12259964326927110866866776217202473468949912977468817408000000000000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persistent_correction_cycle.PersistentEngine",
+      "fields": {
+        "lower": {
+          "ref": 354
+        },
+        "upper": {
+          "ref": 392
+        },
+        "stock": {
+          "ref": 360
+        },
+        "outputs": {
+          "ref": 396
+        },
+        "rounds": {
+          "ref": 401
+        },
+        "events": {
+          "ref": 404
+        },
+        "library": {
+          "ref": 17
+        },
+        "designated_head": {
+          "ref": 316
+        },
+        "result": {
+          "ref": 323
+        },
+        "max_existing_suffix": 2,
+        "phase": "IDLE",
+        "pending": null
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 393
+        },
+        "executed_word": {
+          "ref": 395
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 375
+        },
+        "accumulated": {
+          "ref": 394
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-12259964326927391104369094303556769418944558904176921184421269917117",
+            "12259964326927110866866776217202473468949912977468817408000000000000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 15
+        },
+        {
+          "ref": 276
+        },
+        {
+          "ref": 278
+        },
+        {
+          "ref": 280
+        },
+        {
+          "ref": 282
+        },
+        {
+          "ref": 316
+        },
+        {
+          "ref": 361
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 397
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.RecursiveLetter",
+      "fields": {
+        "cell": {
+          "ref": 398
+        },
+        "visible": {
+          "ref": 400
+        },
+        "level": 3
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.WordCell",
+      "fields": {
+        "start": {
+          "ref": 379
+        },
+        "beta": {
+          "ref": 388
+        },
+        "target": {
+          "ref": 399
+        },
+        "endpoint": {
+          "ref": 392
+        },
+        "chart": "regular-affine-final-leaf"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-12259964326927391104369094303556769418944558904176921184421269917117",
+            "12259964326927110866866776217202473468949912977468817408000000000000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "12259964326927391104369094303556769418944558904176921184421269917117",
+            "12259964326927110866866776217202473468949912977468817408000000000000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 402
+        }
+      ]
+    },
+    {
+      "type": "persistent_correction_cycle.RoundTrace",
+      "fields": {
+        "pending": {
+          "ref": 370
+        },
+        "decoded": {
+          "ref": 403
+        },
+        "route": "rr52-committed-petal",
+        "lower_after": {
+          "ref": 354
+        },
+        "stock_after": {
+          "ref": 360
+        }
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.DecodeResult",
+      "fields": {
+        "state": {
+          "ref": 392
+        },
+        "outputs": {
+          "ref": 396
+        },
+        "tail": {
+          "ref": 290
+        },
+        "boundaries": {
+          "ref": 290
+        },
+        "stop": "InputExhausted"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 322
+        },
+        {
+          "ref": 338
+        },
+        {
+          "ref": 339
+        },
+        {
+          "ref": 340
+        },
+        {
+          "ref": 367
+        },
+        {
+          "ref": 368
+        },
+        {
+          "ref": 369
+        },
+        {
+          "ref": 383
+        },
+        {
+          "ref": 384
+        },
+        {
+          "ref": 385
+        },
+        {
+          "ref": 386
+        },
+        {
+          "ref": 405
+        },
+        {
+          "ref": 410
+        },
+        {
+          "ref": 414
+        }
+      ]
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 11,
+        "round_number": 1,
+        "kind": "rr52-consumer-action-executed",
+        "lower": {
+          "ref": 354
+        },
+        "upper": {
+          "ref": 406
+        },
+        "stock": {
+          "ref": 360
+        }
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 407
+        },
+        "executed_word": {
+          "ref": 409
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 375
+        },
+        "accumulated": {
+          "ref": 408
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-14671901017347111789976401136031",
+            "2475880078570760549798248448000000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 15
+        },
+        {
+          "ref": 276
+        },
+        {
+          "ref": 278
+        },
+        {
+          "ref": 280
+        },
+        {
+          "ref": 282
+        },
+        {
+          "ref": 316
+        }
+      ]
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 12,
+        "round_number": 1,
+        "kind": "rr52-consumer-action-executed",
+        "lower": {
+          "ref": 354
+        },
+        "upper": {
+          "ref": 411
+        },
+        "stock": {
+          "ref": 360
+        }
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 412
+        },
+        "executed_word": {
+          "ref": 413
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 375
+        },
+        "accumulated": {
+          "ref": 390
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 15
+        },
+        {
+          "ref": 276
+        },
+        {
+          "ref": 278
+        },
+        {
+          "ref": 280
+        },
+        {
+          "ref": 282
+        },
+        {
+          "ref": 316
+        },
+        {
+          "ref": 361
+        }
+      ]
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 13,
+        "round_number": 1,
+        "kind": "upper-cell-closed:rr52-committed-petal",
+        "lower": {
+          "ref": 354
+        },
+        "upper": {
+          "ref": 392
+        },
+        "stock": {
+          "ref": 360
+        }
+      }
+    },
+    {
+      "type": "completed_single_flower.FullFlowerResidue",
+      "fields": {
+        "source": {
+          "ref": 361
+        },
+        "terminal_operation": {
+          "ref": 397
+        },
+        "producer_after": {
+          "ref": 354
+        },
+        "consumer_after": {
+          "ref": 392
+        },
+        "anchor": {
+          "ref": 3
+        },
+        "internal_context": {
+          "ref": 375
+        }
+      }
+    },
+    {
+      "type": "two_flower_connection.ConnectionSpec",
+      "fields": {
+        "mode": "anchored",
+        "strength": {
+          "fraction": [
+            "1",
+            "1024"
+          ]
+        },
+        "source_branch": 0,
+        "petal_choice": 0,
+        "search_cap": 4
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 418
+        },
+        {
+          "ref": 419
+        },
+        {
+          "ref": 420
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "175875526301137939",
+            "422212465065984000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "-2357306595808721939",
+            "844424930131968000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "949993491112804687",
+            "281474976710656000"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 422
+        },
+        {
+          "ref": 423
+        },
+        {
+          "ref": 424
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "144150326113801681939",
+            "432345564227567616000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "573821970730904110061",
+            "864691128455135232000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "2568505496627758061",
+            "864691128455135232000"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "two_flower_connection.RootCertificate",
+      "fields": {
+        "polynomial": {
+          "ref": 426
+        },
+        "bracket": {
+          "ref": 427
+        },
+        "derivative_range": {
+          "ref": 428
+        },
+        "representative": {
+          "fraction": [
+            "4000530745868332097",
+            "576460752303423488"
+          ]
+        },
+        "selected_branch": 0,
+        "real_roots": 2,
+        "roots_in_search_domain": 2
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "962425179662675187816763851891283833252079195234264727790663939558635700488465899428418990435007041318391786109166936799439288779791032388185510483238513121509119034398847477870283631033204342746884229697017798208544544424622222144903518737610194418230558978245247761589749276152571782284068409144127106399470767927564289188704912831833774157978583316664001114375680337821357770681474091625488611751127778091837286078322315242050986545749297414394606752760384019156425959745793972482175245071248245682118900427533441",
+            "1618522631832493493611079047431710285746544761908994331698354164094437928039837520213595903807274741206778812004863521298732023780079053408693738006117441350010821956751676214293807842084172232186128339076364673588005651276440045701669366329230352096668873605048157240994577840729144965105109893461497609608852961704819125327588974126461184985722208878843557117409324272495883985042235379677852847675667801438657163944610553026488818209434797953655795990915479237962101773925649842293608789892399104000000000000"
+          ]
+        },
+        {
+          "fraction": [
+            "-111695188898663382008200830818175117512644378252789747956488472978359973837694400120377530174154724699260570312018979486673860778363064884026708183627764331234447560770445252615479139863761076479924555898792829616829299115120580707116062144665839537677410991955025383450558331780221343174443102536731507195606827873299743369857114510427725651442691354188819952035635774113591472418556412638401782547434200013",
+            "431873312885997697256629066968053112177531320675287428841842866803336057654369131723963970643737378584898984712672382321168741954856352606442751400605147089046869762934782860297547321452349176648522211282599406677252025284746983649617870627252914868149425195514859560074370671548885921819437113572769171649615725777957973039791032483054712784069787725679266092090860833635378656099499927142400000000000"
+          ]
+        },
+        {
+          "fraction": [
+            "25097176880160470058975673016645804380421789143221340118536839292433075960339005301015091118017077703644525359028204899316716685229579322621635436139898839002433822260707856671410453705918111377827970496408151437280967276444457459536682004960526916548473840989763521977650355829105062951816382480809",
+            "576187674842565629164541961600941242054233680302339806258021598644761187117941098561864800999250688967866611379779703874442018894726956994970466383500656535682818968743233178104637202639906120453227342960490045465191811334697094076680359646080151428763613481050962150790095151772467200000000000"
+          ]
+        },
+        {
+          "fraction": [
+            "-12887327595447565417397191090449427884393626866757516164712152075299318837537231755271491439285274417864998522655763179161667179414474909929547686192015505818964868828838440392770450366849237",
+            "3843629911072077160071567089264830074879862737629429009184907414841646122811979902678744516139553366708124148867685913845265527119996598660169351740209504701316862112178372608000000000000"
+          ]
+        },
+        {
+          "fraction": [
+            "42963664959826680294628517558512828486334141556009062199392360137870284721544456205840911007096059930104877107476826244919697261719",
+            "446712978807824990315565683239272512680571495743566842170043954281274671444098076768727337983644510075300325830149799936000000000"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "111",
+            "16"
+          ]
+        },
+        {
+          "fraction": [
+            "7",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-56743723512731529941694180791886530140324579396717308195290536905832148066993228245738776460200183877084552182654422455903805870352773833365090418258503177239172042048693207525901132418866019256891129170223045520525386176339404853273157813237537490678897174732529787742076910154573333105376482106431181693542737031438639098487246682750543597644199228163838602234804258491099580663152832671025336452646866471",
+            "4318733128859976972566290669680531121775313206752874288418428668033360576543691317239639706437373785848989847126723823211687419548563526064427514006051470890468697629347828602975473214523491766485222112825994066772520252847469836496178706272529148681494251955148595600743706715488859218194371135727691716496157257779579730397910324830547127840697877256792660920908608336353786560994999271424000000000000"
+          ]
+        },
+        {
+          "fraction": [
+            "-56373799843778418819030712741165612219925978258056416538170008674724480180307747544503302098910910308812324352396198221700335880002993280956035446109343288153720752606581390927462324207407132011657453095512519496423883176256904816746876420177917637718117090514864766247158834059492030523208769474155495620668663260633826796382693696995076298578501178461691470343979488606361144193951746612271750138473724747",
+            "8637466257719953945132581339361062243550626413505748576836857336066721153087382634479279412874747571697979694253447646423374839097127052128855028012102941780937395258695657205950946429046983532970444225651988133545040505694939672992357412545058297362988503910297191201487413430977718436388742271455383432992314515559159460795820649661094255681395754513585321841817216672707573121989998542848000000000000"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "completed_single_flower.FlowerRecord",
+      "fields": {
+        "commitment": {
+          "ref": 430
+        },
+        "fixed_result": {
+          "ref": 323
+        },
+        "tolerance": {
+          "fraction": [
+            "1",
+            "1000000000000"
+          ]
+        },
+        "actual_endpoint": {
+          "ref": 498
+        },
+        "closure_error": {
+          "fraction": [
+            "15790191447538765380312550617943499138000988983751841168040196400139958168591096041206977026514632083728423767006505035146009108696640139705732558886399354064410653400495146978150087635551122608968957233833050078675535057173291302616574966709353683665710174752757472774075468944230037437413690654869395773792603118734906551200629124908978630045836187234302327932972530905565229673615992464606404796490390386979928440126568548064650081671600279168151306144337365432057911861744719946276822763486629215618240422026259731945553010582484383576203448316137",
+            "9921514864295276079770328586978161683594582814355191803024268512508059962769009511766947415579713376091988159879078574904858398877579088473126970535088841745059521066483438315334861721800000570786621221237986088730330181279631657985814282844089620984812666694187925303542263587920716130454669905187082166376706685905041998532789288395565179925961639906700066119365158222146965637327005501072353168553318232410273860276565889366338391980881702721078187539342069661166332504984193776188305246309341856157177622348344208290417269443363731198071877419401216000000000000"
+          ]
+        },
+        "closed_engine": {
+          "ref": 499
+        },
+        "residue": {
+          "ref": 524
+        }
+      }
+    },
+    {
+      "type": "completed_single_flower.Commitment",
+      "fields": {
+        "anchor": {
+          "ref": 431
+        },
+        "problem": {
+          "ref": 459
+        },
+        "committed_engine": {
+          "ref": 489
+        },
+        "indices": {
+          "ref": 495
+        },
+        "word": {
+          "ref": 496
+        },
+        "predicted_endpoint": {
+          "ref": 497
+        },
+        "candidate_count": 2,
+        "selected_ordinal": 0
+      }
+    },
+    {
+      "type": "completed_single_flower.EntryAnchor",
+      "fields": {
+        "configuration": {
+          "ref": 432
+        },
+        "original": {
+          "ref": 391
+        },
+        "current_context": {
+          "ref": 421
+        },
+        "producer_plan": {
+          "ref": 434
+        }
+      }
+    },
+    {
+      "type": "completed_single_flower.Configuration",
+      "fields": {
+        "parameters": {
+          "ref": 433
+        },
+        "source_branch": "first",
+        "petal_choice": 0,
+        "search_cap": 4
+      }
+    },
+    {
+      "type": "robust_flower_geometry.Parameters",
+      "fields": {
+        "head_first": {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        "head_second": {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        "current_readout": {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        "future_readout": {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.PersistentEngine",
+      "fields": {
+        "lower": {
+          "ref": 435
+        },
+        "upper": {
+          "ref": 441
+        },
+        "stock": {
+          "ref": 360
+        },
+        "outputs": {
+          "ref": 396
+        },
+        "rounds": {
+          "ref": 401
+        },
+        "events": {
+          "ref": 443
+        },
+        "library": {
+          "ref": 17
+        },
+        "designated_head": {
+          "ref": 316
+        },
+        "result": {
+          "ref": 323
+        },
+        "max_existing_suffix": 2,
+        "phase": "PLANNED",
+        "pending": {
+          "ref": 448
+        }
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 436
+        },
+        "executed_word": {
+          "ref": 357
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 437
+        },
+        "accumulated": {
+          "ref": 356
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 438
+        },
+        {
+          "ref": 439
+        },
+        {
+          "ref": 440
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "144150326113801681939",
+            "432345564227567616000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "573821970730904110061",
+            "864691128455135232000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "2568505496627758061",
+            "864691128455135232000"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 442
+        },
+        "executed_word": {
+          "ref": 395
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 437
+        },
+        "accumulated": {
+          "ref": 394
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 322
+        },
+        {
+          "ref": 338
+        },
+        {
+          "ref": 339
+        },
+        {
+          "ref": 340
+        },
+        {
+          "ref": 367
+        },
+        {
+          "ref": 368
+        },
+        {
+          "ref": 369
+        },
+        {
+          "ref": 383
+        },
+        {
+          "ref": 384
+        },
+        {
+          "ref": 385
+        },
+        {
+          "ref": 386
+        },
+        {
+          "ref": 405
+        },
+        {
+          "ref": 410
+        },
+        {
+          "ref": 414
+        },
+        {
+          "ref": 444
+        },
+        {
+          "ref": 445
+        },
+        {
+          "ref": 446
+        },
+        {
+          "ref": 447
+        }
+      ]
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 14,
+        "round_number": 2,
+        "kind": "boundary-requested",
+        "lower": {
+          "ref": 354
+        },
+        "upper": {
+          "ref": 392
+        },
+        "stock": {
+          "ref": 360
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 15,
+        "round_number": 2,
+        "kind": "rr53-terminal-residue-port-emitted",
+        "lower": {
+          "ref": 354
+        },
+        "upper": {
+          "ref": 392
+        },
+        "stock": {
+          "ref": 360
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 16,
+        "round_number": 2,
+        "kind": "context-arrived",
+        "lower": {
+          "ref": 435
+        },
+        "upper": {
+          "ref": 441
+        },
+        "stock": {
+          "ref": 360
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 17,
+        "round_number": 2,
+        "kind": "correction-planned",
+        "lower": {
+          "ref": 435
+        },
+        "upper": {
+          "ref": 441
+        },
+        "stock": {
+          "ref": 360
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.PendingRound",
+      "fields": {
+        "number": 2,
+        "head": {
+          "ref": 316
+        },
+        "result": {
+          "ref": 323
+        },
+        "lower_before": {
+          "ref": 354
+        },
+        "upper_before": {
+          "ref": 392
+        },
+        "stock_before": {
+          "ref": 360
+        },
+        "arrived_context": {
+          "ref": 437
+        },
+        "consumer_start": {
+          "ref": 441
+        },
+        "decoded": {
+          "ref": 449
+        },
+        "trial_response": {
+          "ref": 453
+        },
+        "plan": {
+          "ref": 454
+        },
+        "issue": null
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.DecodeResult",
+      "fields": {
+        "state": {
+          "ref": 441
+        },
+        "outputs": {
+          "ref": 290
+        },
+        "tail": {
+          "ref": 450
+        },
+        "boundaries": {
+          "ref": 451
+        },
+        "stop": "NoTerminalPrefix"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 316
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 452
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "124922640007297506740475627106037872309035994450064484018470523384950448482322897887731195044898935840532357",
+            "1145832736688148423526000699730275215591450971437089140982829002761839481116876897228161024000000000000000000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "certified_correction_release.CorrectionPlan",
+      "fields": {
+        "upper_snapshot": {
+          "ref": 449
+        },
+        "lower_start": {
+          "ref": 435
+        },
+        "speculative_response": {
+          "ref": 453
+        },
+        "wanted_action": {
+          "ref": 455
+        },
+        "leaf": {
+          "ref": 456
+        },
+        "lower_target": {
+          "ref": 458
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1145832736688148423526000699730275215591450971437089140982829002761839481116876897228161024000000000000000000",
+            "124922640007297506740475627106037872309035994450064484018470523384950448482322897887731195044898935840532357"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.AffineLetter",
+      "fields": {
+        "weights": {
+          "ref": 457
+        },
+        "library": {
+          "ref": 17
+        },
+        "level": 1
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "513069307252997835184458122336946716237400853612497964571646947694247003182532589697087214196976780471223096843112276752208831777",
+            "35668076885796771673477608705949314310385382442618585842066541719983966189400045180118041230976638365010182988649103574055743331"
+          ]
+        },
+        {
+          "fraction": [
+            "-477401230367201063510980513630997401927015471169879378729580405974263036993132544516969172966000142106212913854463173178153088446",
+            "35668076885796771673477608705949314310385382442618585842066541719983966189400045180118041230976638365010182988649103574055743331"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-10312494630193335811734006297572476940323058742933802268845461024856555330051892075053449216000000000000000000",
+            "124922640007297506740475627106037872309035994450064484018470523384950448482322897887731195044898935840532357"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "intrinsic_connection_progress.Problem",
+      "fields": {
+        "parameters": {
+          "ref": 460
+        },
+        "branch": "first",
+        "entry": {
+          "ref": 391
+        },
+        "prepared": {
+          "ref": 461
+        },
+        "source": {
+          "ref": 469
+        },
+        "context": {
+          "ref": 483
+        },
+        "start": {
+          "ref": 487
+        },
+        "representative": {
+          "fraction": [
+            "4000530745868332097",
+            "576460752303423488"
+          ]
+        }
+      }
+    },
+    {
+      "type": "robust_flower_geometry.Parameters",
+      "fields": {
+        "head_first": {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        "head_second": {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        "current_readout": {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        "future_readout": {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.PersistentEngine",
+      "fields": {
+        "lower": {
+          "ref": 462
+        },
+        "upper": {
+          "ref": 441
+        },
+        "stock": {
+          "ref": 468
+        },
+        "outputs": {
+          "ref": 396
+        },
+        "rounds": {
+          "ref": 401
+        },
+        "events": {
+          "ref": 474
+        },
+        "library": {
+          "ref": 17
+        },
+        "designated_head": {
+          "ref": 316
+        },
+        "result": {
+          "ref": 323
+        },
+        "max_existing_suffix": 2,
+        "phase": "AVAILABLE",
+        "pending": {
+          "ref": 478
+        }
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 463
+        },
+        "executed_word": {
+          "ref": 465
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 437
+        },
+        "accumulated": {
+          "ref": 464
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-10312494630193335811734006297572476940323058742933802268845461024856555330051892075053449216000000000000000000",
+            "124922640007297506740475627106037872309035994450064484018470523384950448482322897887731195044898935840532357"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 15
+        },
+        {
+          "ref": 276
+        },
+        {
+          "ref": 278
+        },
+        {
+          "ref": 280
+        },
+        {
+          "ref": 282
+        },
+        {
+          "ref": 358
+        },
+        {
+          "ref": 466
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.AffineLetter",
+      "fields": {
+        "weights": {
+          "ref": 467
+        },
+        "library": {
+          "ref": 17
+        },
+        "level": 1
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "9127347352661139190201400007171154723673158220292725060953610961549308136430464169333909868990170332349165405779001226442157980949",
+            "18262055365527947096820535657446048926917315810620715951138069360631790688972823132220437110260038842885213690188341029916540585472"
+          ]
+        },
+        {
+          "fraction": [
+            "-132406471326904264882476992208338112744777845352014022486334822271998521966764478219384475888490848198803496576816804385730787452720950953909406755",
+            "20561246434802757417005834890099461724707426271944954208647523043768577794259178798626651832684802968356565832520276588360236905020504859924758528"
+          ]
+        },
+        {
+          "fraction": [
+            "4000530745868332097",
+            "576460752303423488"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 285
+        },
+        {
+          "ref": 298
+        },
+        {
+          "ref": 307
+        },
+        {
+          "ref": 316
+        },
+        {
+          "ref": 361
+        },
+        {
+          "ref": 469
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.RecursiveLetter",
+      "fields": {
+        "cell": {
+          "ref": 470
+        },
+        "visible": {
+          "ref": 473
+        },
+        "level": 2
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.WordCell",
+      "fields": {
+        "start": {
+          "ref": 435
+        },
+        "beta": {
+          "ref": 471
+        },
+        "target": {
+          "ref": 472
+        },
+        "endpoint": {
+          "ref": 462
+        },
+        "chart": "regular-affine-final-leaf"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 466
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-10312494630193335811734006297572476940323058742933802268845461024856555330051892075053449216000000000000000000",
+            "124922640007297506740475627106037872309035994450064484018470523384950448482322897887731195044898935840532357"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-1145832736688148423526000699730275215591450971437089140982829002761839481116876897228161024000000000000000000",
+            "124922640007297506740475627106037872309035994450064484018470523384950448482322897887731195044898935840532357"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 322
+        },
+        {
+          "ref": 338
+        },
+        {
+          "ref": 339
+        },
+        {
+          "ref": 340
+        },
+        {
+          "ref": 367
+        },
+        {
+          "ref": 368
+        },
+        {
+          "ref": 369
+        },
+        {
+          "ref": 383
+        },
+        {
+          "ref": 384
+        },
+        {
+          "ref": 385
+        },
+        {
+          "ref": 386
+        },
+        {
+          "ref": 405
+        },
+        {
+          "ref": 410
+        },
+        {
+          "ref": 414
+        },
+        {
+          "ref": 444
+        },
+        {
+          "ref": 445
+        },
+        {
+          "ref": 446
+        },
+        {
+          "ref": 447
+        },
+        {
+          "ref": 475
+        },
+        {
+          "ref": 476
+        },
+        {
+          "ref": 477
+        }
+      ]
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 18,
+        "round_number": 2,
+        "kind": "correction-representative-selected",
+        "lower": {
+          "ref": 435
+        },
+        "upper": {
+          "ref": 441
+        },
+        "stock": {
+          "ref": 360
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 19,
+        "round_number": 2,
+        "kind": "lower-cell-closed",
+        "lower": {
+          "ref": 462
+        },
+        "upper": {
+          "ref": 441
+        },
+        "stock": {
+          "ref": 360
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 20,
+        "round_number": 2,
+        "kind": "same-level-operation-published",
+        "lower": {
+          "ref": 462
+        },
+        "upper": {
+          "ref": 441
+        },
+        "stock": {
+          "ref": 468
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.PendingRound",
+      "fields": {
+        "number": 2,
+        "head": {
+          "ref": 316
+        },
+        "result": {
+          "ref": 323
+        },
+        "lower_before": {
+          "ref": 354
+        },
+        "upper_before": {
+          "ref": 392
+        },
+        "stock_before": {
+          "ref": 360
+        },
+        "arrived_context": {
+          "ref": 437
+        },
+        "consumer_start": {
+          "ref": 441
+        },
+        "decoded": {
+          "ref": 449
+        },
+        "trial_response": {
+          "ref": 453
+        },
+        "plan": {
+          "ref": 479
+        },
+        "issue": {
+          "ref": 480
+        }
+      }
+    },
+    {
+      "type": "certified_correction_release.CorrectionPlan",
+      "fields": {
+        "upper_snapshot": {
+          "ref": 449
+        },
+        "lower_start": {
+          "ref": 435
+        },
+        "speculative_response": {
+          "ref": 453
+        },
+        "wanted_action": {
+          "ref": 455
+        },
+        "leaf": {
+          "ref": 466
+        },
+        "lower_target": {
+          "ref": 458
+        }
+      }
+    },
+    {
+      "type": "certified_correction_release.LowerIssue",
+      "fields": {
+        "plan": {
+          "ref": 479
+        },
+        "decoded": {
+          "ref": 481
+        },
+        "operation": {
+          "ref": 469
+        },
+        "closed_at": 19
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.DecodeResult",
+      "fields": {
+        "state": {
+          "ref": 462
+        },
+        "outputs": {
+          "ref": 482
+        },
+        "tail": {
+          "ref": 290
+        },
+        "boundaries": {
+          "ref": 290
+        },
+        "stop": "InputExhausted"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 469
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 484
+        },
+        {
+          "ref": 485
+        },
+        {
+          "ref": 486
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "9127347352661139190201400007171154723673158220292725060953610961549308136430464169333909868990170332349165405779001226442157980949",
+            "18262055365527947096820535657446048926917315810620715951138069360631790688972823132220437110260038842885213690188341029916540585472"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "-132406471326904264882476992208338112744777845352014022486334822271998521966764478219384475888490848198803496576816804385730787452720950953909406755",
+            "20561246434802757417005834890099461724707426271944954208647523043768577794259178798626651832684802968356565832520276588360236905020504859924758528"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "4000530745868332097",
+            "576460752303423488"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 488
+        },
+        "executed_word": {
+          "ref": 395
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 483
+        },
+        "accumulated": {
+          "ref": 394
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.PersistentEngine",
+      "fields": {
+        "lower": {
+          "ref": 462
+        },
+        "upper": {
+          "ref": 487
+        },
+        "stock": {
+          "ref": 468
+        },
+        "outputs": {
+          "ref": 396
+        },
+        "rounds": {
+          "ref": 401
+        },
+        "events": {
+          "ref": 490
+        },
+        "library": {
+          "ref": 17
+        },
+        "designated_head": {
+          "ref": 316
+        },
+        "result": {
+          "ref": 323
+        },
+        "max_existing_suffix": 2,
+        "phase": "RR52_COMMITTED",
+        "pending": {
+          "ref": 478
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 322
+        },
+        {
+          "ref": 338
+        },
+        {
+          "ref": 339
+        },
+        {
+          "ref": 340
+        },
+        {
+          "ref": 367
+        },
+        {
+          "ref": 368
+        },
+        {
+          "ref": 369
+        },
+        {
+          "ref": 383
+        },
+        {
+          "ref": 384
+        },
+        {
+          "ref": 385
+        },
+        {
+          "ref": 386
+        },
+        {
+          "ref": 405
+        },
+        {
+          "ref": 410
+        },
+        {
+          "ref": 414
+        },
+        {
+          "ref": 444
+        },
+        {
+          "ref": 445
+        },
+        {
+          "ref": 446
+        },
+        {
+          "ref": 447
+        },
+        {
+          "ref": 475
+        },
+        {
+          "ref": 476
+        },
+        {
+          "ref": 477
+        },
+        {
+          "ref": 491
+        },
+        {
+          "ref": 492
+        },
+        {
+          "ref": 493
+        },
+        {
+          "ref": 494
+        }
+      ]
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 21,
+        "round_number": 2,
+        "kind": "rr52-internal-context-emitted",
+        "lower": {
+          "ref": 462
+        },
+        "upper": {
+          "ref": 441
+        },
+        "stock": {
+          "ref": 468
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 22,
+        "round_number": 2,
+        "kind": "rr52-internal-context-arrived",
+        "lower": {
+          "ref": 462
+        },
+        "upper": {
+          "ref": 487
+        },
+        "stock": {
+          "ref": 468
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 23,
+        "round_number": 2,
+        "kind": "rr52-possible-continuations-checked",
+        "lower": {
+          "ref": 462
+        },
+        "upper": {
+          "ref": 487
+        },
+        "stock": {
+          "ref": 468
+        }
+      }
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 24,
+        "round_number": 2,
+        "kind": "rr52-petal-committed",
+        "lower": {
+          "ref": 462
+        },
+        "upper": {
+          "ref": 487
+        },
+        "stock": {
+          "ref": 468
+        }
+      }
+    },
+    {
+      "tuple": [
+        3,
+        5
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 316
+        },
+        {
+          "ref": 469
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-9921514864295291869961776125743541996145200757854329804013252264349228002965409651725116006675754583069014674511162303328625405382614234482235667175228547477618407465837502725988262216946978720874256772360595057687564014329710333520871456135392237559779376047871591013717016345393490205923614135224519580067361555300815791135908023302116380555086548885330111955552392524474898609857911066302026784545782838815070350666952869294778518549429767371159859139621237812472476842349625834100166991029288132979941108977559826530839295703095676751082459903784792203448316137",
+            "9921514864295276079770328586978161683594582814355191803024268512508059962769009511766947415579713376091988159879078574904858398877579088473126970535088841745059521066483438315334861721800000570786621221237986088730330181279631657985814282844089620984812666694187925303542263587920716130454669905187082166376706685905041998532789288395565179925961639906700066119365158222146965637327005501072353168553318232410273860276565889366338391980881702721078187539342069661166332504984193776188305246309341856157177622348344208290417269443363731198071877419401216000000000000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-9921514864295291869961776125743541996145200757854329804013252264349228002965409651725116006675754583069014674511162303328625405382614234482235667175228547477618407465837502725988262216946978720874256772360595057687564014329710333520871456135392237559779376047871591013717016345393490205923614135224519580067361555300815791135908023302116380555086548885330111955552392524474898609857911066302026784545782838815070350666952869294778518549429767371159859139621237812472476842349625834100166991029288132979941108977559826530839295703095676751082459903784792203448316137",
+            "9921514864295276079770328586978161683594582814355191803024268512508059962769009511766947415579713376091988159879078574904858398877579088473126970535088841745059521066483438315334861721800000570786621221237986088730330181279631657985814282844089620984812666694187925303542263587920716130454669905187082166376706685905041998532789288395565179925961639906700066119365158222146965637327005501072353168553318232410273860276565889366338391980881702721078187539342069661166332504984193776188305246309341856157177622348344208290417269443363731198071877419401216000000000000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "persistent_correction_cycle.PersistentEngine",
+      "fields": {
+        "lower": {
+          "ref": 462
+        },
+        "upper": {
+          "ref": 500
+        },
+        "stock": {
+          "ref": 468
+        },
+        "outputs": {
+          "ref": 504
+        },
+        "rounds": {
+          "ref": 509
+        },
+        "events": {
+          "ref": 513
+        },
+        "library": {
+          "ref": 17
+        },
+        "designated_head": {
+          "ref": 316
+        },
+        "result": {
+          "ref": 323
+        },
+        "max_existing_suffix": 2,
+        "phase": "IDLE",
+        "pending": null
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 501
+        },
+        "executed_word": {
+          "ref": 503
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 483
+        },
+        "accumulated": {
+          "ref": 502
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-9921514864295291869961776125743541996145200757854329804013252264349228002965409651725116006675754583069014674511162303328625405382614234482235667175228547477618407465837502725988262216946978720874256772360595057687564014329710333520871456135392237559779376047871591013717016345393490205923614135224519580067361555300815791135908023302116380555086548885330111955552392524474898609857911066302026784545782838815070350666952869294778518549429767371159859139621237812472476842349625834100166991029288132979941108977559826530839295703095676751082459903784792203448316137",
+            "9921514864295276079770328586978161683594582814355191803024268512508059962769009511766947415579713376091988159879078574904858398877579088473126970535088841745059521066483438315334861721800000570786621221237986088730330181279631657985814282844089620984812666694187925303542263587920716130454669905187082166376706685905041998532789288395565179925961639906700066119365158222146965637327005501072353168553318232410273860276565889366338391980881702721078187539342069661166332504984193776188305246309341856157177622348344208290417269443363731198071877419401216000000000000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 15
+        },
+        {
+          "ref": 276
+        },
+        {
+          "ref": 278
+        },
+        {
+          "ref": 280
+        },
+        {
+          "ref": 282
+        },
+        {
+          "ref": 316
+        },
+        {
+          "ref": 361
+        },
+        {
+          "ref": 316
+        },
+        {
+          "ref": 469
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 397
+        },
+        {
+          "ref": 505
+        }
+      ]
+    },
+    {
+      "type": "recursive_upper_decoder.RecursiveLetter",
+      "fields": {
+        "cell": {
+          "ref": 506
+        },
+        "visible": {
+          "ref": 508
+        },
+        "level": 3
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.WordCell",
+      "fields": {
+        "start": {
+          "ref": 487
+        },
+        "beta": {
+          "ref": 496
+        },
+        "target": {
+          "ref": 507
+        },
+        "endpoint": {
+          "ref": 500
+        },
+        "chart": "regular-affine-final-leaf"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-9921514864295291869961776125743541996145200757854329804013252264349228002965409651725116006675754583069014674511162303328625405382614234482235667175228547477618407465837502725988262216946978720874256772360595057687564014329710333520871456135392237559779376047871591013717016345393490205923614135224519580067361555300815791135908023302116380555086548885330111955552392524474898609857911066302026784545782838815070350666952869294778518549429767371159859139621237812472476842349625834100166991029288132979941108977559826530839295703095676751082459903784792203448316137",
+            "9921514864295276079770328586978161683594582814355191803024268512508059962769009511766947415579713376091988159879078574904858398877579088473126970535088841745059521066483438315334861721800000570786621221237986088730330181279631657985814282844089620984812666694187925303542263587920716130454669905187082166376706685905041998532789288395565179925961639906700066119365158222146965637327005501072353168553318232410273860276565889366338391980881702721078187539342069661166332504984193776188305246309341856157177622348344208290417269443363731198071877419401216000000000000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "9921514864295291869961776125743541996145200757854329804013252264349228002965409651725116006675754583069014674511162303328625405382614234482235667175228547477618407465837502725988262216946978720874256772360595057687564014329710333520871456135392237559779376047871591013717016345393490205923614135224519580067361555300815791135908023302116380555086548885330111955552392524474898609857911066302026784545782838815070350666952869294778518549429767371159859139621237812472476842349625834100166991029288132979941108977559826530839295703095676751082459903784792203448316137",
+            "9921514864295502865140223603789354636449639519399331265322589755217574326860474879403676254053470079539410545197145427691549455316479599898688132692560573844520256565485791250437435578984413692650775417445438973727066369641926478342883466082245928280308387347475799871528328596464010495759594109643916556893339798171473904428672665545705910145009722579564686477660772144909944802769634004165636608321000250180737124371704479036858949506391228484650629045430768994816813604749368355928389096010244808328613652977874434190729520450053985564392597088506386945182531584"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 402
+        },
+        {
+          "ref": 510
+        }
+      ]
+    },
+    {
+      "type": "persistent_correction_cycle.RoundTrace",
+      "fields": {
+        "pending": {
+          "ref": 478
+        },
+        "decoded": {
+          "ref": 511
+        },
+        "route": "rr52-committed-petal",
+        "lower_after": {
+          "ref": 462
+        },
+        "stock_after": {
+          "ref": 468
+        }
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.DecodeResult",
+      "fields": {
+        "state": {
+          "ref": 500
+        },
+        "outputs": {
+          "ref": 512
+        },
+        "tail": {
+          "ref": 290
+        },
+        "boundaries": {
+          "ref": 290
+        },
+        "stop": "InputExhausted"
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 505
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 322
+        },
+        {
+          "ref": 338
+        },
+        {
+          "ref": 339
+        },
+        {
+          "ref": 340
+        },
+        {
+          "ref": 367
+        },
+        {
+          "ref": 368
+        },
+        {
+          "ref": 369
+        },
+        {
+          "ref": 383
+        },
+        {
+          "ref": 384
+        },
+        {
+          "ref": 385
+        },
+        {
+          "ref": 386
+        },
+        {
+          "ref": 405
+        },
+        {
+          "ref": 410
+        },
+        {
+          "ref": 414
+        },
+        {
+          "ref": 444
+        },
+        {
+          "ref": 445
+        },
+        {
+          "ref": 446
+        },
+        {
+          "ref": 447
+        },
+        {
+          "ref": 475
+        },
+        {
+          "ref": 476
+        },
+        {
+          "ref": 477
+        },
+        {
+          "ref": 491
+        },
+        {
+          "ref": 492
+        },
+        {
+          "ref": 493
+        },
+        {
+          "ref": 494
+        },
+        {
+          "ref": 514
+        },
+        {
+          "ref": 519
+        },
+        {
+          "ref": 523
+        }
+      ]
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 25,
+        "round_number": 2,
+        "kind": "rr52-consumer-action-executed",
+        "lower": {
+          "ref": 462
+        },
+        "upper": {
+          "ref": 515
+        },
+        "stock": {
+          "ref": 468
+        }
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 516
+        },
+        "executed_word": {
+          "ref": 518
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 483
+        },
+        "accumulated": {
+          "ref": 517
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "fraction": [
+            "-525135609337380181428907106384683954332312180488249988718730124402292153641507928313500701457787798962749718326217192802122409977328819262471328844988267544236399818446934706478924071443353042314316658720188556117300240783927284990839432354423935809139074629145070675505953",
+            "93872655194155871556256794927941485045805646627929448036872517831241347846758980531719099582683985054231382091866662267535425654957230060210314180967989957287997548205645427114137002172021552915245831629771946188663376652251578178224746733842440134225063885930496000000000000"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "fraction": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "tuple": [
+        {
+          "ref": 15
+        },
+        {
+          "ref": 276
+        },
+        {
+          "ref": 278
+        },
+        {
+          "ref": 280
+        },
+        {
+          "ref": 282
+        },
+        {
+          "ref": 316
+        },
+        {
+          "ref": 361
+        },
+        {
+          "ref": 316
+        }
+      ]
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 26,
+        "round_number": 2,
+        "kind": "rr52-consumer-action-executed",
+        "lower": {
+          "ref": 462
+        },
+        "upper": {
+          "ref": 520
+        },
+        "stock": {
+          "ref": 468
+        }
+      }
+    },
+    {
+      "type": "recursive_upper_decoder.ExecutionState",
+      "fields": {
+        "live": {
+          "ref": 521
+        },
+        "executed_word": {
+          "ref": 522
+        }
+      }
+    },
+    {
+      "type": "certified_cell_bridge.UpperState",
+      "fields": {
+        "context": {
+          "ref": 483
+        },
+        "accumulated": {
+          "ref": 498
+        }
+      }
+    },
+    {
+      "tuple": [
+        {
+          "ref": 15
+        },
+        {
+          "ref": 276
+        },
+        {
+          "ref": 278
+        },
+        {
+          "ref": 280
+        },
+        {
+          "ref": 282
+        },
+        {
+          "ref": 316
+        },
+        {
+          "ref": 361
+        },
+        {
+          "ref": 316
+        },
+        {
+          "ref": 469
+        }
+      ]
+    },
+    {
+      "type": "persistent_correction_cycle.CycleEvent",
+      "fields": {
+        "index": 27,
+        "round_number": 2,
+        "kind": "upper-cell-closed:rr52-committed-petal",
+        "lower": {
+          "ref": 462
+        },
+        "upper": {
+          "ref": 500
+        },
+        "stock": {
+          "ref": 468
+        }
+      }
+    },
+    {
+      "type": "completed_single_flower.FullFlowerResidue",
+      "fields": {
+        "source": {
+          "ref": 469
+        },
+        "terminal_operation": {
+          "ref": 505
+        },
+        "producer_after": {
+          "ref": 462
+        },
+        "consumer_after": {
+          "ref": 500
+        },
+        "anchor": {
+          "ref": 431
+        },
+        "internal_context": {
+          "ref": 483
+        }
+      }
+    }
+  ]
+}

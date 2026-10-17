@@ -1,0 +1,190 @@
+{
+  "note": "RR53 v002 clarification",
+  "numerical_model_changed": false,
+  "full_suite_rerun": false,
+  "previous_full_suite_tests": 232,
+  "existing_connected_records_revalidated": 2,
+  "assertions_per_record": 15,
+  "checks": [
+    {
+      "record": "connections/first-short__second-short.record.json",
+      "record_sha256": "77349fe9a91ce647a024bf0abd12fb6be57f11db667e51d096867dd4d6b4f035",
+      "facts": {
+        "entire_first_closed_engine_is_exact_second_entry": true,
+        "request_bound_before_arrival": true,
+        "consumer_accumulator_unchanged_at_connection_arrival": true,
+        "producer_accumulator_unchanged_at_connection_arrival": true,
+        "both_tapes_unchanged_at_connection_arrival": true,
+        "both_live_contexts_replaced_at_connection_arrival": true,
+        "head_library_and_existing_stock_preserved": true,
+        "second_consumer_context_is_new_source_readout": true,
+        "consumer_accumulator_and_prefix_still_unchanged_at_internal_arrival": true,
+        "original_first_round_output_and_events_remain_prefixes": true,
+        "old_stock_remains_available_with_one_new_source": true,
+        "one_new_lower_leaf_and_selected_consumer_word_appended": true,
+        "fixed_result_and_tolerance_preserved": true,
+        "raw_readout_and_transformation_match_declared_rule": true,
+        "first_historical_context_still_present": true
+      },
+      "old_context": [
+        [
+          "35168927374491313/70368744177664000",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-879593857506459313/140737488355328000",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "949993491112804687/140737488355328000"
+        ]
+      ],
+      "raw_readout": [
+        [
+          "175875526301137939/422212465065984000",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-2357306595808721939/844424930131968000",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "949993491112804687/281474976710656000"
+        ]
+      ],
+      "new_current_context": [
+        [
+          "144150326113801681939/432345564227567616000",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "573821970730904110061/864691128455135232000",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "2568505496627758061/864691128455135232000"
+        ]
+      ],
+      "new_internal_future_context": [
+        [
+          "9127347352661139190201400007171154723673158220292725060953610961549308136430464169333909868990170332349165405779001226442157980949/18262055365527947096820535657446048926917315810620715951138069360631790688972823132220437110260038842885213690188341029916540585472",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-132406471326904264882476992208338112744777845352014022486334822271998521966764478219384475888490848198803496576816804385730787452720950953909406755/20561246434802757417005834890099461724707426271944954208647523043768577794259178798626651832684802968356565832520276588360236905020504859924758528",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "4000530745868332097/576460752303423488"
+        ]
+      ]
+    },
+    {
+      "record": "connections/first-detour__second-detour.record.json",
+      "record_sha256": "05ece9fe051cb9aa31243d62ddd416bd656de7dc6e443f169ccab5007c4732de",
+      "facts": {
+        "entire_first_closed_engine_is_exact_second_entry": true,
+        "request_bound_before_arrival": true,
+        "consumer_accumulator_unchanged_at_connection_arrival": true,
+        "producer_accumulator_unchanged_at_connection_arrival": true,
+        "both_tapes_unchanged_at_connection_arrival": true,
+        "both_live_contexts_replaced_at_connection_arrival": true,
+        "head_library_and_existing_stock_preserved": true,
+        "second_consumer_context_is_new_source_readout": true,
+        "consumer_accumulator_and_prefix_still_unchanged_at_internal_arrival": true,
+        "original_first_round_output_and_events_remain_prefixes": true,
+        "old_stock_remains_available_with_one_new_source": true,
+        "one_new_lower_leaf_and_selected_consumer_word_appended": true,
+        "fixed_result_and_tolerance_preserved": true,
+        "raw_readout_and_transformation_match_declared_rule": true,
+        "first_historical_context_still_present": true
+      },
+      "old_context": [
+        [
+          "35168927374491313/70368744177664000",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-879593857506459313/140737488355328000",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "949993491112804687/140737488355328000"
+        ]
+      ],
+      "raw_readout": [
+        [
+          "222777725943353481/492581209243648000",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1261586786062726349/422212465065984000",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "10449928402240851557/2955487255461888000"
+        ]
+      ],
+      "new_current_context": [
+        [
+          "168192970078027321481/504403158265495552000",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "95609350625764563217/144115188075855872000",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "3154921994584518519/1008806316530991104000"
+        ]
+      ],
+      "new_internal_future_context": [
+        [
+          "6333131284985214559342795736249746239553209206052666788866604768623770777025681316582981567073257143658588244280369603160942471433139968734750370857982647897598520037406174579117871025668609035079/12671340168173727899657547241238597437434479195118663511436440014428537148370445702894293866284699810010094225675293701842076553340982117462637020447778413475925786899648141152346789697219415498112",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-92059465748691485456457060188364212234525186382240250687557690701389442331415057644564299953206599668276642339799673371208936570420150392919773562198617172546196909066694550689965426993899783332883720217284005845/14266660714917999771761229168822137264980752934063849503679586459880347449785624556175287831941921560112861840448901602241804698472393665681255695579110850359162814610028363817031097489856169692529056742153125888",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1002028484168400303/144115188075855872"
+        ]
+      ]
+    }
+  ],
+  "unchanged_runtime_files": 43,
+  "model_result_sha256": "df4dd54c1068625fccedd62c52fc7544903b930b327ab130b87c953219cb925b"
+}

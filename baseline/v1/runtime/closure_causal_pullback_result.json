@@ -1,0 +1,533 @@
+{
+  "note": "RR47",
+  "passed": true,
+  "groups": 13,
+  "checks": [
+    {
+      "name": "a required result is not promoted into an actual closure occurrence",
+      "passed": true,
+      "scope": "verified occurrence is required; algebraic relations may still be predicted earlier"
+    },
+    {
+      "name": "actual source, boundary, endpoint and ordered histories carry exact certificates",
+      "passed": true,
+      "root_formula_used_by_pullback": false
+    },
+    {
+      "name": "a current invisible direction becomes operationally distinguishable at each achieved boundary",
+      "passed": true,
+      "receipts": [
+        {
+          "label": "RR46-first-occurrence",
+          "current_rank": 5,
+          "joint_rank": 6,
+          "current_null_direction": [
+            "-2",
+            "1",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "current_gain": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "terminal_gain": [
+            "125864700850767479837397905907378147048411271/21267647932558653966460912964485513216000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-187072209578371961779789982603651070859895564418534627601295597/187072209578355573530071658587684226515959365500928000000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "fixed_requirement": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "tolerance": "1/1000000000000",
+          "current_source_weights": [
+            "2198057960905707/4398046511104000",
+            "-54974616094153707/8796093022208000",
+            "59374593194550293/8796093022208000",
+            "0",
+            "0",
+            "0"
+          ],
+          "reconstructed_source_weights": [
+            "2198057960905707/4398046511104000",
+            "-54974616094153707/8796093022208000",
+            "59374593194550293/8796093022208000",
+            "0",
+            "0",
+            "0"
+          ],
+          "allowed_nominal_result_shift": [
+            "-170683959860031557563227314651485308909331764205331/1107117616895733150519221050595480261996554931615320506368000",
+            "8138418371867183579876640100955325764903478671861/44284704675829326020768842023819210479862197264612820254720"
+          ],
+          "allowed_half_width": "2658455991569831745807614120560689152/15733087606345934979674738238422268381051408875",
+          "causal_paths": {
+            "direct_residue": [
+              "125864700850767479837397905907378147048411271/21267647932558653966460912964485513216000000000",
+              "0",
+              "0",
+              "0"
+            ],
+            "through_generated_context": [
+              "-193794762393508554674910976644859927574996798574187/21267647932558653966460912964485513216000000000",
+              "0",
+              "0",
+              "0"
+            ],
+            "total": [
+              "-48448659132201925976857784811738505049212437540729/5316911983139663491615228241121378304000000000",
+              "0",
+              "0",
+              "0"
+            ]
+          }
+        },
+        {
+          "label": "RR46-second-occurrence",
+          "current_rank": 5,
+          "joint_rank": 6,
+          "current_null_direction": [
+            "-2",
+            "1",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "current_gain": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "terminal_gain": [
+            "-1240918304753217030147558990493411346698140729/10889035741470030830827987437816582766592000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "actual_endpoint": [
+            "-76624777043318860350087126585493004059245977375433927333653997/76624777043294442917917351357515459180936956109180108800000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "fixed_requirement": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "tolerance": "1/1000000000000",
+          "current_source_weights": [
+            "-45739498083313493/3518437208883200",
+            "3518251576715093/7036874417766400",
+            "94997619007678293/7036874417766400",
+            "0",
+            "0",
+            "0"
+          ],
+          "reconstructed_source_weights": [
+            "-45739498083313493/3518437208883200",
+            "3518251576715093/7036874417766400",
+            "94997619007678293/7036874417766400",
+            "0",
+            "0",
+            "0"
+          ],
+          "allowed_nominal_result_shift": [
+            "-7016820084240949367740432615731717044080242344665077/606401824531664042128954244937952897427209331491339239424000000",
+            "32629590545949509337732795655308870579449014034489443/5457616420784976379160588204441576076844883983422053154816000000"
+          ],
+          "allowed_half_width": "170141183460469231731687303715884105728/19389348511769016096055609226459552292158448890625",
+          "causal_paths": {
+            "direct_residue": [
+              "-1240918304753217030147558990493411346698140729/10889035741470030830827987437816582766592000000",
+              "0",
+              "0",
+              "0"
+            ],
+            "through_generated_context": [
+              "412774617724552317931011852970882201785863482051413/10889035741470030830827987437816582766592000000",
+              "0",
+              "0",
+              "0"
+            ],
+            "total": [
+              "103193344201561891178495426352972927093629195977671/2722258935367507707706996859454145691648000000",
+              "0",
+              "0",
+              "0"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "the achieved terminal readout reconstructs the selected source from current constraints",
+      "passed": true
+    },
+    {
+      "name": "erasing the actual null coordinate preserves current correction but loses the achieved closure",
+      "passed": true,
+      "fixed_boundary_responses": [
+        [
+          "-44234496951717130528242103519731085495972362037/42535295865117307932921825928971026432000000000",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "11726657274744319021562173822839980695236343563/21778071482940061661655974875633165533184000000",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "name": "two completed branches cannot replace each other at the same achieved boundary",
+      "passed": true,
+      "fixed_boundary_cross_responses": [
+        [
+          "-143679453093215428290643431336702947210510558688071726923837997/149657767662684458824057326870147381212767492400742400000000000",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-22104635418291653338055849382475227441494478590792119958631597/95780971304118053647396689196894323976171195136475136000000000",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "scope": "controlled fixed-boundary intervention; the source-to-context arrow is held, not regenerated"
+    },
+    {
+      "name": "regenerating the context closes the other branch but changes the occurrence being compared",
+      "passed": true,
+      "scope": "a separate counterfactual event, not preservation of the original future boundary"
+    },
+    {
+      "name": "the backwards allowed-shift interval follows exactly from the forward kernel",
+      "passed": true,
+      "actual_record_preserved_only_at_zero": true
+    },
+    {
+      "name": "actual endpoint equality and nominal result tolerance remain separate requirements",
+      "passed": true,
+      "fixed_result": -1,
+      "actual_endpoints": [
+        [
+          "-187072209578371961779789982603651070859895564418534627601295597/187072209578355573530071658587684226515959365500928000000000000",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-76624777043318860350087126585493004059245977375433927333653997/76624777043294442917917351357515459180936956109180108800000000",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "name": "direct retained-source and generated-context effects compose without conflating interventions",
+      "passed": true,
+      "causal_paths": [
+        {
+          "direct_residue": [
+            "125864700850767479837397905907378147048411271/21267647932558653966460912964485513216000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "through_generated_context": [
+            "-193794762393508554674910976644859927574996798574187/21267647932558653966460912964485513216000000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "total": [
+            "-48448659132201925976857784811738505049212437540729/5316911983139663491615228241121378304000000000",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "direct_residue": [
+            "-1240918304753217030147558990493411346698140729/10889035741470030830827987437816582766592000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "through_generated_context": [
+            "412774617724552317931011852970882201785863482051413/10889035741470030830827987437816582766592000000",
+            "0",
+            "0",
+            "0"
+          ],
+          "total": [
+            "103193344201561891178495426352972927093629195977671/2722258935367507707706996859454145691648000000",
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "retained memory alone does not imply relevance to every future readout",
+      "passed": true,
+      "blind_readout": {
+        "boundary": [
+          [
+            "1/3",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "2/13",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "20/39"
+          ]
+        ],
+        "regular": true,
+        "joint_rank": 5,
+        "null_response": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "responses": [
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "diagnostic_closure_certified": true,
+        "actual_rr46_occurrence": false,
+        "generation_rule_preserved": false
+      },
+      "scope": "same fixed result at a separately supplied control boundary; not another RR46 endogenous source branch"
+    },
+    {
+      "name": "successful self-generated closure necessarily exposes the current null direction on the whole declared line",
+      "passed": true,
+      "necessity_certificates": [
+        {
+          "current_canonical_weights": [
+            "14",
+            "-13",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "current_null_direction": [
+            "-2",
+            "1",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "generated_leaf_gain_slope": [
+            "12",
+            "0",
+            "0",
+            "0"
+          ],
+          "unique_blind_source": [
+            "1/3",
+            "-37/6",
+            "41/6",
+            "0",
+            "0",
+            "0"
+          ],
+          "unique_blind_boundary": [
+            [
+              "1/3",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-37/6",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "41/6"
+            ]
+          ],
+          "blind_response": [
+            "-20240/27",
+            "0",
+            "0",
+            "0"
+          ],
+          "blind_fixed_result_error": "20213/27",
+          "zero_head_cannot_meet_nonzero_result": true,
+          "conclusion": "every successful closure on this self-generated affine line has nonzero terminal null-direction gain",
+          "quantifier": "all real shifts of this declared line; not a finite-sample extrapolation"
+        },
+        {
+          "current_canonical_weights": [
+            "14",
+            "-13",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "current_null_direction": [
+            "-2",
+            "1",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "generated_leaf_gain_slope": [
+            "12",
+            "0",
+            "0",
+            "0"
+          ],
+          "unique_blind_source": [
+            "1/3",
+            "-37/6",
+            "41/6",
+            "0",
+            "0",
+            "0"
+          ],
+          "unique_blind_boundary": [
+            [
+              "1/3",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-37/6",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "41/6"
+            ]
+          ],
+          "blind_response": [
+            "-20240/27",
+            "0",
+            "0",
+            "0"
+          ],
+          "blind_fixed_result_error": "20213/27",
+          "zero_head_cannot_meet_nonzero_result": true,
+          "conclusion": "every successful closure on this self-generated affine line has nonzero terminal null-direction gain",
+          "quantifier": "all real shifts of this declared line; not a finite-sample extrapolation"
+        }
+      ],
+      "scope": "a conditional necessity consequence of the source rule and actual nonzero result, not a new imposed future predicate"
+    },
+    {
+      "name": "causal extraction and all counterfactuals preserve the actual committed occurrences",
+      "passed": true,
+      "new_future_generation_rules": 0,
+      "new_actual_history_rewrites": 0
+    }
+  ],
+  "certificate_revision": "RR47-v002",
+  "certificate_scope": "fixed requirement and consumer inheritance bound to the supplied original entry and pending request",
+  "source_base_commit": "7f74c095eac7fda6c9b4de385f97f2b63e833cb5",
+  "scope": "operational causal pullback from achieved boundary to current affine null direction",
+  "extracted_from_actual_record": true,
+  "uses_rr46_quartic": false,
+  "direction": "time and execution forward; completed-boundary admissibility pulled back to past residue",
+  "limitations": [
+    "the fixed-boundary attribution is conditional on RR46 source law and operation class",
+    "fixed-boundary source substitution is a controlled intervention, not a whole-law alternative history",
+    "new regenerated contexts are separate counterfactual occurrences",
+    "availability of an actual witness is not unpredictability of its algebraic relation",
+    "no general minimal-residue, physical-force or independent unknown-future claim"
+  ],
+  "source_sha256": {
+    "closure_causal_pullback.py": "a6f6810e8ad8d6a36940edd78809479074ef5feacb6f0f34206f53e6ed287db5",
+    "test_closure_causal_pullback.py": "07da8d73aa7dee4b82fb3b028499ec3eb51a86f9b8a2b10c3ad9d45f0c8b73fd",
+    "endogenous_flower_boundary.py": "11bc7e242071e007b643f099785f02a60cf28cb01debad53ecf5955109165929",
+    "test_endogenous_flower_boundary.py": "11c9391e04c070900f6f5116942b4cd3aac7d3f93bda8110ea10b0c781bec96a",
+    "intraflower_future_constraint.py": "ffea077dd5fc1140ca4045f32ed34ae76e3adf6fcf9da20cadb2979f5ad3c70d",
+    "test_intraflower_future_constraint.py": "f011ed80a1189013b4353236f39fab237a05ab3246a61ccdb12f29c5e6e3dfa8",
+    "single_flower_model.py": "eb91c481fae38b7ebf67d718714bb3f3ec71d4cee32767f67c8229eb041fc110",
+    "test_single_flower_model.py": "9af0ce66e91e23a51c50ce6b8061d8ee750e42eb6f176e5e9a80457089ada7b5",
+    "closure_native_context_source.py": "a225d558df0c61ef104f78d0d1ece0c543948b6b8d1ad42f2dadbf0497c2a280",
+    "test_closure_native_context_source.py": "4a2968beb0594083783d1fdf563cfaa3b53fbcbbcd4ce43a9985b486f82f5d5c",
+    "persistent_correction_cycle.py": "5a91e55d0bf2a931cd0da412750db0a5961771c7904eb4a9775fb91dad62e4de",
+    "test_persistent_correction_cycle.py": "ac556a90ba0331870183ed85635ed37d7d933628cde50279f29869769d7ecd80",
+    "certified_correction_release.py": "d5ff9a073b178c599fee397d3ff82bfa14ac571c97df3345074f23aca8816a55",
+    "test_certified_correction_release.py": "6e89a7049e1b3a87f0958864668f529cf469e37fc7b7e295c9c0a5618aae208f",
+    "same_level_continuation.py": "9db6fa9aaccfc5a30141551c6440878cfc3232aa0dfb87111203185130039ad7",
+    "test_same_level_continuation.py": "0e1b5bcca27431f22e0633e2c5359d8f1469cda16520fffd369cf10eace377cc",
+    "fixed_result_compatibility.py": "ac4abdbae0a814e9bc624d37393d0023951dc089a98e6e8226b0a8c6cb17734b",
+    "test_fixed_result_compatibility.py": "f4491cdedd6d0411a2a7d9734592a58dc7ffb8d1189db91ba7ebd5a3fa60b0b5",
+    "closed_boundary_loop.py": "ed78c7d0ac1d370ee99e735f5b891c5b9a2d5c6fe9efd4f4aa5ef4cc0f9e7db4",
+    "test_closed_boundary_loop.py": "3b97dc7e7f6c83c0d0d80612a42da981f7a5c2a3f7f4dd954f40168339a01c8b",
+    "recursive_upper_decoder.py": "7e1f3ecfb6731afc7ffb31a370d03209c5e05aa63a43ff096a74ba2072827f3d",
+    "test_recursive_upper_decoder.py": "1702382836b1b5b9544da1b6ff303853dbfa3c93e4712ce4d243007db25c3aab",
+    "certified_cell_bridge.py": "b95d343dfd9a096263f1ab4231923871095f315b5f6b2433f94efff448f05ee1",
+    "test_certified_cell_bridge.py": "dc604b27cce958ea3a60d5103e37df10a75a0c6a7ca3e494830f4310b04cec3c",
+    "residual_extraction_transport.py": "1df872dedda2bc805b531ffed7846eda1c4b7eb86124a17bfc3eadefbb4b9842",
+    "future_existence_residual.py": "fb772bd2134240cc8386544192b3c245d8eb7c3684662745f8616d76c38817d1",
+    "vendor/two_flower_kernel_certificate.py": "d0bf4cbfffc27e16a3651ead6859d3bc0d91124c778173dbc3429bb57883ccc3",
+    "vendor/internal_port_certificate.py": "d575bab5e6e6352ea5f2910bd1800dc1c1f97b55486d97ea7ee7f8e48b32c40d"
+  }
+}

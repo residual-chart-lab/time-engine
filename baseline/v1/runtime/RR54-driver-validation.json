@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "groups": 8,
+  "tests": 252,
+  "exact_macro_records": 2,
+  "seconds": 528.187,
+  "examples": [
+    {
+      "path": "macro-occurrences/first-terminal-frame.record.json",
+      "bytes": 284565,
+      "sha256": "0812b99c18f705398c5c84a11a82764e65ff2ea7b46042531bdbaa413a5c1125"
+    },
+    {
+      "path": "macro-occurrences/alternate-terminal-frame.record.json",
+      "bytes": 913811,
+      "sha256": "fe9d54869cb8b4e1dc5bfe86764e541cb4bbe1b860a4ff1a13d351ed411e1fd5"
+    }
+  ]
+}

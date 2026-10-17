@@ -1,0 +1,317 @@
+{
+  "groups": 10,
+  "rr52_tests": 21,
+  "related_tests": 195,
+  "near_models": 34,
+  "baseline_petal_variants": 4,
+  "completed_records_verified": 4,
+  "standalone_result_bytes_identical": true,
+  "result_sha256": "5c1d9e27c3262389ef318864ed4acb39f723fcaf0f5fefe60c1c64dc1864c203",
+  "unchanged_parent_runtime_files": 36,
+  "execution": [
+    {
+      "arguments": [
+        "completed_single_flower.py"
+      ],
+      "exit_code": 0,
+      "seconds": 115.719,
+      "stdout": "{\"passed\": true, \"groups\": 10, \"near_models\": 34, \"baseline_petal_variants\": 4}\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "-m",
+        "unittest",
+        "discover",
+        "-p",
+        "test_*.py"
+      ],
+      "exit_code": 0,
+      "seconds": 106.766,
+      "stdout": "",
+      "stderr": "...................................................................................................................................................................................................\n----------------------------------------------------------------------\nRan 195 tests in 106.272s\n\nOK\n"
+    }
+  ],
+  "example_generation": [
+    {
+      "arguments": [
+        "run_one_flower.py",
+        "--branch",
+        "first",
+        "--choice",
+        "0",
+        "--output",
+        "examples/first-choice-0.record.json"
+      ],
+      "exit_code": 0,
+      "summary": {
+        "status": "ONE_FLOWER_COMPLETE",
+        "completed": true,
+        "branch": "first",
+        "parameters": {
+          "head_first": "0",
+          "head_second": "0",
+          "current_readout": "0",
+          "future_readout": "0"
+        },
+        "petal_choice": 0,
+        "candidate_count": 2,
+        "selected_ordinal": 0,
+        "selected_indices": [
+          3,
+          4
+        ],
+        "consumer_steps": 2,
+        "fixed_result": [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        "actual_endpoint": [
+          "-12259964326927391104369094303556769418944558904176921184421269917117/12259964326927110866866776217202473468949912977468817408000000000000",
+          "0",
+          "0",
+          "0"
+        ],
+        "closure_error": "280237502318086354295949994645926708103776421269917117/12259964326927110866866776217202473468949912977468817408000000000000",
+        "output_level": 3,
+        "retained_exact_nested_word": true,
+        "discarded_candidate_count": 1,
+        "actual_new_source_count": 1,
+        "completed_consumer_cells": 1,
+        "events": [
+          "boundary-requested",
+          "context-arrived",
+          "correction-planned",
+          "correction-representative-selected",
+          "lower-cell-closed",
+          "same-level-operation-published",
+          "rr52-internal-context-emitted",
+          "rr52-internal-context-arrived",
+          "rr52-possible-continuations-checked",
+          "rr52-petal-committed",
+          "rr52-consumer-action-executed",
+          "rr52-consumer-action-executed",
+          "upper-cell-closed:rr52-committed-petal"
+        ],
+        "next_flower_requests": 0
+      },
+      "record_bytes": 107956,
+      "record_sha256": "866435b4bdb3b9b6474b1ccfb08d5a6294cb0276a296abcae7dc70e826aca43b"
+    },
+    {
+      "arguments": [
+        "run_one_flower.py",
+        "--branch",
+        "first",
+        "--choice",
+        "1",
+        "--output",
+        "examples/first-choice-1.record.json"
+      ],
+      "exit_code": 0,
+      "summary": {
+        "status": "ONE_FLOWER_COMPLETE",
+        "completed": true,
+        "branch": "first",
+        "parameters": {
+          "head_first": "0",
+          "head_second": "0",
+          "current_readout": "0",
+          "future_readout": "0"
+        },
+        "petal_choice": 1,
+        "candidate_count": 2,
+        "selected_ordinal": 1,
+        "selected_indices": [
+          3,
+          3,
+          4,
+          4
+        ],
+        "consumer_steps": 4,
+        "fixed_result": [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        "actual_endpoint": [
+          "-150306725297532197988489732057534544347583559115164334871456308690656762529400848288426442182184254935709433720753311356123764049591689/150306725297525326584926758194517569752043683130132471725266622178061377607334940381676735896625196994043838464000000000000000000000000",
+          "0",
+          "0",
+          "0"
+        ],
+        "closure_error": "6871403562973863016974595539875985031863146189686512595384922065907906749706285559057941665595256753311356123764049591689/150306725297525326584926758194517569752043683130132471725266622178061377607334940381676735896625196994043838464000000000000000000000000",
+        "output_level": 3,
+        "retained_exact_nested_word": true,
+        "discarded_candidate_count": 1,
+        "actual_new_source_count": 1,
+        "completed_consumer_cells": 1,
+        "events": [
+          "boundary-requested",
+          "context-arrived",
+          "correction-planned",
+          "correction-representative-selected",
+          "lower-cell-closed",
+          "same-level-operation-published",
+          "rr52-internal-context-emitted",
+          "rr52-internal-context-arrived",
+          "rr52-possible-continuations-checked",
+          "rr52-petal-committed",
+          "rr52-consumer-action-executed",
+          "rr52-consumer-action-executed",
+          "rr52-consumer-action-executed",
+          "rr52-consumer-action-executed",
+          "upper-cell-closed:rr52-committed-petal"
+        ],
+        "next_flower_requests": 0
+      },
+      "record_bytes": 112645,
+      "record_sha256": "e4a264552ece4ce2fdf8530bbc54585d4b55228e4034325bb58526ba36d525ae"
+    },
+    {
+      "arguments": [
+        "run_one_flower.py",
+        "--branch",
+        "second",
+        "--choice",
+        "0",
+        "--output",
+        "examples/second-choice-0.record.json"
+      ],
+      "exit_code": 0,
+      "summary": {
+        "status": "ONE_FLOWER_COMPLETE",
+        "completed": true,
+        "branch": "second",
+        "parameters": {
+          "head_first": "0",
+          "head_second": "0",
+          "current_readout": "0",
+          "future_readout": "0"
+        },
+        "petal_choice": 0,
+        "candidate_count": 2,
+        "selected_ordinal": 0,
+        "selected_indices": [
+          3,
+          4
+        ],
+        "consumer_steps": 2,
+        "fixed_result": [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        "actual_endpoint": [
+          "-5021681388309254112151911537876153721980938947575720457052562505277/5021681388309344611068631538566133132881884355571227610316800000000",
+          "0",
+          "0",
+          "0"
+        ],
+        "closure_error": "90498916720000689979410900945407995507153264237494723/5021681388309344611068631538566133132881884355571227610316800000000",
+        "output_level": 3,
+        "retained_exact_nested_word": true,
+        "discarded_candidate_count": 1,
+        "actual_new_source_count": 1,
+        "completed_consumer_cells": 1,
+        "events": [
+          "boundary-requested",
+          "context-arrived",
+          "correction-planned",
+          "correction-representative-selected",
+          "lower-cell-closed",
+          "same-level-operation-published",
+          "rr52-internal-context-emitted",
+          "rr52-internal-context-arrived",
+          "rr52-possible-continuations-checked",
+          "rr52-petal-committed",
+          "rr52-consumer-action-executed",
+          "rr52-consumer-action-executed",
+          "upper-cell-closed:rr52-committed-petal"
+        ],
+        "next_flower_requests": 0
+      },
+      "record_bytes": 107948,
+      "record_sha256": "2743d12dd21191e05f633408cecfee2a5badc6c8879859fdd4cc91f5b41e519c"
+    },
+    {
+      "arguments": [
+        "run_one_flower.py",
+        "--branch",
+        "second",
+        "--choice",
+        "1",
+        "--output",
+        "examples/second-choice-1.record.json"
+      ],
+      "exit_code": 0,
+      "summary": {
+        "status": "ONE_FLOWER_COMPLETE",
+        "completed": true,
+        "branch": "second",
+        "parameters": {
+          "head_first": "0",
+          "head_second": "0",
+          "current_readout": "0",
+          "future_readout": "0"
+        },
+        "petal_choice": 1,
+        "candidate_count": 2,
+        "selected_ordinal": 1,
+        "selected_indices": [
+          3,
+          3,
+          4,
+          4
+        ],
+        "consumer_steps": 4,
+        "fixed_result": [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        "actual_endpoint": [
+          "-25217283965691557782407075702633143468917180893483924676937336491324206775713086452254208071811504191259016114759041520138994652846729/25217283965692466695858585664091912835251033133097885867486907778717261933758214791305130403126346010116241913796362240000000000000000",
+          "0",
+          "0",
+          "0"
+        ],
+        "closure_error": "908913451509961458769366333852239613961190549571287393055158045128339050922331314841818857225799037320719861005347153271/25217283965692466695858585664091912835251033133097885867486907778717261933758214791305130403126346010116241913796362240000000000000000",
+        "output_level": 3,
+        "retained_exact_nested_word": true,
+        "discarded_candidate_count": 1,
+        "actual_new_source_count": 1,
+        "completed_consumer_cells": 1,
+        "events": [
+          "boundary-requested",
+          "context-arrived",
+          "correction-planned",
+          "correction-representative-selected",
+          "lower-cell-closed",
+          "same-level-operation-published",
+          "rr52-internal-context-emitted",
+          "rr52-internal-context-arrived",
+          "rr52-possible-continuations-checked",
+          "rr52-petal-committed",
+          "rr52-consumer-action-executed",
+          "rr52-consumer-action-executed",
+          "rr52-consumer-action-executed",
+          "rr52-consumer-action-executed",
+          "upper-cell-closed:rr52-committed-petal"
+        ],
+        "next_flower_requests": 0
+      },
+      "record_bytes": 112633,
+      "record_sha256": "c077f2ce876cda33784561a1b30bc4e6124a6bab94e1e4ebf1711bde90b42f50"
+    }
+  ],
+  "independent_record_validation": {
+    "exit_code": 0,
+    "stdout": "{\"verified_complete_records\": 4}\n"
+  }
+}
