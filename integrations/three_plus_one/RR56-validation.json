@@ -1,0 +1,123 @@
+{
+  "schema": "time-engine-3plus1-outbound-rr56-validation-v1",
+  "date": "2026-10-17",
+  "parent_commit": "c1a5bc2e6ae822633b59c6b132ad7a05c31f274d",
+  "passed": true,
+  "new_main_groups": 9,
+  "new_outbound_tests": 23,
+  "upstream_three_plus_one_tests": 10,
+  "related_time_engine_tests": 35,
+  "total_tests": 68,
+  "source_courses": 9,
+  "exact_joint_records": 3,
+  "baseline_files_unchanged": 131,
+  "vendored_files_unchanged": 17,
+  "same_future_frame_result_tolerance_per_intervention": true,
+  "same_present_phase_exact_on_finite_snapshot": true,
+  "same_receiver_current_source_response": "-9",
+  "keep_allowed": [
+    0
+  ],
+  "erase_allowed": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "restore_allowed": [
+    0
+  ],
+  "blind_allowed": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "baseline_reference_contact_is_calibrated": true,
+  "erased_contacts_have_one_receiver_source_coefficient_class": true,
+  "distinct_actual_neural_contact_updates": 4,
+  "partial_channel_only": true,
+  "return_coupling_implemented": false,
+  "three_flower_integration_implemented": false,
+  "fixed_C_receiver_distinct_from_per_source_future_regeneration": true,
+  "model_numerics": "binary64 upstream motion; lossless rational snapshot and receiver arithmetic",
+  "full_baseline_252_rerun": false,
+  "original_driver": {
+    "passed": true,
+    "date": "2026-10-17",
+    "groups": 9,
+    "tests": 68,
+    "outbound_tests": 23,
+    "upstream_three_plus_one_tests": 10,
+    "exact_joint_records": 3,
+    "main_result_sha256": "a20b73a817791491294d59af9cad53c409c069d38692f2419ace99ac2b21e38f",
+    "examples": [
+      {
+        "path": "integrations/three_plus_one/records/keep-primary.record.json",
+        "bytes": 137860,
+        "sha256": "f3cc641162438b87d895f67f5d7396d9df99798c52767eef0c4f016de86a232d",
+        "contact_index": 0,
+        "closure_error": 2.2857937824711947e-14
+      },
+      {
+        "path": "integrations/three_plus_one/records/erase-primary.record.json",
+        "bytes": 136709,
+        "sha256": "3a78229dade41082fb42e1d2c60f6c7d356a6054bedeb12aee0cd8919695e359",
+        "contact_index": 1,
+        "closure_error": 2.2857937824711947e-14
+      },
+      {
+        "path": "integrations/three_plus_one/records/keep-alternate.record.json",
+        "bytes": 140461,
+        "sha256": "f5da53f3f237f793e55558e86a35b7f168a5550d7b02581e41d56dec6f51bbc1",
+        "contact_index": 1,
+        "closure_error": 6.367191985982162e-15
+      }
+    ],
+    "seconds": 60.172,
+    "full_baseline_252_rerun": false
+  },
+  "independent_driver": {
+    "passed": true,
+    "date": "2026-10-17",
+    "groups": 9,
+    "tests": 68,
+    "outbound_tests": 23,
+    "upstream_three_plus_one_tests": 10,
+    "exact_joint_records": 3,
+    "main_result_sha256": "a20b73a817791491294d59af9cad53c409c069d38692f2419ace99ac2b21e38f",
+    "examples": [
+      {
+        "path": "integrations/three_plus_one/records/keep-primary.record.json",
+        "bytes": 137860,
+        "sha256": "f3cc641162438b87d895f67f5d7396d9df99798c52767eef0c4f016de86a232d",
+        "contact_index": 0,
+        "closure_error": 2.2857937824711947e-14
+      },
+      {
+        "path": "integrations/three_plus_one/records/erase-primary.record.json",
+        "bytes": 136709,
+        "sha256": "3a78229dade41082fb42e1d2c60f6c7d356a6054bedeb12aee0cd8919695e359",
+        "contact_index": 1,
+        "closure_error": 2.2857937824711947e-14
+      },
+      {
+        "path": "integrations/three_plus_one/records/keep-alternate.record.json",
+        "bytes": 140461,
+        "sha256": "f5da53f3f237f793e55558e86a35b7f168a5550d7b02581e41d56dec6f51bbc1",
+        "contact_index": 1,
+        "closure_error": 6.367191985982162e-15
+      }
+    ],
+    "seconds": 58.625,
+    "full_baseline_252_rerun": false
+  },
+  "independent_main_result_byte_identical": true,
+  "independent_joint_records_byte_identical": true,
+  "main_result_sha256": "a20b73a817791491294d59af9cad53c409c069d38692f2419ace99ac2b21e38f",
+  "independent_execution": {
+    "exit_code": 0,
+    "seconds": 59.532
+  },
+  "preserved_baseline_verifier_passed": true
+}

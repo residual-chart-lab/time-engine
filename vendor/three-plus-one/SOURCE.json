@@ -1,0 +1,75 @@
+{
+  "repository": "residual-chart-lab/three-plus-one",
+  "commit": "b6daea3801504ddfa34b0a26d8e86ade94d06e06",
+  "scope": "unchanged package, three intelligence diagnostic examples, three related test modules and MIT license",
+  "files": {
+    "src/threeplusone/__init__.py": {
+      "git_blob_sha": "592b49521c7ca5c6d72a23166d76406b443f5f60",
+      "sha256": "d23da08159774f63771ae7322e86ec7d1b4fced36f3375bb3f75da1e99970110"
+    },
+    "src/threeplusone/__main__.py": {
+      "git_blob_sha": "4e28416e104515e90fca4b69cc60d0c61fd15d61",
+      "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279"
+    },
+    "src/threeplusone/cli.py": {
+      "git_blob_sha": "b0413e65e1379a1c96e5ddea2ffad56f9d5e9e77",
+      "sha256": "2d61908b931085e7c2d0349e3eef26d8bd6ed11eade88a901a197bb64e71b241"
+    },
+    "src/threeplusone/core.py": {
+      "git_blob_sha": "0d4338a693542e88e969ce4e5a5b4c5a71b2ba4f",
+      "sha256": "5270849643a4367a391a59c3b6c74e0f5137474ddf4a74eaf37c40b6e5f9013c"
+    },
+    "src/threeplusone/datasets.py": {
+      "git_blob_sha": "aea518ba56f5f0d08f830d4f9732a9e4bb5388fe",
+      "sha256": "278eeadb22f9ea721f22942bd9973a230954a8516dcfd2449241e11e1c2b7068"
+    },
+    "src/threeplusone/dynamics.py": {
+      "git_blob_sha": "46719ab1170741dff23cf8cf2ed96e114821def1",
+      "sha256": "89170fc5b4503311456f418151cb1f687c524c59821a847cd5235d7bf194f6a8"
+    },
+    "src/threeplusone/experiments.py": {
+      "git_blob_sha": "7bea71cedc76cb79bfcea137e6b4012cfb878097",
+      "sha256": "d8a3d90503da650b23de1d9854803c9de5555e04b295548185df175324b5f27d"
+    },
+    "src/threeplusone/geometry.py": {
+      "git_blob_sha": "75de2b9b83e5ade22d7611247ce7351a8448c500",
+      "sha256": "3d3665ee2d4e5e299ebf8b8c8de97c9ea4ce2ca43f589c66ff89674382bd89ed"
+    },
+    "src/threeplusone/selection.py": {
+      "git_blob_sha": "4d75509119ebd49e53ac7d4e553c560b7d9edb50",
+      "sha256": "9d6f7441eb832acc1f833282d1d82852e2b1541783e3951949f5ed9ca832f17d"
+    },
+    "src/threeplusone/transverse.py": {
+      "git_blob_sha": "a8bf99ddae9cc5a8db01ebdf389cfa017fa7740c",
+      "sha256": "726d0036dedeaf0d9d3882e0974fda3c3b64f30d6fef5e0b8808b3c45e5c9d18"
+    },
+    "examples/xnor_retained_difference.py": {
+      "git_blob_sha": "6f382150d7aa0dba6596979be6843e63303eee85",
+      "sha256": "3dad9ca8d8aaa74fa67b3530e9870cc8994c5a09fe59da4b954d72a675020996"
+    },
+    "examples/xnor_discrimination_loop.py": {
+      "git_blob_sha": "a8c03dbecf5b6d0c2621c7ab283023dfcc56e309",
+      "sha256": "87dab7e13aff7ed908afbfcbfc87a56ad88fde321ba3a84b11bc54e070d1a5d6"
+    },
+    "examples/xnor_intelligence_minimal.py": {
+      "git_blob_sha": "5851db669d81152ff05962cc3073e352845f7f2d",
+      "sha256": "0fb2ac00248ae5fa81d67e065dc14153c9b2392acbcd835017e3ad8979e07eb0"
+    },
+    "tests/test_intelligence_minimal.py": {
+      "git_blob_sha": "3c7830f06075d1474635468313a0bd614586c26e",
+      "sha256": "350f4377aab011ba348049555f8bb365a5100fa9e46f94f5563b5a51ae1242c3"
+    },
+    "tests/test_selector_persistence.py": {
+      "git_blob_sha": "dd206ed15f648099daaa49b4738206d680c63e30",
+      "sha256": "a02ab8243982fd254be3c5de0c3b08419eaeea1227da474c59fb758099904e0e"
+    },
+    "tests/test_xnor_transverse.py": {
+      "git_blob_sha": "1f65ffdcb14aecd9115bb523ed7d021f872964b6",
+      "sha256": "cd18d45c5b5985a1d330e19306ac8c841bd47226e8cb0556c9c1c6146f3f236d"
+    },
+    "LICENSE": {
+      "git_blob_sha": "2fa4d666546e8579a0569049aa39a8173d80fa60",
+      "sha256": "8f8058cc1c9b8d2adde3112a00230bf3ff739f1ff2dec42b1aee5c3c398885d5"
+    }
+  }
+}
