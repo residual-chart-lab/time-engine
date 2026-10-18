@@ -1,0 +1,272 @@
+{
+  "date": "2026-10-18",
+  "experiment": "RR59 inspection initiation and later validation",
+  "parent_commit": "ee74a88412b266900118e7927bfd3799b0404b75",
+  "groups": [
+    {
+      "name": "same_projected_present_cannot_separate_later_relevance",
+      "passed": true,
+      "identical_projected_features": 4,
+      "later_kernel_difference": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "name": "an_arrived_projection_can_request_inspection_without_original_leaf_expansion",
+      "passed": true,
+      "current_requests": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "later_requests": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "exact_retained_leaf_calls_at_initiation": 0,
+      "cost_scope": "small-library responses, exact nonzero tests, input binding and hashing are still required"
+    },
+    {
+      "name": "absence_of_a_current_signal_does_not_clear_future_scope",
+      "passed": true,
+      "old_local_certificates_remain_valid": true
+    },
+    {
+      "name": "later_kernel_trigger_and_fixed_result_are_separately_audited",
+      "passed": true,
+      "cases": [
+        {
+          "frame": "later",
+          "first": 0,
+          "contact": 0,
+          "requested": false,
+          "original_closes": true,
+          "representative_closes": true,
+          "closure_verdict_changes": false,
+          "original_query_digest": "0d2ba8e4059f0274c6a84db45e5d5596deb5d5c78f8e8fb17324ff81b87b332d",
+          "representative_query_digest": "35dc126c8fbbe16720e3b54c53fa76dc25e1900dd04a9a2b76187894b46dc746"
+        },
+        {
+          "frame": "later",
+          "first": 1,
+          "contact": 0,
+          "requested": false,
+          "original_closes": true,
+          "representative_closes": true,
+          "closure_verdict_changes": false,
+          "original_query_digest": "27956531db9fb7a948ae143c9dc44febc2294412474b022e1544b65e98f3d117",
+          "representative_query_digest": "c51937cccca8f7d669f6e1fe81798cea4fbd762cd191c37c538c22f871b3413e"
+        },
+        {
+          "frame": "later",
+          "first": 2,
+          "contact": 1,
+          "requested": true,
+          "original_closes": false,
+          "representative_closes": true,
+          "closure_verdict_changes": true,
+          "original_query_digest": "0a55d5359183a5c5d139e9ed6536270b53c6f78bce79eefd3e00e6c94e35382b",
+          "representative_query_digest": "295b5ce23c297d6c182fa7e2468fe70b7037f4ac52adac6ee4ba13e2136c0f18"
+        },
+        {
+          "frame": "later",
+          "first": 3,
+          "contact": 1,
+          "requested": true,
+          "original_closes": false,
+          "representative_closes": true,
+          "closure_verdict_changes": true,
+          "original_query_digest": "cadf93e25d9a471ba19b52d2cef6b72a71a22148223df233e2d5cb57e41e24ee",
+          "representative_query_digest": "bd8668de8e744557ec13e10bb9ab66d51797f9198238687fe0c02566d55ecc2c"
+        },
+        {
+          "frame": "later",
+          "first": 4,
+          "contact": 2,
+          "requested": true,
+          "original_closes": false,
+          "representative_closes": true,
+          "closure_verdict_changes": true,
+          "original_query_digest": "d06f2dfb3bd63894be1c389c4fa367756b5df6b9b75ee16e7b12036851dd7cd9",
+          "representative_query_digest": "0f927656fba93f09361981849364c91c02ba85ca99b83358459d48d37ebc705f"
+        },
+        {
+          "frame": "later",
+          "first": 5,
+          "contact": 2,
+          "requested": true,
+          "original_closes": false,
+          "representative_closes": true,
+          "closure_verdict_changes": true,
+          "original_query_digest": "d18c230cafc6de4d524ae5f8bf085a5b1da821b7216eb191b4a7e4ceb4daedd4",
+          "representative_query_digest": "c3bcd00cb7866f4dc623b411f0be97a31017a14751bb7b6616e1d23891e5666a"
+        },
+        {
+          "frame": "later",
+          "first": 6,
+          "contact": 3,
+          "requested": true,
+          "original_closes": false,
+          "representative_closes": true,
+          "closure_verdict_changes": true,
+          "original_query_digest": "bd8912e18436e3cc1cb0d5b7508e0e6a1e368595f9da08166246e176e26e294c",
+          "representative_query_digest": "fc21c3acfe1a00a4c24260fc6979de17b2a272a520073079aaab31e8708f5200"
+        },
+        {
+          "frame": "later",
+          "first": 7,
+          "contact": 3,
+          "requested": true,
+          "original_closes": false,
+          "representative_closes": true,
+          "closure_verdict_changes": true,
+          "original_query_digest": "e45f2c19c43dde2711e037a63d84fab4f5959245e91edd47c196f024a0086712",
+          "representative_query_digest": "5329e87327b04f4a83f30ef508f7e01b88a30946584834fec406ba1da63d4b12"
+        }
+      ]
+    },
+    {
+      "name": "a_signal_need_not_change_the_requested_closure_verdict",
+      "passed": true,
+      "cases": [
+        {
+          "frame": "perturbed-control",
+          "first": 0,
+          "contact": 0,
+          "requested": false,
+          "original_closes": false,
+          "representative_closes": false,
+          "closure_verdict_changes": false,
+          "original_query_digest": "3e14e3d3e64c2fae145d7f074afff1b65048aa97f84a5bc78580711ab0c801e3",
+          "representative_query_digest": "3c20ca81d25953f1395abaf01aa8f7475695a9b3aae4d9675e295bcd279cd945"
+        },
+        {
+          "frame": "perturbed-control",
+          "first": 1,
+          "contact": 0,
+          "requested": false,
+          "original_closes": false,
+          "representative_closes": false,
+          "closure_verdict_changes": false,
+          "original_query_digest": "bbad3beb148abe643d0d311703768336ee60d0058191dec7e8964160ba92271c",
+          "representative_query_digest": "6611b1ab6a7a6c69bbd251973ec03d3bb2d0b7c403b225cb1db5ee68dadd094b"
+        },
+        {
+          "frame": "perturbed-control",
+          "first": 2,
+          "contact": 1,
+          "requested": true,
+          "original_closes": false,
+          "representative_closes": false,
+          "closure_verdict_changes": false,
+          "original_query_digest": "437cd36dc4b53d43adc77987cc61e0eee6db4ebae2a8aff9d6c50299c6a7c699",
+          "representative_query_digest": "1f6f87bc85c2cb85d742294e3a3bf157dc6da0088ae9a778d09d48ff1dff1ebf"
+        },
+        {
+          "frame": "perturbed-control",
+          "first": 3,
+          "contact": 1,
+          "requested": true,
+          "original_closes": false,
+          "representative_closes": false,
+          "closure_verdict_changes": false,
+          "original_query_digest": "edad7aca51c8e28e480ebd5219258caf1cb0286592bd5a1909805cd4b81602d4",
+          "representative_query_digest": "3ec0aa2041f17d5e44f5e65b3347e55e52e84993562b3c8ac063878cde25087a"
+        },
+        {
+          "frame": "perturbed-control",
+          "first": 4,
+          "contact": 2,
+          "requested": true,
+          "original_closes": false,
+          "representative_closes": false,
+          "closure_verdict_changes": false,
+          "original_query_digest": "2586e157e1bb7dd6b96561e2de69a468f8b92d44cc6d8f342812860a06709b2d",
+          "representative_query_digest": "06ef704924ae8c2e81078620f380f10234c462abe3105fc1bb7ce611a6542fb1"
+        },
+        {
+          "frame": "perturbed-control",
+          "first": 5,
+          "contact": 2,
+          "requested": true,
+          "original_closes": false,
+          "representative_closes": false,
+          "closure_verdict_changes": false,
+          "original_query_digest": "2ac35685603f68eb8d37a98714685ebcdeea37702fc2b4073acc4694c6ce9196",
+          "representative_query_digest": "e287411c3cd906a458d381dac5dc64e29a63c64959e465569badc0a5d13e1784"
+        },
+        {
+          "frame": "perturbed-control",
+          "first": 6,
+          "contact": 3,
+          "requested": true,
+          "original_closes": false,
+          "representative_closes": false,
+          "closure_verdict_changes": false,
+          "original_query_digest": "eae38aa94f8343289c6ac9801d370e030f8c7643d342250c0afa8aef41e21643",
+          "representative_query_digest": "21efb9e507515f49a9279f007f2787c330a0882d20d5d2be6a867a8e67a9d2f4"
+        },
+        {
+          "frame": "perturbed-control",
+          "first": 7,
+          "contact": 3,
+          "requested": true,
+          "original_closes": false,
+          "representative_closes": false,
+          "closure_verdict_changes": false,
+          "original_query_digest": "73122c06e76730666eeb531320535d0028eb8882035739520aa0f6f8e8d4bc43",
+          "representative_query_digest": "3ae52d4c9488a02d171b3181c2293a43f82b543eb715a12a3cfddfc4e8062087"
+        }
+      ]
+    },
+    {
+      "name": "initiation_evidence_precedes_and_binds_the_outcome_stage",
+      "passed": true,
+      "starts_digest": "0d2e4cef062a04221d7d33ca568e101c73b2bf49e576597d7f9abe6027ccfac2",
+      "initiation_records": 12,
+      "outcome_queries": 16,
+      "oracle_leaf_response_calls": 144
+    },
+    {
+      "name": "size_is_not_the_initiation_rule_and_payloads_are_retained",
+      "passed": true,
+      "controls": [
+        {
+          "shift": "1/100000000000000000000",
+          "current": false,
+          "later": true,
+          "original_retained": true,
+          "scope": "declared primitive chart control, not new certified stock"
+        },
+        {
+          "shift": "100000000000000000000000000000000000000000000000000",
+          "current": false,
+          "later": true,
+          "original_retained": true,
+          "scope": "declared primitive chart control, not new certified stock"
+        }
+      ]
+    },
+    {
+      "name": "authenticated_original_records_remain_accessible",
+      "passed": true,
+      "records": {
+        "keep-primary": "3ba4729dff2359ebc79c9c2b948423581890b537ed9cbbbe2e8cf5cfdfcb7ca3",
+        "erase-primary": "fec689a02f70edc4a56fae222409c861b3592be7dc955b98e6e21c6fd0c9f992",
+        "keep-alternate": "476806a71cdc033c853d74c0c9236c316745824ff285602a409e4971a416efba"
+      }
+    }
+  ],
+  "live_LLM_internal_state_measured": false,
+  "predictive_coding_mechanism_identified": false,
+  "trigger_rule_derived_from_TE_motion": false,
+  "actual_stock_or_closure_changed": false,
+  "speedup_or_unknown_future_recall_claimed": false,
+  "full_RR57_family_reenumerated": false
+}

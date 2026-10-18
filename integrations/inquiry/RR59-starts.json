@@ -1,0 +1,476 @@
+{
+  "schema": "time-engine-rr59-inspection-starts-v1",
+  "records": [
+    {
+      "sequence": 0,
+      "contact": 0,
+      "signal": {
+        "pair_digest": "aecb67970499b1204ea25edf1b9e04e38015ecec02c5b32bf74df5fdc9c8c271",
+        "scope": {
+          "contexts": [
+            [
+              [
+                "1/3",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "2/3",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0"
+              ]
+            ]
+          ],
+          "observation": "kernel",
+          "entry": "RR59-arrival-current"
+        },
+        "factor": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "requested": false
+      },
+      "signal_digest": "a9056f120a5c6f1649a2e0f4aecbe0d94fcdc869a1a91c60078847166c19aa12",
+      "frame_arrival": "simulated from archived data"
+    },
+    {
+      "sequence": 1,
+      "contact": 1,
+      "signal": {
+        "pair_digest": "65f3bee8efae295841fd9874753fd1fc20935dd01e359a6f2628043cb1659ef7",
+        "scope": {
+          "contexts": [
+            [
+              [
+                "1/3",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "2/3",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0"
+              ]
+            ]
+          ],
+          "observation": "kernel",
+          "entry": "RR59-arrival-current"
+        },
+        "factor": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "requested": false
+      },
+      "signal_digest": "147f140c70139ec48e3a4fe6fa9addbfe96d6447e456421b59c7e32353099bcc",
+      "frame_arrival": "simulated from archived data"
+    },
+    {
+      "sequence": 2,
+      "contact": 2,
+      "signal": {
+        "pair_digest": "5328e24a581cade085b4b325b39fe2892fa170e85555e27c0a47acf824ae593c",
+        "scope": {
+          "contexts": [
+            [
+              [
+                "1/3",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "2/3",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0"
+              ]
+            ]
+          ],
+          "observation": "kernel",
+          "entry": "RR59-arrival-current"
+        },
+        "factor": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "requested": false
+      },
+      "signal_digest": "1faf2b0750a1de89ad87f9351a8fe976c4de9a52a0a55c4d276b6ef9598f6b6e",
+      "frame_arrival": "simulated from archived data"
+    },
+    {
+      "sequence": 3,
+      "contact": 3,
+      "signal": {
+        "pair_digest": "8dd1576871f98362bd437dbb5f0355ca2405395bd2746d21cf1ae538538a5417",
+        "scope": {
+          "contexts": [
+            [
+              [
+                "1/3",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "2/3",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0"
+              ]
+            ]
+          ],
+          "observation": "kernel",
+          "entry": "RR59-arrival-current"
+        },
+        "factor": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "requested": false
+      },
+      "signal_digest": "6cebc08a6733a7f5769bcb4babf3c253435ea4e9a6607e095a7ad260cbf05a98",
+      "frame_arrival": "simulated from archived data"
+    },
+    {
+      "sequence": 4,
+      "contact": 0,
+      "signal": {
+        "pair_digest": "aecb67970499b1204ea25edf1b9e04e38015ecec02c5b32bf74df5fdc9c8c271",
+        "scope": {
+          "contexts": [
+            [
+              [
+                "35168927374491313/70368744177664000",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "-879593857506459313/140737488355328000",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "949993491112804687/140737488355328000"
+              ]
+            ]
+          ],
+          "observation": "kernel",
+          "entry": "RR59-arrival-later"
+        },
+        "factor": [
+          "-35138037945809939/35184372088832000",
+          "0",
+          "0",
+          "0"
+        ],
+        "requested": false
+      },
+      "signal_digest": "5a8a8acba79fbcee7e601c9cac09f6bdebe8fc60e382e3648f75f2c70a7a82a8",
+      "frame_arrival": "simulated from archived data"
+    },
+    {
+      "sequence": 5,
+      "contact": 1,
+      "signal": {
+        "pair_digest": "65f3bee8efae295841fd9874753fd1fc20935dd01e359a6f2628043cb1659ef7",
+        "scope": {
+          "contexts": [
+            [
+              [
+                "35168927374491313/70368744177664000",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "-879593857506459313/140737488355328000",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "949993491112804687/140737488355328000"
+              ]
+            ]
+          ],
+          "observation": "kernel",
+          "entry": "RR59-arrival-later"
+        },
+        "factor": [
+          "-35138037945809939/35184372088832000",
+          "0",
+          "0",
+          "0"
+        ],
+        "requested": true
+      },
+      "signal_digest": "eef0c9f4726213f330b35638dfa737eed39135df3429930df4f14780707c22a3",
+      "frame_arrival": "simulated from archived data"
+    },
+    {
+      "sequence": 6,
+      "contact": 2,
+      "signal": {
+        "pair_digest": "5328e24a581cade085b4b325b39fe2892fa170e85555e27c0a47acf824ae593c",
+        "scope": {
+          "contexts": [
+            [
+              [
+                "35168927374491313/70368744177664000",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "-879593857506459313/140737488355328000",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "949993491112804687/140737488355328000"
+              ]
+            ]
+          ],
+          "observation": "kernel",
+          "entry": "RR59-arrival-later"
+        },
+        "factor": [
+          "-35138037945809939/35184372088832000",
+          "0",
+          "0",
+          "0"
+        ],
+        "requested": true
+      },
+      "signal_digest": "1566b1672ba1276660eabebf910e7cb51d512cf0e43a2e061f5a439e20bd18d4",
+      "frame_arrival": "simulated from archived data"
+    },
+    {
+      "sequence": 7,
+      "contact": 3,
+      "signal": {
+        "pair_digest": "8dd1576871f98362bd437dbb5f0355ca2405395bd2746d21cf1ae538538a5417",
+        "scope": {
+          "contexts": [
+            [
+              [
+                "35168927374491313/70368744177664000",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "-879593857506459313/140737488355328000",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "949993491112804687/140737488355328000"
+              ]
+            ]
+          ],
+          "observation": "kernel",
+          "entry": "RR59-arrival-later"
+        },
+        "factor": [
+          "-35138037945809939/35184372088832000",
+          "0",
+          "0",
+          "0"
+        ],
+        "requested": true
+      },
+      "signal_digest": "da95700ca6be641571ca0d7136c90e2eef4e83103d7abf28887f73a9cf5c7b57",
+      "frame_arrival": "simulated from archived data"
+    },
+    {
+      "sequence": 8,
+      "contact": 0,
+      "signal": {
+        "pair_digest": "aecb67970499b1204ea25edf1b9e04e38015ecec02c5b32bf74df5fdc9c8c271",
+        "scope": {
+          "contexts": [
+            [
+              [
+                "35237646851227313/70368744177664000",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "-879731296459931313/140737488355328000",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "949993491112804687/140737488355328000"
+              ]
+            ]
+          ],
+          "observation": "kernel",
+          "entry": "RR59-arrival-perturbed-control"
+        },
+        "factor": [
+          "-35344196376017939/35184372088832000",
+          "0",
+          "0",
+          "0"
+        ],
+        "requested": false
+      },
+      "signal_digest": "130a88cfbb5798dee889638170d9992a39021bdd8d3a95eb6dc59e57069a851e",
+      "frame_arrival": "simulated from archived data"
+    },
+    {
+      "sequence": 9,
+      "contact": 1,
+      "signal": {
+        "pair_digest": "65f3bee8efae295841fd9874753fd1fc20935dd01e359a6f2628043cb1659ef7",
+        "scope": {
+          "contexts": [
+            [
+              [
+                "35237646851227313/70368744177664000",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "-879731296459931313/140737488355328000",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "949993491112804687/140737488355328000"
+              ]
+            ]
+          ],
+          "observation": "kernel",
+          "entry": "RR59-arrival-perturbed-control"
+        },
+        "factor": [
+          "-35344196376017939/35184372088832000",
+          "0",
+          "0",
+          "0"
+        ],
+        "requested": true
+      },
+      "signal_digest": "fa120d180eb6c32481d2840555ca7365b5766bae4fed488b556b8e0b105b319a",
+      "frame_arrival": "simulated from archived data"
+    },
+    {
+      "sequence": 10,
+      "contact": 2,
+      "signal": {
+        "pair_digest": "5328e24a581cade085b4b325b39fe2892fa170e85555e27c0a47acf824ae593c",
+        "scope": {
+          "contexts": [
+            [
+              [
+                "35237646851227313/70368744177664000",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "-879731296459931313/140737488355328000",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "949993491112804687/140737488355328000"
+              ]
+            ]
+          ],
+          "observation": "kernel",
+          "entry": "RR59-arrival-perturbed-control"
+        },
+        "factor": [
+          "-35344196376017939/35184372088832000",
+          "0",
+          "0",
+          "0"
+        ],
+        "requested": true
+      },
+      "signal_digest": "d29571302066083ea32609cac8ff8ab1540660bff8995c4c58ea27fceea193a7",
+      "frame_arrival": "simulated from archived data"
+    },
+    {
+      "sequence": 11,
+      "contact": 3,
+      "signal": {
+        "pair_digest": "8dd1576871f98362bd437dbb5f0355ca2405395bd2746d21cf1ae538538a5417",
+        "scope": {
+          "contexts": [
+            [
+              [
+                "35237646851227313/70368744177664000",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "-879731296459931313/140737488355328000",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "949993491112804687/140737488355328000"
+              ]
+            ]
+          ],
+          "observation": "kernel",
+          "entry": "RR59-arrival-perturbed-control"
+        },
+        "factor": [
+          "-35344196376017939/35184372088832000",
+          "0",
+          "0",
+          "0"
+        ],
+        "requested": true
+      },
+      "signal_digest": "f0e1049b2d162915e920dd739e975a5e255c3d6c3b84ef8fdade5340ffc85487",
+      "frame_arrival": "simulated from archived data"
+    }
+  ],
+  "rule": "nonzero retained shift and nonzero arrived projected response",
+  "target_available_to_trigger": false,
+  "later_frames_available_to_trigger": false
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-18",
+  "passed": true,
+  "new_groups": 8,
+  "new_tests": 12,
+  "unchanged_RR58_tests": 22,
+  "total_tests": 34,
+  "result_sha256": "bc41f0281a568980535f503fc339df788f92db5488e2e0b9ff7f986289a5260f",
+  "starts_sha256": "ec1e755bb0b6934c5926509406d29a3682e287b81db0b23f9f500366a362b3da",
+  "source_sha256": {
+    "inquiry_probe.py": "ab7cb4880f1691b243a78564671fd785778f74d9fe3be76df5899b4ee968c000",
+    "rr59_study.py": "1bd60da6c862138c22aa5be25f73a4d1d90ec1ed3a30b5f11c2306399017f3af",
+    "test_inquiry_probe.py": "08589a51f5961d52685fa9a6c6fd9601cf4d2a37b5addc81456e66f782c7b399",
+    "validate.py": "dd8affc209d037d25d55050af17c10c892737391d41a68fac5e254dcd7931939"
+  },
+  "full_baseline_252_rerun": false,
+  "actual_second_os_test_performed": false,
+  "LLM_telemetry_or_biological_mechanism_validated": false,
+  "independent_package_main_passed": true,
+  "independent_result_and_starts_bytes_match": true,
+  "independent_package_full_tests_rerun": false,
+  "prior_blobs_unchanged_except_readme": 204,
+  "baseline_files_unchanged": 131,
+  "three_plus_one_vendor_files_unchanged": 17,
+  "original_RR56_and_RR57_records_unchanged": 6,
+  "original_RR58_files_unchanged": true,
+  "independent_stdout": "{\"passed\": true, \"groups\": 8, \"initiation_records\": 12, \"outcome_queries\": 16, \"later_requests\": [false, true, true, true], \"signalled_without_closure_verdict_change\": 6}"
+}
