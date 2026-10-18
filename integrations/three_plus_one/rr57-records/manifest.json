@@ -1,0 +1,36 @@
+{
+  "schema": "time-engine-rr57-published-records-v1",
+  "input_commit": "91635b5a48a5f04635148f3001945147b83641ee",
+  "input_record_manifest": "integrations/three_plus_one/records/manifest.json",
+  "trust": "obtain this manifest from a trusted pinned commit; hashes are not author signatures",
+  "verification_scope": "trusted snapshots and selection evidence, exact TE replay; no upstream SGD or full-family recomputation",
+  "records": [
+    {
+      "path": "keep-primary.record.json",
+      "mode": "keep",
+      "gain": "1",
+      "free_choice": 1,
+      "upper_x": "1884292013736191/5629499534213120",
+      "sha256": "3ba4729dff2359ebc79c9c2b948423581890b537ed9cbbbe2e8cf5cfdfcb7ca3",
+      "bytes": 212556
+    },
+    {
+      "path": "erase-primary.record.json",
+      "mode": "erase",
+      "gain": "1",
+      "free_choice": 1,
+      "upper_x": "1884292013736191/5629499534213120",
+      "sha256": "fec689a02f70edc4a56fae222409c861b3592be7dc955b98e6e21c6fd0c9f992",
+      "bytes": 238703
+    },
+    {
+      "path": "keep-alternate.record.json",
+      "mode": "keep",
+      "gain": "1",
+      "free_choice": 1,
+      "upper_x": "235536499857949/703687441776640",
+      "sha256": "476806a71cdc033c853d74c0c9236c316745824ff285602a409e4971a416efba",
+      "bytes": 751630
+    }
+  ]
+}

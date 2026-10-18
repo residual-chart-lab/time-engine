@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-18",
+  "parent_commit": "91635b5a48a5f04635148f3001945147b83641ee",
+  "premise": "3+1 is complete; strengthen Time Engine with 3+1 embedded",
+  "original_rr56_record_manifest_sha256": "3859afa267de4331327a3d2f3b976705f03dcdf6d2d12d86911609ce14408860",
+  "unchanged_baseline": 131,
+  "unchanged_vendor": 17,
+  "changed_file_sha256": {
+    "README.md": "796697f672998dc2bfef70fb322d9a789573875edc82ab2e8bb5a81759f7ccfb",
+    "docs/RR57_EMBEDDED_THREE_FLOWER.md": "938dbd6a631191775ecc7c7d88c92a204031c1e601d22cc56a952cfdb14aec3b",
+    "docs/THREE_PLUS_ONE_INTEGRATION.md": "f8e4c6d5c4766e30cd96f72fdca4fa5195618fb4c37d7f9074e034e84b168e7b",
+    "integrations/three_plus_one/README.md": "5d81e13b73c527c50e4d01c6d71567da617e2782063d25a87e7084d38ed0a2d4",
+    "integrations/three_plus_one/RR57-result.json": "063526640a1282e3059b8ff902f573268e40c983851b77590749bef1cd97c939",
+    "integrations/three_plus_one/RR57-validation.json": "fbf002dfc2db8aa1b7617d68cd6bf83b7305f6e7ff36da9283241d914613fa4e",
+    "integrations/three_plus_one/RR57-validation.log": "3ad9f2c1c88054b428412883d31f7b3251ebbac5cf224da2f42144f5260bc043",
+    "integrations/three_plus_one/rr57-records/erase-primary.record.json": "fec689a02f70edc4a56fae222409c861b3592be7dc955b98e6e21c6fd0c9f992",
+    "integrations/three_plus_one/rr57-records/keep-alternate.record.json": "476806a71cdc033c853d74c0c9236c316745824ff285602a409e4971a416efba",
+    "integrations/three_plus_one/rr57-records/keep-primary.record.json": "3ba4729dff2359ebc79c9c2b948423581890b537ed9cbbbe2e8cf5cfdfcb7ca3",
+    "integrations/three_plus_one/rr57-records/manifest.json": "2fa372bba435e3820a90691681d0dc785c096c9b5c382916d92b9933638f02ca",
+    "integrations/three_plus_one/test_three_flower.py": "514d1cc1b50508b7e6cd743cd1fa3ea31c7c928622f6b4ed08b3331020b013b9",
+    "integrations/three_plus_one/three_flower.py": "eed86cf54679cefbc6ae76f742ac351b01682485348e1b860b310aa5b90c19c7",
+    "integrations/three_plus_one/validate.py": "29d158ab74b788d7ab84c19795e842c1734c165ab9b22abc853e3daa66a3e707",
+    "integrations/three_plus_one/validate_three_flower.py": "88ce33e23606a32e308008ece2dedd29edccb6cb639de41bc9edac0baa8d0e03"
+  }
+}

@@ -48,7 +48,10 @@ def run():
     port.LOCAL_OUTPUT.mkdir(parents=True, exist_ok=True)
     (port.LOCAL_OUTPUT / 'outbound_result.json').write_bytes(raw)
     print(json.dumps(dict(stage='main-finished', groups=result['groups'])), flush=True)
-    tests = unittest.defaultTestLoader.discover(str(HERE), pattern='test_*.py')
+    # RR56's reproducibility command keeps its original scope. Later embedded
+    # experiments have their own drivers and explicitly add their tests.
+    tests = unittest.TestSuite(unittest.defaultTestLoader.loadTestsFromName(name)
+        for name in ('test_outbound', 'test_portability'))
     outbound_tests = tests.countTestCases()
     tests.addTests(unittest.defaultTestLoader.discover(str(ROOT/'vendor/three-plus-one/tests'), pattern='test_*.py'))
     for module in ('test_recursive_upper_decoder', 'test_certified_correction_release', 'test_completed_single_flower'):

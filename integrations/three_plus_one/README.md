@@ -1,4 +1,12 @@
-# 3+1 → Time Engine：一輪への往路
+# 3+1を内蔵したTime Engine
+
+3+1独立模型は完成した部品として用いる。最新の強化は[RR57：三輪の共通上位要求](../../docs/RR57_EMBEDDED_THREE_FLOWER.md)。第一輪で全8候補が同じ結果へ閉じる条件を置き、保持差が後続二輪と上位要求まで効くか検査する。
+
+```text
+python integrations/three_plus_one/validate_three_flower.py
+```
+
+新11群＋RR56の9群、新16＋関連119＝135テスト。出力は`.work/rr57-local/`。以下はRR56の固定した再現・搬送手順である。
 
 説明・式・境界は[RR56本文](../../docs/RR56_THREE_PLUS_ONE_OUTBOUND.md)。Python 3.10以上、標準ライブラリだけで動く。リポジトリのルートで実行する。
 
@@ -56,4 +64,4 @@ assert port.import_occurrence(saved, future, mode='keep', free_choice=1) == actu
 
 `records/keep-primary.record.json`、`erase-primary.record.json`、`keep-alternate.record.json`は、実際の3+1接触更新とTE一輪の完全記録。消去時の四接触は同じTE係数へ写るが、3+1側のネットワーク更新は異なる。四つの異なるTE sourceが通った、という読み方にはしない。
 
-接続写像は応答の形の00相対差を使う校正付きの部分チャネル。原版RR46・52のsourceごとの内部未来生成をこの実験の候補ごとには使わず、共通の固定未来文脈を到来させる。復路と三輪統合は未実装。
+接続写像は応答の形の00相対差を使う校正付きの部分チャネル。原版RR46・52のsourceごとの内部未来生成をRR56の候補ごとには使わず、共通の固定未来文脈を到来させる。RR57では第一輪の局所文脈を共通の現在文脈に置き、全8候補が閉じるところから三輪の共通上位要求を検査する。
