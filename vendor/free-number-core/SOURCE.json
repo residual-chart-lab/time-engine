@@ -1,0 +1,17 @@
+{
+  "repository": "residual-chart-lab/free-number-core",
+  "commit": "9efc241d38e5ca2cd07f425b747bfb5d67ea0235",
+  "release": "Core v1.0.0",
+  "license": "MIT",
+  "scope": "unmodified source note and license; RR58 implements the B2 value-residual adapter, not the all-grade decoder",
+  "files": {
+    "core/04-length-two-exact-splitting.md": {
+      "sha256": "60742f59f7bdfc56f4edf4da262e2a0a5f1d6908322469c7b055dacc8a9306d0",
+      "git_blob_sha": "58e7fc040ff12bd3d9136d15d44e07e73b40e907"
+    },
+    "LICENSE": {
+      "sha256": "7f9367a61473573a57b2f7cdeb8a2f56d01ecd622ecb1087b7cf143d602d0965",
+      "git_blob_sha": "2ec485827d11e304283d7d5362920eb086e80107"
+    }
+  }
+}

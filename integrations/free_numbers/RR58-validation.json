@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-18",
+  "passed": true,
+  "new_groups": 10,
+  "new_tests": 22,
+  "total_tests": 36,
+  "query_cases": 22,
+  "authenticated_RR57_records": 3,
+  "full_RR57_128_family_reenumerated": false,
+  "full_baseline_252_rerun": false,
+  "seconds": 22.828,
+  "result_sha256": "896172b8df5dee5a4202d6dc1836c0ff8cc6835142d616e249ba1c288c925d99",
+  "source_sha256": {
+    "deferred.py": "6e63fc8ae051346e500302a4e1fb77a0369d52b3762b1e837e56fe8dde4640c0",
+    "experiment.py": "359349038d5068049abdb122e69bda95dbd8a5dfe388db0313842612910385fd",
+    "test_deferred.py": "391503fdb75ab055a8ce6076364d6c990f94e95ef05b03e73a75894f8c5e3e70",
+    "validate.py": "e7fd18e6a7965abde0d8c16d079999a4b4701271d6b8495e8060146e4e1d2cf5"
+  },
+  "independent_package_main_passed": true,
+  "independent_semantics_match_excluding_timings": true,
+  "independent_package_full_tests_rerun": false,
+  "baseline_files_unchanged": 131,
+  "three_plus_one_vendor_files_unchanged": 17,
+  "original_RR56_and_RR57_records_unchanged": 6,
+  "free_core_source_files_unchanged": 2,
+  "actual_second_os_test_performed": false,
+  "independent_stdout": "{\"passed\": true, \"groups\": 10, \"queries\": 22, \"bits\": {\"48\": 20, \"80\": 2}, \"exact_filter_reads\": 0, \"exact_oracle_reads\": 126, \"filter_seconds\": 0.06199999999989814, \"oracle_seconds\": 0.2820000000001528}"
+}

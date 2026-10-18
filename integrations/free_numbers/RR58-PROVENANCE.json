@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-18",
+  "parent_commit": "ee4f9b0fa4e70de7318c6bf0d6504d6360c4c714",
+  "principle": "replacement authorizes scoped non-expansion, never erasure",
+  "free_core": {
+    "repository": "residual-chart-lab/free-number-core",
+    "commit": "9efc241d38e5ca2cd07f425b747bfb5d67ea0235",
+    "release": "Core v1.0.0",
+    "license": "MIT",
+    "scope": "unmodified source note and license; RR58 implements the B2 value-residual adapter, not the all-grade decoder",
+    "files": {
+      "core/04-length-two-exact-splitting.md": {
+        "sha256": "60742f59f7bdfc56f4edf4da262e2a0a5f1d6908322469c7b055dacc8a9306d0",
+        "git_blob_sha": "58e7fc040ff12bd3d9136d15d44e07e73b40e907"
+      },
+      "LICENSE": {
+        "sha256": "7f9367a61473573a57b2f7cdeb8a2f56d01ecd622ecb1087b7cf143d602d0965",
+        "git_blob_sha": "2ec485827d11e304283d7d5362920eb086e80107"
+      }
+    }
+  },
+  "original_RR57_record_manifest_sha256": "2fa372bba435e3820a90691681d0dc785c096c9b5c382916d92b9933638f02ca",
+  "changed_file_sha256": {
+    "README.md": "020735697e26c05e7402181c5889e92691bd212cd48bbe8f54c6de5416454997",
+    "docs/PRINCIPLES.md": "275c280795f6df93a42715905d5f43dc3df6ea4b17cd656327f004f0cdfda0de",
+    "docs/RR58_DEFERRED_RESIDUE.md": "b832be8d033dedd83dbae45cff391551138da15d37ba9b840ac757bf8a96a4c7",
+    "docs/THREE_PLUS_ONE_INTEGRATION.md": "0a784d39944d1e0f8fb48897d3831467c8628f8cb6e4bc5b8fdd1530c23b42f0",
+    "integrations/free_numbers/README.md": "f7abeb6889e71b8d37d90db48722e7fe1eb2663d9d0c2502fc22e9fa06014012",
+    "integrations/free_numbers/RR58-certificates.json": "3787ce9eecb516f896c6f04e2f27d81f6d7d17bfebd3235f632cb7f9cdcf0097",
+    "integrations/free_numbers/RR58-result.json": "896172b8df5dee5a4202d6dc1836c0ff8cc6835142d616e249ba1c288c925d99",
+    "integrations/free_numbers/RR58-validation.json": "86d11002279f3168c0eb7eb8f9c0d3228d6b89cb75a971834c93da813b960f40",
+    "integrations/free_numbers/RR58-validation.log": "55b0901931f4f64d25cb2d44664d401ae4ddf40d4df8635be676bc4eaac8cbe9",
+    "integrations/free_numbers/deferred.py": "6e63fc8ae051346e500302a4e1fb77a0369d52b3762b1e837e56fe8dde4640c0",
+    "integrations/free_numbers/experiment.py": "359349038d5068049abdb122e69bda95dbd8a5dfe388db0313842612910385fd",
+    "integrations/free_numbers/test_deferred.py": "391503fdb75ab055a8ce6076364d6c990f94e95ef05b03e73a75894f8c5e3e70",
+    "integrations/free_numbers/validate.py": "e7fd18e6a7965abde0d8c16d079999a4b4701271d6b8495e8060146e4e1d2cf5",
+    "vendor/free-number-core/LICENSE": "7f9367a61473573a57b2f7cdeb8a2f56d01ecd622ecb1087b7cf143d602d0965",
+    "vendor/free-number-core/SOURCE.json": "360c63ed47fe42279b8fb99a62808ed7991119e762a66fb851e93906b7135508",
+    "vendor/free-number-core/core/04-length-two-exact-splitting.md": "60742f59f7bdfc56f4edf4da262e2a0a5f1d6908322469c7b055dacc8a9306d0"
+  }
+}

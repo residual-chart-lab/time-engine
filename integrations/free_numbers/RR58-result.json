@@ -1,0 +1,643 @@
+{
+  "date": "2026-10-18",
+  "experiment": "RR58 scoped replacement without disappearance",
+  "groups": [
+    {
+      "name": "free_core_B2_split_and_probe_recovery",
+      "passed": true,
+      "basis_tensors": 9,
+      "probe_basis_evaluations": 27
+    },
+    {
+      "name": "B2_adapter_matches_actual_TE_action",
+      "passed": true,
+      "cases": 8
+    },
+    {
+      "name": "local_replaceability_does_not_expand_or_erase_residue",
+      "passed": true,
+      "exact_retained_responses": 0
+    },
+    {
+      "name": "expanded_scope_reopens_the_same_retained_difference",
+      "passed": true
+    },
+    {
+      "name": "later_read_recovers_original_response",
+      "passed": true
+    },
+    {
+      "name": "deferred_difference_survives_ordered_following_operations",
+      "passed": true
+    },
+    {
+      "name": "tiny_coefficient_difference_has_a_large_legal_frame_response",
+      "passed": true,
+      "response_difference": [
+        "-299999999999999999999/50000000000000000000",
+        "0",
+        "0",
+        "0"
+      ],
+      "scope": "primitive B2 chart control, not an available certified upper suffix"
+    },
+    {
+      "name": "bounded_filter_matches_original_TE_for_22_queries",
+      "passed": true,
+      "queries": [
+        {
+          "name": "first-0-local",
+          "verdict": true,
+          "oracle": true,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "7bbd240e72defa7d35d65528910549eb23e7e48f8ac31ae5683bfd5f30efffe7",
+            "bits": 48,
+            "verdict": true,
+            "error_bounds": [
+              [
+                "156374987061475/140737488355328",
+                "39093746765369/35184372088832"
+              ],
+              [
+                "0",
+                "11/281474976710656"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "first-0-later",
+          "verdict": true,
+          "oracle": true,
+          "bits": 80,
+          "certificate": {
+            "query_digest": "a891a2eda95e8abc1c4605a42f85a2ff418a35b4ef5ab4225e88bb5dae3a48c0",
+            "bits": 80,
+            "verdict": true,
+            "error_bounds": [
+              [
+                "600880902723001327638737/604462909807314587353088",
+                "75110112840375165954843/75557863725914323419136"
+              ],
+              [
+                "27633549293/1208925819614629174706176",
+                "3454193957/151115727451828646838272"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "first-1-local",
+          "verdict": true,
+          "oracle": true,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "8aee291066d20f7c530637e8dc41424e5cb69f1a997fe6478efb9b49a58df368",
+            "bits": 48,
+            "verdict": true,
+            "error_bounds": [
+              [
+                "156374987061475/140737488355328",
+                "39093746765369/35184372088832"
+              ],
+              [
+                "138999988499089/140737488355328",
+                "69499994249545/70368744177664"
+              ],
+              [
+                "312749974122939/281474976710656",
+                "312749974122959/281474976710656"
+              ],
+              [
+                "0",
+                "55/140737488355328"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "first-1-later",
+          "verdict": true,
+          "oracle": true,
+          "bits": 80,
+          "certificate": {
+            "query_digest": "ff0335748ad1b9bdbb80398f99b891050c98952cfa41685f6005278fbe1fa9bd",
+            "bits": 80,
+            "verdict": true,
+            "error_bounds": [
+              [
+                "600880902723001327638737/604462909807314587353088",
+                "75110112840375165954843/75557863725914323419136"
+              ],
+              [
+                "604441683071076692355491/604462909807314587353088",
+                "1208883366142153384710997/1208925819614629174706176"
+              ],
+              [
+                "1201761805446002491521313/1208925819614629174706176",
+                "1201761805446002491523845/1208925819614629174706176"
+              ],
+              [
+                "55266940631/1208925819614629174706176",
+                "55267367907/1208925819614629174706176"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "first-2-local",
+          "verdict": true,
+          "oracle": true,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "d0ff73e149af7a772dd020bf0575010a1a7198281ee8ca620139d18f1853df81",
+            "bits": 48,
+            "verdict": true,
+            "error_bounds": [
+              [
+                "156374987061475/140737488355328",
+                "39093746765369/35184372088832"
+              ],
+              [
+                "0",
+                "11/281474976710656"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "first-2-later",
+          "verdict": false,
+          "oracle": false,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "4bf3f5ee889c1de7c2bb86b0987826f7311333433931fe971f833a7ee5859348",
+            "bits": 48,
+            "verdict": false,
+            "error_bounds": [
+              [
+                "139903487340311/140737488355328",
+                "69951743670159/70368744177664"
+              ],
+              [
+                "10883723/140737488355328",
+                "10884905/140737488355328"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "first-3-local",
+          "verdict": true,
+          "oracle": true,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "180479546267f39379e49a42e5bb6a8dff829bf5a7617d09a20512ddea61e88a",
+            "bits": 48,
+            "verdict": true,
+            "error_bounds": [
+              [
+                "156374987061475/140737488355328",
+                "39093746765369/35184372088832"
+              ],
+              [
+                "138999988499089/140737488355328",
+                "69499994249545/70368744177664"
+              ],
+              [
+                "312749974122939/281474976710656",
+                "312749974122959/281474976710656"
+              ],
+              [
+                "0",
+                "55/140737488355328"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "first-3-later",
+          "verdict": false,
+          "oracle": false,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "5d5c7abfcfeb375a5ae8765460dfdeb8ffeb41b87fb84201a67dfdcfd825ce4d",
+            "bits": 48,
+            "verdict": false,
+            "error_bounds": [
+              [
+                "139903487340311/140737488355328",
+                "69951743670159/70368744177664"
+              ],
+              [
+                "140732546120665/140737488355328",
+                "281465092241345/281474976710656"
+              ],
+              [
+                "279806974808933/281474976710656",
+                "279806974811465/281474976710656"
+              ],
+              [
+                "43419897/281474976710656",
+                "43847173/281474976710656"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "first-4-local",
+          "verdict": true,
+          "oracle": true,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "bd06b6bfe608a06ea4fab31701987ca40d1f668e69a8892d8c96b9d8fe87ae69",
+            "bits": 48,
+            "verdict": true,
+            "error_bounds": [
+              [
+                "156374987061475/140737488355328",
+                "39093746765369/35184372088832"
+              ],
+              [
+                "0",
+                "11/281474976710656"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "first-4-later",
+          "verdict": false,
+          "oracle": false,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "ed8454c13816736fd28f00131d39f587d3a38f02aa69cd009cb61b41da06a9d6",
+            "bits": 48,
+            "verdict": false,
+            "error_bounds": [
+              [
+                "139903487340311/140737488355328",
+                "69951743670159/70368744177664"
+              ],
+              [
+                "2272521/281474976710656",
+                "2274885/281474976710656"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "first-5-local",
+          "verdict": true,
+          "oracle": true,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "3a167849388767f73196965d6de0ccd7c05a9a07ce972bfc515570e193cc79c5",
+            "bits": 48,
+            "verdict": true,
+            "error_bounds": [
+              [
+                "156374987061475/140737488355328",
+                "39093746765369/35184372088832"
+              ],
+              [
+                "138999988499089/140737488355328",
+                "69499994249545/70368744177664"
+              ],
+              [
+                "312749974122939/281474976710656",
+                "312749974122959/281474976710656"
+              ],
+              [
+                "0",
+                "55/140737488355328"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "first-5-later",
+          "verdict": false,
+          "oracle": false,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "c47419ecda806f38b3363e1a874024a7987e03c8a69ccd9536c2f50e15d3ddf0",
+            "bits": 48,
+            "verdict": false,
+            "error_bounds": [
+              [
+                "139903487340311/140737488355328",
+                "69951743670159/70368744177664"
+              ],
+              [
+                "140732546120665/140737488355328",
+                "281465092241345/281474976710656"
+              ],
+              [
+                "69951743666615/70368744177664",
+                "4371983979203/4398046511104"
+              ],
+              [
+                "1059361/70368744177664",
+                "291545/17592186044416"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "first-6-local",
+          "verdict": true,
+          "oracle": true,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "31820d536a251a018cee9ad8934d09e62862d897a0cdc25f039273aa82b08208",
+            "bits": 48,
+            "verdict": true,
+            "error_bounds": [
+              [
+                "156374987061475/140737488355328",
+                "39093746765369/35184372088832"
+              ],
+              [
+                "0",
+                "11/281474976710656"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "first-6-later",
+          "verdict": false,
+          "oracle": false,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "9e98798ad9f9a7b1f6380ee889e64bfb9f4d68c56409e74912e9a04d746bc8f9",
+            "bits": 48,
+            "verdict": false,
+            "error_bounds": [
+              [
+                "139903487340311/140737488355328",
+                "69951743670159/70368744177664"
+              ],
+              [
+                "11400257/281474976710656",
+                "11402621/281474976710656"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "first-7-local",
+          "verdict": true,
+          "oracle": true,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "25cabf09e136112b2958735819e5424b1dfbb689193614a74599b9ba1a12d2ce",
+            "bits": 48,
+            "verdict": true,
+            "error_bounds": [
+              [
+                "156374987061475/140737488355328",
+                "39093746765369/35184372088832"
+              ],
+              [
+                "138999988499089/140737488355328",
+                "69499994249545/70368744177664"
+              ],
+              [
+                "312749974122939/281474976710656",
+                "312749974122959/281474976710656"
+              ],
+              [
+                "0",
+                "55/140737488355328"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "first-7-later",
+          "verdict": false,
+          "oracle": false,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "0e3c05eeb2898234bbef7845ca417a0cece3643805ad2d0f7ae0a6d11d9d097b",
+            "bits": 48,
+            "verdict": false,
+            "error_bounds": [
+              [
+                "139903487340311/140737488355328",
+                "69951743670159/70368744177664"
+              ],
+              [
+                "140732546120665/140737488355328",
+                "281465092241345/281474976710656"
+              ],
+              [
+                "139903487373749/140737488355328",
+                "139903487375015/140737488355328"
+              ],
+              [
+                "22685567/281474976710656",
+                "23112843/281474976710656"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "keep-primary@primary",
+          "verdict": true,
+          "oracle": true,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "3ca713fe8393f117c9f589dd661810af885221347652e4ff4efff6b8c8420cb3",
+            "bits": 48,
+            "verdict": true,
+            "error_bounds": [
+              [
+                "2615302526923/140737488355328",
+                "2615302526933/140737488355328"
+              ],
+              [
+                "2744235610695/281474976710656",
+                "1372117805367/140737488355328"
+              ],
+              [
+                "0",
+                "5/35184372088832"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "keep-primary@alternate",
+          "verdict": false,
+          "oracle": false,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "738ac1c9b8d692cc99a5520734e9d0433def697bf147b16e0d87500e752bfb3f",
+            "bits": 48,
+            "verdict": false,
+            "error_bounds": [
+              [
+                "2615297562915/140737488355328",
+                "2615297562925/140737488355328"
+              ],
+              [
+                "1372107787967/140737488355328",
+                "1372107787991/140737488355328"
+              ],
+              [
+                "30347975/281474976710656",
+                "15174021/140737488355328"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "erase-primary@primary",
+          "verdict": true,
+          "oracle": true,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "367dfbfd036884416d9971a6b9f6af3a24de4dab2af5547d53f851a41a844f9a",
+            "bits": 48,
+            "verdict": true,
+            "error_bounds": [
+              [
+                "2615302526923/140737488355328",
+                "2615302526933/140737488355328"
+              ],
+              [
+                "2744235610695/281474976710656",
+                "1372117805367/140737488355328"
+              ],
+              [
+                "0",
+                "5/35184372088832"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "erase-primary@alternate",
+          "verdict": false,
+          "oracle": false,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "402721c08ad50f1a113210c1bfb4f1e04fdce3d38a3160caa49a751337bb811d",
+            "bits": 48,
+            "verdict": false,
+            "error_bounds": [
+              [
+                "2615297562915/140737488355328",
+                "2615297562925/140737488355328"
+              ],
+              [
+                "1372107787967/140737488355328",
+                "1372107787991/140737488355328"
+              ],
+              [
+                "30347975/281474976710656",
+                "15174021/140737488355328"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "keep-alternate@primary",
+          "verdict": false,
+          "oracle": false,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "bc2eefdd032c7ab489be698f3e4c242e168e3b63818de64930223b454499a067",
+            "bits": 48,
+            "verdict": false,
+            "error_bounds": [
+              [
+                "1307650428931/70368744177664",
+                "163456303617/8796093022208"
+              ],
+              [
+                "1372132334887/140737488355328",
+                "1372132334911/140737488355328"
+              ],
+              [
+                "30347977/281474976710656",
+                "7587011/70368744177664"
+              ]
+            ]
+          }
+        },
+        {
+          "name": "keep-alternate@alternate",
+          "verdict": true,
+          "oracle": true,
+          "bits": 48,
+          "certificate": {
+            "query_digest": "d20070309f808e7a138bf3c36cd0d7edb6f275c98372bac769b2df2dd762e9a9",
+            "bits": 48,
+            "verdict": true,
+            "error_bounds": [
+              [
+                "2615295893857/140737488355328",
+                "2615295893867/140737488355328"
+              ],
+              [
+                "1372122317517/140737488355328",
+                "2744244635073/281474976710656"
+              ],
+              [
+                "0",
+                "19/140737488355328"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "only_the_needed_precision_is_used",
+      "passed": true,
+      "filter": {
+        "exact_retained_responses": 0,
+        "exact_tensor_expansions": 0,
+        "bounded_leaf_responses": 261,
+        "bounded_operations": 21984,
+        "coefficient_bound_reads": 1750,
+        "largest_integer_bits": 88
+      },
+      "oracle": {
+        "exact_retained_responses": 126,
+        "exact_tensor_expansions": 0,
+        "bounded_leaf_responses": 0,
+        "bounded_operations": 0,
+        "coefficient_bound_reads": 0,
+        "largest_integer_bits": 0
+      },
+      "precision_histogram": {
+        "48": 20,
+        "80": 2
+      },
+      "filter_seconds": 0.06199999999989814,
+      "oracle_seconds": 0.31300000000010186,
+      "cost_scope": "query evaluation only; excludes input authentication, source construction and exact execution"
+    },
+    {
+      "name": "published_RR57_records_unchanged",
+      "passed": true,
+      "records": {
+        "keep-primary": "3ba4729dff2359ebc79c9c2b948423581890b537ed9cbbbe2e8cf5cfdfcb7ca3",
+        "erase-primary": "fec689a02f70edc4a56fae222409c861b3592be7dc955b98e6e21c6fd0c9f992",
+        "keep-alternate": "476806a71cdc033c853d74c0c9236c316745824ff285602a409e4971a416efba"
+      }
+    }
+  ],
+  "premise": "replacement certificates authorize observations, never deletion",
+  "input_commit": "ee4f9b0fa4e70de7318c6bf0d6504d6360c4c714",
+  "free_core_commit": "9efc241d38e5ca2cd07f425b747bfb5d67ea0235",
+  "full_RR57_128_family_reenumerated": false,
+  "full_baseline_252_rerun": false,
+  "seconds": 11.563
+}
