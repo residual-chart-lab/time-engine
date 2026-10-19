@@ -8,6 +8,8 @@ python integrations/three_plus_one/validate_three_flower.py
 
 新11群＋RR56の9群、新16＋関連119＝135テスト。出力は`.work/rr57-local/`。以下はRR56の固定した再現・搬送手順である。
 
+135件はRR57固定版の記録。2026-10-19の共通搬送回帰1件の追加後、現行の三輪ドライバーは136件の構成になる。今回の修正検証はRR56の79件と別展開の搬送11件であり、三輪全体の再実行には数えない。
+
 説明・式・境界は[RR56本文](../../docs/RR56_THREE_PLUS_ONE_OUTBOUND.md)。Python 3.10以上、標準ライブラリだけで動く。リポジトリのルートで実行する。
 
 ```text
@@ -26,19 +28,21 @@ python integrations/three_plus_one/validate.py --transport-only
 
 既定の`import_occurrence`はローカルな完全再現なので、別環境では、結果の判断が同じでも読込が`LocalReproductionMismatch`になることがある。搬送APIは元ファイルのbytesと`verification='transport'`、`trusted_sha256`を明示して使い、期待するCもマニフェストの値に固定する。自動の代替読込はしない。
 
-接続23＋搬送10テストを実行：
+搬送11テスト（元の10＋準備処理の回帰1）を個別に実行：
 
 ```text
-python -m unittest discover -s integrations/three_plus_one -p "test_*.py"
+python -m unittest discover -s integrations/three_plus_one -p "test_portability.py"
 ```
 
-主計算、接続23＋搬送10＋3+1の既存10＋TEの関連35テスト、三つの新しい結合記録の実行と保存復元、公開済み記録の搬送検証をまとめて行う：
+主計算、接続23＋搬送11＋3+1の既存10＋TEの関連35テスト、三つの新しい結合記録の実行と保存復元、公開済み記録の搬送検証をまとめて行う：
 
 ```text
 python integrations/three_plus_one/validate.py
 ```
 
-合計78テスト。基準版の全252テストの再実行とは分ける。実行時間を含む新しい`RR56-driver-validation.json`、主結果、生成した記録は`.work/rr56-local/`へ書く。元の三記録や初版の検証記録は上書きしない。数値の出発点はbinary64なので、異なるPython・数学ライブラリで上流から再実行した全値のバイト一致まで保証したものではない。
+合計79テスト。基準版の全252テストの再実行とは分ける。実行時間を含む新しい`RR56-driver-validation.json`、主結果、生成した記録は`.work/rr56-local/`へ書く。元の三記録や初版の検証記録は上書きしない。数値の出発点はbinary64なので、異なるPython・数学ライブラリで上流から再実行した全値のバイト一致まで保証したものではない。
+
+2026-10-19の監査を受け、公開記録のテスト準備は信頼したハッシュを使う搬送へ統一し、1 ULP対照には無変更時の再現を確認した同環境の記録を使う。[修正の理由と検証範囲](../../docs/RR56_PORTABILITY_TEST_FIX.md)。
 
 基準模型の保存物も確認する：
 

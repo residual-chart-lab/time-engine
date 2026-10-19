@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-19",
+  "passed": true,
+  "parent_commit": "c2099b9d5d82b02cb1aa5cf0f7c095bbf845776e",
+  "main_RR56_groups": 9,
+  "transport_tests": 11,
+  "previous_transport_tests": 10,
+  "new_setup_regression_tests": 1,
+  "related_tests": 68,
+  "total_tests": 79,
+  "local_no_drift_control_precedes_ulp_injection": true,
+  "published_record_setup_requires_no_local_regeneration": true,
+  "exact_joint_local_records": 3,
+  "published_transport": {
+    "passed": true,
+    "verification": "trusted-hash transport",
+    "published_records": 3,
+    "source_snapshots_preserved": true,
+    "exact_port_and_receiver_verified": true,
+    "upstream_floating_point_regenerated": false,
+    "independent_upstream_dynamics_verified": false,
+    "examples": [
+      {
+        "path": "records/keep-primary.record.json",
+        "sha256": "f3cc641162438b87d895f67f5d7396d9df99798c52767eef0c4f016de86a232d",
+        "exact_receiver_verified": true,
+        "contact_index": 0
+      },
+      {
+        "path": "records/erase-primary.record.json",
+        "sha256": "3a78229dade41082fb42e1d2c60f6c7d356a6054bedeb12aee0cd8919695e359",
+        "exact_receiver_verified": true,
+        "contact_index": 1
+      },
+      {
+        "path": "records/keep-alternate.record.json",
+        "sha256": "f5da53f3f237f793e55558e86a35b7f168a5550d7b02581e41d56dec6f51bbc1",
+        "exact_receiver_verified": true,
+        "contact_index": 1
+      }
+    ]
+  },
+  "actual_second_environment_retest_performed_here": false,
+  "user_supplied_audit_of_RR57_RR58_RR59_accepted": true,
+  "full_RR57_family_reenumerated_here": false,
+  "full_RR58_or_RR59_suites_rerun_here": false,
+  "driver_report_sha256": "eb0db95e6b05b3292febc8cb1d1021e0ddecd54181808f1c9008e3cd4169f72d",
+  "test_source_sha256": "2a41a28d4f98ea86e40f0be1d1512098b97ab794362bb5c6738b1b49d5689c97",
+  "original_driver_report": {
+    "passed": true,
+    "date": "2026-10-17",
+    "groups": 9,
+    "tests": 79,
+    "outbound_tests": 34,
+    "upstream_three_plus_one_tests": 10,
+    "exact_joint_records": 3,
+    "main_result_sha256": "2e4b58099bdea5d371b8016e4fbee9b866bf52486aacc7a99265381ed1036397",
+    "examples": [
+      {
+        "path": ".work/rr56-local/records/keep-primary.record.json",
+        "bytes": 137860,
+        "sha256": "f3cc641162438b87d895f67f5d7396d9df99798c52767eef0c4f016de86a232d",
+        "contact_index": 0,
+        "closure_error": 2.2857937824711947e-14
+      },
+      {
+        "path": ".work/rr56-local/records/erase-primary.record.json",
+        "bytes": 136709,
+        "sha256": "3a78229dade41082fb42e1d2c60f6c7d356a6054bedeb12aee0cd8919695e359",
+        "contact_index": 1,
+        "closure_error": 2.2857937824711947e-14
+      },
+      {
+        "path": ".work/rr56-local/records/keep-alternate.record.json",
+        "bytes": 140461,
+        "sha256": "f5da53f3f237f793e55558e86a35b7f168a5550d7b02581e41d56dec6f51bbc1",
+        "contact_index": 1,
+        "closure_error": 6.367191985982162e-15
+      }
+    ],
+    "seconds": 63.5,
+    "full_baseline_252_rerun": false,
+    "published_transport": {
+      "passed": true,
+      "verification": "trusted-hash transport",
+      "published_records": 3,
+      "source_snapshots_preserved": true,
+      "exact_port_and_receiver_verified": true,
+      "upstream_floating_point_regenerated": false,
+      "independent_upstream_dynamics_verified": false,
+      "examples": [
+        {
+          "path": "records/keep-primary.record.json",
+          "sha256": "f3cc641162438b87d895f67f5d7396d9df99798c52767eef0c4f016de86a232d",
+          "exact_receiver_verified": true,
+          "contact_index": 0
+        },
+        {
+          "path": "records/erase-primary.record.json",
+          "sha256": "3a78229dade41082fb42e1d2c60f6c7d356a6054bedeb12aee0cd8919695e359",
+          "exact_receiver_verified": true,
+          "contact_index": 1
+        },
+        {
+          "path": "records/keep-alternate.record.json",
+          "sha256": "f5da53f3f237f793e55558e86a35b7f168a5550d7b02581e41d56dec6f51bbc1",
+          "exact_receiver_verified": true,
+          "contact_index": 1
+        }
+      ]
+    }
+  },
+  "independent_package_transport_tests_passed": 11,
+  "independent_package_full_79_rerun": false,
+  "original_prior_files_unchanged_except": [
+    "README.md",
+    "docs/RR56_PORTABILITY_REPAIR.md",
+    "integrations/three_plus_one/README.md",
+    "integrations/three_plus_one/test_portability.py"
+  ],
+  "prior_files_unchanged": 212,
+  "baseline_files_unchanged": 131,
+  "three_plus_one_vendor_files_unchanged": 17,
+  "original_RR56_and_RR57_records_unchanged": 6,
+  "all_RR58_and_RR59_specific_files_unchanged": true
+}

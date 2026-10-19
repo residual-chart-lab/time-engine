@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-19",
+  "parent_commit": "c2099b9d5d82b02cb1aa5cf0f7c095bbf845776e",
+  "change_scope": "test fixtures and documentation; no production arithmetic, API or published records changed",
+  "user_supplied_audit": "astra-audit-2026-10-19-user-supplied.md",
+  "changed_file_sha256": {
+    "README.md": "b1400fc2505d1d7b8fffe432476a0f0d7587c5425d788ba1c5755f4c5e3d83b0",
+    "docs/RR56_PORTABILITY_REPAIR.md": "6175165566658defb478baf190cd2e6c750ce300a58f5d01c5a7f8e090643bb9",
+    "docs/RR56_PORTABILITY_TEST_FIX.md": "d40c6abcbb438c460f81b7ea6baa0f8b73c15991ea6ce0cbc9db19927b9d9554",
+    "integrations/three_plus_one/README.md": "9777ae31c5260fe0f194854263a26e6f5504e1806ef77d36371746e9aa1a8f00",
+    "integrations/three_plus_one/astra-audit-2026-10-19-user-supplied.md": "5175584ff07a08b465674d6e9fec25242229349d984b487d6dae4ec727eaad3e",
+    "integrations/three_plus_one/portability-test-fix-2026-10-19-independent.log": "b2ef60d0c1031cfe12d59f799f2f252c7bc211a967e9d652dec528db157ff21f",
+    "integrations/three_plus_one/portability-test-fix-2026-10-19-provenance.json": "ba92a22d2de1ea4474486eae887b8da846062876b252333c4af6553e612e1a9e",
+    "integrations/three_plus_one/portability-test-fix-2026-10-19-validation.json": "5470a2fcd2cdb4a75de3720a82d1347849f798a231da0676d478d4bf1d98714e",
+    "integrations/three_plus_one/portability-test-fix-2026-10-19-validation.log": "52900fc007ee29f72e48bf358cb02d8f8dbb7895b162bf4f75b4c4ceb7b58ec9",
+    "integrations/three_plus_one/test_portability.py": "2a41a28d4f98ea86e40f0be1d1512098b97ab794362bb5c6738b1b49d5689c97"
+  }
+}

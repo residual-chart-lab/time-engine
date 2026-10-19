@@ -3,6 +3,7 @@ import json
 import math
 import unittest
 from dataclasses import replace
+from functools import lru_cache
 from pathlib import Path
 from unittest.mock import patch
 
@@ -17,10 +18,16 @@ class PortabilityTests(unittest.TestCase):
         cls.manifest = json.loads((cls.here/'records/manifest.json').read_bytes())
         cls.items = cls.manifest['records']
         cls.original_course = port.source_course
-        cls.primary = port.primary_requirement()
-        cls.raw = (cls.here/cls.items[0]['path']).read_bytes()
-        cls.digest = cls.items[0]['sha256']
-        cls.original = port.import_occurrence(cls.raw, cls.primary, mode='keep', free_choice=1)
+        cls.item = cls.items[0]
+        cls.primary = cls.future(cls.item)
+        data = cls.item['config']
+        cls.config = port.CourseConfig(data['start_epoch'], data['carry_epochs'], tuple(data['order']))
+        cls.spec = port.PortSpec(port.Q(cls.item['spec']['gain']), cls.item['spec']['reference_contact'])
+        cls.raw = (cls.here/cls.item['path']).read_bytes()
+        cls.digest = cls.item['sha256']
+        cls.original = port.import_occurrence(cls.raw, cls.primary, cls.config,
+            cls.item['mode'], cls.spec, cls.item['free_choice'],
+            verification='transport', trusted_sha256=cls.digest)
 
     @staticmethod
     def future(item):
@@ -40,18 +47,33 @@ class PortabilityTests(unittest.TestCase):
     def serialized(record):
         return (json.dumps(port.export_occurrence(record), ensure_ascii=False, indent=2)+'\n').encode('utf-8')
 
+    @classmethod
+    @lru_cache(maxsize=None)
+    def local_reproduction_fixture(cls):
+        # A published record is allowed to differ from local binary64 output.
+        # Establish the no-drift control here before injecting exactly 1 ULP.
+        future = port.primary_requirement()
+        actual = port.execute(port.select(port.prepare(), future, free_choice=1))
+        raw = cls.serialized(actual)
+        restored = port.import_occurrence(raw, future, mode='keep', free_choice=1)
+        if restored != actual or cls.serialized(restored) != raw:
+            raise AssertionError('the same-environment no-drift reproduction control failed')
+        return raw, future
+
     def transport(self, raw=None, digest=None, future=None, **kwargs):
         return port.import_occurrence(self.raw if raw is None else raw,
-            self.primary if future is None else future, mode=kwargs.pop('mode', 'keep'),
-            free_choice=kwargs.pop('free_choice', 1), verification='transport',
+            self.primary if future is None else future, config=kwargs.pop('config', self.config),
+            mode=kwargs.pop('mode', self.item['mode']), spec=kwargs.pop('spec', self.spec),
+            free_choice=kwargs.pop('free_choice', self.item['free_choice']), verification='transport',
             trusted_sha256=self.digest if digest is None else digest, **kwargs)
 
     def test_one_ulp_environment_proxy_keeps_decisions_but_rejects_exact_local_reproduction(self):
+        raw, future = self.local_reproduction_fixture()
         with patch('outbound.source_course', side_effect=self.drifted_course):
-            self.assertEqual(port.allowed_indices(port.prepare(), self.primary), (0,))
-            self.assertEqual(port.allowed_indices(port.prepare(mode='erase'), self.primary), (0, 1, 2, 3))
+            self.assertEqual(port.allowed_indices(port.prepare(), future), (0,))
+            self.assertEqual(port.allowed_indices(port.prepare(mode='erase'), future), (0, 1, 2, 3))
             with self.assertRaises(port.LocalReproductionMismatch):
-                port.import_occurrence(self.raw, self.primary, mode='keep', free_choice=1)
+                port.import_occurrence(raw, future, mode='keep', free_choice=1)
 
     def test_trusted_transport_preserves_old_data_under_the_same_one_ulp_proxy(self):
         with patch('outbound.source_course', side_effect=self.drifted_course):
@@ -77,10 +99,23 @@ class PortabilityTests(unittest.TestCase):
         self.assertTrue(report['exact_port_and_receiver_verified'])
 
     def test_default_verification_never_falls_back_to_transport_after_a_reproduction_mismatch(self):
+        raw, future = self.local_reproduction_fixture()
         with patch('outbound.source_course', side_effect=self.drifted_course), \
              patch('outbound.verify_transported_occurrence', side_effect=AssertionError('no silent fallback')):
             with self.assertRaises(port.LocalReproductionMismatch):
-                port.import_occurrence(self.raw, self.primary, mode='keep', free_choice=1)
+                port.import_occurrence(raw, future, mode='keep', free_choice=1)
+
+    def test_published_fixture_setup_does_not_depend_on_local_neural_reproduction(self):
+        # Guard the setup itself: a failure here used to prevent all ten
+        # transport tests from running on an auditor's different environment.
+        class PublishedOnly(PortabilityTests):
+            pass
+        with patch('outbound.source_course', side_effect=AssertionError('no local course in setup')), \
+             patch('outbound.primary_requirement', side_effect=AssertionError('use the published frame')), \
+             patch('outbound.prepare', side_effect=AssertionError('no local entry in setup')):
+            PublishedOnly.setUpClass()
+        self.assertEqual(PublishedOnly.serialized(PublishedOnly.original), PublishedOnly.raw)
+        self.assertEqual(PublishedOnly.digest, self.digest)
 
     def test_transport_requires_original_bytes_and_an_external_well_formed_digest(self):
         for payload, digest in ((json.loads(self.raw), self.digest), (self.raw, None),
