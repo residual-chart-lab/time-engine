@@ -1,0 +1,926 @@
+{
+  "date": "2026-10-19",
+  "experiment": "RR60 internally generated port-inspection obligation",
+  "parent_commit": "07fcd606f15553e4d323d8f029ef1ac7b0967dc3",
+  "groups": [
+    {
+      "name": "24_local_flowers_actually_close_before_any_next_context_is_constructed",
+      "passed": true
+    },
+    {
+      "name": "48_current_connection_requests_automatically_create_bound_notices",
+      "passed": true,
+      "notices": 48
+    },
+    {
+      "name": "the_actual_word_determines_the_transport_coefficient",
+      "passed": true,
+      "short": "1/2",
+      "detour": "11/21"
+    },
+    {
+      "name": "the_factorized_notice_exactly_detects_next_context_substitution",
+      "passed": true,
+      "cases": [
+        {
+          "name": "keep-0-default",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "b71a08fd06ee56d4097c9bf8ff56f899f51d74016e2b778ba6f72a2c3cabf25d",
+          "reference_context_digest": "b71a08fd06ee56d4097c9bf8ff56f899f51d74016e2b778ba6f72a2c3cabf25d",
+          "arrived_factor": [
+            "-35138037945809939/72057594037927936000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "cfe70b289fd426f8a0ccdc6b5edd3b519107c2109fba00354f66b79988b27672",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-1-default",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "6964b2e153a7dc499c22a7b77f55565c3d6fe3241ffc540aa773e574f157f5d7",
+          "reference_context_digest": "6964b2e153a7dc499c22a7b77f55565c3d6fe3241ffc540aa773e574f157f5d7",
+          "arrived_factor": [
+            "-175751968586412443/252201579132747776000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "df60ec73488648c996d0bcaf5482cf75ef7b45ab7019664cef087e1c81f45dad",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-2-default",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "75d7132d5f57d7855bc6a0bf28e8ea5c1eae28e6a19c6902ebf63ad268cf25fe",
+          "reference_context_digest": "b71a08fd06ee56d4097c9bf8ff56f899f51d74016e2b778ba6f72a2c3cabf25d",
+          "arrived_factor": [
+            "-26016199951246253145876488459683743864328679530776086095077086463350851913240151510296823662978822027567183251231230700260627717868517659101186781/53359814448195240484165496688630875049626197226677236354557227349591644264102728403655405077710780668545207100737158089686512450773682794050617344000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "7d82a36119c5e444012ae8cd933c8014914960c0dd8048785ba69756d048dc2b",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-3-default",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "fd81bca07512f674b06349c7dbb457704244bb18de5c31ca73ed6762e3dabaa9",
+          "reference_context_digest": "6964b2e153a7dc499c22a7b77f55565c3d6fe3241ffc540aa773e574f157f5d7",
+          "arrived_factor": [
+            "-11830199607813336778038700265954647282997473978693664372752804114061531856029312364444076464702148812014890102490024230205632561423364953249792927/16978122778971212881325385310018914788517426390306393385540935974870068629487231764799447070180702939991656804780004846718435779791626343561560064000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "422f0b75e3c36a1e04fcd3d8bfad76ca48c5999353951df1158e7df6994d1d84",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-4-default",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "a1e3505c930b88413d818a133471d4572f9e6505d44328ae5cbeaa38c726d245",
+          "reference_context_digest": "b71a08fd06ee56d4097c9bf8ff56f899f51d74016e2b778ba6f72a2c3cabf25d",
+          "arrived_factor": [
+            "-52041424916789640151225280191974889152023986119735839901710735391883182662526967872946101910462534641011072067948207176606193128155212298048935887/106719628896390480968330993377261750099252394453354472709114454699183288528205456807310810155421561337090414201474316179373024901547365588101234688000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "74f92f5bb74d690031908ccf9e5238f921b419e167a14b37d602f33c056e04a6",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-5-default",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "fed03f9292d196e6073aac16a7ddcbc298a46e3fcf387a7b98bbddb6102a2b09",
+          "reference_context_digest": "6964b2e153a7dc499c22a7b77f55565c3d6fe3241ffc540aa773e574f157f5d7",
+          "arrived_factor": [
+            "-23663407553725718175901501622778428373783823643448551316024462383183556657407513013005637790905927819322015393475297052439577686986122233115106629/33956245557942425762650770620037829577034852780612786771081871949740137258974463529598894140361405879983313609560009693436871559583252687123120128000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "6ed7046490abacc43705e57fe4d9e5ed8410e2108d9169a42cb2903672b6595f",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-6-default",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "c78d4aea20a690345c25915e8cf121aa018345219b194d8cfdc3ab430b7b688d",
+          "reference_context_digest": "b71a08fd06ee56d4097c9bf8ff56f899f51d74016e2b778ba6f72a2c3cabf25d",
+          "arrived_factor": [
+            "-4730571958142523735399619450425614591558736440894384440866331157516772163386306672137889536036410164668664042088087690085032095584757505987247317/9701784445126407360757363034296522736295672223032224791737677699925753502564132437028255468674687394280946745588574198124820445595215053463748608000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "c4e77fa734a40e1c8ccd8d08256215065d219f86d3e02ec7e586cd0324892d6c",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-7-default",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "806d4333d096e6a65a0535469ccf37f6a2d0f38c01a3a11dc15a9759de5ef4d3",
+          "reference_context_digest": "6964b2e153a7dc499c22a7b77f55565c3d6fe3241ffc540aa773e574f157f5d7",
+          "arrived_factor": [
+            "-3380242346855013117422620887192483641736837412402287756947252118588189576521187836170837921840750506110013265497459455792756808773118427007433547/4850892222563203680378681517148261368147836111516112395868838849962876751282066218514127734337343697140473372794287099062410222797607526731874304000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "5e9825cbc65a46905f1703a8dafdc235964410c50cbe83b21f6eb3529f988145",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "erase-0-default",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "b71a08fd06ee56d4097c9bf8ff56f899f51d74016e2b778ba6f72a2c3cabf25d",
+          "reference_context_digest": "b71a08fd06ee56d4097c9bf8ff56f899f51d74016e2b778ba6f72a2c3cabf25d",
+          "arrived_factor": [
+            "-35138037945809939/72057594037927936000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "cfe70b289fd426f8a0ccdc6b5edd3b519107c2109fba00354f66b79988b27672",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "erase-1-default",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "6964b2e153a7dc499c22a7b77f55565c3d6fe3241ffc540aa773e574f157f5d7",
+          "reference_context_digest": "6964b2e153a7dc499c22a7b77f55565c3d6fe3241ffc540aa773e574f157f5d7",
+          "arrived_factor": [
+            "-175751968586412443/252201579132747776000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "df60ec73488648c996d0bcaf5482cf75ef7b45ab7019664cef087e1c81f45dad",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "erase-2-default",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "b71a08fd06ee56d4097c9bf8ff56f899f51d74016e2b778ba6f72a2c3cabf25d",
+          "reference_context_digest": "b71a08fd06ee56d4097c9bf8ff56f899f51d74016e2b778ba6f72a2c3cabf25d",
+          "arrived_factor": [
+            "-35138037945809939/72057594037927936000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "cfe70b289fd426f8a0ccdc6b5edd3b519107c2109fba00354f66b79988b27672",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "erase-3-default",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "6964b2e153a7dc499c22a7b77f55565c3d6fe3241ffc540aa773e574f157f5d7",
+          "reference_context_digest": "6964b2e153a7dc499c22a7b77f55565c3d6fe3241ffc540aa773e574f157f5d7",
+          "arrived_factor": [
+            "-175751968586412443/252201579132747776000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "df60ec73488648c996d0bcaf5482cf75ef7b45ab7019664cef087e1c81f45dad",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "erase-4-default",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "b71a08fd06ee56d4097c9bf8ff56f899f51d74016e2b778ba6f72a2c3cabf25d",
+          "reference_context_digest": "b71a08fd06ee56d4097c9bf8ff56f899f51d74016e2b778ba6f72a2c3cabf25d",
+          "arrived_factor": [
+            "-35138037945809939/72057594037927936000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "cfe70b289fd426f8a0ccdc6b5edd3b519107c2109fba00354f66b79988b27672",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "erase-5-default",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "6964b2e153a7dc499c22a7b77f55565c3d6fe3241ffc540aa773e574f157f5d7",
+          "reference_context_digest": "6964b2e153a7dc499c22a7b77f55565c3d6fe3241ffc540aa773e574f157f5d7",
+          "arrived_factor": [
+            "-175751968586412443/252201579132747776000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "df60ec73488648c996d0bcaf5482cf75ef7b45ab7019664cef087e1c81f45dad",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "erase-6-default",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "b71a08fd06ee56d4097c9bf8ff56f899f51d74016e2b778ba6f72a2c3cabf25d",
+          "reference_context_digest": "b71a08fd06ee56d4097c9bf8ff56f899f51d74016e2b778ba6f72a2c3cabf25d",
+          "arrived_factor": [
+            "-35138037945809939/72057594037927936000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "cfe70b289fd426f8a0ccdc6b5edd3b519107c2109fba00354f66b79988b27672",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "erase-7-default",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "6964b2e153a7dc499c22a7b77f55565c3d6fe3241ffc540aa773e574f157f5d7",
+          "reference_context_digest": "6964b2e153a7dc499c22a7b77f55565c3d6fe3241ffc540aa773e574f157f5d7",
+          "arrived_factor": [
+            "-175751968586412443/252201579132747776000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "df60ec73488648c996d0bcaf5482cf75ef7b45ab7019664cef087e1c81f45dad",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "restore-0-default",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "b71a08fd06ee56d4097c9bf8ff56f899f51d74016e2b778ba6f72a2c3cabf25d",
+          "reference_context_digest": "b71a08fd06ee56d4097c9bf8ff56f899f51d74016e2b778ba6f72a2c3cabf25d",
+          "arrived_factor": [
+            "-35138037945809939/72057594037927936000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "cfe70b289fd426f8a0ccdc6b5edd3b519107c2109fba00354f66b79988b27672",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "restore-1-default",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "6964b2e153a7dc499c22a7b77f55565c3d6fe3241ffc540aa773e574f157f5d7",
+          "reference_context_digest": "6964b2e153a7dc499c22a7b77f55565c3d6fe3241ffc540aa773e574f157f5d7",
+          "arrived_factor": [
+            "-175751968586412443/252201579132747776000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "df60ec73488648c996d0bcaf5482cf75ef7b45ab7019664cef087e1c81f45dad",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "restore-2-default",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "75d7132d5f57d7855bc6a0bf28e8ea5c1eae28e6a19c6902ebf63ad268cf25fe",
+          "reference_context_digest": "b71a08fd06ee56d4097c9bf8ff56f899f51d74016e2b778ba6f72a2c3cabf25d",
+          "arrived_factor": [
+            "-26016199951246253145876488459683743864328679530776086095077086463350851913240151510296823662978822027567183251231230700260627717868517659101186781/53359814448195240484165496688630875049626197226677236354557227349591644264102728403655405077710780668545207100737158089686512450773682794050617344000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "7d82a36119c5e444012ae8cd933c8014914960c0dd8048785ba69756d048dc2b",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "restore-3-default",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "fd81bca07512f674b06349c7dbb457704244bb18de5c31ca73ed6762e3dabaa9",
+          "reference_context_digest": "6964b2e153a7dc499c22a7b77f55565c3d6fe3241ffc540aa773e574f157f5d7",
+          "arrived_factor": [
+            "-11830199607813336778038700265954647282997473978693664372752804114061531856029312364444076464702148812014890102490024230205632561423364953249792927/16978122778971212881325385310018914788517426390306393385540935974870068629487231764799447070180702939991656804780004846718435779791626343561560064000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "422f0b75e3c36a1e04fcd3d8bfad76ca48c5999353951df1158e7df6994d1d84",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "restore-4-default",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "a1e3505c930b88413d818a133471d4572f9e6505d44328ae5cbeaa38c726d245",
+          "reference_context_digest": "b71a08fd06ee56d4097c9bf8ff56f899f51d74016e2b778ba6f72a2c3cabf25d",
+          "arrived_factor": [
+            "-52041424916789640151225280191974889152023986119735839901710735391883182662526967872946101910462534641011072067948207176606193128155212298048935887/106719628896390480968330993377261750099252394453354472709114454699183288528205456807310810155421561337090414201474316179373024901547365588101234688000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "74f92f5bb74d690031908ccf9e5238f921b419e167a14b37d602f33c056e04a6",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "restore-5-default",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "fed03f9292d196e6073aac16a7ddcbc298a46e3fcf387a7b98bbddb6102a2b09",
+          "reference_context_digest": "6964b2e153a7dc499c22a7b77f55565c3d6fe3241ffc540aa773e574f157f5d7",
+          "arrived_factor": [
+            "-23663407553725718175901501622778428373783823643448551316024462383183556657407513013005637790905927819322015393475297052439577686986122233115106629/33956245557942425762650770620037829577034852780612786771081871949740137258974463529598894140361405879983313609560009693436871559583252687123120128000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "6ed7046490abacc43705e57fe4d9e5ed8410e2108d9169a42cb2903672b6595f",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "restore-6-default",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "c78d4aea20a690345c25915e8cf121aa018345219b194d8cfdc3ab430b7b688d",
+          "reference_context_digest": "b71a08fd06ee56d4097c9bf8ff56f899f51d74016e2b778ba6f72a2c3cabf25d",
+          "arrived_factor": [
+            "-4730571958142523735399619450425614591558736440894384440866331157516772163386306672137889536036410164668664042088087690085032095584757505987247317/9701784445126407360757363034296522736295672223032224791737677699925753502564132437028255468674687394280946745588574198124820445595215053463748608000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "c4e77fa734a40e1c8ccd8d08256215065d219f86d3e02ec7e586cd0324892d6c",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "restore-7-default",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "806d4333d096e6a65a0535469ccf37f6a2d0f38c01a3a11dc15a9759de5ef4d3",
+          "reference_context_digest": "6964b2e153a7dc499c22a7b77f55565c3d6fe3241ffc540aa773e574f157f5d7",
+          "arrived_factor": [
+            "-3380242346855013117422620887192483641736837412402287756947252118588189576521187836170837921840750506110013265497459455792756808773118427007433547/4850892222563203680378681517148261368147836111516112395868838849962876751282066218514127734337343697140473372794287099062410222797607526731874304000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "5e9825cbc65a46905f1703a8dafdc235964410c50cbe83b21f6eb3529f988145",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-0-strength-0",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "53b5aba1d98f5cd7582c46e0d003defa4c157d28d9fbfc21ce6fcf2cc361139c",
+          "reference_context_digest": "53b5aba1d98f5cd7582c46e0d003defa4c157d28d9fbfc21ce6fcf2cc361139c",
+          "arrived_factor": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "02ca4c9d878b37b9f5c12b9f20299bfc611c27d0fd5ce0fd96f61b017cb444ae",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-1-strength-0",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "53b5aba1d98f5cd7582c46e0d003defa4c157d28d9fbfc21ce6fcf2cc361139c",
+          "reference_context_digest": "53b5aba1d98f5cd7582c46e0d003defa4c157d28d9fbfc21ce6fcf2cc361139c",
+          "arrived_factor": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "02ca4c9d878b37b9f5c12b9f20299bfc611c27d0fd5ce0fd96f61b017cb444ae",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-2-strength-0",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "53b5aba1d98f5cd7582c46e0d003defa4c157d28d9fbfc21ce6fcf2cc361139c",
+          "reference_context_digest": "53b5aba1d98f5cd7582c46e0d003defa4c157d28d9fbfc21ce6fcf2cc361139c",
+          "arrived_factor": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "02ca4c9d878b37b9f5c12b9f20299bfc611c27d0fd5ce0fd96f61b017cb444ae",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-3-strength-0",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "53b5aba1d98f5cd7582c46e0d003defa4c157d28d9fbfc21ce6fcf2cc361139c",
+          "reference_context_digest": "53b5aba1d98f5cd7582c46e0d003defa4c157d28d9fbfc21ce6fcf2cc361139c",
+          "arrived_factor": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "02ca4c9d878b37b9f5c12b9f20299bfc611c27d0fd5ce0fd96f61b017cb444ae",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-4-strength-0",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "53b5aba1d98f5cd7582c46e0d003defa4c157d28d9fbfc21ce6fcf2cc361139c",
+          "reference_context_digest": "53b5aba1d98f5cd7582c46e0d003defa4c157d28d9fbfc21ce6fcf2cc361139c",
+          "arrived_factor": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "02ca4c9d878b37b9f5c12b9f20299bfc611c27d0fd5ce0fd96f61b017cb444ae",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-5-strength-0",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "53b5aba1d98f5cd7582c46e0d003defa4c157d28d9fbfc21ce6fcf2cc361139c",
+          "reference_context_digest": "53b5aba1d98f5cd7582c46e0d003defa4c157d28d9fbfc21ce6fcf2cc361139c",
+          "arrived_factor": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "02ca4c9d878b37b9f5c12b9f20299bfc611c27d0fd5ce0fd96f61b017cb444ae",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-6-strength-0",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "53b5aba1d98f5cd7582c46e0d003defa4c157d28d9fbfc21ce6fcf2cc361139c",
+          "reference_context_digest": "53b5aba1d98f5cd7582c46e0d003defa4c157d28d9fbfc21ce6fcf2cc361139c",
+          "arrived_factor": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "02ca4c9d878b37b9f5c12b9f20299bfc611c27d0fd5ce0fd96f61b017cb444ae",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-7-strength-0",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "53b5aba1d98f5cd7582c46e0d003defa4c157d28d9fbfc21ce6fcf2cc361139c",
+          "reference_context_digest": "53b5aba1d98f5cd7582c46e0d003defa4c157d28d9fbfc21ce6fcf2cc361139c",
+          "arrived_factor": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "02ca4c9d878b37b9f5c12b9f20299bfc611c27d0fd5ce0fd96f61b017cb444ae",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-0-strength-1/2048",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "1dd2694ab9ec6162e4fc40c438681a12b9b0763e706fad38e0bed7a0975e751a",
+          "reference_context_digest": "1dd2694ab9ec6162e4fc40c438681a12b9b0763e706fad38e0bed7a0975e751a",
+          "arrived_factor": [
+            "-35138037945809939/144115188075855872000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "32dbc357caeec29b8e8d7d0d878a1505d1327ac80397025a51eaef359a5d26bf",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-1-strength-1/2048",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "21acbaab59b990d46123be011a4b981ae7d33c070e1dd5ab059c65bc230b30d7",
+          "reference_context_digest": "21acbaab59b990d46123be011a4b981ae7d33c070e1dd5ab059c65bc230b30d7",
+          "arrived_factor": [
+            "-175751968586412443/504403158265495552000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "c39d4373bd6056392a970cdb123bf9a2417a415213e21c4534257895836be20f",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-2-strength-1/2048",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "95d61573ac5faedf95ab9291b8c5c2a45f1078b68e4fc0e951d1126ca86ecf20",
+          "reference_context_digest": "1dd2694ab9ec6162e4fc40c438681a12b9b0763e706fad38e0bed7a0975e751a",
+          "arrived_factor": [
+            "-26016199951246253145876488459683743864328679530776086095077086463350851913240151510296823662978822027567183251231230700260627717868517659101186781/106719628896390480968330993377261750099252394453354472709114454699183288528205456807310810155421561337090414201474316179373024901547365588101234688000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "b32c00e83a9629702a59b0f8b64f958db8dff2c3c7bd56351a883a9afa1c26ea",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-3-strength-1/2048",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "6839c4651bf61f5fcf659fb98fc3531cb54b58396c24d417718a7778d8559e93",
+          "reference_context_digest": "21acbaab59b990d46123be011a4b981ae7d33c070e1dd5ab059c65bc230b30d7",
+          "arrived_factor": [
+            "-11830199607813336778038700265954647282997473978693664372752804114061531856029312364444076464702148812014890102490024230205632561423364953249792927/33956245557942425762650770620037829577034852780612786771081871949740137258974463529598894140361405879983313609560009693436871559583252687123120128000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "492e3106743e9a121e28c354042e3a1a9c223769f5868254be07843b40447592",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-4-strength-1/2048",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "6e73847821a4234a44925f9f0c665aaf6a181780f33df948acb5f4ddec776d69",
+          "reference_context_digest": "1dd2694ab9ec6162e4fc40c438681a12b9b0763e706fad38e0bed7a0975e751a",
+          "arrived_factor": [
+            "-52041424916789640151225280191974889152023986119735839901710735391883182662526967872946101910462534641011072067948207176606193128155212298048935887/213439257792780961936661986754523500198504788906708945418228909398366577056410913614621620310843122674180828402948632358746049803094731176202469376000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "38fed9d3a09ded3e60bc47a53a9afd89eb5ae6f10edcf9b9a79d6ccaeaa74a81",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-5-strength-1/2048",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "128fb8d7f01532eab1927d6b1c8efd2623b48f58fd21b2c8668e970f71382230",
+          "reference_context_digest": "21acbaab59b990d46123be011a4b981ae7d33c070e1dd5ab059c65bc230b30d7",
+          "arrived_factor": [
+            "-23663407553725718175901501622778428373783823643448551316024462383183556657407513013005637790905927819322015393475297052439577686986122233115106629/67912491115884851525301541240075659154069705561225573542163743899480274517948927059197788280722811759966627219120019386873743119166505374246240256000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "d75d0c7ea5eb906ae8e4a025a36a24d7b79b102ec82970a2bea5cc752e589081",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-6-strength-1/2048",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "5155689f77f00eb95f4abb201a45c125404e60a27f258531f67299a536da914b",
+          "reference_context_digest": "1dd2694ab9ec6162e4fc40c438681a12b9b0763e706fad38e0bed7a0975e751a",
+          "arrived_factor": [
+            "-4730571958142523735399619450425614591558736440894384440866331157516772163386306672137889536036410164668664042088087690085032095584757505987247317/19403568890252814721514726068593045472591344446064449583475355399851507005128264874056510937349374788561893491177148396249640891190430106927497216000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "b0590d813a14ba16232e7706efc2d3a2627d00eae00cafbcabb342fec23673f7",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-7-strength-1/2048",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "83435c01868de60dde9f3cd8f8a5ce4e3e51c1da40942edaf767f6d9d0b31f4a",
+          "reference_context_digest": "21acbaab59b990d46123be011a4b981ae7d33c070e1dd5ab059c65bc230b30d7",
+          "arrived_factor": [
+            "-3380242346855013117422620887192483641736837412402287756947252118588189576521187836170837921840750506110013265497459455792756808773118427007433547/9701784445126407360757363034296522736295672223032224791737677699925753502564132437028255468674687394280946745588574198124820445595215053463748608000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "e0ad8b894afc9afa35f6e77932be7f550ef3394c1dd5196f67459f46dd2bb7c6",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-0-strength-1/512",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "a7a0e55a7dca0871c7a8062fd82debc275fba0f6e1488cfa8315471ed1b040f0",
+          "reference_context_digest": "a7a0e55a7dca0871c7a8062fd82debc275fba0f6e1488cfa8315471ed1b040f0",
+          "arrived_factor": [
+            "-35138037945809939/36028797018963968000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "28948a41e54dde4c89e580f6b740b17f6b19b2c43eabb46545b1e8543bbcc6ed",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-1-strength-1/512",
+          "requested": false,
+          "arrived_kernel_exposes_difference": false,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "1e723123a56b85b7c3a911e42212f7cd9db1be47b46e56d681ef3a5ebfeb5a9c",
+          "reference_context_digest": "1e723123a56b85b7c3a911e42212f7cd9db1be47b46e56d681ef3a5ebfeb5a9c",
+          "arrived_factor": [
+            "-175751968586412443/126100789566373888000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "7d7aff9271e19d08df69d29d7b6ea4780af66a8c198768d0102d6c1ee1b5c62d",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-2-strength-1/512",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "e3813f156b1e084c5ddcdaa87524820d210ac0679e6421f086a4939237f6f734",
+          "reference_context_digest": "a7a0e55a7dca0871c7a8062fd82debc275fba0f6e1488cfa8315471ed1b040f0",
+          "arrived_factor": [
+            "-26016199951246253145876488459683743864328679530776086095077086463350851913240151510296823662978822027567183251231230700260627717868517659101186781/26679907224097620242082748344315437524813098613338618177278613674795822132051364201827702538855390334272603550368579044843256225386841397025308672000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "2f7c89d9e061a40916b5def21b3de89032845a98f8dcf71b599b1f9b0ea275f2",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-3-strength-1/512",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "19c53cf8349ae70eb00059ac00dea5748e59af5a30ac1111119c8683792e57d4",
+          "reference_context_digest": "1e723123a56b85b7c3a911e42212f7cd9db1be47b46e56d681ef3a5ebfeb5a9c",
+          "arrived_factor": [
+            "-11830199607813336778038700265954647282997473978693664372752804114061531856029312364444076464702148812014890102490024230205632561423364953249792927/8489061389485606440662692655009457394258713195153196692770467987435034314743615882399723535090351469995828402390002423359217889895813171780780032000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "bda770c39606485bdbe74d08e90de65c7cbe5b5455629c0e36a3fe6ead41693e",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-4-strength-1/512",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "8adcfacb8f510c44f6a55a5c7ec92d28ca9cbf6004f150ddaa668bb9c74644b4",
+          "reference_context_digest": "a7a0e55a7dca0871c7a8062fd82debc275fba0f6e1488cfa8315471ed1b040f0",
+          "arrived_factor": [
+            "-52041424916789640151225280191974889152023986119735839901710735391883182662526967872946101910462534641011072067948207176606193128155212298048935887/53359814448195240484165496688630875049626197226677236354557227349591644264102728403655405077710780668545207100737158089686512450773682794050617344000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "305c710a14e49855189383ad871aeea4eddabc64e606b6b1eee9660da29b5e31",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-5-strength-1/512",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "ade83450deffd835e02e20b0c0233a972d9a257b772ee4d8b57403d7fdadb59e",
+          "reference_context_digest": "1e723123a56b85b7c3a911e42212f7cd9db1be47b46e56d681ef3a5ebfeb5a9c",
+          "arrived_factor": [
+            "-23663407553725718175901501622778428373783823643448551316024462383183556657407513013005637790905927819322015393475297052439577686986122233115106629/16978122778971212881325385310018914788517426390306393385540935974870068629487231764799447070180702939991656804780004846718435779791626343561560064000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "09c7b0577a8ce276489f5891680d58db524d311364f3f78ab025f5a9c37e726a",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-6-strength-1/512",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "bf6d973bf0b38c2f4d5241fe17a57200e19734075ce1df92cd7b82cb14000ece",
+          "reference_context_digest": "a7a0e55a7dca0871c7a8062fd82debc275fba0f6e1488cfa8315471ed1b040f0",
+          "arrived_factor": [
+            "-4730571958142523735399619450425614591558736440894384440866331157516772163386306672137889536036410164668664042088087690085032095584757505987247317/4850892222563203680378681517148261368147836111516112395868838849962876751282066218514127734337343697140473372794287099062410222797607526731874304000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "ddf510637f5852ac684df3017aef2342214802b9e391e77dd44b960b3f9d08c0",
+          "next_phase": "OPEN"
+        },
+        {
+          "name": "keep-7-strength-1/512",
+          "requested": true,
+          "arrived_kernel_exposes_difference": true,
+          "exact_transport_defect_identity": true,
+          "inheritance_and_stock_preserved": true,
+          "context_digest": "5df26a979255e785e104846d79d0c0856a214262543e9a066b6ce0bbd4d06c93",
+          "reference_context_digest": "1e723123a56b85b7c3a911e42212f7cd9db1be47b46e56d681ef3a5ebfeb5a9c",
+          "arrived_factor": [
+            "-3380242346855013117422620887192483641736837412402287756947252118588189576521187836170837921840750506110013265497459455792756808773118427007433547/2425446111281601840189340758574130684073918055758056197934419424981438375641033109257063867168671848570236686397143549531205111398803763365937152000",
+            "0",
+            "0",
+            "0"
+          ],
+          "recovered_response_digest": "27476c20949f0bebd5ba8c4772c47ec5fb831dde311dd8107865c277f027d6c5",
+          "next_phase": "OPEN"
+        }
+      ]
+    },
+    {
+      "name": "cutting_the_existing_connection_prevents_the_onset",
+      "passed": true,
+      "contexts_equal_to_anchor": true
+    },
+    {
+      "name": "erasure_and_restoration_change_the_internally_generated_inspection",
+      "passed": true,
+      "notice_counts": {
+        "keep": 6,
+        "erase": 0,
+        "restore": 6
+      }
+    },
+    {
+      "name": "all_declared_arrivals_reexpose_the_retained_response_without_rewriting_the_first_flower",
+      "passed": true,
+      "exact_preserved_response_reads": 24,
+      "cost_scope": "post-notice source-response reads only; excludes entry certification and exact port construction"
+    },
+    {
+      "name": "pointwise_kernel_silence_is_not_a_next_context_replacement_certificate",
+      "passed": true,
+      "controls": [
+        {
+          "petal": 0,
+          "shift": "35138037945809939/422212465065984000",
+          "shift_approx": 0.08322359203752669,
+          "generated_context_changes": true,
+          "arrived_kernel_exposes_difference": false,
+          "current_response_unchanged": true,
+          "regular": true,
+          "scope": "primitive source-line counterexample; not a new authenticated 3+1 contact or published stock"
+        },
+        {
+          "petal": 1,
+          "shift": "175751968586412443/1548112371908608000",
+          "shift_approx": 0.11352662234055699,
+          "generated_context_changes": true,
+          "arrived_kernel_exposes_difference": false,
+          "current_response_unchanged": true,
+          "regular": true,
+          "scope": "primitive source-line counterexample; not a new authenticated 3+1 contact or published stock"
+        }
+      ]
+    },
+    {
+      "name": "after_inspection_one_existing_legal_source_and_second_flower_actually_close",
+      "passed": true,
+      "consumer_output_level": 3,
+      "actual_new_published_sources": 1,
+      "closure_error": "46626253569765024331680303880638257352841449581725871473896868187586796868385728892812492747780255439697077515725250869468063048574625305038836158644333956963648518631672678132932394780764824695847602741373882992043113556962752810798249973754100655145503689266885437030406039767723274303415244579166547681700130141788372499323607340878283709031388424771473041732416694381318803167248810022231319637579461985520957479829502315173673684228672751906249319567004505576009698399261561965154366093760835375743048190246572542015802489370961969555088089576768581388629885915059087483378631106038479834756893510304928257595654734666892093924707965241349475920208206312463778141668904478081868321950800460348827549343385398628943864237197953454499002392438193803181739533404963768914484635699812162244212010070358315610129435061372140587125006906067014448516345445839654682910283697575180611115218407462676653133868284951177867788443159078584938390577741144412564285024010561300167110298120819217532896125101880130037068834936513333969626412746951051406202379573479904662225858425674287996650496438713069560892891708985804589332774419892609007712589819176708100955868025614230624844636336871088246647165902155555862561359898631544123328892695673591178248812671744484920848187792048045233470168756276981979726681896348360578017807164015815014462110153568916098201079842714029195451001820850238183952280538789363090364441059837525633820534825481967978334376305510800070610427324258854908568591751739532634717572601034583087836735963100800243579395646745040434963804439356802922121972160885126537563752661679084128579089760263462959757875540413427758109114057314791411257422484671946879413393373496358496712031140233707042716554595240173243673250693611457962043282583721331603681292668943469986368642477808624730012662213578445404977248629/5830504741712832518370299446410570871342658507392315590404329270576093565632176090140690995247518587595690925110204297175141290166072525634956753798031224446318713777053877900760445853917101355314674735548053737732719998124112112517269872169732940228463343142232637645583744993358145919828111480972990079613266406437961417376656758671112345952077180935302348351537304648369098143685436732966536383565225964817862749411344558132594407135179785333275525666780703807779082764145565952998327390841760695466135623534141079151098285207970729093855229956674411144499242895151712393228968813523790130090432010677668531226816849102209505329762806536224563334049433116214718463275688619654908612982033607068234862746477206409946348508489778637498989763826860593247738688121869710650620545766403009506924535620381193076989006946681364385524432384907592854123077739711372411449962821576398194467039669472337950009775689744487433603903892546312342135057619746115293319910451864631490086338772776162183427162057788724172299593812121250086419133296018522945932637470764661784865473288764623865487740653333800829584651386149797861374723650122295304747195732092121214960752094225407178634266649341332831081621879115494357367829191000975929318177584521557590723167294709976240719240797871126193183396799222458230672944233835747413663059876118349757256092205436753908135618556738134935338955738064683126280008056370332896321711503066071605892172466281556596162993058621279341807390560887913742797858353530617726438478979439072521692608722969607633834207288924460697617228374578716999474236874681563469345630066255458253679482350504722637531717462032253439395067507995612491085641489880114360169156914607749924340787262834476687827951671519144014014366053456006743155534951522741135968991840728315360322108528777349160299682133984239173258860327835768159469568",
+      "actual_endpoint": [
+        "-5830504741712785892116729681386239191038777869134962748954747544704619668763988503343822609518625775102943144854764600097625564915203057571908179172726185610160069443096914252241814181238968422919893970723357890129978624241120069403712909416922141978489589041577492141894478107921115513788343757698686664368687239890279717246514970298613022344736302651593316963112533175327365726991055414163369134755203733498225169949359037175114577632864611659591296994028797558459515759639989943299928129279795541100041862698765336102908038635428713291365858994704856056409666126570323763343053754436306751459325972197833774333306544173951909675028139644130638626084191766738798255069376155876766944077555525199912911946016857582397005123091149693634752565873406094245346249928066528911087140802634095022288835808218948864978936588365754256089371012767005729116171672696923895104516981921715284183342094291726834791368227067834299735618941368444553691898541161176902742169307452067205062328211475995073129041238571191276174491931991213017584196782684553319519890519713255582485899808859961639629314979045804179088212673080236968483014664317705971972775839483113502370932917517306222766241035110707986445285008027247710201927035445113367958278952977434261830471621118797991906569053386205344995604751177224760504187956853767686981163527757771739448928189621739446025464987822036734259113024035487675278187206132148944041172713702981241451112628755922775628167576653301007431085050087843132370534094675709157846727239906437804120007688386519797098244188124217118221581629538282035669797517878641347373469181128920689926820671420594058441957198569293681519527094567854381971584175088703102746672242660870510947413766475979975796811437812101297459770813282763069904841340064779092686408119396711679029439585307362791657204325359509160596646749390363182220939/5830504741712832518370299446410570871342658507392315590404329270576093565632176090140690995247518587595690925110204297175141290166072525634956753798031224446318713777053877900760445853917101355314674735548053737732719998124112112517269872169732940228463343142232637645583744993358145919828111480972990079613266406437961417376656758671112345952077180935302348351537304648369098143685436732966536383565225964817862749411344558132594407135179785333275525666780703807779082764145565952998327390841760695466135623534141079151098285207970729093855229956674411144499242895151712393228968813523790130090432010677668531226816849102209505329762806536224563334049433116214718463275688619654908612982033607068234862746477206409946348508489778637498989763826860593247738688121869710650620545766403009506924535620381193076989006946681364385524432384907592854123077739711372411449962821576398194467039669472337950009775689744487433603903892546312342135057619746115293319910451864631490086338772776162183427162057788724172299593812121250086419133296018522945932637470764661784865473288764623865487740653333800829584651386149797861374723650122295304747195732092121214960752094225407178634266649341332831081621879115494357367829191000975929318177584521557590723167294709976240719240797871126193183396799222458230672944233835747413663059876118349757256092205436753908135618556738134935338955738064683126280008056370332896321711503066071605892172466281556596162993058621279341807390560887913742797858353530617726438478979439072521692608722969607633834207288924460697617228374578716999474236874681563469345630066255458253679482350504722637531717462032253439395067507995612491085641489880114360169156914607749924340787262834476687827951671519144014014366053456006743155534951522741135968991840728315360322108528777349160299682133984239173258860327835768159469568",
+        "0",
+        "0",
+        "0"
+      ],
+      "first_event_after_old_prefix": "boundary-requested",
+      "certificate": {
+        "branch": 0,
+        "representative": "2000265140239060001/288230376151711744",
+        "polynomial_digest": "943f08d77db4ca7fe55ef789293bdfe1180a90f1f941736b1c9100ce068b60ca"
+      }
+    },
+    {
+      "name": "the_first_and_second_actual_records_match_the_preexisting_RR57_witness",
+      "passed": true,
+      "authenticated_record_sha256": "476806a71cdc033c853d74c0c9236c316745824ff285602a409e4971a416efba",
+      "archived_upper_requirement_not_used_to_generate_the_notice": true
+    },
+    {
+      "name": "start_records_remain_unchanged_after_arrival_and_completion",
+      "passed": true,
+      "starts_digest": "78ad7e5d1b36e4070f8680e3faf896637c595786bbf8e5b6521f91de7a2501ba"
+    }
+  ],
+  "next_contexts_constructed_from_actual_closed_history": true,
+  "connection_law_and_gain_derived_from_first_principles": false,
+  "general_predictive_coding_or_attention_mechanism_derived": false,
+  "future_requirements_supply_a_new_driving_force": false,
+  "live_LLM_internal_telemetry_measured": false,
+  "full_128_family_reenumerated": false
+}

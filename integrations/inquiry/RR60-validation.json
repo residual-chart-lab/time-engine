@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-19",
+  "passed": true,
+  "new_groups": 11,
+  "new_tests": 18,
+  "reused_tests": {
+    "test_inquiry_probe": 12,
+    "test_deferred": 22,
+    "test_two_flower_connection": 21
+  },
+  "total_tests": 73,
+  "local_first_flowers": 24,
+  "current_connection_requests": 48,
+  "new_legal_second_flowers": 1,
+  "algebraic_cancellation_controls": 2,
+  "result_sha256": "2e0ffe311172ebae27f93df85af88baec1abe76d298a6f06f12b3a6ef95e61e0",
+  "starts_sha256": "362de85ad68d816d8c494c9f0b4c4662f022c7b1ed47f912bab09a54bc30f694",
+  "source_sha256": {
+    "internal_port.py": "900afffa2f9bd3de0eeba0bbf92f63c404ea15dcdf07b1887296b5154e1e8498",
+    "rr60_study.py": "a1adf97130b81c99051b6d19b299d8b4b669337002b90ffb12411f9137fa4da6",
+    "test_internal_port.py": "3781b57a0a338b611865c6be7bf811f20a95c5a5ee9988f67d23ae623e61bfaa",
+    "validate_internal.py": "75550fa5f7c19a87f56d45c284b3d1b64521921231bdcca52747c1b199d17ab1"
+  },
+  "full_RR57_128_family_rerun": false,
+  "full_baseline_252_rerun": false,
+  "actual_second_OS_test": false,
+  "live_LLM_telemetry_measured": false,
+  "general_attention_law_derived": false,
+  "independent_package_main_passed": true,
+  "independent_result_and_starts_bytes_match": true,
+  "independent_package_full_tests_rerun": false,
+  "prior_blobs_unchanged_except_readmes": 220,
+  "baseline_files_unchanged": 131,
+  "three_plus_one_vendor_files_unchanged": 17,
+  "original_RR56_and_RR57_records_unchanged": 6,
+  "all_prior_implementation_and_saved_result_files_unchanged": true,
+  "independent_stdout": "{\"passed\": true, \"groups\": 11, \"local_flowers\": 24, \"current_requests\": 48, \"notices\": {\"keep\": 6, \"erase\": 0, \"restore\": 6}, \"post_notice_second_flower_closed\": true, \"cancellation_controls\": 2}"
+}

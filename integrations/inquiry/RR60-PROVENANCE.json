@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-19",
+  "parent_commit": "07fcd606f15553e4d323d8f029ef1ac7b0967dc3",
+  "premise": "an actual current connection request creates its own next-context readout obligation",
+  "law": "unchanged RR53 anchored ordered readout; delta context = strength * source mass * shift * direction",
+  "policy_boundary": "connection request and existing readout law remain declared; no general attention law derived",
+  "changed_file_sha256": {
+    "README.md": "4a279d29c318879669ddf1092a1175e5a9485aff9dbaace27ab0ba8852943ebe",
+    "docs/RR60_INTERNAL_INQUIRY.md": "d366d44d08848934191e03de8ee844517e0d864a3637f4420c77b887c393ac8c",
+    "integrations/inquiry/README.md": "4feff2ace57860671629480c845544e317a5ac188b5632e6ae5844ff3979fbe4",
+    "integrations/inquiry/RR60-result.json": "2e0ffe311172ebae27f93df85af88baec1abe76d298a6f06f12b3a6ef95e61e0",
+    "integrations/inquiry/RR60-starts.json": "362de85ad68d816d8c494c9f0b4c4662f022c7b1ed47f912bab09a54bc30f694",
+    "integrations/inquiry/RR60-validation.json": "774acaa58c98200fc51dd41053c77a2ec1db1c779b9d55b38f8b7254ecdb6e31",
+    "integrations/inquiry/RR60-validation.log": "bc0239bf2e2b44fbc0bf40d8bffbfa09ca21852493acc24eaa2935a5aaedf69c",
+    "integrations/inquiry/internal_port.py": "900afffa2f9bd3de0eeba0bbf92f63c404ea15dcdf07b1887296b5154e1e8498",
+    "integrations/inquiry/rr60_study.py": "a1adf97130b81c99051b6d19b299d8b4b669337002b90ffb12411f9137fa4da6",
+    "integrations/inquiry/test_internal_port.py": "3781b57a0a338b611865c6be7bf811f20a95c5a5ee9988f67d23ae623e61bfaa",
+    "integrations/inquiry/validate_internal.py": "75550fa5f7c19a87f56d45c284b3d1b64521921231bdcca52747c1b199d17ab1"
+  },
+  "prior_files_preserved_except": [
+    "README.md",
+    "integrations/inquiry/README.md"
+  ]
+}

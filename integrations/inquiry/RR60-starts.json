@@ -1,0 +1,1784 @@
+{
+  "schema": "time-engine-rr60-internal-port-starts-v1",
+  "records": [
+    {
+      "name": "keep-0-default",
+      "mode": "keep",
+      "contact": 0,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "d11d039c0e89a3dea04b9c74c167377ccfd99615046b535f975fb7ba500a525e",
+        "strength": "1/1024",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "fbbfe30afb43046d97b7236fd41de39bc82d36e19fea2dc4d36156b18a42fdb1",
+      "retained_shift": "0",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-1-default",
+      "mode": "keep",
+      "contact": 0,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "bdd697933fe657640850671720b5ba9866cdfab98f78bf400600cad44099653b",
+        "strength": "1/1024",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "f5ab4565dc3d8466f698f5c0772a3614e5e7115e493300ee83db47e2b3740411",
+      "retained_shift": "0",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-2-default",
+      "mode": "keep",
+      "contact": 1,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "458172e51da77823115fa7e648f33487a5da85c472f86a720b59b12fc7612103",
+        "strength": "1/1024",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "d255f184fcd7e239089368e7d0e5568de815fe389810d058628fb70e85b93fcf",
+      "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-3-default",
+      "mode": "keep",
+      "contact": 1,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "1a4db4436d68e8c774e7c34cb2b5bf8e4d2fb44afaf66717b06c0645b57015bb",
+        "strength": "1/1024",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "3e854b7941765aa1f978fa01469f688d4fd562a5ba33410b47f01ec510833af1",
+      "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-4-default",
+      "mode": "keep",
+      "contact": 2,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "245002a503bf3f7ab9b6f630ff84fd394595027cf2fa8a047eb0938843210442",
+        "strength": "1/1024",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "2c2b6eade0b1ac4ef538d8cc6a7538524c9040ea23bc43aab8acf93dd76686f0",
+      "retained_shift": "-11379801769781132885262204348978358983842735582846739331205744784230971333575288879319711832019971981427994099214218648059192042816489765901/8337471007530506325650858857598574226504093316668318180399566773373694416266051313071157043392309479460188609490180951513517570433387936570408960",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-5-default",
+      "mode": "keep",
+      "contact": 2,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "5b6b114b8669e7aaafbc052d897d52b72dd7b25e91c95330c983006a3e2b48a3",
+        "strength": "1/1024",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "71f9e6baea91596fa396bafbb524cd74bd085b62fb4a956fc75f2c6ab0fd5079",
+      "retained_shift": "-11379801769781132885262204348978358983842735582846739331205744784230971333575288879319711832019971981427994099214218648059192042816489765901/8337471007530506325650858857598574226504093316668318180399566773373694416266051313071157043392309479460188609490180951513517570433387936570408960",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-6-default",
+      "mode": "keep",
+      "contact": 3,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "de223b899927d54539575c332281de6abd71239879add437aea549df17d945f2",
+        "strength": "1/1024",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "1cf7c445e30fdbf1ad0a4532d3b1fbf5c3685f9c6040fba8b59abb9ee498240e",
+      "retained_shift": "5187747986843002258268572081157900550420684519875814219699670714995809003122827591961255363177371826861218693092750633012893720810297523361/757951909775500575059168987054415838773099392424392561854506070306699492387822846642832458490209952678198964499107359228501597312126176051855360",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-7-default",
+      "mode": "keep",
+      "contact": 3,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "ab2b939a00adedd699437e6b769764ae3b703355001925f24e0c441d93cb0f6f",
+        "strength": "1/1024",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "34da88430505973f44243ce5d1c6481908f22e6726d07113c2816f609fb3a3b6",
+      "retained_shift": "5187747986843002258268572081157900550420684519875814219699670714995809003122827591961255363177371826861218693092750633012893720810297523361/757951909775500575059168987054415838773099392424392561854506070306699492387822846642832458490209952678198964499107359228501597312126176051855360",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "erase-0-default",
+      "mode": "erase",
+      "contact": 0,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "284b0c178f6d080ad855dc19b282190d8e441cdcf56af73863a1b03d23930fee",
+        "strength": "1/1024",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "2941b7619720a223fe6075370516ea0f123d163bfffb99e3bc188224de8c23ce",
+      "retained_shift": "0",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "erase-1-default",
+      "mode": "erase",
+      "contact": 0,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "83000a9eef325797e0cc51ce9001a3c574e7d2f2da46f0d6b995fd4ae14598c7",
+        "strength": "1/1024",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "36bb11065d4e5cddf0b01897d064419be73b1b21e28c6501d6afe6af9eb0d81c",
+      "retained_shift": "0",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "erase-2-default",
+      "mode": "erase",
+      "contact": 1,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "bf283407053d1ebc1d24b11101911c9cec901979b0157786c53b6c5da0517e85",
+        "strength": "1/1024",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "e25563102122e9f0c3a26aa9db2c1304f407210b707b3f273108e13fcc6d8931",
+      "retained_shift": "0",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "erase-3-default",
+      "mode": "erase",
+      "contact": 1,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "8b0f4e04f42e60100fabab480a8f61fd34970e58e98b62ce01d2edc8f4d01b22",
+        "strength": "1/1024",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "1515398a4058783733b383a501746c37b13bb701c8a789c0c07834dd68bddeb1",
+      "retained_shift": "0",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "erase-4-default",
+      "mode": "erase",
+      "contact": 2,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "55dfa3e861a6fd72b3197b235308dcb515a4ec4d897910be03db640dfe450eab",
+        "strength": "1/1024",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "0d21a4b78066dbd924df67f60e12fb011d7a89f74aad04ad7cdcace3881b4b14",
+      "retained_shift": "0",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "erase-5-default",
+      "mode": "erase",
+      "contact": 2,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "1ff9a37a99355754788e3e5fda1de5b1b3e660ea6dcb43f397bcdbedb9ddf544",
+        "strength": "1/1024",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "b5a90d10dfece925e701ce0a04c1c31882a9e1b6bf430707d588f6e585128245",
+      "retained_shift": "0",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "erase-6-default",
+      "mode": "erase",
+      "contact": 3,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "c68ee8d65b681bdc095fa1dfce1c2524689c177d39f999b13f212ea4deb53d2c",
+        "strength": "1/1024",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "f3855376560131f6b850b9b3f743142f5b1e576b9747768f06c113c422b866da",
+      "retained_shift": "0",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "erase-7-default",
+      "mode": "erase",
+      "contact": 3,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "e1ec0e682a036064254f2b4ae88f1a3d180e002671800574e8841dab082c1f5d",
+        "strength": "1/1024",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "39a5980119eb66816200385f3cd905ddda441a80aed0792d8d62b7c21e7ecbbd",
+      "retained_shift": "0",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "restore-0-default",
+      "mode": "restore",
+      "contact": 0,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "c8db4224ae426055a9955f040f5f0474b4b58a75edfe537c50ddcf94e141625d",
+        "strength": "1/1024",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "74d950a21836d48d1c3e8333ec5f3b2eb9f225976ae9c47df0e5550f34d082f3",
+      "retained_shift": "0",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "restore-1-default",
+      "mode": "restore",
+      "contact": 0,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "59f29915c342cdd21ebf377830887f8a1ecc80eb002274aaf0de2e103be3aa95",
+        "strength": "1/1024",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "16af303eab2fff9064f4ca751613cb599cea82c19a44d2a7e48619e833641f6b",
+      "retained_shift": "0",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "restore-2-default",
+      "mode": "restore",
+      "contact": 1,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "d32c36271ac48c4522515c8f939cc4fae7da73970e461b27fe09ad72512117f8",
+        "strength": "1/1024",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "58f493e7a2405f7a04541b38dc5921a76ffae6a1898fbef4e4dbffd9c6fb988d",
+      "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "restore-3-default",
+      "mode": "restore",
+      "contact": 1,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "555abeeaf51c5cccf9310b2918726bf4108d19eb541d7da79f5f145cf85ba18a",
+        "strength": "1/1024",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "02c41ec7ead99e680365378b93d95eb461d972f3b334189b9885a19a34f53a0d",
+      "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "restore-4-default",
+      "mode": "restore",
+      "contact": 2,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "6563e46d01486b0cd9d19a1123454d07a1f5fa1c0ba4800db81be093338ea995",
+        "strength": "1/1024",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "1c4337b8e637b124bdd5693a023ae640e05e0d9a3c4e3102362f3ebfc3053c26",
+      "retained_shift": "-11379801769781132885262204348978358983842735582846739331205744784230971333575288879319711832019971981427994099214218648059192042816489765901/8337471007530506325650858857598574226504093316668318180399566773373694416266051313071157043392309479460188609490180951513517570433387936570408960",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "restore-5-default",
+      "mode": "restore",
+      "contact": 2,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "ef45240aac6da5b1f368e580c5f1b7f9371f0a5299d2d055c6dcbcda22ffc5f8",
+        "strength": "1/1024",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "b73003189888504a6a279622bfff13056c796ab192d25d0ff1796a9b79d22828",
+      "retained_shift": "-11379801769781132885262204348978358983842735582846739331205744784230971333575288879319711832019971981427994099214218648059192042816489765901/8337471007530506325650858857598574226504093316668318180399566773373694416266051313071157043392309479460188609490180951513517570433387936570408960",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "restore-6-default",
+      "mode": "restore",
+      "contact": 3,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "ae4a476a7291545dba8965b1b2addfa13c932558cf121dff81c9c0306c5e2ef5",
+        "strength": "1/1024",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "dc41f1a9bc660667cd474d9b74c0eaa992c64daed5039a5b9003305873ced812",
+      "retained_shift": "5187747986843002258268572081157900550420684519875814219699670714995809003122827591961255363177371826861218693092750633012893720810297523361/757951909775500575059168987054415838773099392424392561854506070306699492387822846642832458490209952678198964499107359228501597312126176051855360",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "restore-7-default",
+      "mode": "restore",
+      "contact": 3,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "d93a2dc66c8d2d077f76d0a530782bc78850d20db500d46b2e531206c69bcb1f",
+        "strength": "1/1024",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "619a4905351d24fc4a03282a4b457f60f8399ad70a3a9aeda1eafbd1c2fef888",
+      "retained_shift": "5187747986843002258268572081157900550420684519875814219699670714995809003122827591961255363177371826861218693092750633012893720810297523361/757951909775500575059168987054415838773099392424392561854506070306699492387822846642832458490209952678198964499107359228501597312126176051855360",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-0-strength-0",
+      "mode": "keep",
+      "contact": 0,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "d11d039c0e89a3dea04b9c74c167377ccfd99615046b535f975fb7ba500a525e",
+        "strength": "0",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "a20f6735ce30bcf938766c99eb4dbcc9ac2413b63081d83b880bb6196848e017",
+      "retained_shift": "0",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-1-strength-0",
+      "mode": "keep",
+      "contact": 0,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "bdd697933fe657640850671720b5ba9866cdfab98f78bf400600cad44099653b",
+        "strength": "0",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "acf5b7972c2d1bdb8123bbc3a1180cc11a39ae5e4e835eea015058b671ae450a",
+      "retained_shift": "0",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-2-strength-0",
+      "mode": "keep",
+      "contact": 1,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "458172e51da77823115fa7e648f33487a5da85c472f86a720b59b12fc7612103",
+        "strength": "0",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "8dd79031ae83ddc60e646d233dfdb8a4770a8d8ee54ea655324111680b9d8e09",
+      "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-3-strength-0",
+      "mode": "keep",
+      "contact": 1,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "1a4db4436d68e8c774e7c34cb2b5bf8e4d2fb44afaf66717b06c0645b57015bb",
+        "strength": "0",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "1b32914667070a07e4d851960901ce656f3df198879199b356d82b88f4568bf6",
+      "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-4-strength-0",
+      "mode": "keep",
+      "contact": 2,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "245002a503bf3f7ab9b6f630ff84fd394595027cf2fa8a047eb0938843210442",
+        "strength": "0",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "b7f6155b17de7624ef2a79976762728747f8913e3e5ab186269289d597bb7c4d",
+      "retained_shift": "-11379801769781132885262204348978358983842735582846739331205744784230971333575288879319711832019971981427994099214218648059192042816489765901/8337471007530506325650858857598574226504093316668318180399566773373694416266051313071157043392309479460188609490180951513517570433387936570408960",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-5-strength-0",
+      "mode": "keep",
+      "contact": 2,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "5b6b114b8669e7aaafbc052d897d52b72dd7b25e91c95330c983006a3e2b48a3",
+        "strength": "0",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "22fda7af073ecabdba3a5c8470f283b085d66e2b1b604d90bc63be1e97c85024",
+      "retained_shift": "-11379801769781132885262204348978358983842735582846739331205744784230971333575288879319711832019971981427994099214218648059192042816489765901/8337471007530506325650858857598574226504093316668318180399566773373694416266051313071157043392309479460188609490180951513517570433387936570408960",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-6-strength-0",
+      "mode": "keep",
+      "contact": 3,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "de223b899927d54539575c332281de6abd71239879add437aea549df17d945f2",
+        "strength": "0",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "2d1315e24c0e0cd1c9f265872f42b22cdad567259b40eee4c4e8a988e63ab45e",
+      "retained_shift": "5187747986843002258268572081157900550420684519875814219699670714995809003122827591961255363177371826861218693092750633012893720810297523361/757951909775500575059168987054415838773099392424392561854506070306699492387822846642832458490209952678198964499107359228501597312126176051855360",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-7-strength-0",
+      "mode": "keep",
+      "contact": 3,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "ab2b939a00adedd699437e6b769764ae3b703355001925f24e0c441d93cb0f6f",
+        "strength": "0",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "59895cb58269775ced8c936bdc85dcc38d3256ce63d14d83f3f0cdbfc7f89ace",
+      "retained_shift": "5187747986843002258268572081157900550420684519875814219699670714995809003122827591961255363177371826861218693092750633012893720810297523361/757951909775500575059168987054415838773099392424392561854506070306699492387822846642832458490209952678198964499107359228501597312126176051855360",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-0-strength-1/2048",
+      "mode": "keep",
+      "contact": 0,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "d11d039c0e89a3dea04b9c74c167377ccfd99615046b535f975fb7ba500a525e",
+        "strength": "1/2048",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "c0e46a3700adb96cb86c8f28c5ab9ba822eb08622510240bf52a1a62c6c12586",
+      "retained_shift": "0",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-1-strength-1/2048",
+      "mode": "keep",
+      "contact": 0,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "bdd697933fe657640850671720b5ba9866cdfab98f78bf400600cad44099653b",
+        "strength": "1/2048",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "ec62bfe56596d7c63a961fc0cdf2daa6abba409e7901751d672ab822d91c76dd",
+      "retained_shift": "0",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-2-strength-1/2048",
+      "mode": "keep",
+      "contact": 1,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "458172e51da77823115fa7e648f33487a5da85c472f86a720b59b12fc7612103",
+        "strength": "1/2048",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "6b42917f9a15c9912ec6575d5975559a14ab873c2470edbe179095679fe85ee1",
+      "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-3-strength-1/2048",
+      "mode": "keep",
+      "contact": 1,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "1a4db4436d68e8c774e7c34cb2b5bf8e4d2fb44afaf66717b06c0645b57015bb",
+        "strength": "1/2048",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "8a4a968bb4bad18168c2a0858477dd533aad7ba88d92ad7c0910dd29096492eb",
+      "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-4-strength-1/2048",
+      "mode": "keep",
+      "contact": 2,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "245002a503bf3f7ab9b6f630ff84fd394595027cf2fa8a047eb0938843210442",
+        "strength": "1/2048",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "1352e5348593a79b13ac175f00d7ed9526475f1581556cf6d4faf44f2b2c9a4c",
+      "retained_shift": "-11379801769781132885262204348978358983842735582846739331205744784230971333575288879319711832019971981427994099214218648059192042816489765901/8337471007530506325650858857598574226504093316668318180399566773373694416266051313071157043392309479460188609490180951513517570433387936570408960",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-5-strength-1/2048",
+      "mode": "keep",
+      "contact": 2,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "5b6b114b8669e7aaafbc052d897d52b72dd7b25e91c95330c983006a3e2b48a3",
+        "strength": "1/2048",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "95e641efc7c5848435cf2bbeab04289db61621d4b6dff8bee507572624798cda",
+      "retained_shift": "-11379801769781132885262204348978358983842735582846739331205744784230971333575288879319711832019971981427994099214218648059192042816489765901/8337471007530506325650858857598574226504093316668318180399566773373694416266051313071157043392309479460188609490180951513517570433387936570408960",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-6-strength-1/2048",
+      "mode": "keep",
+      "contact": 3,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "de223b899927d54539575c332281de6abd71239879add437aea549df17d945f2",
+        "strength": "1/2048",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "143aab8d0b53dfaa414d7fb493bc1b638e27791e3c91a8734aadef630857d696",
+      "retained_shift": "5187747986843002258268572081157900550420684519875814219699670714995809003122827591961255363177371826861218693092750633012893720810297523361/757951909775500575059168987054415838773099392424392561854506070306699492387822846642832458490209952678198964499107359228501597312126176051855360",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-7-strength-1/2048",
+      "mode": "keep",
+      "contact": 3,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "ab2b939a00adedd699437e6b769764ae3b703355001925f24e0c441d93cb0f6f",
+        "strength": "1/2048",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "f865f05db73ba1a86536f48bf2995ea770002cfc024adcc4ec47dd7e4cbfa73d",
+      "retained_shift": "5187747986843002258268572081157900550420684519875814219699670714995809003122827591961255363177371826861218693092750633012893720810297523361/757951909775500575059168987054415838773099392424392561854506070306699492387822846642832458490209952678198964499107359228501597312126176051855360",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-0-strength-1/512",
+      "mode": "keep",
+      "contact": 0,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "d11d039c0e89a3dea04b9c74c167377ccfd99615046b535f975fb7ba500a525e",
+        "strength": "1/512",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "9dc21996b82f874688e0206e251e57a68993fd791ee4e1066580f65a98756842",
+      "retained_shift": "0",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-1-strength-1/512",
+      "mode": "keep",
+      "contact": 0,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "bdd697933fe657640850671720b5ba9866cdfab98f78bf400600cad44099653b",
+        "strength": "1/512",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": false,
+        "observation": "next-context"
+      },
+      "notice_digest": "2d2d8ba245945a568b7bfc04faffbe8c50b328b8337759be1b31bcf3c4d2f2b7",
+      "retained_shift": "0",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-2-strength-1/512",
+      "mode": "keep",
+      "contact": 1,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "458172e51da77823115fa7e648f33487a5da85c472f86a720b59b12fc7612103",
+        "strength": "1/512",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "3563ecf4aab4acfc1f44f48559ab2c0e9929bcc736237e8e5debdc97cb5f4b9e",
+      "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-3-strength-1/512",
+      "mode": "keep",
+      "contact": 1,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "1a4db4436d68e8c774e7c34cb2b5bf8e4d2fb44afaf66717b06c0645b57015bb",
+        "strength": "1/512",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "037d3d057a4cd18fad3fd3417400c5ad16c89da29b4aece9a4ac9d12ca36ce1d",
+      "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-4-strength-1/512",
+      "mode": "keep",
+      "contact": 2,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "245002a503bf3f7ab9b6f630ff84fd394595027cf2fa8a047eb0938843210442",
+        "strength": "1/512",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "8fbe1bd77df308d0a5318f58e9c8e791508b7df6cf4593acaae3bfc716c8e5a2",
+      "retained_shift": "-11379801769781132885262204348978358983842735582846739331205744784230971333575288879319711832019971981427994099214218648059192042816489765901/8337471007530506325650858857598574226504093316668318180399566773373694416266051313071157043392309479460188609490180951513517570433387936570408960",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-5-strength-1/512",
+      "mode": "keep",
+      "contact": 2,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "5b6b114b8669e7aaafbc052d897d52b72dd7b25e91c95330c983006a3e2b48a3",
+        "strength": "1/512",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "6d6575114b7025693018c11e17b955d3f9aed503d70631cb1dbeba70c50bfc55",
+      "retained_shift": "-11379801769781132885262204348978358983842735582846739331205744784230971333575288879319711832019971981427994099214218648059192042816489765901/8337471007530506325650858857598574226504093316668318180399566773373694416266051313071157043392309479460188609490180951513517570433387936570408960",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-6-strength-1/512",
+      "mode": "keep",
+      "contact": 3,
+      "petal": 0,
+      "notice": {
+        "flight_digest": "de223b899927d54539575c332281de6abd71239879add437aea549df17d945f2",
+        "strength": "1/512",
+        "source_mass": "1/2",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "cc50ce8e69e013ca2136619482b7d25a34733828b708f3ae0d7a0b8880ad9d8c",
+      "retained_shift": "5187747986843002258268572081157900550420684519875814219699670714995809003122827591961255363177371826861218693092750633012893720810297523361/757951909775500575059168987054415838773099392424392561854506070306699492387822846642832458490209952678198964499107359228501597312126176051855360",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 11,
+      "context_constructed": false,
+      "next_source_planned": false
+    },
+    {
+      "name": "keep-7-strength-1/512",
+      "mode": "keep",
+      "contact": 3,
+      "petal": 1,
+      "notice": {
+        "flight_digest": "ab2b939a00adedd699437e6b769764ae3b703355001925f24e0c441d93cb0f6f",
+        "strength": "1/512",
+        "source_mass": "11/21",
+        "direction": [
+          [
+            "-2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "requested": true,
+        "observation": "next-context"
+      },
+      "notice_digest": "d3877269c3cfedb771803c530c786d7bea07be7bc04c3a23435b39292dc66609",
+      "retained_shift": "5187747986843002258268572081157900550420684519875814219699670714995809003122827591961255363177371826861218693092750633012893720810297523361/757951909775500575059168987054415838773099392424392561854506070306699492387822846642832458490209952678198964499107359228501597312126176051855360",
+      "waiting_phase": "WAIT_CONTEXT",
+      "last_actual_event": "boundary-requested",
+      "actual_event_index": 13,
+      "context_constructed": false,
+      "next_source_planned": false
+    }
+  ],
+  "source": "actual local closure and current connection request, then unchanged RR53 readout obligation",
+  "new_future_context_supplied": false,
+  "global_future_requirement_used": false
+}
