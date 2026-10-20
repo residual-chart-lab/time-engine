@@ -1,0 +1,143 @@
+{
+  "schema": "time-engine-rr62-demand-directed-residue-v1",
+  "date": "2026-10-20",
+  "parent_commit": "ccddfb036e85d203b43082e2f18dcb30e218aecf",
+  "C_source": "the entire RR61 precommitted 14-frame grid, reused without success filtering",
+  "rr61_inputs_sha256": "4656807bc1229acd8318ee372303f744eadd877c25be6987359b06b9845f40f5",
+  "future_frames": [
+    {
+      "name": "grid--4",
+      "x": "-4/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid--3",
+      "x": "-3/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid--2",
+      "x": "-2/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid--1",
+      "x": "-1/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid-0",
+      "x": "0/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid-1",
+      "x": "1/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid-2",
+      "x": "2/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid-3",
+      "x": "3/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid-4",
+      "x": "4/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid-5",
+      "x": "5/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid-6",
+      "x": "6/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid-7",
+      "x": "7/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid-8",
+      "x": "8/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "blind-current-frame",
+      "x": "1/3",
+      "role": "zero-channel control"
+    }
+  ],
+  "target": [
+    "1",
+    "0",
+    "0",
+    "0"
+  ],
+  "inherited": [
+    "-1",
+    "0",
+    "0",
+    "0"
+  ],
+  "histories": [
+    {
+      "name": "erase",
+      "mode": "erase",
+      "contact": 1,
+      "gain": "1"
+    },
+    {
+      "name": "keep",
+      "mode": "keep",
+      "contact": 1,
+      "gain": "1"
+    },
+    {
+      "name": "restore",
+      "mode": "restore",
+      "contact": 1,
+      "gain": "1"
+    }
+  ],
+  "domains": [
+    {
+      "name": "full",
+      "interval": [
+        "-64",
+        "64"
+      ]
+    },
+    {
+      "name": "positive-four",
+      "interval": [
+        "0",
+        "4"
+      ]
+    }
+  ],
+  "observations": [
+    "existence-of-certified-current-control",
+    "full-certified-current-action-set"
+  ],
+  "envelope": [
+    "-1/1024",
+    "1/1024"
+  ],
+  "words": [
+    "HHST",
+    "HHTS"
+  ],
+  "S": "the actual earlier published retained source, unchanged",
+  "T": "a newly produced source with coefficients reference + v*delta",
+  "runtime": "save assessments before any exact residual scalar read; then resolve and execute",
+  "additional_boundary_tests": "synthetic stress unit tests only; not additional independent-C experiments"
+}
