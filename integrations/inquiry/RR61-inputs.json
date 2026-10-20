@@ -1,0 +1,129 @@
+{
+  "schema": "time-engine-rr61-independent-C-inputs-v1",
+  "date": "2026-10-20",
+  "parent_commit": "66038def4c18859bc2268f8832286f6c1243fc62",
+  "construction": "x=k/4 for every integer k=-4,...,8; plus the explicitly labelled blind-channel control x=1/3",
+  "future_target": [
+    "1",
+    "0",
+    "0",
+    "0"
+  ],
+  "future_inherited": [
+    "-1",
+    "0",
+    "0",
+    "0"
+  ],
+  "future_frames": [
+    {
+      "name": "grid--4",
+      "x": "-4/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid--3",
+      "x": "-3/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid--2",
+      "x": "-2/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid--1",
+      "x": "-1/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid-0",
+      "x": "0/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid-1",
+      "x": "1/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid-2",
+      "x": "2/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid-3",
+      "x": "3/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid-4",
+      "x": "4/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid-5",
+      "x": "5/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid-6",
+      "x": "6/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid-7",
+      "x": "7/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "grid-8",
+      "x": "8/4",
+      "role": "independent fixed grid"
+    },
+    {
+      "name": "blind-current-frame",
+      "x": "1/3",
+      "role": "zero-channel control"
+    }
+  ],
+  "control_domain": [
+    "-64",
+    "64"
+  ],
+  "histories": [
+    {
+      "name": "erase",
+      "mode": "erase",
+      "contact": 1,
+      "gain": "1"
+    },
+    {
+      "name": "keep",
+      "mode": "keep",
+      "contact": 1,
+      "gain": "1"
+    },
+    {
+      "name": "restore",
+      "mode": "restore",
+      "contact": 1,
+      "gain": "1"
+    },
+    {
+      "name": "large-history-control",
+      "mode": "keep",
+      "contact": 1,
+      "gain": "16777216"
+    }
+  ],
+  "word_family": "all finite primitive first-return H/S words: equal H and S counts and more H than S at each proper prefix",
+  "free_execution_words": [
+    "HS",
+    "HHHSSS",
+    "HHSHSS"
+  ],
+  "negative_even_word": "HHSS",
+  "success_paths_used_to_construct_C": false,
+  "comparison": "backward residual-aware pullback versus forward affine reachable-interval calculation; same histories, C, domain and words"
+}
