@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-20",
+  "passed": true,
+  "new_groups": 11,
+  "new_tests": 20,
+  "reused_tests": {
+    "test_future_pullback": 20,
+    "test_deferred": 22,
+    "test_portability": 11
+  },
+  "total_tests": 73,
+  "queries": 168,
+  "exact_shift_reads": {
+    "existence-of-certified-current-control": 0,
+    "full-certified-current-action-set": 48
+  },
+  "actual_executions": 34,
+  "certified_future_closures": 33,
+  "result_sha256": "8731bb1a2c27da3855248cacd51de359c6877bca20fbf28d6d5d1f387d471f8a",
+  "starts_sha256": "8496d3117a7c3cef6fc0cef70c15a1c8071dcf782973152b66e0155772fa0ec8",
+  "source_sha256": {
+    "demand_filter.py": "1058cd80ccd897f62e000bacc69f96dc3ac002afd33bd565f85dd4e035020b36",
+    "retained_execution.py": "b2da02b81aa849cc1f34a9dddb1eedfb2d456d1e1be5dad148a495d5adcc2a2d",
+    "rr62_study.py": "72eaabed4e1956f22e35361a817829abe0bf23bf944ffd5a1a248c32e7b7a91d",
+    "test_demand_filter.py": "e025c8b2d3931de860e42a1ab9183917554ec4caa766b9aeebd10c2d68e7dacf",
+    "validate_demand.py": "3f1a22b4ea4e3aa12acd42db1e965ac9427edf985d164e27373d9164dcde44b7"
+  },
+  "full_RR57_128_family_rerun": false,
+  "actual_second_OS_test": false,
+  "full_TE_speedup_or_storage_reduction_measured": false,
+  "independent_package_main_passed": true,
+  "independent_result_and_starts_bytes_match": true,
+  "independent_package_full_tests_rerun": false,
+  "prior_blobs_unchanged_except_readmes": 245,
+  "baseline_files_unchanged": 131,
+  "three_plus_one_vendor_files_unchanged": 17,
+  "original_RR56_and_RR57_records_unchanged": 6,
+  "independent_stdout": "{\"stage\": \"assessments-and-resolution-complete\", \"queries\": 168, \"shift_reads\": {\"existence-of-certified-current-control\": 0, \"full-certified-current-action-set\": 48}}\n{\"groups\": 11, \"queries\": 168, \"statuses\": {\"EXISTENCE_CERTIFIED_WITHOUT_SHIFT\": 48, \"ACTION_NEEDS_SHIFT\": 48, \"EMPTY_DOMAIN_FOR_ENVELOPE\": 24, \"OUTSIDE_CERTIFIED_CHART\": 24, \"EMPTY_ZERO_HEAD\": 12, \"EMPTY_BLIND\": 12}, \"executions\": 34, \"certified\": 33, \"shift_reads\": {\"existence-of-certified-current-control\": 0, \"full-certified-current-action-set\": 48}}"
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-20",
+  "parent_commit": "ccddfb036e85d203b43082e2f18dcb30e218aecf",
+  "input_commit": "5cace65874ef7334154b1b7e51bf77b04ba3b8ed",
+  "final_commit_parent": "5cace65874ef7334154b1b7e51bf77b04ba3b8ed",
+  "premise": "C and the requested observation determine whether retained precision is needed before current execution",
+  "action_family": "actual retained S plus newly produced T; two current words HHST and HHTS",
+  "measured_scope": "assessment and resolution only; exact archive authentication and actual execution revalidation remain separate",
+  "changed_file_sha256": {
+    "README.md": "88db53137d58a7386ad0cc313ccb77b4bf76e7438bcfbab7a299db8184f435fd",
+    "docs/RR62_DEMAND_DIRECTED_RESIDUE.md": "e3b562312e45cc8a46f402bd808a53fdd701e85895f66458e4ba55a006cad618",
+    "integrations/inquiry/README.md": "bd78038e9b87b62abc9ce75bebaa9dd4209448f263f01116f16fa64467fff434",
+    "integrations/inquiry/RR62-inputs.json": "5aea8291c577aa257e7a795ca8ba7b168bb1c17cee67256dfef0703bfc8d4e1f",
+    "integrations/inquiry/RR62-result.json": "8731bb1a2c27da3855248cacd51de359c6877bca20fbf28d6d5d1f387d471f8a",
+    "integrations/inquiry/RR62-starts.json": "8496d3117a7c3cef6fc0cef70c15a1c8071dcf782973152b66e0155772fa0ec8",
+    "integrations/inquiry/RR62-validation.json": "9b6633004017f3bf9c0eb8167d7be5f023bb8aa37b4fc28890ff94df78aec479",
+    "integrations/inquiry/RR62-validation.log": "29209e98f67f9ca13e8337127db31926544a12ec3ca97b75447ee1ef02e416e3",
+    "integrations/inquiry/demand_filter.py": "1058cd80ccd897f62e000bacc69f96dc3ac002afd33bd565f85dd4e035020b36",
+    "integrations/inquiry/retained_execution.py": "b2da02b81aa849cc1f34a9dddb1eedfb2d456d1e1be5dad148a495d5adcc2a2d",
+    "integrations/inquiry/rr62_study.py": "72eaabed4e1956f22e35361a817829abe0bf23bf944ffd5a1a248c32e7b7a91d",
+    "integrations/inquiry/test_demand_filter.py": "e025c8b2d3931de860e42a1ab9183917554ec4caa766b9aeebd10c2d68e7dacf",
+    "integrations/inquiry/validate_demand.py": "3f1a22b4ea4e3aa12acd42db1e965ac9427edf985d164e27373d9164dcde44b7"
+  },
+  "prior_files_preserved_except": [
+    "README.md",
+    "integrations/inquiry/README.md"
+  ]
+}
