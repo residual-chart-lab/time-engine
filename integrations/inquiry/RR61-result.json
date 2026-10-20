@@ -1,0 +1,3834 @@
+{
+  "schema": "time-engine-rr61-independent-C-pullback-v1",
+  "input_commit": "93004cf57e5286a927e7a0e07d4c07ef142f883d",
+  "input_sha256": "4656807bc1229acd8318ee372303f744eadd877c25be6987359b06b9845f40f5",
+  "starts_sha256": "4f5fa3684eaf43bedacf2179c981300387e71acc00632b891c2096db442fdf4f",
+  "groups": [
+    {
+      "name": "all_preregistered_inputs_accounted_for_including_invalid_large_gain",
+      "passed": true
+    },
+    {
+      "name": "same_current_observables_but_retained_histories_differ",
+      "passed": true
+    },
+    {
+      "name": "42_independent_C_decisions_before_new_execution_and_forward_equivalence",
+      "passed": true
+    },
+    {
+      "name": "success_failure_blind_and_nonregular_cases_all_retained",
+      "passed": true,
+      "counts": {
+        "ADMISSIBLE": 30,
+        "ALGEBRAIC_ONLY": 6,
+        "EMPTY_ZERO_HEAD": 3,
+        "EMPTY_BLIND": 3
+      }
+    },
+    {
+      "name": "every_visible_retained_shift_changes_current_control_exactly",
+      "passed": true
+    },
+    {
+      "name": "all_30_regular_predicted_HS_realizations_certify_exactly",
+      "passed": true
+    },
+    {
+      "name": "one_C_leaves_three_distinct_current_words_with_actual_certificates",
+      "passed": true
+    },
+    {
+      "name": "reusing_erased_control_preserves_current_but_changes_future_exactly",
+      "passed": true,
+      "exact_future_defect": "98058349972803294070903287374736557314066236179450473280664411871938158359760468238067273409869055737181591139656516235999036179588917369437/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112"
+    },
+    {
+      "name": "even_pair_count_is_locally_valid_but_future_requirement_rejects_it",
+      "passed": true
+    },
+    {
+      "name": "needed_retained_channel_is_present_iff_h_times_g_is_nonzero",
+      "passed": true
+    },
+    {
+      "name": "the_geometric_axis_matches_but_does_not_use_the_old_pivot_axis",
+      "passed": true
+    },
+    {
+      "name": "original_histories_remain_exactly_replayable_after_all_current_and_future_runs",
+      "passed": true
+    }
+  ],
+  "decisions": 42,
+  "counts": {
+    "ADMISSIBLE": 30,
+    "ALGEBRAIC_ONLY": 6,
+    "EMPTY_ZERO_HEAD": 3,
+    "EMPTY_BLIND": 3
+  },
+  "rejected_inputs": [
+    {
+      "history": "large-history-control",
+      "declared": {
+        "name": "large-history-control",
+        "mode": "keep",
+        "contact": 1,
+        "gain": "16777216"
+      },
+      "status": "REJECTED_INPUT",
+      "reason": "gain in [0,2] and the declared 00 reference contact are required",
+      "C_cases_not_evaluated": 14,
+      "success_outcome_not_observed": true
+    }
+  ],
+  "current_and_future_executions": 38,
+  "certified_future_closures": 36,
+  "records": [
+    {
+      "history": "erase",
+      "requirement_digest": "2a84a6c80789ba7a0af7379ee3789f8707d319b5b57288652f4723ab60b43863",
+      "context": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "7aeb4ce08f8621ef42ca50879b2ee08c94112c10f49fa7025296ef403476f9fc",
+      "control": "4292354392408437817/1266637395197952000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-113/18",
+        "-103/36",
+        "365/36",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "erase",
+      "requirement_digest": "97c69d0563be80198a985d81b0603ca47bc2dc3c4a132183ded1cf3cdf551c39",
+      "context": [
+        [
+          "-3/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "7/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "021574942007ed2cc2a283a95df4895026a4e78f44f2ddbf685cb6f4aa7d63c6",
+      "control": "6694681539776524029/1829587348619264000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-2216/325",
+        "-842/325",
+        "3383/325",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "erase",
+      "requirement_digest": "c68baee53a07f5b35a716f22ef4d34c557a2a4746e5a9bf7fc652865f0336d7c",
+      "context": [
+        [
+          "-1/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "3/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "6362020f87d25620d816b321ee54ec0264c86fa3ad55efd36b5cea8fdb792fe0",
+      "control": "577008257542504113/140737488355328000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-77/10",
+        "-43/20",
+        "217/20",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "erase",
+      "requirement_digest": "d977ba1555d0d34c0b8cec45fc03098f7642514f0066ac5c5a68649fdce25931",
+      "context": [
+        [
+          "-1/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "5/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "1e7789daac40765193cd2ba05a349e4bf0812d1c6e873d624a86bf199b757604",
+      "control": "43873938977770040719/8866461766385664000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-592/63",
+        "-82/63",
+        "737/63",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "erase",
+      "requirement_digest": "9f15fd74a3df229bb5604e8612e19cd0e45f4ecc96521f3814bd755d78bb766c",
+      "context": [
+        [
+          "1/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "3/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "b513e37e4e21a7962309665e5c11aa1576fb6668c731f287e8fb00066c24e8c3",
+      "control": "3975818601323675313/140737488355328000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-56",
+        "22",
+        "35",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "erase",
+      "requirement_digest": "97514954fb10fd73c644e8f795a0cec258b106a9b2f26d3bc0255ee3988d4d64",
+      "context": [
+        [
+          "3/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "da4c9577d454608098c04bb4e2e406846b2afb2de32a6ad5b4a0276149f2d41d",
+      "control": "-415191035362558287/140737488355328000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "32/5",
+        "-46/5",
+        "19/5",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "erase",
+      "requirement_digest": "82d411604a03416714ab816ba81e85fd7e71155714c5f299bc5ddd8609e5f042",
+      "context": [
+        [
+          "5/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "c0ff8e1cbe6fcde46b9458b5f410dba3bac7c3cd9b6480cb545004ac81bdc124",
+      "control": "7422373484023823987/13933011347177472000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-56/99",
+        "-566/99",
+        "721/99",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "erase",
+      "requirement_digest": "76284c86ca0f0d9ccb24256dea3f4e2f2ff49649963a2c4a463d95d0c75505ab",
+      "context": [
+        [
+          "3/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "1303434b2cca9b75507516fdd89632df58e3a2d24c330536200b06abbf4d0f6b",
+      "control": "914685561309247191/985162418487296000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-19/14",
+        "-149/28",
+        "215/28",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "erase",
+      "requirement_digest": "b34ee048bd75c4590c4d9386b9a2b07ce26918ff544619e3b8e60890a9994f85",
+      "context": [
+        [
+          "7/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-3/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "9b76a74e728d7252776382ad1f50db5fc85a76926daeff4f114bf434b1df5587",
+      "control": "2804635582777895361/2392537302040576000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-784/425",
+        "-2158/425",
+        "3367/425",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "erase",
+      "requirement_digest": "904a404458e906824679b58a78c63fb2ff0b339da75bc68667bfd0c5d4d3e2b7",
+      "context": [
+        [
+          "2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "69f64477fcf5af37c6a1e86aefaf3bdd519cd9b179708c0953f1205cc84dd2a5",
+      "control": "1695747732252636217/1266637395197952000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-98/45",
+        "-221/45",
+        "364/45",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "keep",
+      "requirement_digest": "2a84a6c80789ba7a0af7379ee3789f8707d319b5b57288652f4723ab60b43863",
+      "context": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "6ffffb5f1a8be4d873c5ce0a1de9f30d26fa776915c029220090a03c72bd0533",
+      "control": "3178545630779145799289042603048521022074195740728359081621320153238395166788658286579226996500451553756959188907854733444871229658521691889424392343/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-113/18",
+        "-103/36",
+        "365/36",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "keep",
+      "requirement_digest": "97c69d0563be80198a985d81b0603ca47bc2dc3c4a132183ded1cf3cdf551c39",
+      "context": [
+        [
+          "-3/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "7/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "dc59e36acefa056b59f6237651b677ebac246b96753fb7e47c8b320b283cb43d",
+      "control": "381346331621634780591980873166271876681782910466208584287629407736083432462254254388337262141342774010957619891275998534085324743340878204991816607/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-2216/325",
+        "-842/325",
+        "3383/325",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "keep",
+      "requirement_digest": "c68baee53a07f5b35a716f22ef4d34c557a2a4746e5a9bf7fc652865f0336d7c",
+      "context": [
+        [
+          "-1/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "3/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "447dccfe1ff31a288eef87195e1aad4054062b413a341af5f2f8bc7f6140c00b",
+      "control": "427282590153509589482345701295156328910502578451313837339253943900921191121104710180546617774648479123752697518563245507328070588132525201673012127/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-77/10",
+        "-43/20",
+        "217/20",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "keep",
+      "requirement_digest": "d977ba1555d0d34c0b8cec45fc03098f7642514f0066ac5c5a68649fdce25931",
+      "context": [
+        [
+          "-1/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "5/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "e6647a1946de864cfdd4ad204edcaa03844f435ed94f6c9161b35f0323ac0036",
+      "control": "32489275996577423676213259255827896126444709789631791836652459016218334622497352274920103719419340955760758458385111615191637373798156402826504250401/6565758418430273731450051350358877203371973486876300567064658834031784352809515409043536171671443715074898529973517499316895086716293000049197056000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-592/63",
+        "-82/63",
+        "737/63",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "keep",
+      "requirement_digest": "9f15fd74a3df229bb5604e8612e19cd0e45f4ecc96521f3814bd755d78bb766c",
+      "context": [
+        [
+          "1/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "3/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "293484cba4d718b60dbcf276782c2a13dc61dca1c311671242bfa265692f448d",
+      "control": "2944156650551781186538198718932725923536425748420562388047373163613105193031418950313902150248701903235797134008411620245471187162711508553865216927/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-56",
+        "22",
+        "35",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "keep",
+      "requirement_digest": "97514954fb10fd73c644e8f795a0cec258b106a9b2f26d3bc0255ee3988d4d64",
+      "context": [
+        [
+          "3/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "7ca48307580f547379c478222bd6cd6a7e1d346a1e8c919009639d4b199dbac2",
+      "control": "-307457042385116280465636235530718024800170645080081702308457878002635629312341061783849096674298793753676423692758950844800665306309786708594277473/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "32/5",
+        "-46/5",
+        "19/5",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "keep",
+      "requirement_digest": "82d411604a03416714ab816ba81e85fd7e71155714c5f299bc5ddd8609e5f042",
+      "context": [
+        [
+          "5/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "81184951f2ba76bf845ff23f745e7ae9756c2e61f534af271d23732c2b009b49",
+      "control": "499659349666360954314292214428070041910522575628396620816800260998154148380446912975966026024115752259949723756322160671635896658475738406148104343/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-56/99",
+        "-566/99",
+        "721/99",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "keep",
+      "requirement_digest": "76284c86ca0f0d9ccb24256dea3f4e2f2ff49649963a2c4a463d95d0c75505ab",
+      "context": [
+        [
+          "3/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "a7b1cd61f259b7d5f68aecce1b2750465d2932d6f7e45a3b5c1b72da7fffcead",
+      "control": "677329926484851621008306576082489954518632153783738566313897827695248137333903731886580244881173473316066543496417504506295368321662524013422598489/729528713158919303494450150039875244819108165208477840784962092670198261423279489893726241296827079452766503330390833257432787412921444449910784000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-19/14",
+        "-149/28",
+        "215/28",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "keep",
+      "requirement_digest": "b34ee048bd75c4590c4d9386b9a2b07ce26918ff544619e3b8e60890a9994f85",
+      "context": [
+        [
+          "7/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-3/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "1c3df40cd6209cd190bf28e0b54756bd1a5b6807b0b65e882507b889751c0a65",
+      "control": "2076854882049746773354336355234144600814684779040057786786236567430550610339262899924898926548583610194626019136496349164230081492381458389575531919/1771712589100232594200807507239697023132119829792017613334907939341910063456535904027620871720865764385290079516663452196622483717094936521211904000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-784/425",
+        "-2158/425",
+        "3367/425",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "keep",
+      "requirement_digest": "904a404458e906824679b58a78c63fb2ff0b339da75bc68667bfd0c5d4d3e2b7",
+      "context": [
+        [
+          "2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "3a72d1b8fc60444f40ed4ecc60a5f559e7c92c08f0ad8fe08815e8196fa64ffa",
+      "control": "1255716379667422777935813279014849841086689219571728201266670066129086892037300202502191403368100180056453190844181751502066239977321599017873825943/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-98/45",
+        "-221/45",
+        "364/45",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "restore",
+      "requirement_digest": "2a84a6c80789ba7a0af7379ee3789f8707d319b5b57288652f4723ab60b43863",
+      "context": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "b3b9b19ec9c2725df54806e0c50b311f3123ed778f8edb0917e382c8c47eaf30",
+      "control": "3178545630779145799289042603048521022074195740728359081621320153238395166788658286579226996500451553756959188907854733444871229658521691889424392343/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-113/18",
+        "-103/36",
+        "365/36",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "restore",
+      "requirement_digest": "97c69d0563be80198a985d81b0603ca47bc2dc3c4a132183ded1cf3cdf551c39",
+      "context": [
+        [
+          "-3/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "7/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "c8c829f8b8b54187771213e73ee91329443635b788f967d359f3586ce335a218",
+      "control": "381346331621634780591980873166271876681782910466208584287629407736083432462254254388337262141342774010957619891275998534085324743340878204991816607/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-2216/325",
+        "-842/325",
+        "3383/325",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "restore",
+      "requirement_digest": "c68baee53a07f5b35a716f22ef4d34c557a2a4746e5a9bf7fc652865f0336d7c",
+      "context": [
+        [
+          "-1/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "3/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "e1ca9984de49f8b9c0810bb648ae88b8146c08710219ef6fb6fc1adb3b9b023a",
+      "control": "427282590153509589482345701295156328910502578451313837339253943900921191121104710180546617774648479123752697518563245507328070588132525201673012127/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-77/10",
+        "-43/20",
+        "217/20",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "restore",
+      "requirement_digest": "d977ba1555d0d34c0b8cec45fc03098f7642514f0066ac5c5a68649fdce25931",
+      "context": [
+        [
+          "-1/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "5/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "c13430d8b77ca4ec6c3742b025c961d9f8e58929b642d8944ec7cb5a05a24ecc",
+      "control": "32489275996577423676213259255827896126444709789631791836652459016218334622497352274920103719419340955760758458385111615191637373798156402826504250401/6565758418430273731450051350358877203371973486876300567064658834031784352809515409043536171671443715074898529973517499316895086716293000049197056000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-592/63",
+        "-82/63",
+        "737/63",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "restore",
+      "requirement_digest": "9f15fd74a3df229bb5604e8612e19cd0e45f4ecc96521f3814bd755d78bb766c",
+      "context": [
+        [
+          "1/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "3/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "c575bb79a80c0675c52a68bd8b17d697c50647df6030f6f2df0c9785d00de988",
+      "control": "2944156650551781186538198718932725923536425748420562388047373163613105193031418950313902150248701903235797134008411620245471187162711508553865216927/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-56",
+        "22",
+        "35",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "restore",
+      "requirement_digest": "97514954fb10fd73c644e8f795a0cec258b106a9b2f26d3bc0255ee3988d4d64",
+      "context": [
+        [
+          "3/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "fe0c4434ee2111206d72bd3580bb5216f58d6eb92b44f77084e87ddd159f3e48",
+      "control": "-307457042385116280465636235530718024800170645080081702308457878002635629312341061783849096674298793753676423692758950844800665306309786708594277473/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "32/5",
+        "-46/5",
+        "19/5",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "restore",
+      "requirement_digest": "82d411604a03416714ab816ba81e85fd7e71155714c5f299bc5ddd8609e5f042",
+      "context": [
+        [
+          "5/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "277ee05337b2d5f2b33f5a7b2b336c0aa72a3d5bdf19da66b10759330fa97ecb",
+      "control": "499659349666360954314292214428070041910522575628396620816800260998154148380446912975966026024115752259949723756322160671635896658475738406148104343/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-56/99",
+        "-566/99",
+        "721/99",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "restore",
+      "requirement_digest": "76284c86ca0f0d9ccb24256dea3f4e2f2ff49649963a2c4a463d95d0c75505ab",
+      "context": [
+        [
+          "3/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1/2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "06c7d8ed6e7147a1d3c304301420d899af0fe25e76e78652623c465188bb8eec",
+      "control": "677329926484851621008306576082489954518632153783738566313897827695248137333903731886580244881173473316066543496417504506295368321662524013422598489/729528713158919303494450150039875244819108165208477840784962092670198261423279489893726241296827079452766503330390833257432787412921444449910784000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-19/14",
+        "-149/28",
+        "215/28",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "restore",
+      "requirement_digest": "b34ee048bd75c4590c4d9386b9a2b07ce26918ff544619e3b8e60890a9994f85",
+      "context": [
+        [
+          "7/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-3/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "b2202745236e06446bc16a161b1eb0d4ea413b25846373ec714ba00c8452dbb8",
+      "control": "2076854882049746773354336355234144600814684779040057786786236567430550610339262899924898926548583610194626019136496349164230081492381458389575531919/1771712589100232594200807507239697023132119829792017613334907939341910063456535904027620871720865764385290079516663452196622483717094936521211904000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-784/425",
+        "-2158/425",
+        "3367/425",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "restore",
+      "requirement_digest": "904a404458e906824679b58a78c63fb2ff0b339da75bc68667bfd0c5d4d3e2b7",
+      "context": [
+        [
+          "2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "4155be34b9f052eaf17b4273535f6c9452db34234a162b72e1f4cfb38aa3591e",
+      "control": "1255716379667422777935813279014849841086689219571728201266670066129086892037300202502191403368100180056453190844181751502066239977321599017873825943/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+      "word": "HS",
+      "kind": "independent-grid-execution",
+      "source_weights": [
+        "-98/45",
+        "-221/45",
+        "364/45",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "erase",
+      "requirement_digest": "2a84a6c80789ba7a0af7379ee3789f8707d319b5b57288652f4723ab60b43863",
+      "context": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "7aeb4ce08f8621ef42ca50879b2ee08c94112c10f49fa7025296ef403476f9fc",
+      "control": "4292354392408437817/1266637395197952000",
+      "word": "HHHSSS",
+      "kind": "current-free-word-execution",
+      "source_weights": [
+        "-113/18",
+        "-103/36",
+        "365/36",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 24,
+      "prefix_errors": [
+        "10/9",
+        "80/81",
+        "730/729",
+        "80/81",
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "erase",
+      "requirement_digest": "2a84a6c80789ba7a0af7379ee3789f8707d319b5b57288652f4723ab60b43863",
+      "context": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "7aeb4ce08f8621ef42ca50879b2ee08c94112c10f49fa7025296ef403476f9fc",
+      "control": "4292354392408437817/1266637395197952000",
+      "word": "HHSHSS",
+      "kind": "current-free-word-execution",
+      "source_weights": [
+        "-113/18",
+        "-103/36",
+        "365/36",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 24,
+      "prefix_errors": [
+        "10/9",
+        "80/81",
+        "10/9",
+        "80/81",
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "keep",
+      "requirement_digest": "2a84a6c80789ba7a0af7379ee3789f8707d319b5b57288652f4723ab60b43863",
+      "context": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "6ffffb5f1a8be4d873c5ce0a1de9f30d26fa776915c029220090a03c72bd0533",
+      "control": "3178545630779145799289042603048521022074195740728359081621320153238395166788658286579226996500451553756959188907854733444871229658521691889424392343/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+      "word": "HHHSSS",
+      "kind": "current-free-word-execution",
+      "source_weights": [
+        "-113/18",
+        "-103/36",
+        "365/36",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 24,
+      "prefix_errors": [
+        "10/9",
+        "80/81",
+        "730/729",
+        "80/81",
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "keep",
+      "requirement_digest": "2a84a6c80789ba7a0af7379ee3789f8707d319b5b57288652f4723ab60b43863",
+      "context": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "6ffffb5f1a8be4d873c5ce0a1de9f30d26fa776915c029220090a03c72bd0533",
+      "control": "3178545630779145799289042603048521022074195740728359081621320153238395166788658286579226996500451553756959188907854733444871229658521691889424392343/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+      "word": "HHSHSS",
+      "kind": "current-free-word-execution",
+      "source_weights": [
+        "-113/18",
+        "-103/36",
+        "365/36",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 24,
+      "prefix_errors": [
+        "10/9",
+        "80/81",
+        "10/9",
+        "80/81",
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "restore",
+      "requirement_digest": "2a84a6c80789ba7a0af7379ee3789f8707d319b5b57288652f4723ab60b43863",
+      "context": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "b3b9b19ec9c2725df54806e0c50b311f3123ed778f8edb0917e382c8c47eaf30",
+      "control": "3178545630779145799289042603048521022074195740728359081621320153238395166788658286579226996500451553756959188907854733444871229658521691889424392343/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+      "word": "HHHSSS",
+      "kind": "current-free-word-execution",
+      "source_weights": [
+        "-113/18",
+        "-103/36",
+        "365/36",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 24,
+      "prefix_errors": [
+        "10/9",
+        "80/81",
+        "730/729",
+        "80/81",
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "restore",
+      "requirement_digest": "2a84a6c80789ba7a0af7379ee3789f8707d319b5b57288652f4723ab60b43863",
+      "context": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "b3b9b19ec9c2725df54806e0c50b311f3123ed778f8edb0917e382c8c47eaf30",
+      "control": "3178545630779145799289042603048521022074195740728359081621320153238395166788658286579226996500451553756959188907854733444871229658521691889424392343/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+      "word": "HHSHSS",
+      "kind": "current-free-word-execution",
+      "source_weights": [
+        "-113/18",
+        "-103/36",
+        "365/36",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": true,
+      "future_output_level": 4,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 24,
+      "prefix_errors": [
+        "10/9",
+        "80/81",
+        "10/9",
+        "80/81",
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "keep",
+      "requirement_digest": "2a84a6c80789ba7a0af7379ee3789f8707d319b5b57288652f4723ab60b43863",
+      "context": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "6ffffb5f1a8be4d873c5ce0a1de9f30d26fa776915c029220090a03c72bd0533",
+      "control": "4292354392408437817/1266637395197952000",
+      "word": "HS",
+      "kind": "wrong-history-control",
+      "source_weights": [
+        "-23553453654623653173257747176003346926431377685824178310102056799192558664109954719894256714856684148530770003400900844541923135510500509728774749/3751861953388727846542886485919358401926841992500743181179805048018162487319723090882020669526539265757084874270581428181082906695024571456684032",
+        "-21468889786041080985256890655028953896690726224184739864055603777025391183726722370689991319461787040554248487846076293631071744829794347751433635/7503723906777455693085772971838716803853683985001486362359610096036324974639446181764041339053078531514169748541162856362165813390049142913368064",
+        "76079521002065843024858157978874364553407165580834582846619327471446833486586077992242546088228233869129958243189040839077083829240844510122351197/7503723906777455693085772971838716803853683985001486362359610096036324974639446181764041339053078531514169748541162856362165813390049142913368064",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "104316445944104132364706639007356914388615232694533427728275249079043118361685401881627530315813737548989539209766918410154968666596938124499549/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": false,
+      "future_output_level": null,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 20,
+      "prefix_errors": [
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    },
+    {
+      "history": "keep",
+      "requirement_digest": "2a84a6c80789ba7a0af7379ee3789f8707d319b5b57288652f4723ab60b43863",
+      "context": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "target": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "decision_digest": "6ffffb5f1a8be4d873c5ce0a1de9f30d26fa776915c029220090a03c72bd0533",
+      "control": "3178545630779145799289042603048521022074195740728359081621320153238395166788658286579226996500451553756959188907854733444871229658521691889424392343/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+      "word": "HHSS",
+      "kind": "even-parity-control",
+      "source_weights": [
+        "-113/18",
+        "-103/36",
+        "365/36",
+        "0",
+        "0",
+        "0"
+      ],
+      "current_endpoint": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_actual": [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      "future_certified": false,
+      "future_output_level": null,
+      "source_level": 2,
+      "current_output_level": 3,
+      "actual_source_start": [
+        "9",
+        "0",
+        "0",
+        "0"
+      ],
+      "lower_endpoint": [
+        "-81",
+        "0",
+        "0",
+        "0"
+      ],
+      "stock_count": 6,
+      "rounds": 2,
+      "events": 22,
+      "prefix_errors": [
+        "10/9",
+        "80/81",
+        "10/9",
+        "0"
+      ],
+      "event_kinds": [
+        "engine-started",
+        "boundary-requested",
+        "context-arrived",
+        "correction-planned",
+        "rr57-embedded-contact-bound",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr57-common-local-context-arrived",
+        "rr57-consumer-action-executed",
+        "rr57-consumer-action-executed",
+        "upper-cell-closed:rr57-embedded-first-flower",
+        "boundary-requested",
+        "context-arrived",
+        "rr61-independent-C-control-planned",
+        "lower-cell-closed",
+        "same-level-operation-published",
+        "rr61-current-word-chosen",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "rr61-current-word-executed",
+        "upper-cell-closed:rr61-current-control"
+      ],
+      "replay_protocol": "recreate authenticated history, decision and selected current word; exact decoder again"
+    }
+  ],
+  "forward_and_pullback_mathematically_equivalent_in_declared_class": true,
+  "TE_exclusive_property_demonstrated": false,
+  "physical_retrocausal_force_demonstrated": false,
+  "independent_C_derived_from_success_path": false,
+  "future_path_enumerations_in_decision": 0,
+  "general_nondiagonal_or_arbitrary_stock_theorem": false,
+  "old_RR53_port_claimed_for_new_C": false
+}

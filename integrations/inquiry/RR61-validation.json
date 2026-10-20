@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-20",
+  "passed": true,
+  "new_groups": 12,
+  "new_tests": 20,
+  "reused_tests": {
+    "test_internal_port": 18,
+    "test_portability": 11,
+    "test_two_flower_connection": 21
+  },
+  "total_tests": 70,
+  "test_execution": "new 20 and reused 50 in separate successful invocations",
+  "decisions": 42,
+  "current_and_future_executions": 38,
+  "certified_future_closures": 36,
+  "forward_equivalence": true,
+  "TE_exclusive_property_demonstrated": false,
+  "result_sha256": "9cf619c7eb885af899f4ebb3af2382a3fc5cbbb9c825abb775dcff1a41c84abe",
+  "starts_sha256": "4f5fa3684eaf43bedacf2179c981300387e71acc00632b891c2096db442fdf4f",
+  "source_sha256": {
+    "fibre_geometry.py": "249cc6f11fc322b8ec2b336021d6096654fd304918c1a4bfefa321c700bc1919",
+    "word_fibre.py": "fd4b4c56751d593b9f32b5f2a10191c7be4b05eac6369da3c52fe83edcb3d3a2",
+    "future_pullback.py": "c0b2fdf36ecb82a5bdf39393739936243039cddc3f18255dfeaa0904af3527af",
+    "rr61_study.py": "7067ebe14c424a033d98d5f2d4ccc31807b831faf77322a2d5e1cb00b06d354e",
+    "test_future_pullback.py": "72f8d583853f53b0d18470cbc5eec0b913131deef9d8c48927cd7d3398668bfe",
+    "validate_pullback.py": "e0ff3368773f923993b30c42096bc2725d8189587446368171d4ab1310eabd65",
+    "preregister_inputs.py": "1030edb5d275c65ba3146e14dfc6a4cfdb1823ac012c57a8650d5dc299cc0cc7"
+  },
+  "full_RR57_128_family_rerun": false,
+  "actual_second_OS_test": false,
+  "independent_package_main_passed": true,
+  "independent_result_and_starts_bytes_match": true,
+  "independent_package_full_tests_rerun": false,
+  "prior_blobs_unchanged_except_readmes": 230,
+  "baseline_files_unchanged": 131,
+  "three_plus_one_vendor_files_unchanged": 17,
+  "original_RR56_and_RR57_records_unchanged": 6,
+  "independent_stdout": "{\"groups\": 12, \"decisions\": 42, \"statuses\": {\"ADMISSIBLE\": 30, \"ALGEBRAIC_ONLY\": 6, \"EMPTY_ZERO_HEAD\": 3, \"EMPTY_BLIND\": 3}, \"executions\": 38, \"certified\": 36, \"forward_equivalent\": true}"
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-20",
+  "parent_commit": "66038def4c18859bc2268f8832286f6c1243fc62",
+  "input_commit": "93004cf57e5286a927e7a0e07d4c07ef142f883d",
+  "final_commit_parent": "93004cf57e5286a927e7a0e07d4c07ef142f883d",
+  "premise": "independent external C, retained history, no completed-future enumeration, free current words",
+  "result": "exact equivalence with equal-information forward affine reachability in the declared scalar class",
+  "invalid_preregistered_history": "gain 2**24 rejected by unchanged frozen PortSpec [0,2]; no C outcomes computed for it",
+  "changed_file_sha256": {
+    "README.md": "4170142954e200762a25b703d25f43aa5699d8db2fdaa23c790b6936727d48cb",
+    "docs/RR61_INDEPENDENT_C_PULLBACK.md": "039daf655cf07b8cee16a827e9f0f620a78fda014a1f85162900063d7303066e",
+    "integrations/inquiry/README.md": "9294fe70e0fe9da848f63aa1618243bf1a7e9e0a63f33cd2f1bfcd2303bceaed",
+    "integrations/inquiry/RR61-inputs.json": "4656807bc1229acd8318ee372303f744eadd877c25be6987359b06b9845f40f5",
+    "integrations/inquiry/RR61-result.json": "9cf619c7eb885af899f4ebb3af2382a3fc5cbbb9c825abb775dcff1a41c84abe",
+    "integrations/inquiry/RR61-starts.json": "4f5fa3684eaf43bedacf2179c981300387e71acc00632b891c2096db442fdf4f",
+    "integrations/inquiry/RR61-validation.json": "56d6adb168bf5bea381ea02d8a6f4049dd956ec9f0272ff6b1167f36691ea352",
+    "integrations/inquiry/RR61-validation.log": "5ff14d91c83cf7b9977037bdaa45fd8341b34029fc734f946ec4774316fa61d6",
+    "integrations/inquiry/fibre_geometry.py": "249cc6f11fc322b8ec2b336021d6096654fd304918c1a4bfefa321c700bc1919",
+    "integrations/inquiry/future_pullback.py": "c0b2fdf36ecb82a5bdf39393739936243039cddc3f18255dfeaa0904af3527af",
+    "integrations/inquiry/preregister_inputs.py": "1030edb5d275c65ba3146e14dfc6a4cfdb1823ac012c57a8650d5dc299cc0cc7",
+    "integrations/inquiry/rr61-audit-target-user-supplied.md": "86aac9a8877af3175d43efa13968a67bc43ea54dcc7160c0914a19fd493a218f",
+    "integrations/inquiry/rr61_study.py": "7067ebe14c424a033d98d5f2d4ccc31807b831faf77322a2d5e1cb00b06d354e",
+    "integrations/inquiry/test_future_pullback.py": "72f8d583853f53b0d18470cbc5eec0b913131deef9d8c48927cd7d3398668bfe",
+    "integrations/inquiry/validate_pullback.py": "e0ff3368773f923993b30c42096bc2725d8189587446368171d4ab1310eabd65",
+    "integrations/inquiry/word_fibre.py": "fd4b4c56751d593b9f32b5f2a10191c7be4b05eac6369da3c52fe83edcb3d3a2"
+  },
+  "prior_files_preserved_except": [
+    "README.md",
+    "integrations/inquiry/README.md"
+  ]
+}

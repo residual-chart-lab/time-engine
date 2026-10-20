@@ -1,0 +1,3384 @@
+{
+  "input_sha256": "4656807bc1229acd8318ee372303f744eadd877c25be6987359b06b9845f40f5",
+  "input_commit": "93004cf57e5286a927e7a0e07d4c07ef142f883d",
+  "decisions": [
+    {
+      "history": "erase",
+      "C_name": "grid--4",
+      "x": "-4/4",
+      "decision": {
+        "history_digest": "bf283407053d1ebc1d24b11101911c9cec901979b0157786c53b6c5da0517e85",
+        "requirement": {
+          "context": [
+            [
+              "-1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "0",
+        "h": "-9",
+        "a": "-474973578484891313/17592186044416000",
+        "g": "8",
+        "control": "4292354392408437817/1266637395197952000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "7aeb4ce08f8621ef42ca50879b2ee08c94112c10f49fa7025296ef403476f9fc",
+      "forward": {
+        "reachable_base_interval": [
+          "-76790031086304906183/17592186044416000",
+          "85339555499032949817/17592186044416000"
+        ],
+        "intercept": "4274762206364021817/17592186044416000",
+        "slope": "-72",
+        "control": "4292354392408437817/1266637395197952000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "erase",
+      "C_name": "grid--3",
+      "x": "-3/4",
+      "decision": {
+        "history_digest": "bf283407053d1ebc1d24b11101911c9cec901979b0157786c53b6c5da0517e85",
+        "requirement": {
+          "context": [
+            [
+              "-3/4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "7/4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "0",
+        "h": "-25/4",
+        "a": "-6649645543502819069/281474976710656000",
+        "g": "13/2",
+        "control": "6694681539776524029/1829587348619264000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "021574942007ed2cc2a283a95df4895026a4e78f44f2ddbf685cb6f4aa7d63c6",
+      "forward": {
+        "reachable_base_interval": [
+          "-110443944768130076931/45035996273704960",
+          "123743235855135715069/45035996273704960"
+        ],
+        "intercept": "6649645543502819069/45035996273704960",
+        "slope": "-325/8",
+        "control": "6694681539776524029/1829587348619264000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "erase",
+      "C_name": "grid--2",
+      "x": "-2/4",
+      "decision": {
+        "history_digest": "bf283407053d1ebc1d24b11101911c9cec901979b0157786c53b6c5da0517e85",
+        "requirement": {
+          "context": [
+            [
+              "-1/2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "3/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "0",
+        "h": "-4",
+        "a": "-569971383124737713/28147497671065600",
+        "g": "5",
+        "control": "577008257542504113/140737488355328000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "6362020f87d25620d816b321ee54ec0264c86fa3ad55efd36b5cea8fdb792fe0",
+      "forward": {
+        "reachable_base_interval": [
+          "-8437227871616254287/7036874417766400",
+          "9577170637865729713/7036874417766400"
+        ],
+        "intercept": "569971383124737713/7036874417766400",
+        "slope": "-20",
+        "control": "577008257542504113/140737488355328000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "erase",
+      "C_name": "grid--1",
+      "x": "-1/4",
+      "decision": {
+        "history_digest": "bf283407053d1ebc1d24b11101911c9cec901979b0157786c53b6c5da0517e85",
+        "requirement": {
+          "context": [
+            [
+              "-1/4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "5/4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "0",
+        "h": "-9/4",
+        "a": "-4749782118991935191/281474976710656000",
+        "g": "7/2",
+        "control": "43873938977770040719/8866461766385664000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "1e7789daac40765193cd2ba05a349e4bf0812d1c6e873d624a86bf199b757604",
+      "forward": {
+        "reachable_base_interval": [
+          "-524705513977755079281/1125899906842624000",
+          "610201592119609912719/1125899906842624000"
+        ],
+        "intercept": "42748039070927416719/1125899906842624000",
+        "slope": "-63/8",
+        "control": "43873938977770040719/8866461766385664000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "erase",
+      "C_name": "grid-0",
+      "x": "0/4",
+      "decision": {
+        "history_digest": "bf283407053d1ebc1d24b11101911c9cec901979b0157786c53b6c5da0517e85",
+        "requirement": {
+          "context": [
+            [
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "0",
+        "h": "-1",
+        "a": "-949962601684123313/70368744177664000",
+        "g": "2",
+        "control": "1020331345861787313/140737488355328000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": false,
+        "status": "ALGEBRAIC_ONLY",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "bddee1d03a5d023e800f25da166e3797911579ee00ed57344de8995599698a47",
+      "forward": {
+        "reachable_base_interval": [
+          "-8057236653056868687/70368744177664000",
+          "9957161856425115313/70368744177664000"
+        ],
+        "intercept": "949962601684123313/70368744177664000",
+        "slope": "-2",
+        "control": "1020331345861787313/140737488355328000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": false,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "erase",
+      "C_name": "grid-1",
+      "x": "1/4",
+      "decision": {
+        "history_digest": "bf283407053d1ebc1d24b11101911c9cec901979b0157786c53b6c5da0517e85",
+        "requirement": {
+          "context": [
+            [
+              "1/4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "3/4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "0",
+        "h": "-1/4",
+        "a": "-2849918694481051313/281474976710656000",
+        "g": "1/2",
+        "control": "3975818601323675313/140737488355328000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "b513e37e4e21a7962309665e5c11aa1576fb6668c731f287e8fb00066c24e8c3",
+      "forward": {
+        "reachable_base_interval": [
+          "-6157280560259940687/1125899906842624000",
+          "11857117949222043313/1125899906842624000"
+        ],
+        "intercept": "2849918694481051313/1125899906842624000",
+        "slope": "-1/8",
+        "control": "3975818601323675313/140737488355328000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "erase",
+      "C_name": "grid-2",
+      "x": "2/4",
+      "decision": {
+        "history_digest": "bf283407053d1ebc1d24b11101911c9cec901979b0157786c53b6c5da0517e85",
+        "requirement": {
+          "context": [
+            [
+              "1/2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "0",
+        "h": "0",
+        "a": "-949993491112804687/140737488355328000",
+        "g": "-1",
+        "control": null,
+        "all_controls": false,
+        "algebraically_feasible": false,
+        "chart_regular": false,
+        "status": "EMPTY_ZERO_HEAD",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "a5777fe29d0d248f1913eeaef36989870b2266a645b51d2cdfefa2a5b6841a80",
+      "forward": {
+        "reachable_base_interval": [
+          "0",
+          "0"
+        ],
+        "intercept": "0",
+        "slope": "0",
+        "control": null,
+        "all_controls": false,
+        "algebraically_feasible": false,
+        "chart_regular": false,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "erase",
+      "C_name": "grid-3",
+      "x": "3/4",
+      "decision": {
+        "history_digest": "bf283407053d1ebc1d24b11101911c9cec901979b0157786c53b6c5da0517e85",
+        "requirement": {
+          "context": [
+            [
+              "3/4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1/4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "0",
+        "h": "-1/4",
+        "a": "-190011053994033487/56294995342131200",
+        "g": "-5/2",
+        "control": "-415191035362558287/140737488355328000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "da4c9577d454608098c04bb4e2e406846b2afb2de32a6ad5b4a0276149f2d41d",
+      "forward": {
+        "reachable_base_interval": [
+          "-8817188200746958513/225179981368524800",
+          "9197210308735025487/225179981368524800"
+        ],
+        "intercept": "190011053994033487/225179981368524800",
+        "slope": "5/8",
+        "control": "-415191035362558287/140737488355328000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "erase",
+      "C_name": "grid-4",
+      "x": "4/4",
+      "decision": {
+        "history_digest": "bf283407053d1ebc1d24b11101911c9cec901979b0157786c53b6c5da0517e85",
+        "requirement": {
+          "context": [
+            [
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "0",
+        "h": "-1",
+        "a": "-15444714340687/35184372088832000",
+        "g": "-4",
+        "control": "-35199816803172687/140737488355328000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": false,
+        "status": "ALGEBRAIC_ONLY",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "88f661c9e4a705bf8e28803ec8269809d7cef8dd96e53b339da10de321804f0d",
+      "forward": {
+        "reachable_base_interval": [
+          "-9007183810026651313/35184372088832000",
+          "9007214699455332687/35184372088832000"
+        ],
+        "intercept": "15444714340687/35184372088832000",
+        "slope": "4",
+        "control": "-35199816803172687/140737488355328000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": false,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "erase",
+      "C_name": "grid-5",
+      "x": "5/4",
+      "decision": {
+        "history_digest": "bf283407053d1ebc1d24b11101911c9cec901979b0157786c53b6c5da0517e85",
+        "requirement": {
+          "context": [
+            [
+              "5/4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-1/4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "0",
+        "h": "-9/4",
+        "a": "949808154540716443/281474976710656000",
+        "g": "-11/2",
+        "control": "7422373484023823987/13933011347177472000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "c0ff8e1cbe6fcde46b9458b5f410dba3bac7c3cd9b6480cb545004ac81bdc124",
+      "forward": {
+        "reachable_base_interval": [
+          "-900260999610224655987/1125899906842624000",
+          "883164452828491760013/1125899906842624000"
+        ],
+        "intercept": "-8548273390866447987/1125899906842624000",
+        "slope": "99/8",
+        "control": "7422373484023823987/13933011347177472000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "erase",
+      "C_name": "grid-6",
+      "x": "6/4",
+      "decision": {
+        "history_digest": "bf283407053d1ebc1d24b11101911c9cec901979b0157786c53b6c5da0517e85",
+        "requirement": {
+          "context": [
+            [
+              "3/2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-1/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "0",
+        "h": "-4",
+        "a": "949869933398079191/140737488355328000",
+        "g": "-7",
+        "control": "914685561309247191/985162418487296000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "1303434b2cca9b75507516fdd89632df58e3a2d24c330536200b06abbf4d0f6b",
+      "forward": {
+        "reachable_base_interval": [
+          "-64000264716585023191/35184372088832000",
+          "62100524849788864809/35184372088832000"
+        ],
+        "intercept": "-949869933398079191/35184372088832000",
+        "slope": "28",
+        "control": "914685561309247191/985162418487296000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "erase",
+      "C_name": "grid-7",
+      "x": "7/4",
+      "decision": {
+        "history_digest": "bf283407053d1ebc1d24b11101911c9cec901979b0157786c53b6c5da0517e85",
+        "requirement": {
+          "context": [
+            [
+              "7/4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-3/4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "0",
+        "h": "-25/4",
+        "a": "2849671579051600321/281474976710656000",
+        "g": "-17/2",
+        "control": "2804635582777895361/2392537302040576000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "9b76a74e728d7252776382ad1f50db5fc85a76926daeff4f114bf434b1df5587",
+      "forward": {
+        "reachable_base_interval": [
+          "-155972058909648464321/45035996273704960",
+          "150272715751545263679/45035996273704960"
+        ],
+        "intercept": "-2849671579051600321/45035996273704960",
+        "slope": "425/8",
+        "control": "2804635582777895361/2392537302040576000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "erase",
+      "C_name": "grid-8",
+      "x": "8/4",
+      "decision": {
+        "history_digest": "bf283407053d1ebc1d24b11101911c9cec901979b0157786c53b6c5da0517e85",
+        "requirement": {
+          "context": [
+            [
+              "2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "0",
+        "h": "-9",
+        "a": "189980164565352113/14073748835532800",
+        "g": "-10",
+        "control": "1695747732252636217/1266637395197952000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "69f64477fcf5af37c6a1e86aefaf3bdd519cd9b179708c0953f1205cc84dd2a5",
+      "forward": {
+        "reachable_base_interval": [
+          "-82774614773757097017/14073748835532800",
+          "79354971811580758983/14073748835532800"
+        ],
+        "intercept": "-1709821481088169017/14073748835532800",
+        "slope": "90",
+        "control": "1695747732252636217/1266637395197952000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "erase",
+      "C_name": "blind-current-frame",
+      "x": "1/3",
+      "decision": {
+        "history_digest": "bf283407053d1ebc1d24b11101911c9cec901979b0157786c53b6c5da0517e85",
+        "requirement": {
+          "context": [
+            [
+              "1/3",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "2/3",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "0",
+        "h": "-1/9",
+        "a": "-9",
+        "g": "0",
+        "control": null,
+        "all_controls": false,
+        "algebraically_feasible": false,
+        "chart_regular": true,
+        "status": "EMPTY_BLIND",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "595a3c47aca6601ab9b9617e980be26d99d0cabac79fc5c954d63059c8609a25",
+      "forward": {
+        "reachable_base_interval": [
+          "1",
+          "1"
+        ],
+        "intercept": "1",
+        "slope": "0",
+        "control": null,
+        "all_controls": false,
+        "algebraically_feasible": false,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "keep",
+      "C_name": "grid--4",
+      "x": "-4/4",
+      "decision": {
+        "history_digest": "458172e51da77823115fa7e648f33487a5da85c472f86a720b59b12fc7612103",
+        "requirement": {
+          "context": [
+            [
+              "-1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-9",
+        "a": "-474973578484891313/17592186044416000",
+        "g": "8",
+        "control": "3178545630779145799289042603048521022074195740728359081621320153238395166788658286579226996500451553756959188907854733444871229658521691889424392343/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "6ffffb5f1a8be4d873c5ce0a1de9f30d26fa776915c029220090a03c72bd0533",
+      "forward": {
+        "reachable_base_interval": [
+          "-56864272921889766161530970638626211180984188785090826064412434938135601027852326872709777398804477181918055344123776525189195148665673620068411383657/13027298449266416133829466964997772228912645807294247156874323083396397525415705176673682880300483561656544702328407736739871203802168650891264000",
+          "63195309586549524927841396910793257680674754974932955733341326598445598566378812035514884026044779322308660632534829176605457865575112666545477640343/13027298449266416133829466964997772228912645807294247156874323083396397525415705176673682880300483561656544702328407736739871203802168650891264000"
+        ],
+        "intercept": "3165518332329879383155213136083523249845283094921064834464445830154998769263242581402553313620151070195302644205526325708131358454719523238533128343/13027298449266416133829466964997772228912645807294247156874323083396397525415705176673682880300483561656544702328407736739871203802168650891264000",
+        "slope": "-72",
+        "control": "3178545630779145799289042603048521022074195740728359081621320153238395166788658286579226996500451553756959188907854733444871229658521691889424392343/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "keep",
+      "C_name": "grid--3",
+      "x": "-3/4",
+      "decision": {
+        "history_digest": "458172e51da77823115fa7e648f33487a5da85c472f86a720b59b12fc7612103",
+        "requirement": {
+          "context": [
+            [
+              "-3/4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "7/4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-25/4",
+        "a": "-6649645543502819069/281474976710656000",
+        "g": "13/2",
+        "control": "381346331621634780591980873166271876681782910466208584287629407736083432462254254388337262141342774010957619891275998534085324743340878204991816607/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "dc59e36acefa056b59f6237651b677ebac246b96753fb7e47c8b320b283cb43d",
+      "forward": {
+        "reachable_base_interval": [
+          "-6291195850097395051105829554099540911975800694658190057933685416123910160370976350318764113201240904781642556503788818354117506240425898108741631073/2565375694624771177123341186953407454308951789744097901661405161038059820389554250175740628736095224449288802920055677388774637056427057406279680",
+          "7048757761951415069935544618058177850430748612011119030705621421274000905654705750595087156226454262354659218680500704067510606452994800403912704927/2565375694624771177123341186953407454308951789744097901661405161038059820389554250175740628736095224449288802920055677388774637056427057406279680"
+        ],
+        "intercept": "378780955927010009414857531979318469227473958676464486385968002575045372641864700138161521512606678786508331088355942856696550106284451147585536927/2565375694624771177123341186953407454308951789744097901661405161038059820389554250175740628736095224449288802920055677388774637056427057406279680",
+        "slope": "-325/8",
+        "control": "381346331621634780591980873166271876681782910466208584287629407736083432462254254388337262141342774010957619891275998534085324743340878204991816607/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "keep",
+      "C_name": "grid--2",
+      "x": "-2/4",
+      "decision": {
+        "history_digest": "458172e51da77823115fa7e648f33487a5da85c472f86a720b59b12fc7612103",
+        "requirement": {
+          "context": [
+            [
+              "-1/2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "3/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-4",
+        "a": "-569971383124737713/28147497671065600",
+        "g": "5",
+        "control": "427282590153509589482345701295156328910502578451313837339253943900921191121104710180546617774648479123752697518563245507328070588132525201673012127/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "447dccfe1ff31a288eef87195e1aad4054062b413a341af5f2f8bc7f6140c00b",
+      "forward": {
+        "reachable_base_interval": [
+          "-6247905135250602037491873171569702161184337133206258405843149204031392900901902622347048490091319297869060807954512878798181934240098691515010661473/5210919379706566453531786785999108891565058322917698862749729233358559010166282070669473152120193424662617880931363094695948481520867460356505600",
+          "7092048476798208083549501000588016601222212173463050682796157633366518165123779478566802779336375869267240967229776643623446178453322006997643674527/5210919379706566453531786785999108891565058322917698862749729233358559010166282070669473152120193424662617880931363094695948481520867460356505600"
+        ],
+        "intercept": "422071670773803023028813914509157220018937520128396138476504214667562632110938428109877144622528285699090079637631882412632122106611657741316506527/5210919379706566453531786785999108891565058322917698862749729233358559010166282070669473152120193424662617880931363094695948481520867460356505600",
+        "slope": "-20",
+        "control": "427282590153509589482345701295156328910502578451313837339253943900921191121104710180546617774648479123752697518563245507328070588132525201673012127/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "keep",
+      "C_name": "grid--1",
+      "x": "-1/4",
+      "decision": {
+        "history_digest": "458172e51da77823115fa7e648f33487a5da85c472f86a720b59b12fc7612103",
+        "requirement": {
+          "context": [
+            [
+              "-1/4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "5/4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-9/4",
+        "a": "-4749782118991935191/281474976710656000",
+        "g": "7/2",
+        "control": "32489275996577423676213259255827896126444709789631791836652459016218334622497352274920103719419340955760758458385111615191637373798156402826504250401/6565758418430273731450051350358877203371973486876300567064658834031784352809515409043536171671443715074898529973517499316895086716293000049197056000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "e6647a1946de864cfdd4ad204edcaa03844f435ed94f6c9161b35f0323ac0036",
+      "forward": {
+        "reachable_base_interval": [
+          "-388553009883713145769155113052900102312012002702118276273525663039153233398938239035173326971892287756978766320869026436240999933087934393979148229599/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896000",
+          "451864067675361891856451459793036179719600603618048196310750667716915163760679733322399303002052507772608245515741213476321571166597569612318074938401/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896000"
+        ],
+        "intercept": "31655528895824373043648173370068038703794300457964960018612502338880965180870747143612988015080110007814739597436093520040285616754817609169463354401/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896000",
+        "slope": "-63/8",
+        "control": "32489275996577423676213259255827896126444709789631791836652459016218334622497352274920103719419340955760758458385111615191637373798156402826504250401/6565758418430273731450051350358877203371973486876300567064658834031784352809515409043536171671443715074898529973517499316895086716293000049197056000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "keep",
+      "C_name": "grid-0",
+      "x": "0/4",
+      "decision": {
+        "history_digest": "458172e51da77823115fa7e648f33487a5da85c472f86a720b59b12fc7612103",
+        "requirement": {
+          "context": [
+            [
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-1",
+        "a": "-949962601684123313/70368744177664000",
+        "g": "2",
+        "control": "755570511075023276054848268813100189079101252795128865692486885602510408761580480632723426358220664877497624017239120473172824923947175204132864927/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": false,
+        "status": "ALGEBRAIC_ONLY",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "af05f4fed48d0099f60bc911c219dd7ff323e6f2791acf298cf6547c93ed1b49",
+      "forward": {
+        "reachable_base_interval": [
+          "-5966515488746447449001156685125750281039823983768702667254663825430030714352923390530896939876828852937279442384219271684600716237971848655759359073/52109193797065664535317867859991088915650583229176988627497292333585590101662820706694731521201934246626178809313630946959484815208674603565056000",
+          "7373438123302362672040217487031968481366725322900606421384643011967880351672758710382954329550866314199022332800070250737027396455448849856894976927/52109193797065664535317867859991088915650583229176988627497292333585590101662820706694731521201934246626178809313630946959484815208674603565056000"
+        ],
+        "intercept": "703461317277957611519530400953109100163450669565951877064989593268924818659917659926028694837018730630871445207925489526213340108738500600567808927/52109193797065664535317867859991088915650583229176988627497292333585590101662820706694731521201934246626178809313630946959484815208674603565056000",
+        "slope": "-2",
+        "control": "755570511075023276054848268813100189079101252795128865692486885602510408761580480632723426358220664877497624017239120473172824923947175204132864927/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": false,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "keep",
+      "C_name": "grid-1",
+      "x": "1/4",
+      "decision": {
+        "history_digest": "458172e51da77823115fa7e648f33487a5da85c472f86a720b59b12fc7612103",
+        "requirement": {
+          "context": [
+            [
+              "1/4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "3/4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-1/4",
+        "a": "-2849918694481051313/281474976710656000",
+        "g": "1/2",
+        "control": "2944156650551781186538198718932725923536425748420562388047373163613105193031418950313902150248701903235797134008411620245471187162711508553865216927/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "293484cba4d718b60dbcf276782c2a13dc61dca1c311671242bfa265692f448d",
+      "forward": {
+        "reachable_base_interval": [
+          "-4559567256225674506547574252905990880317258236580923974312236932423219781608027231450139188804376628278372614532751236116694626227337634359502847073/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896000",
+          "8780386355823135614493799919251727882089291070088385114327069904974691284417654869463712080623318538857929160651538286304933486466083064153151488927/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896000"
+        ],
+        "intercept": "2110409549798730553973112833172868500886016416753730570007416486275735751404813819006786445909470955289778273059393525094119430119372714896824320927/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896000",
+        "slope": "-1/8",
+        "control": "2944156650551781186538198718932725923536425748420562388047373163613105193031418950313902150248701903235797134008411620245471187162711508553865216927/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "keep",
+      "C_name": "grid-2",
+      "x": "2/4",
+      "decision": {
+        "history_digest": "458172e51da77823115fa7e648f33487a5da85c472f86a720b59b12fc7612103",
+        "requirement": {
+          "context": [
+            [
+              "1/2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "0",
+        "a": "-949993491112804687/140737488355328000",
+        "g": "-1",
+        "control": null,
+        "all_controls": false,
+        "algebraically_feasible": false,
+        "chart_regular": false,
+        "status": "EMPTY_ZERO_HEAD",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "4a554aca4e600821b328b7bcf8801355c01219aecf7bc8a3439f666d2ae25a6f",
+      "forward": {
+        "reachable_base_interval": [
+          "0",
+          "0"
+        ],
+        "intercept": "0",
+        "slope": "0",
+        "control": null,
+        "all_controls": false,
+        "algebraically_feasible": false,
+        "chart_regular": false,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "keep",
+      "C_name": "grid-3",
+      "x": "3/4",
+      "decision": {
+        "history_digest": "458172e51da77823115fa7e648f33487a5da85c472f86a720b59b12fc7612103",
+        "requirement": {
+          "context": [
+            [
+              "3/4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1/4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-1/4",
+        "a": "-190011053994033487/56294995342131200",
+        "g": "-5/2",
+        "control": "-307457042385116280465636235530718024800170645080081702308457878002635629312341061783849096674298793753676423692758950844800665306309786708594277473/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "7ca48307580f547379c478222bd6cd6a7e1d346a1e8c919009639d4b199dbac2",
+      "forward": {
+        "reachable_base_interval": [
+          "-6529269183789898906568068027700112840933185874587939205619186876163793792025821014934499678907394979403678236089189429396283742449068321279141069727/166749420150610126513017177151971484530081866333366363607991335467473888325321026261423140867846189589203772189803619030270351408667758731408179200",
+          "6810684428258911214473306144457605921473363432081369883020119961234117273999861085979351590520300187732623539095100093025344370244352377233513266273/166749420150610126513017177151971484530081866333366363607991335467473888325321026261423140867846189589203772189803619030270351408667758731408179200"
+        ],
+        "intercept": "140707622234506153952619058378746540270088778746715338700466542535161740987020035522425955806452604164472651502955331814530313897642027977186098273/166749420150610126513017177151971484530081866333366363607991335467473888325321026261423140867846189589203772189803619030270351408667758731408179200",
+        "slope": "5/8",
+        "control": "-307457042385116280465636235530718024800170645080081702308457878002635629312341061783849096674298793753676423692758950844800665306309786708594277473/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "keep",
+      "C_name": "grid-4",
+      "x": "4/4",
+      "decision": {
+        "history_digest": "458172e51da77823115fa7e648f33487a5da85c472f86a720b59b12fc7612103",
+        "requirement": {
+          "context": [
+            [
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-1",
+        "a": "-15444714340687/35184372088832000",
+        "g": "-4",
+        "control": "-26067395880961691974919749086766144655657495642525963719972499401273442763361829967697546459808348821895058122465343731219447304182943849342975073/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": false,
+        "status": "ALGEBRAIC_ONLY",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "0604cec0609edc010271f35f7a2c4a91e7882d9d39a0116ce4253563791c6560",
+      "forward": {
+        "reachable_base_interval": [
+          "-6669964007041976200813426270922088781005442449306717074913429565464474885300310630842575454014640201869568918874336232953074351450131742708766720927/26054596898532832267658933929995544457825291614588494313748646166792795050831410353347365760600967123313089404656815473479742407604337301782528000",
+          "6669989605006833920227947901235629981401106857362592013725877271933436180725371470071275815413054965266732856309953289468553761243288955803887615073/26054596898532832267658933929995544457825291614588494313748646166792795050831410353347365760600967123313089404656815473479742407604337301782528000"
+        ],
+        "intercept": "12798982428859707260815156770600197832204027937469406223853234480647712530419614350180699207381698581968717808528257739704896578606547560447073/26054596898532832267658933929995544457825291614588494313748646166792795050831410353347365760600967123313089404656815473479742407604337301782528000",
+        "slope": "4",
+        "control": "-26067395880961691974919749086766144655657495642525963719972499401273442763361829967697546459808348821895058122465343731219447304182943849342975073/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": false,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "keep",
+      "C_name": "grid-5",
+      "x": "5/4",
+      "decision": {
+        "history_digest": "458172e51da77823115fa7e648f33487a5da85c472f86a720b59b12fc7612103",
+        "requirement": {
+          "context": [
+            [
+              "5/4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-1/4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-9/4",
+        "a": "949808154540716443/281474976710656000",
+        "g": "-11/2",
+        "control": "499659349666360954314292214428070041910522575628396620816800260998154148380446912975966026024115752259949723756322160671635896658475738406148104343/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "81184951f2ba76bf845ff23f745e7ae9756c2e61f534af271d23732c2b009b49",
+      "forward": {
+        "reachable_base_interval": [
+          "-60605245794863556556506392887843246056617304394882726775879131636319423894734798651752579984297764999641127608535535747491812563510081499318278152343/75795190977550057505916898705441583877309939242439256185450607030669949238782284664283245849020995267819896449910735922850159731212617605185536000",
+          "59454336713575734532865974661576222805041639365141055021874629900261775699496340256472081440551491504585588368123069954302840450730704787295610871657/75795190977550057505916898705441583877309939242439256185450607030669949238782284664283245849020995267819896449910735922850159731212617605185536000"
+        ],
+        "intercept": "-575454540643911011820209113133511625787832514870835877002250868028824097619229197640249271873136747527769620206232896594486056389688356011333640343/75795190977550057505916898705441583877309939242439256185450607030669949238782284664283245849020995267819896449910735922850159731212617605185536000",
+        "slope": "99/8",
+        "control": "499659349666360954314292214428070041910522575628396620816800260998154148380446912975966026024115752259949723756322160671635896658475738406148104343/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "keep",
+      "C_name": "grid-6",
+      "x": "6/4",
+      "decision": {
+        "history_digest": "458172e51da77823115fa7e648f33487a5da85c472f86a720b59b12fc7612103",
+        "requirement": {
+          "context": [
+            [
+              "3/2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-1/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-4",
+        "a": "949869933398079191/140737488355328000",
+        "g": "-7",
+        "control": "677329926484851621008306576082489954518632153783738566313897827695248137333903731886580244881173473316066543496417504506295368321662524013422598489/729528713158919303494450150039875244819108165208477840784962092670198261423279489893726241296827079452766503330390833257432787412921444449910784000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "a7b1cd61f259b7d5f68aecce1b2750465d2932d6f7e45a3b5c1b72da7fffcead",
+      "forward": {
+        "reachable_base_interval": [
+          "-47393222165554219876920775112564501167399380018740908870865220404754729663474622495438407053638707525416435846046087648455473505156239306109495302489/26054596898532832267658933929995544457825291614588494313748646166792795050831410353347365760600967123313089404656815473479742407604337301782528000",
+          "45986453118787450970368844092539530169446465127944254749609927457030647798705152210958551832355158644537676580243939008495923283697705583479085049511/26054596898532832267658933929995544457825291614588494313748646166792795050831410353347365760600967123313089404656815473479742407604337301782528000"
+        ],
+        "intercept": "-703384523383384453275965510012485498976457445398327060627646473862040932384735142239927610641774440439379632901074319979775110729266861315205126489/26054596898532832267658933929995544457825291614588494313748646166792795050831410353347365760600967123313089404656815473479742407604337301782528000",
+        "slope": "28",
+        "control": "677329926484851621008306576082489954518632153783738566313897827695248137333903731886580244881173473316066543496417504506295368321662524013422598489/729528713158919303494450150039875244819108165208477840784962092670198261423279489893726241296827079452766503330390833257432787412921444449910784000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "keep",
+      "C_name": "grid-7",
+      "x": "7/4",
+      "decision": {
+        "history_digest": "458172e51da77823115fa7e648f33487a5da85c472f86a720b59b12fc7612103",
+        "requirement": {
+          "context": [
+            [
+              "7/4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-3/4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-25/4",
+        "a": "2849671579051600321/281474976710656000",
+        "g": "-17/2",
+        "control": "2076854882049746773354336355234144600814684779040057786786236567430550610339262899924898926548583610194626019136496349164230081492381458389575531919/1771712589100232594200807507239697023132119829792017613334907939341910063456535904027620871720865764385290079516663452196622483717094936521211904000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "1c3df40cd6209cd190bf28e0b54756bd1a5b6807b0b65e882507b889751c0a65",
+      "forward": {
+        "reachable_base_interval": [
+          "-115499810468494754827508620254005148378176370258995858312941942952406289449222624962944919344857561768771031862640918013554123109668190947493419023759/33349884030122025302603435430394296906016373266673272721598267093494777665064205252284628173569237917840754437960723806054070281733551746281635840",
+          "111279400936335017230194740672676070582734967954382396193926273283358198673213970752590552235413256072546098315492003867613554806119960927221704688241/33349884030122025302603435430394296906016373266673272721598267093494777665064205252284628173569237917840754437960723806054070281733551746281635840"
+        ],
+        "intercept": "-2110204766079868798656939790664538897720701152306731059507834834524045388004327105177183554722152848112466773574457072970284151774115010135857167759/33349884030122025302603435430394296906016373266673272721598267093494777665064205252284628173569237917840754437960723806054070281733551746281635840",
+        "slope": "425/8",
+        "control": "2076854882049746773354336355234144600814684779040057786786236567430550610339262899924898926548583610194626019136496349164230081492381458389575531919/1771712589100232594200807507239697023132119829792017613334907939341910063456535904027620871720865764385290079516663452196622483717094936521211904000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "keep",
+      "C_name": "grid-8",
+      "x": "8/4",
+      "decision": {
+        "history_digest": "458172e51da77823115fa7e648f33487a5da85c472f86a720b59b12fc7612103",
+        "requirement": {
+          "context": [
+            [
+              "2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-9",
+        "a": "189980164565352113/14073748835532800",
+        "g": "-10",
+        "control": "1255716379667422777935813279014849841086689219571728201266670066129086892037300202502191403368100180056453190844181751502066239977321599017873825943/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "3a72d1b8fc60444f40ed4ecc60a5f559e7c92c08f0ad8fe08815e8196fa64ffa",
+      "forward": {
+        "reachable_base_interval": [
+          "-61295929472646481455529060627296582489699291216229454497869050292886403807173202220755861062096968819019136414935347328588784644060756477245531349143/10421838759413132907063573571998217783130116645835397725499458466717118020332564141338946304240386849325235761862726189391896963041734920713011200",
+          "58763653035792809633843306922122886371959652543794327299884711243694795787057936687468800362752287685207579561723258373205868370180029809368357674857/10421838759413132907063573571998217783130116645835397725499458466717118020332564141338946304240386849325235761862726189391896963041734920713011200"
+        ],
+        "intercept": "-1266138218426835910842876852586848058869819336217563598992169524595804010057632766643530349672340566905778426606044477691458136940363333938586837143/10421838759413132907063573571998217783130116645835397725499458466717118020332564141338946304240386849325235761862726189391896963041734920713011200",
+        "slope": "90",
+        "control": "1255716379667422777935813279014849841086689219571728201266670066129086892037300202502191403368100180056453190844181751502066239977321599017873825943/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "keep",
+      "C_name": "blind-current-frame",
+      "x": "1/3",
+      "decision": {
+        "history_digest": "458172e51da77823115fa7e648f33487a5da85c472f86a720b59b12fc7612103",
+        "requirement": {
+          "context": [
+            [
+              "1/3",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "2/3",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-1/9",
+        "a": "-9",
+        "g": "0",
+        "control": null,
+        "all_controls": false,
+        "algebraically_feasible": false,
+        "chart_regular": true,
+        "status": "EMPTY_BLIND",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "4b645f1ba3417bdbe082b2ac73b4a2d5cd8af797c475cba5c451ec875c3d739b",
+      "forward": {
+        "reachable_base_interval": [
+          "1",
+          "1"
+        ],
+        "intercept": "1",
+        "slope": "0",
+        "control": null,
+        "all_controls": false,
+        "algebraically_feasible": false,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "restore",
+      "C_name": "grid--4",
+      "x": "-4/4",
+      "decision": {
+        "history_digest": "d32c36271ac48c4522515c8f939cc4fae7da73970e461b27fe09ad72512117f8",
+        "requirement": {
+          "context": [
+            [
+              "-1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-9",
+        "a": "-474973578484891313/17592186044416000",
+        "g": "8",
+        "control": "3178545630779145799289042603048521022074195740728359081621320153238395166788658286579226996500451553756959188907854733444871229658521691889424392343/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "b3b9b19ec9c2725df54806e0c50b311f3123ed778f8edb0917e382c8c47eaf30",
+      "forward": {
+        "reachable_base_interval": [
+          "-56864272921889766161530970638626211180984188785090826064412434938135601027852326872709777398804477181918055344123776525189195148665673620068411383657/13027298449266416133829466964997772228912645807294247156874323083396397525415705176673682880300483561656544702328407736739871203802168650891264000",
+          "63195309586549524927841396910793257680674754974932955733341326598445598566378812035514884026044779322308660632534829176605457865575112666545477640343/13027298449266416133829466964997772228912645807294247156874323083396397525415705176673682880300483561656544702328407736739871203802168650891264000"
+        ],
+        "intercept": "3165518332329879383155213136083523249845283094921064834464445830154998769263242581402553313620151070195302644205526325708131358454719523238533128343/13027298449266416133829466964997772228912645807294247156874323083396397525415705176673682880300483561656544702328407736739871203802168650891264000",
+        "slope": "-72",
+        "control": "3178545630779145799289042603048521022074195740728359081621320153238395166788658286579226996500451553756959188907854733444871229658521691889424392343/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "restore",
+      "C_name": "grid--3",
+      "x": "-3/4",
+      "decision": {
+        "history_digest": "d32c36271ac48c4522515c8f939cc4fae7da73970e461b27fe09ad72512117f8",
+        "requirement": {
+          "context": [
+            [
+              "-3/4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "7/4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-25/4",
+        "a": "-6649645543502819069/281474976710656000",
+        "g": "13/2",
+        "control": "381346331621634780591980873166271876681782910466208584287629407736083432462254254388337262141342774010957619891275998534085324743340878204991816607/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "c8c829f8b8b54187771213e73ee91329443635b788f967d359f3586ce335a218",
+      "forward": {
+        "reachable_base_interval": [
+          "-6291195850097395051105829554099540911975800694658190057933685416123910160370976350318764113201240904781642556503788818354117506240425898108741631073/2565375694624771177123341186953407454308951789744097901661405161038059820389554250175740628736095224449288802920055677388774637056427057406279680",
+          "7048757761951415069935544618058177850430748612011119030705621421274000905654705750595087156226454262354659218680500704067510606452994800403912704927/2565375694624771177123341186953407454308951789744097901661405161038059820389554250175740628736095224449288802920055677388774637056427057406279680"
+        ],
+        "intercept": "378780955927010009414857531979318469227473958676464486385968002575045372641864700138161521512606678786508331088355942856696550106284451147585536927/2565375694624771177123341186953407454308951789744097901661405161038059820389554250175740628736095224449288802920055677388774637056427057406279680",
+        "slope": "-325/8",
+        "control": "381346331621634780591980873166271876681782910466208584287629407736083432462254254388337262141342774010957619891275998534085324743340878204991816607/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "restore",
+      "C_name": "grid--2",
+      "x": "-2/4",
+      "decision": {
+        "history_digest": "d32c36271ac48c4522515c8f939cc4fae7da73970e461b27fe09ad72512117f8",
+        "requirement": {
+          "context": [
+            [
+              "-1/2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "3/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-4",
+        "a": "-569971383124737713/28147497671065600",
+        "g": "5",
+        "control": "427282590153509589482345701295156328910502578451313837339253943900921191121104710180546617774648479123752697518563245507328070588132525201673012127/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "e1ca9984de49f8b9c0810bb648ae88b8146c08710219ef6fb6fc1adb3b9b023a",
+      "forward": {
+        "reachable_base_interval": [
+          "-6247905135250602037491873171569702161184337133206258405843149204031392900901902622347048490091319297869060807954512878798181934240098691515010661473/5210919379706566453531786785999108891565058322917698862749729233358559010166282070669473152120193424662617880931363094695948481520867460356505600",
+          "7092048476798208083549501000588016601222212173463050682796157633366518165123779478566802779336375869267240967229776643623446178453322006997643674527/5210919379706566453531786785999108891565058322917698862749729233358559010166282070669473152120193424662617880931363094695948481520867460356505600"
+        ],
+        "intercept": "422071670773803023028813914509157220018937520128396138476504214667562632110938428109877144622528285699090079637631882412632122106611657741316506527/5210919379706566453531786785999108891565058322917698862749729233358559010166282070669473152120193424662617880931363094695948481520867460356505600",
+        "slope": "-20",
+        "control": "427282590153509589482345701295156328910502578451313837339253943900921191121104710180546617774648479123752697518563245507328070588132525201673012127/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "restore",
+      "C_name": "grid--1",
+      "x": "-1/4",
+      "decision": {
+        "history_digest": "d32c36271ac48c4522515c8f939cc4fae7da73970e461b27fe09ad72512117f8",
+        "requirement": {
+          "context": [
+            [
+              "-1/4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "5/4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-9/4",
+        "a": "-4749782118991935191/281474976710656000",
+        "g": "7/2",
+        "control": "32489275996577423676213259255827896126444709789631791836652459016218334622497352274920103719419340955760758458385111615191637373798156402826504250401/6565758418430273731450051350358877203371973486876300567064658834031784352809515409043536171671443715074898529973517499316895086716293000049197056000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "c13430d8b77ca4ec6c3742b025c961d9f8e58929b642d8944ec7cb5a05a24ecc",
+      "forward": {
+        "reachable_base_interval": [
+          "-388553009883713145769155113052900102312012002702118276273525663039153233398938239035173326971892287756978766320869026436240999933087934393979148229599/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896000",
+          "451864067675361891856451459793036179719600603618048196310750667716915163760679733322399303002052507772608245515741213476321571166597569612318074938401/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896000"
+        ],
+        "intercept": "31655528895824373043648173370068038703794300457964960018612502338880965180870747143612988015080110007814739597436093520040285616754817609169463354401/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896000",
+        "slope": "-63/8",
+        "control": "32489275996577423676213259255827896126444709789631791836652459016218334622497352274920103719419340955760758458385111615191637373798156402826504250401/6565758418430273731450051350358877203371973486876300567064658834031784352809515409043536171671443715074898529973517499316895086716293000049197056000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "restore",
+      "C_name": "grid-0",
+      "x": "0/4",
+      "decision": {
+        "history_digest": "d32c36271ac48c4522515c8f939cc4fae7da73970e461b27fe09ad72512117f8",
+        "requirement": {
+          "context": [
+            [
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-1",
+        "a": "-949962601684123313/70368744177664000",
+        "g": "2",
+        "control": "755570511075023276054848268813100189079101252795128865692486885602510408761580480632723426358220664877497624017239120473172824923947175204132864927/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": false,
+        "status": "ALGEBRAIC_ONLY",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "d40011eb77cd88bb8bd1a713bc7655ba984232856dbad7e15d0cb6fbda2b4c6c",
+      "forward": {
+        "reachable_base_interval": [
+          "-5966515488746447449001156685125750281039823983768702667254663825430030714352923390530896939876828852937279442384219271684600716237971848655759359073/52109193797065664535317867859991088915650583229176988627497292333585590101662820706694731521201934246626178809313630946959484815208674603565056000",
+          "7373438123302362672040217487031968481366725322900606421384643011967880351672758710382954329550866314199022332800070250737027396455448849856894976927/52109193797065664535317867859991088915650583229176988627497292333585590101662820706694731521201934246626178809313630946959484815208674603565056000"
+        ],
+        "intercept": "703461317277957611519530400953109100163450669565951877064989593268924818659917659926028694837018730630871445207925489526213340108738500600567808927/52109193797065664535317867859991088915650583229176988627497292333585590101662820706694731521201934246626178809313630946959484815208674603565056000",
+        "slope": "-2",
+        "control": "755570511075023276054848268813100189079101252795128865692486885602510408761580480632723426358220664877497624017239120473172824923947175204132864927/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": false,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "restore",
+      "C_name": "grid-1",
+      "x": "1/4",
+      "decision": {
+        "history_digest": "d32c36271ac48c4522515c8f939cc4fae7da73970e461b27fe09ad72512117f8",
+        "requirement": {
+          "context": [
+            [
+              "1/4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "3/4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-1/4",
+        "a": "-2849918694481051313/281474976710656000",
+        "g": "1/2",
+        "control": "2944156650551781186538198718932725923536425748420562388047373163613105193031418950313902150248701903235797134008411620245471187162711508553865216927/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "c575bb79a80c0675c52a68bd8b17d697c50647df6030f6f2df0c9785d00de988",
+      "forward": {
+        "reachable_base_interval": [
+          "-4559567256225674506547574252905990880317258236580923974312236932423219781608027231450139188804376628278372614532751236116694626227337634359502847073/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896000",
+          "8780386355823135614493799919251727882089291070088385114327069904974691284417654869463712080623318538857929160651538286304933486466083064153151488927/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896000"
+        ],
+        "intercept": "2110409549798730553973112833172868500886016416753730570007416486275735751404813819006786445909470955289778273059393525094119430119372714896824320927/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896000",
+        "slope": "-1/8",
+        "control": "2944156650551781186538198718932725923536425748420562388047373163613105193031418950313902150248701903235797134008411620245471187162711508553865216927/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "restore",
+      "C_name": "grid-2",
+      "x": "2/4",
+      "decision": {
+        "history_digest": "d32c36271ac48c4522515c8f939cc4fae7da73970e461b27fe09ad72512117f8",
+        "requirement": {
+          "context": [
+            [
+              "1/2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "0",
+        "a": "-949993491112804687/140737488355328000",
+        "g": "-1",
+        "control": null,
+        "all_controls": false,
+        "algebraically_feasible": false,
+        "chart_regular": false,
+        "status": "EMPTY_ZERO_HEAD",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "69cb396ed4a48cfb22606cad0a81247cf1c24d7475d2e5f86e5f60879cca73f6",
+      "forward": {
+        "reachable_base_interval": [
+          "0",
+          "0"
+        ],
+        "intercept": "0",
+        "slope": "0",
+        "control": null,
+        "all_controls": false,
+        "algebraically_feasible": false,
+        "chart_regular": false,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "restore",
+      "C_name": "grid-3",
+      "x": "3/4",
+      "decision": {
+        "history_digest": "d32c36271ac48c4522515c8f939cc4fae7da73970e461b27fe09ad72512117f8",
+        "requirement": {
+          "context": [
+            [
+              "3/4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1/4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-1/4",
+        "a": "-190011053994033487/56294995342131200",
+        "g": "-5/2",
+        "control": "-307457042385116280465636235530718024800170645080081702308457878002635629312341061783849096674298793753676423692758950844800665306309786708594277473/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "fe0c4434ee2111206d72bd3580bb5216f58d6eb92b44f77084e87ddd159f3e48",
+      "forward": {
+        "reachable_base_interval": [
+          "-6529269183789898906568068027700112840933185874587939205619186876163793792025821014934499678907394979403678236089189429396283742449068321279141069727/166749420150610126513017177151971484530081866333366363607991335467473888325321026261423140867846189589203772189803619030270351408667758731408179200",
+          "6810684428258911214473306144457605921473363432081369883020119961234117273999861085979351590520300187732623539095100093025344370244352377233513266273/166749420150610126513017177151971484530081866333366363607991335467473888325321026261423140867846189589203772189803619030270351408667758731408179200"
+        ],
+        "intercept": "140707622234506153952619058378746540270088778746715338700466542535161740987020035522425955806452604164472651502955331814530313897642027977186098273/166749420150610126513017177151971484530081866333366363607991335467473888325321026261423140867846189589203772189803619030270351408667758731408179200",
+        "slope": "5/8",
+        "control": "-307457042385116280465636235530718024800170645080081702308457878002635629312341061783849096674298793753676423692758950844800665306309786708594277473/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "restore",
+      "C_name": "grid-4",
+      "x": "4/4",
+      "decision": {
+        "history_digest": "d32c36271ac48c4522515c8f939cc4fae7da73970e461b27fe09ad72512117f8",
+        "requirement": {
+          "context": [
+            [
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-1",
+        "a": "-15444714340687/35184372088832000",
+        "g": "-4",
+        "control": "-26067395880961691974919749086766144655657495642525963719972499401273442763361829967697546459808348821895058122465343731219447304182943849342975073/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": false,
+        "status": "ALGEBRAIC_ONLY",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "a83cb7a3c3acd4eb551fb7e8ea0ffafb843ff1bf30c0b8d24420f57332140941",
+      "forward": {
+        "reachable_base_interval": [
+          "-6669964007041976200813426270922088781005442449306717074913429565464474885300310630842575454014640201869568918874336232953074351450131742708766720927/26054596898532832267658933929995544457825291614588494313748646166792795050831410353347365760600967123313089404656815473479742407604337301782528000",
+          "6669989605006833920227947901235629981401106857362592013725877271933436180725371470071275815413054965266732856309953289468553761243288955803887615073/26054596898532832267658933929995544457825291614588494313748646166792795050831410353347365760600967123313089404656815473479742407604337301782528000"
+        ],
+        "intercept": "12798982428859707260815156770600197832204027937469406223853234480647712530419614350180699207381698581968717808528257739704896578606547560447073/26054596898532832267658933929995544457825291614588494313748646166792795050831410353347365760600967123313089404656815473479742407604337301782528000",
+        "slope": "4",
+        "control": "-26067395880961691974919749086766144655657495642525963719972499401273442763361829967697546459808348821895058122465343731219447304182943849342975073/104218387594131329070635735719982177831301166458353977254994584667171180203325641413389463042403868493252357618627261893918969630417349207130112000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": false,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "restore",
+      "C_name": "grid-5",
+      "x": "5/4",
+      "decision": {
+        "history_digest": "d32c36271ac48c4522515c8f939cc4fae7da73970e461b27fe09ad72512117f8",
+        "requirement": {
+          "context": [
+            [
+              "5/4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-1/4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-9/4",
+        "a": "949808154540716443/281474976710656000",
+        "g": "-11/2",
+        "control": "499659349666360954314292214428070041910522575628396620816800260998154148380446912975966026024115752259949723756322160671635896658475738406148104343/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "277ee05337b2d5f2b33f5a7b2b336c0aa72a3d5bdf19da66b10759330fa97ecb",
+      "forward": {
+        "reachable_base_interval": [
+          "-60605245794863556556506392887843246056617304394882726775879131636319423894734798651752579984297764999641127608535535747491812563510081499318278152343/75795190977550057505916898705441583877309939242439256185450607030669949238782284664283245849020995267819896449910735922850159731212617605185536000",
+          "59454336713575734532865974661576222805041639365141055021874629900261775699496340256472081440551491504585588368123069954302840450730704787295610871657/75795190977550057505916898705441583877309939242439256185450607030669949238782284664283245849020995267819896449910735922850159731212617605185536000"
+        ],
+        "intercept": "-575454540643911011820209113133511625787832514870835877002250868028824097619229197640249271873136747527769620206232896594486056389688356011333640343/75795190977550057505916898705441583877309939242439256185450607030669949238782284664283245849020995267819896449910735922850159731212617605185536000",
+        "slope": "99/8",
+        "control": "499659349666360954314292214428070041910522575628396620816800260998154148380446912975966026024115752259949723756322160671635896658475738406148104343/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "restore",
+      "C_name": "grid-6",
+      "x": "6/4",
+      "decision": {
+        "history_digest": "d32c36271ac48c4522515c8f939cc4fae7da73970e461b27fe09ad72512117f8",
+        "requirement": {
+          "context": [
+            [
+              "3/2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-1/2",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-4",
+        "a": "949869933398079191/140737488355328000",
+        "g": "-7",
+        "control": "677329926484851621008306576082489954518632153783738566313897827695248137333903731886580244881173473316066543496417504506295368321662524013422598489/729528713158919303494450150039875244819108165208477840784962092670198261423279489893726241296827079452766503330390833257432787412921444449910784000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "06c7d8ed6e7147a1d3c304301420d899af0fe25e76e78652623c465188bb8eec",
+      "forward": {
+        "reachable_base_interval": [
+          "-47393222165554219876920775112564501167399380018740908870865220404754729663474622495438407053638707525416435846046087648455473505156239306109495302489/26054596898532832267658933929995544457825291614588494313748646166792795050831410353347365760600967123313089404656815473479742407604337301782528000",
+          "45986453118787450970368844092539530169446465127944254749609927457030647798705152210958551832355158644537676580243939008495923283697705583479085049511/26054596898532832267658933929995544457825291614588494313748646166792795050831410353347365760600967123313089404656815473479742407604337301782528000"
+        ],
+        "intercept": "-703384523383384453275965510012485498976457445398327060627646473862040932384735142239927610641774440439379632901074319979775110729266861315205126489/26054596898532832267658933929995544457825291614588494313748646166792795050831410353347365760600967123313089404656815473479742407604337301782528000",
+        "slope": "28",
+        "control": "677329926484851621008306576082489954518632153783738566313897827695248137333903731886580244881173473316066543496417504506295368321662524013422598489/729528713158919303494450150039875244819108165208477840784962092670198261423279489893726241296827079452766503330390833257432787412921444449910784000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "restore",
+      "C_name": "grid-7",
+      "x": "7/4",
+      "decision": {
+        "history_digest": "d32c36271ac48c4522515c8f939cc4fae7da73970e461b27fe09ad72512117f8",
+        "requirement": {
+          "context": [
+            [
+              "7/4",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-3/4",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-25/4",
+        "a": "2849671579051600321/281474976710656000",
+        "g": "-17/2",
+        "control": "2076854882049746773354336355234144600814684779040057786786236567430550610339262899924898926548583610194626019136496349164230081492381458389575531919/1771712589100232594200807507239697023132119829792017613334907939341910063456535904027620871720865764385290079516663452196622483717094936521211904000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "b2202745236e06446bc16a161b1eb0d4ea413b25846373ec714ba00c8452dbb8",
+      "forward": {
+        "reachable_base_interval": [
+          "-115499810468494754827508620254005148378176370258995858312941942952406289449222624962944919344857561768771031862640918013554123109668190947493419023759/33349884030122025302603435430394296906016373266673272721598267093494777665064205252284628173569237917840754437960723806054070281733551746281635840",
+          "111279400936335017230194740672676070582734967954382396193926273283358198673213970752590552235413256072546098315492003867613554806119960927221704688241/33349884030122025302603435430394296906016373266673272721598267093494777665064205252284628173569237917840754437960723806054070281733551746281635840"
+        ],
+        "intercept": "-2110204766079868798656939790664538897720701152306731059507834834524045388004327105177183554722152848112466773574457072970284151774115010135857167759/33349884030122025302603435430394296906016373266673272721598267093494777665064205252284628173569237917840754437960723806054070281733551746281635840",
+        "slope": "425/8",
+        "control": "2076854882049746773354336355234144600814684779040057786786236567430550610339262899924898926548583610194626019136496349164230081492381458389575531919/1771712589100232594200807507239697023132119829792017613334907939341910063456535904027620871720865764385290079516663452196622483717094936521211904000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "restore",
+      "C_name": "grid-8",
+      "x": "8/4",
+      "decision": {
+        "history_digest": "d32c36271ac48c4522515c8f939cc4fae7da73970e461b27fe09ad72512117f8",
+        "requirement": {
+          "context": [
+            [
+              "2",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-9",
+        "a": "189980164565352113/14073748835532800",
+        "g": "-10",
+        "control": "1255716379667422777935813279014849841086689219571728201266670066129086892037300202502191403368100180056453190844181751502066239977321599017873825943/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "status": "ADMISSIBLE",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "4155be34b9f052eaf17b4273535f6c9452db34234a162b72e1f4cfb38aa3591e",
+      "forward": {
+        "reachable_base_interval": [
+          "-61295929472646481455529060627296582489699291216229454497869050292886403807173202220755861062096968819019136414935347328588784644060756477245531349143/10421838759413132907063573571998217783130116645835397725499458466717118020332564141338946304240386849325235761862726189391896963041734920713011200",
+          "58763653035792809633843306922122886371959652543794327299884711243694795787057936687468800362752287685207579561723258373205868370180029809368357674857/10421838759413132907063573571998217783130116645835397725499458466717118020332564141338946304240386849325235761862726189391896963041734920713011200"
+        ],
+        "intercept": "-1266138218426835910842876852586848058869819336217563598992169524595804010057632766643530349672340566905778426606044477691458136940363333938586837143/10421838759413132907063573571998217783130116645835397725499458466717118020332564141338946304240386849325235761862726189391896963041734920713011200",
+        "slope": "90",
+        "control": "1255716379667422777935813279014849841086689219571728201266670066129086892037300202502191403368100180056453190844181751502066239977321599017873825943/937965488347181961635721621479839600481710498125185795294951262004540621829930772720505167381634816439271218567645357045270726673756142864171008000",
+        "all_controls": false,
+        "algebraically_feasible": true,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    },
+    {
+      "history": "restore",
+      "C_name": "blind-current-frame",
+      "x": "1/3",
+      "decision": {
+        "history_digest": "d32c36271ac48c4522515c8f939cc4fae7da73970e461b27fe09ad72512117f8",
+        "requirement": {
+          "context": [
+            [
+              "1/3",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "2/3",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "target": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "inherited": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "domain": [
+          "-64",
+          "64"
+        ],
+        "axis": [
+          "-2",
+          "1",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "retained_shift": "10895372219200366007878143041637395257118470686605608142296045763548684262195607582007474823318783970797954571072946248444337353287657485493/833747100753050632565085885759857422650409331666831818039956677337369441626605131307115704339230947946018860949018095151351757043338793657040896",
+        "h": "-1/9",
+        "a": "-9",
+        "g": "0",
+        "control": null,
+        "all_controls": false,
+        "algebraically_feasible": false,
+        "chart_regular": true,
+        "status": "EMPTY_BLIND",
+        "future_path_enumerations": 0
+      },
+      "decision_digest": "72b4daa98f6815755a857e45a284435fa0c5a32b8dd04a4046c291d3b958c90c",
+      "forward": {
+        "reachable_base_interval": [
+          "1",
+          "1"
+        ],
+        "intercept": "1",
+        "slope": "0",
+        "control": null,
+        "all_controls": false,
+        "algebraically_feasible": false,
+        "chart_regular": true,
+        "future_path_enumerations": 0
+      },
+      "same_admissible_set": true,
+      "actual_history_events": 11,
+      "new_current_source_produced": false,
+      "new_current_word_executed": false,
+      "future_word_executed": false
+    }
+  ],
+  "rejected_inputs": [
+    {
+      "history": "large-history-control",
+      "declared": {
+        "name": "large-history-control",
+        "mode": "keep",
+        "contact": 1,
+        "gain": "16777216"
+      },
+      "status": "REJECTED_INPUT",
+      "reason": "gain in [0,2] and the declared 00 reference contact are required",
+      "C_cases_not_evaluated": 14,
+      "success_outcome_not_observed": true
+    }
+  ],
+  "decision_count": 42,
+  "future_path_enumerations": 0,
+  "all_decisions_saved_before_any_new_current_or_future_execution": true
+}
