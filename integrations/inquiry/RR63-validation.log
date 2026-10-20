@@ -1,0 +1,19 @@
+test_all_twelve_staged_executions_equal_original_RR62 (test_live_flower.LiveFlowerTests.test_all_twelve_staged_executions_equal_original_RR62) ... ok
+test_checkpoint_rejects_changed_bytes_and_changed_snapshot_even_with_new_hash (test_live_flower.LiveFlowerTests.test_checkpoint_rejects_changed_bytes_and_changed_snapshot_even_with_new_hash) ... ok
+test_checkpoint_rejects_unknown_classes_cycles_and_malformed_commands (test_live_flower.LiveFlowerTests.test_checkpoint_rejects_unknown_classes_cycles_and_malformed_commands) ... ok
+test_cli_start_choice_closure_connection_and_no_overwrite (test_live_flower.LiveFlowerTests.test_cli_start_choice_closure_connection_and_no_overwrite) ... ok
+test_completion_stops_without_scheduling_next_flower (test_live_flower.LiveFlowerTests.test_completion_stops_without_scheduling_next_flower) ... ok
+test_continuation_equals_existing_RR53_RR43_composition (test_live_flower.LiveFlowerTests.test_continuation_equals_existing_RR53_RR43_composition) ... ok
+test_current_must_choose_and_C_cannot_be_replaced_after_resolution (test_live_flower.LiveFlowerTests.test_current_must_choose_and_C_cannot_be_replaced_after_resolution) ... ok
+test_empty_or_unknown_queries_never_actuate (test_live_flower.LiveFlowerTests.test_empty_or_unknown_queries_never_actuate) ... ok
+test_erasure_changes_source_and_restore_recovers_keep_response (test_live_flower.LiveFlowerTests.test_erasure_changes_source_and_restore_recovers_keep_response) ... ok
+test_existence_does_not_choose_execute_or_discard_retention (test_live_flower.LiveFlowerTests.test_existence_does_not_choose_execute_or_discard_retention) ... ok
+test_no_C_fixture_or_future_path_enumeration_is_called (test_live_flower.LiveFlowerTests.test_no_C_fixture_or_future_path_enumeration_is_called) ... ok
+test_old_history_and_all_three_levels_survive (test_live_flower.LiveFlowerTests.test_old_history_and_all_three_levels_survive) ... ok
+test_order_changes_next_motion_and_zero_coupling_removes_that_difference (test_live_flower.LiveFlowerTests.test_order_changes_next_motion_and_zero_coupling_removes_that_difference) ... ok
+test_resume_at_every_stage_preserves_bytes_and_next_transition (test_live_flower.LiveFlowerTests.test_resume_at_every_stage_preserves_bytes_and_next_transition) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 150.643s
+
+OK
