@@ -1,0 +1,44 @@
+{
+  "repository": "residual-chart-lab/free-number-core",
+  "runtime": "0.1.1",
+  "adopted_merge": "a9c3041a411db8f79f51d02e9f35af58f5edb2d3",
+  "implementation_commit": "d3a70c78694748b0362568524cc8f9e2b875d87e",
+  "files": {
+    "runtime/free_numbers/__init__.py": {
+      "sha256": "6fc16abf333d49ad8dec9603578a6eaacb31530713cba41065990906a80f6ab5",
+      "git_blob_sha": "49ddf973a4319e869b8cb001d81e5da246d948a3"
+    },
+    "runtime/free_numbers/algebra.py": {
+      "sha256": "0e8ebfe0bcf7872f8ea2a96c0cdf20be327087879cddad3d519e9a00bed547b0",
+      "git_blob_sha": "ccb963d85735037442231c17f37861fa515264b5"
+    },
+    "runtime/free_numbers/checkpoint.py": {
+      "sha256": "39206f41ce982cfe6d8586ca9b2a4829478702e743446fb03efcfc1b8e1b654a",
+      "git_blob_sha": "6af5efbc691ed8560252c3ca72759cc62dce0b28"
+    },
+    "runtime/free_numbers/demand.py": {
+      "sha256": "c3ea6349d4149bd8674a3585b711ef50729ca36bca7da892effe2119681bf055",
+      "git_blob_sha": "029c735bfcadaf3c1863a490988c73a613af485d"
+    },
+    "runtime/free_numbers/evaluate.py": {
+      "sha256": "d472c51e384147edeff21ae9f571ce76828279c0186ea5f5d94c427ce4ea7590",
+      "git_blob_sha": "572d0fa46b247624be9f7fcce686679f4d9f3137"
+    },
+    "runtime/free_numbers/expression.py": {
+      "sha256": "2aeafdd375cd38f09c3091937bbc660bb0df802f0b1d37a7ffece3e5bf8fbaac",
+      "git_blob_sha": "cfc382d7f67334cb30de355c09e571061d194ad8"
+    },
+    "runtime/free_numbers/retention.py": {
+      "sha256": "6c7958bf20ec16193ad2b07be553ffc5fc2fff99ed73b7ca682546162e1122c9",
+      "git_blob_sha": "820b90dee708b7836547400b70b66eb9345fc802"
+    },
+    "runtime/free_numbers/traversal.py": {
+      "sha256": "b0ef3ccfdc57ceaa449f513cb245c3000939772643d7327321c25163d82b7cc9",
+      "git_blob_sha": "cce55a7d31d025124be38fa96a3f14a490833631"
+    },
+    "LICENSE": {
+      "sha256": "7f9367a61473573a57b2f7cdeb8a2f56d01ecd622ecb1087b7cf143d602d0965",
+      "git_blob_sha": "2ec485827d11e304283d7d5362920eb086e80107"
+    }
+  }
+}

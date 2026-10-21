@@ -1,0 +1,11 @@
+{
+  "schema": "time-engine-rr64-resource-sweep-v1",
+  "role": "implementation diagnostic added after the primary 600-query grid; not a preregistered discovery",
+  "mode": "keep",
+  "future_x": "-1",
+  "first_controls": ["-64", "0", "64"],
+  "words": ["HHST", "HHTS"],
+  "resource_minimum": "0",
+  "resource_maxima": ["4", "8", "12", "16"],
+  "strength": "1/1024"
+}
