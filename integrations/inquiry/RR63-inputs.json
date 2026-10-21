@@ -1,0 +1,13 @@
+{
+  "base_commit": "5e0b40871ccda4f0bbf2b6d49b6a9c62d0580bd8",
+  "purpose": "Execution integration and interruption audit, not a new motion law",
+  "modes": ["keep", "erase", "restore"],
+  "C_diagonal_x": ["-1", "1/4"],
+  "words": ["HHST", "HHTS"],
+  "actuator_domain": ["-64", "64"],
+  "continuation": {"C_diagonal_x": "-1", "modes": ["keep", "erase", "restore"], "strengths": ["1/1024", "0"], "connections": 1},
+  "negative_queries": {"zero_head": "1/2", "blind": "1/3", "outside_chart": "0", "excluded_domain": ["0", "1"]},
+  "resume": "Every stage of keep/-1/HHST and one explicit next-flower connection",
+  "comparators": ["RR62 batch execution", "RR53 readout with RR43 finish_current", "zero connection coupling", "erased and restored retention"],
+  "scope": "Inputs fixed before the integration matrix. A keep/-1 smoke test had already closed both word choices and their next flowers. Not a new independent preregistered discovery."
+}

@@ -1,0 +1,25 @@
+{
+  "base_commit": "5e0b40871ccda4f0bbf2b6d49b6a9c62d0580bd8",
+  "branch": "research/rr63-live-flower",
+  "date": "2026-10-20",
+  "existing_runtime_sources_changed": [],
+  "RR63": {
+    "command": "python integrations/inquiry/validate_live.py",
+    "tests": 14,
+    "result_sha256": "ff0a28e69425c666dec4f7e859b876ff58675429b35935326ca3271c5a9fda40"
+  },
+  "RR62_independent_regression": {
+    "command": "python integrations/inquiry/validate_demand.py",
+    "tests": 73,
+    "groups": 11,
+    "result_sha256": "8731bb1a2c27da3855248cacd51de359c6877bca20fbf28d6d5d1f387d471f8a",
+    "starts_sha256": "8496d3117a7c3cef6fc0cef70c15a1c8071dcf782973152b66e0155772fa0ec8",
+    "matches_published": true
+  },
+  "boundaries": [
+    "C and current word are supplied inputs",
+    "Continuation only certifies its local -1 closure",
+    "Checkpoint restore replays commands; no constant-time resume claim",
+    "No new dynamics or C selection rule"
+  ]
+}
