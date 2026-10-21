@@ -1,0 +1,547 @@
+{
+  "schema": "time-engine-rr65-mixed-action-set-v1",
+  "input_commit": "a7ea44bf2e25915a54087f28cc76bf90f4e8b1df",
+  "groups": [
+    {
+      "name": "physical_action_set_comparisons_match_independent_matrix_oracle",
+      "passed": true,
+      "scopes": 24,
+      "candidate_comparisons": 192
+    },
+    {
+      "name": "comparison_never_reads_exact_retained_coordinates",
+      "passed": true,
+      "coarse_reads": 384,
+      "refinement_reads": 336
+    },
+    {
+      "name": "unknown_charts_do_not_become_omission_permissions",
+      "passed": true
+    },
+    {
+      "name": "an_invalid_blind_direction_is_rejected_at_entry",
+      "passed": true,
+      "rejected": [
+        {
+          "configuration": {
+            "family": "offdiagonal",
+            "strength": "0"
+          },
+          "stage": "entry-source-current-closure",
+          "reason": "the source must close from the actual inherited current state",
+          "planned_scope_comparisons": 12,
+          "planned_additional_execution_pairs": 2,
+          "inference": "this proposed blind-direction fixture is invalid; no omission permission"
+        }
+      ]
+    },
+    {
+      "name": "the_mixed_channel_survives_when_both_first_order_terms_vanish",
+      "passed": true,
+      "terms": [
+        [
+          [
+            "s",
+            "t"
+          ],
+          [
+            "1062242532697834228195860596788493640793155136753473297/3135663180874993858685054274880540814632894332928000000000",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "first_order_control": "constant and both single-coordinate terms of B1 are exactly zero"
+    },
+    {
+      "name": "a_scoped_mixed_observation_preserves_the_whole_nonempty_physical_action_set",
+      "passed": true,
+      "exact_reads_individual": 12,
+      "exact_reads_joint": 6,
+      "not_a_total_runtime_speedup_claim": true
+    },
+    {
+      "name": "the_next_scope_can_require_individual_information_again",
+      "passed": true
+    },
+    {
+      "name": "retention_and_restore_close_the_bundle_while_either_erasure_does_not",
+      "passed": true,
+      "cases": [
+        {
+          "kind": "declared-retention-control",
+          "modes": [
+            "keep",
+            "keep"
+          ],
+          "predicted": "ADMISSIBLE",
+          "certified": true,
+          "counterfactual": false,
+          "endpoints": [
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          ]
+        },
+        {
+          "kind": "declared-retention-control",
+          "modes": [
+            "erase",
+            "keep"
+          ],
+          "predicted": "EMPTY",
+          "certified": false,
+          "counterfactual": true,
+          "endpoints": [
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ]
+        },
+        {
+          "kind": "declared-retention-control",
+          "modes": [
+            "keep",
+            "erase"
+          ],
+          "predicted": "EMPTY",
+          "certified": false,
+          "counterfactual": true,
+          "endpoints": [
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ]
+        },
+        {
+          "kind": "declared-retention-control",
+          "modes": [
+            "erase",
+            "erase"
+          ],
+          "predicted": "EMPTY",
+          "certified": false,
+          "counterfactual": true,
+          "endpoints": [
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ]
+        },
+        {
+          "kind": "declared-retention-control",
+          "modes": [
+            "restore",
+            "restore"
+          ],
+          "predicted": "ADMISSIBLE",
+          "certified": true,
+          "counterfactual": false,
+          "endpoints": [
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "joint_omission_preserves_the_actual_motion_and_full_original_archive",
+      "passed": true,
+      "original_keys": [
+        "p",
+        "s",
+        "t"
+      ],
+      "bytes": 146180,
+      "sha256": "154b9d17834230233ae8bdb325bb27a654f434d748c128b786532097e2a5f188"
+    },
+    {
+      "name": "wrong_omission_can_keep_both_local_closures_but_fail_the_bundle",
+      "passed": true
+    },
+    {
+      "name": "the_current_keeps_two_real_order_choices",
+      "passed": true,
+      "selected_words": [
+        "HHHSUT",
+        "HHHUST"
+      ]
+    }
+  ],
+  "scope_comparisons": 24,
+  "candidate_comparisons": 192,
+  "verdict_counts": {
+    "DIFFERENT": 12,
+    "SAME": 6,
+    "UNDETERMINED": 6
+  },
+  "rejected_input_configurations": [
+    {
+      "configuration": {
+        "family": "offdiagonal",
+        "strength": "0"
+      },
+      "stage": "entry-source-current-closure",
+      "reason": "the source must close from the actual inherited current state",
+      "planned_scope_comparisons": 12,
+      "planned_additional_execution_pairs": 2,
+      "inference": "this proposed blind-direction fixture is invalid; no omission permission"
+    }
+  ],
+  "joint_observation": [
+    {
+      "v": "-64",
+      "word": "HHHSUT",
+      "status": "ADMISSIBLE",
+      "full_keys": [
+        "s",
+        "t"
+      ],
+      "joint_keys": [
+        "p"
+      ],
+      "full_exact_reads": 2,
+      "joint_exact_reads": 1
+    },
+    {
+      "v": "-64",
+      "word": "HHHUST",
+      "status": "ADMISSIBLE",
+      "full_keys": [
+        "s",
+        "t"
+      ],
+      "joint_keys": [
+        "p"
+      ],
+      "full_exact_reads": 2,
+      "joint_exact_reads": 1
+    },
+    {
+      "v": "0",
+      "word": "HHHSUT",
+      "status": "EMPTY",
+      "full_keys": [],
+      "joint_keys": [],
+      "full_exact_reads": 0,
+      "joint_exact_reads": 0
+    },
+    {
+      "v": "0",
+      "word": "HHHUST",
+      "status": "EMPTY",
+      "full_keys": [],
+      "joint_keys": [],
+      "full_exact_reads": 0,
+      "joint_exact_reads": 0
+    },
+    {
+      "v": "1",
+      "word": "HHHSUT",
+      "status": "ADMISSIBLE",
+      "full_keys": [
+        "s",
+        "t"
+      ],
+      "joint_keys": [
+        "p"
+      ],
+      "full_exact_reads": 2,
+      "joint_exact_reads": 1
+    },
+    {
+      "v": "1",
+      "word": "HHHUST",
+      "status": "ADMISSIBLE",
+      "full_keys": [
+        "s",
+        "t"
+      ],
+      "joint_keys": [
+        "p"
+      ],
+      "full_exact_reads": 2,
+      "joint_exact_reads": 1
+    },
+    {
+      "v": "64",
+      "word": "HHHSUT",
+      "status": "ADMISSIBLE",
+      "full_keys": [
+        "s",
+        "t"
+      ],
+      "joint_keys": [
+        "p"
+      ],
+      "full_exact_reads": 2,
+      "joint_exact_reads": 1
+    },
+    {
+      "v": "64",
+      "word": "HHHUST",
+      "status": "ADMISSIBLE",
+      "full_keys": [
+        "s",
+        "t"
+      ],
+      "joint_keys": [
+        "p"
+      ],
+      "full_exact_reads": 2,
+      "joint_exact_reads": 1
+    }
+  ],
+  "executions": [
+    {
+      "kind": "declared-retention-control",
+      "modes": [
+        "keep",
+        "keep"
+      ],
+      "predicted": "ADMISSIBLE",
+      "certified": true,
+      "counterfactual": false,
+      "endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "kind": "declared-retention-control",
+      "modes": [
+        "erase",
+        "keep"
+      ],
+      "predicted": "EMPTY",
+      "certified": false,
+      "counterfactual": true,
+      "endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "kind": "declared-retention-control",
+      "modes": [
+        "keep",
+        "erase"
+      ],
+      "predicted": "EMPTY",
+      "certified": false,
+      "counterfactual": true,
+      "endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "kind": "declared-retention-control",
+      "modes": [
+        "erase",
+        "erase"
+      ],
+      "predicted": "EMPTY",
+      "certified": false,
+      "counterfactual": true,
+      "endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "kind": "declared-retention-control",
+      "modes": [
+        "restore",
+        "restore"
+      ],
+      "predicted": "ADMISSIBLE",
+      "certified": true,
+      "counterfactual": false,
+      "endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "kind": "follow-up-joint-observation",
+      "certified": true,
+      "counterfactual": false
+    },
+    {
+      "kind": "main-kept",
+      "certified": true,
+      "counterfactual": false
+    },
+    {
+      "kind": "main-erased-correction-on-kept-plant",
+      "certified": false,
+      "counterfactual": true
+    },
+    {
+      "kind": "other-current-word",
+      "certified": true,
+      "counterfactual": false
+    }
+  ],
+  "future_path_completions_for_set_comparison": 0,
+  "original_differences_deleted": false,
+  "retained_product_is_a_derived_authenticated_observation": true
+}

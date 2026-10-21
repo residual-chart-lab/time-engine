@@ -1,0 +1,47 @@
+{
+  "schema": "time-engine-rr65-validation-v1",
+  "passed": true,
+  "integrity": {
+    "base_commit": "b3dd0263d71e7284d6ca59875476d893c13f71ac",
+    "unchanged_RR64_files": 295,
+    "navigation_updates": [
+      "README.md",
+      "integrations/inquiry/README.md"
+    ],
+    "input_commit": "a7ea44bf2e25915a54087f28cc76bf90f4e8b1df",
+    "input_sha256": "4b738ebfc55046bef793ac4ed98947e372a438ef232f8b148b1f39f8ada08abd"
+  },
+  "total_tests": 49,
+  "test_counts": {
+    "test_mixed_action_sets": 27,
+    "test_bundle_demand": 22
+  },
+  "groups": 11,
+  "scope_comparisons": 24,
+  "candidate_comparisons": 192,
+  "verdict_counts": {
+    "DIFFERENT": 12,
+    "SAME": 6,
+    "UNDETERMINED": 6
+  },
+  "actual_pairs": 9,
+  "certified_pairs": 5,
+  "labelled_counterfactual_pairs": 4,
+  "rejected_input_configurations": 1,
+  "source_sha256": {
+    "integrations/inquiry/mixed_action_sets.py": "f630c415b525840360f89d617fe9ea83a73d8d55a97cf71fa93151667feeb001",
+    "integrations/inquiry/mixed_execution.py": "a841c53108014239a01d2c37f290d864648a6b70a77db1b576064e4cd695dd52",
+    "integrations/inquiry/rr65_study.py": "4454a199f07cc48d6919d2753b3c1856e964050c04503a2e575bdbfa894ce719",
+    "integrations/inquiry/test_mixed_action_sets.py": "8dc6aa8c2847136570a7d887a589669325e27c0d6e2ce558a1d98940a1339fd2",
+    "integrations/inquiry/validate_mixed.py": "e05363e6ab6e36a9421db6a79bf57cc11420e934ca74e2c8ac55c9a828d95477",
+    "integrations/inquiry/RR65-inputs.json": "4b738ebfc55046bef793ac4ed98947e372a438ef232f8b148b1f39f8ada08abd",
+    "integrations/inquiry/RR65-BASELINE.json": "08ddba950af98c539e31028524244c27d1318003d4cf09583e46be4a1876a82c",
+    "run_mixed.py": "1a64e650d4488cdb7c9857a5fd75811bbdaa517a5b6a2e375a27c70272e19dc4"
+  },
+  "evidence_sha256": {
+    "result.json": "2b09f511db0f84e464585b089e690ff5a6a83683113419f9d51aca20f4da13cc",
+    "starts.json": "9de823841b3f2755ccb2bb7edee83b614ca203969cf8d0aa98369aadb8a85781",
+    "joint-observation.json": "8ce8ad79e35b1366ef1fe81d9b4a2434850d2926f12a7eabf11a485c641d36a5",
+    "joint-complete.record.json": "154b9d17834230233ae8bdb325bb27a654f434d748c128b786532097e2a5f188"
+  }
+}

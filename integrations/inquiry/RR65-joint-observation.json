@@ -1,0 +1,111 @@
+{
+  "role": "follow-up quotient diagnostic after rejecting the offdiagonal fixture; not a preregistered discovery",
+  "context": "mixed",
+  "strength": "0",
+  "proof": "every monomial in every action and guard polynomial is s^n t^n; map it exactly to p^n",
+  "registration_cost": "p=s*t is authenticated exactly once; full s and t remain in the archive",
+  "rows": [
+    {
+      "v": "-64",
+      "word": "HHHSUT",
+      "status": "ADMISSIBLE",
+      "full_keys": [
+        "s",
+        "t"
+      ],
+      "joint_keys": [
+        "p"
+      ],
+      "full_exact_reads": 2,
+      "joint_exact_reads": 1
+    },
+    {
+      "v": "-64",
+      "word": "HHHUST",
+      "status": "ADMISSIBLE",
+      "full_keys": [
+        "s",
+        "t"
+      ],
+      "joint_keys": [
+        "p"
+      ],
+      "full_exact_reads": 2,
+      "joint_exact_reads": 1
+    },
+    {
+      "v": "0",
+      "word": "HHHSUT",
+      "status": "EMPTY",
+      "full_keys": [],
+      "joint_keys": [],
+      "full_exact_reads": 0,
+      "joint_exact_reads": 0
+    },
+    {
+      "v": "0",
+      "word": "HHHUST",
+      "status": "EMPTY",
+      "full_keys": [],
+      "joint_keys": [],
+      "full_exact_reads": 0,
+      "joint_exact_reads": 0
+    },
+    {
+      "v": "1",
+      "word": "HHHSUT",
+      "status": "ADMISSIBLE",
+      "full_keys": [
+        "s",
+        "t"
+      ],
+      "joint_keys": [
+        "p"
+      ],
+      "full_exact_reads": 2,
+      "joint_exact_reads": 1
+    },
+    {
+      "v": "1",
+      "word": "HHHUST",
+      "status": "ADMISSIBLE",
+      "full_keys": [
+        "s",
+        "t"
+      ],
+      "joint_keys": [
+        "p"
+      ],
+      "full_exact_reads": 2,
+      "joint_exact_reads": 1
+    },
+    {
+      "v": "64",
+      "word": "HHHSUT",
+      "status": "ADMISSIBLE",
+      "full_keys": [
+        "s",
+        "t"
+      ],
+      "joint_keys": [
+        "p"
+      ],
+      "full_exact_reads": 2,
+      "joint_exact_reads": 1
+    },
+    {
+      "v": "64",
+      "word": "HHHUST",
+      "status": "ADMISSIBLE",
+      "full_keys": [
+        "s",
+        "t"
+      ],
+      "joint_keys": [
+        "p"
+      ],
+      "full_exact_reads": 2,
+      "joint_exact_reads": 1
+    }
+  ]
+}

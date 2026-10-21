@@ -1,5 +1,16 @@
 # 精査を始める起点と、その後の成立判定
 
+## 混合残差と、束の実作用集合の保存：RR65
+
+[RR65の作用則・条件・再現手順](../../docs/RR65_MIXED_RESIDUAL_ACTION_SETS.md)。二つの独立な保持差を自由数の混合多項式で運び、指定した差を省略しても、束を成立させる新作用の全係数が保存されるかを実行前に判定する。
+
+```text
+python run_mixed.py inspect --context mixed --omit t
+python integrations/inquiry/validate_mixed.py
+```
+
+24スコープ・192候補比較、不明を含む三値判定、保持・消去・復元の実行を記録する。追加診断では、個別情報を消さず、認証済みの積だけで同じ実作用を作る。成立しなかったoffdiagonal対照も入口拒否として保存する。新しい出力は`.work/rr65-local/`、固定結果はRR65ファイル群。
+
 ## 二輪の要求を、最初の実行前へ引き戻す：RR64
 
 [RR64の作用則と再現手順](../../docs/RR64_TWO_FLOWER_BUNDLE_DEMAND.md)。指定した二輪継続の共通Cから、現在候補の許容性と後続sourceの補正を計算する。修復済み自由数runtimeの有限多項式と包含区間を利用し、完成未来経路を判定前に生成しない。
