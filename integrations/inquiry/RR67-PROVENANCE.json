@@ -1,0 +1,93 @@
+{
+  "schema": "time-engine-rr67-provenance-v1",
+  "date": "2026-10-23",
+  "base_commit": "62904368873f3383246d64a71281be1ae7746b96",
+  "base_tree": "0c63ea57dfd74f2e1eee568d4747f5bb98d56308",
+  "input_commit": "f97e7c0858061b2e652700678d0ff2d9ae83f5de",
+  "input_sha256": "0245c5860a4c269720f6e45799b2cee7f83eb8d7934fddb6b903718c2c3d136e",
+  "unchanged_prior_files": 340,
+  "tests": 83,
+  "groups": 11,
+  "plans": 160,
+  "actual_bundles_per_method": 5,
+  "checkpoint_stages": 26,
+  "profile_paired_samples_per_change": 3,
+  "files": {
+    "README.md": {
+      "sha256": "f6601e6198ccce2fd75b2751e435f863b409c3cb4c50974ea83b32dd183d8a58",
+      "git_blob_sha": "4356902f84b60def60e3a812fff8e59f089f547f"
+    },
+    "docs/RR67_INCREMENTAL_DEMAND_PROOFS.md": {
+      "sha256": "20719a20ee7a9c4b277669dde18eda6c6c2437eac11591d921979c23bdda7f95",
+      "git_blob_sha": "49b9f541f0c4ef48b5f8a225ccd9b0219afebcdd"
+    },
+    "integrations/inquiry/README.md": {
+      "sha256": "15152eef262c6524858f6fb8a4fc1d6de74fff76c141e7d4c9b07afbdf45478c",
+      "git_blob_sha": "fd6817e55fd4554f5e17fe77e6479f56f15f52a5"
+    },
+    "integrations/inquiry/RR67-BASELINE.json": {
+      "sha256": "22df0e892d67276c0c743d226169240ec258387c8dae9ef3ca7b92e50c07b776",
+      "git_blob_sha": "68f6e528d7521e912b8609dfe9285c70ccb58ef8"
+    },
+    "integrations/inquiry/RR67-changes-and-return.record.json": {
+      "sha256": "ea1e0f71b2a362123a06298e36ef2ea1972c9f7f119a775110cb9aad021387ba",
+      "git_blob_sha": "8fbd6b7f9e5ac9454668cc5e8a4742124874e7f1"
+    },
+    "integrations/inquiry/RR67-current-word.record.json": {
+      "sha256": "2bfd3b364c9ea4da4de2208f1eb9f807e5094e592fc25df1f5df58add173d721",
+      "git_blob_sha": "7ebca7c292a468d5d4b10e4af640fe73a0ef1da2"
+    },
+    "integrations/inquiry/RR67-inputs.json": {
+      "sha256": "0245c5860a4c269720f6e45799b2cee7f83eb8d7934fddb6b903718c2c3d136e",
+      "git_blob_sha": "58580515050adbf856f7946425dc0980fb764e22"
+    },
+    "integrations/inquiry/RR67-paired-cost.json": {
+      "sha256": "f7ed96f6dd214cc9fa5cd14a93fea3f560b615f2bd1f784dbbca7bb12f07a9e1",
+      "git_blob_sha": "80f8667825a567600f286377d6b45ff1571c8d9a"
+    },
+    "integrations/inquiry/RR67-result.json": {
+      "sha256": "143f8cb909a99b0b81e9f0dfbc2e789bdcad9ce55004f17bd878ef9437a17cb0",
+      "git_blob_sha": "5c35d3aa3cbf70c183a6ff16b8350049a60bd124"
+    },
+    "integrations/inquiry/RR67-starts.json": {
+      "sha256": "58ebf2230c27000b9f4c530015e5751946bbc27b7513f7a9d19385de24dfcfd1",
+      "git_blob_sha": "90641e71a90e1a1de47bfdcf2c50568d3f771529"
+    },
+    "integrations/inquiry/RR67-validation.json": {
+      "sha256": "a519231c6bbfd44dfc3fa8b5c5cc2b2556d6f08969a255d057eee4b14b318c05",
+      "git_blob_sha": "c4ddeb7be95adfe34f06323421b4a9656855e13d"
+    },
+    "integrations/inquiry/RR67-validation.log": {
+      "sha256": "e8b2135fdfdc63ac27be22d59c5f7099ff4eb971036f1b849c1bca836ee4caa8",
+      "git_blob_sha": "340d537d08a26cbbb867b4edeac7d74f2c5540f9"
+    },
+    "integrations/inquiry/incremental_resolution.py": {
+      "sha256": "d915317b73d61d64c772d62a31ae909d9feb36ecb1213bba2adcbafe03d5ca21",
+      "git_blob_sha": "07eee5a0047c476befce8831b0e6d04b2499dbfc"
+    },
+    "integrations/inquiry/incremental_session.py": {
+      "sha256": "5d7d19b1fd98f77e70e5be90e730fdcaa3de7427f6eb9a3a5bae44812757476e",
+      "git_blob_sha": "d9697b60e98dec4f41b7ce2d0f035b5d3609ee2f"
+    },
+    "integrations/inquiry/profile_incremental.py": {
+      "sha256": "54ea0ed363a702715df06268c312e16b0efb9685b935c17029931ba3828d0682",
+      "git_blob_sha": "524c4ca7dabe64e487d5eae26b8fb9d1d421490d"
+    },
+    "integrations/inquiry/rr67_study.py": {
+      "sha256": "5b9c2fb4b8b152f0eb34fd8d429debea9b73b15032649bc26a1a1e16c5922b1d",
+      "git_blob_sha": "d574414a4db7db7bec7ca37bf217ab5374040496"
+    },
+    "integrations/inquiry/test_incremental_session.py": {
+      "sha256": "084bceac1a68c6529af1315f948e29dd3075ddb56cb891c894ef04dfb9e28195",
+      "git_blob_sha": "64ad3c00d1399903856aebfdf6538e01584e6eda"
+    },
+    "integrations/inquiry/validate_incremental.py": {
+      "sha256": "71a829a5c53e716cecdfb132acbaa58ed58eaefe82de033d2441b20f90b2bad0",
+      "git_blob_sha": "c56b3603e86bce6442abe3bc07f025d358e1aeef"
+    },
+    "run_incremental.py": {
+      "sha256": "73f28677dccbee09a65dfe679a873222b33b8151b5af7f2e37d39591198efbb6",
+      "git_blob_sha": "308db6a33fb7ed5b7be8be1fa1ea655f341ee843"
+    }
+  }
+}

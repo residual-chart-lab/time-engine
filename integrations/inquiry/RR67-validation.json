@@ -1,0 +1,35 @@
+{
+  "schema": "time-engine-rr67-validation-v1",
+  "passed": true,
+  "tests": 83,
+  "test_counts": {
+    "test_incremental_session": 22,
+    "test_adaptive_session": 34,
+    "test_mixed_action_sets": 27
+  },
+  "unchanged_baseline_files": 340,
+  "base_commit": "62904368873f3383246d64a71281be1ae7746b96",
+  "input_commit": "f97e7c0858061b2e652700678d0ff2d9ae83f5de",
+  "input_sha256": "0245c5860a4c269720f6e45799b2cee7f83eb8d7934fddb6b903718c2c3d136e",
+  "groups": 11,
+  "plans": 160,
+  "actual_bundles": 5,
+  "full_control_actual_bundles": 5,
+  "checkpoint_stages": 26,
+  "source_sha256": {
+    "integrations/inquiry/incremental_resolution.py": "d915317b73d61d64c772d62a31ae909d9feb36ecb1213bba2adcbafe03d5ca21",
+    "integrations/inquiry/incremental_session.py": "5d7d19b1fd98f77e70e5be90e730fdcaa3de7427f6eb9a3a5bae44812757476e",
+    "integrations/inquiry/rr67_study.py": "5b9c2fb4b8b152f0eb34fd8d429debea9b73b15032649bc26a1a1e16c5922b1d",
+    "integrations/inquiry/test_incremental_session.py": "084bceac1a68c6529af1315f948e29dd3075ddb56cb891c894ef04dfb9e28195",
+    "integrations/inquiry/validate_incremental.py": "71a829a5c53e716cecdfb132acbaa58ed58eaefe82de033d2441b20f90b2bad0",
+    "integrations/inquiry/RR67-inputs.json": "0245c5860a4c269720f6e45799b2cee7f83eb8d7934fddb6b903718c2c3d136e",
+    "integrations/inquiry/RR67-BASELINE.json": "22df0e892d67276c0c743d226169240ec258387c8dae9ef3ca7b92e50c07b776",
+    "run_incremental.py": "73f28677dccbee09a65dfe679a873222b33b8151b5af7f2e37d39591198efbb6"
+  },
+  "evidence_sha256": {
+    "starts.json": "58ebf2230c27000b9f4c530015e5751946bbc27b7513f7a9d19385de24dfcfd1",
+    "result.json": "143f8cb909a99b0b81e9f0dfbc2e789bdcad9ce55004f17bd878ef9437a17cb0",
+    "changes-and-return.record.json": "ea1e0f71b2a362123a06298e36ef2ea1972c9f7f119a775110cb9aad021387ba",
+    "current-word.record.json": "2bfd3b364c9ea4da4de2208f1eb9f807e5094e592fc25df1f5df58add173d721"
+  }
+}

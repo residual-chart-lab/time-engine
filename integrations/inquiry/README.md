@@ -1,5 +1,16 @@
 # 精査を始める起点と、その後の成立判定
 
+## 要求変更と、計算・証明の範囲付き再利用：RR67
+
+[保証の条件と実行手順](../../docs/RR67_INCREMENTAL_DEMAND_PROOFS.md)。同じ入口のまま要求を変更し、影響しない算術・恒等式・区間包含を再利用する。現在の要求に対する計画と合否は新しく束縛する。
+
+```sh
+python run_incremental.py demo --out-dir .work/incremental-demo
+python integrations/inquiry/validate_incremental.py
+```
+
+160計画と全係数の対照、5列の実行比較、26時点の保存再開。新しい出力は`.work/rr67-local/`、固定結果はRR67ファイル群。再利用件数と実測時間を分け、旧版の結果は上書きしない。
+
 ## 同一性の解像度を、要求と接続から選ぶ：RR66
 
 [RR66の条件・証明・段階実行](../../docs/RR66_ADAPTIVE_IDENTITY_RESOLUTION.md)。積、和、実際の接続読出し、個別値の有限カタログから、作用とguardを厳密に再現できる観測を選ぶ。要求更新は同じ保持記録・TE時系列に残り、古い作用は無効化する。
