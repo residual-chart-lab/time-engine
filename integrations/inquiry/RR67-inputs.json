@@ -1,0 +1,210 @@
+{
+  "schema": "time-engine-rr67-incremental-inputs-v1",
+  "date": "2026-10-23",
+  "base_commit": "62904368873f3383246d64a71281be1ae7746b96",
+  "contexts": [
+    "mixed",
+    "main",
+    "zero_head",
+    "outside_chart",
+    "main_perturbed"
+  ],
+  "strengths": [
+    "0",
+    "1/1024"
+  ],
+  "controls": [
+    "-64",
+    "0",
+    "1",
+    "64"
+  ],
+  "words": [
+    "HHHSUT",
+    "HHHUST"
+  ],
+  "domains": [
+    "wide",
+    "zero"
+  ],
+  "context_perturbation": "main diagonal + (1/100,-1/100,0), independently fixed",
+  "domain_definitions": {
+    "wide": [
+      "-10000000000000000000000000000000000000000",
+      "10000000000000000000000000000000000000000"
+    ],
+    "zero": [
+      "0",
+      "0"
+    ]
+  },
+  "sequences": [
+    {
+      "name": "changes-and-return",
+      "requests": [
+        [
+          "mixed",
+          "0",
+          "wide",
+          1,
+          "HHHSUT",
+          2
+        ],
+        [
+          "mixed",
+          "1/1024",
+          "wide",
+          1,
+          "HHHSUT",
+          2
+        ],
+        [
+          "main",
+          "1/1024",
+          "wide",
+          1,
+          "HHHSUT",
+          2
+        ],
+        [
+          "main",
+          "1/1024",
+          "zero",
+          1,
+          "HHHSUT",
+          2
+        ],
+        [
+          "main",
+          "1/1024",
+          "wide",
+          1,
+          "HHHSUT",
+          2
+        ],
+        [
+          "mixed",
+          "0",
+          "wide",
+          1,
+          "HHHUST",
+          2
+        ]
+      ],
+      "execute": true
+    },
+    {
+      "name": "domain-only",
+      "requests": [
+        [
+          "main",
+          "1/1024",
+          "wide",
+          1,
+          "HHHSUT",
+          2
+        ],
+        [
+          "main",
+          "1/1024",
+          "zero",
+          1,
+          "HHHSUT",
+          2
+        ],
+        [
+          "main",
+          "1/1024",
+          "wide",
+          1,
+          "HHHSUT",
+          2
+        ]
+      ],
+      "execute": true
+    },
+    {
+      "name": "future-C-only",
+      "requests": [
+        [
+          "mixed",
+          "1/1024",
+          "wide",
+          1,
+          "HHHSUT",
+          2
+        ],
+        [
+          "main",
+          "1/1024",
+          "wide",
+          1,
+          "HHHSUT",
+          2
+        ],
+        [
+          "main_perturbed",
+          "1/1024",
+          "wide",
+          1,
+          "HHHSUT",
+          2
+        ]
+      ],
+      "execute": true
+    },
+    {
+      "name": "current-word",
+      "requests": [
+        [
+          "mixed",
+          "1/1024",
+          "wide",
+          1,
+          "HHHSUT",
+          2
+        ],
+        [
+          "mixed",
+          "1/1024",
+          "wide",
+          1,
+          "HHHUST",
+          2
+        ]
+      ],
+      "execute": true
+    },
+    {
+      "name": "budget-and-back",
+      "requests": [
+        [
+          "mixed",
+          "1/1024",
+          "wide",
+          1,
+          "HHHSUT",
+          1
+        ],
+        [
+          "mixed",
+          "1/1024",
+          "wide",
+          1,
+          "HHHSUT",
+          2
+        ]
+      ],
+      "execute": true
+    }
+  ],
+  "comparison": "all 13 original RR65 polynomial coefficient maps, RR66 catalogue choice, complete action, independent matrix oracle and actual two-flower closure",
+  "proof": "fixed acyclic arithmetic schema; cache only issued immutable exact identities keyed by full operand projections; fresh scope binding and guard decision",
+  "bounds_reuse": "only equal polynomial and equal intervals for all its dependencies",
+  "factor_reuse": "only equal complete input polynomial, same observation definition and same algebra schema; new scopes remain separately bound",
+  "timing": "diagnostic phase measurements, no pass threshold or guaranteed total acceleration",
+  "no_exact_values_during_compilation": true,
+  "no_completed_future_paths_during_compilation": true,
+  "keep_original_evidence": true,
+  "input_fixed_before_new_calculations": true
+}
