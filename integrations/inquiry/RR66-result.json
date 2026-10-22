@@ -1,0 +1,817 @@
+{
+  "schema": "time-engine-rr66-adaptive-resolution-v1",
+  "input_commit": "1b1fa6c76acdbaa39e6adb2f557b7bad588e794d",
+  "groups": [
+    {
+      "name": "exact_factorization_selects_sufficient_observations_before_values",
+      "passed": true,
+      "modes": {
+        "PRODUCT": 6,
+        "CONSTANT": 36,
+        "PORT_PRODUCT": 6,
+        "SUM_PRODUCT": 8,
+        "INDIVIDUAL": 8
+      },
+      "exact_feature_reads": 50
+    },
+    {
+      "name": "request_and_port_change_the_certified_observation",
+      "passed": true
+    },
+    {
+      "name": "empty_and_unknown_remain_distinct_without_exact_feature_reads",
+      "passed": true
+    },
+    {
+      "name": "one_history_can_refine_and_coarsen_without_erasing_any_feature",
+      "passed": true,
+      "trace": [
+        {
+          "revision": 0,
+          "context": "mixed",
+          "strength": "0",
+          "word": "HHHSUT",
+          "mode": "PRODUCT",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [
+            "p"
+          ],
+          "derived_keys": [],
+          "exact_feature_reads": 1
+        },
+        {
+          "revision": 1,
+          "context": "mixed",
+          "strength": "1/1024",
+          "word": "HHHSUT",
+          "mode": "PORT_PRODUCT",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [
+            "port-HHHSUT"
+          ],
+          "derived_keys": [],
+          "exact_feature_reads": 1
+        },
+        {
+          "revision": 2,
+          "context": "main",
+          "strength": "0",
+          "word": "HHHSUT",
+          "mode": "SUM_PRODUCT",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [
+            "sum"
+          ],
+          "derived_keys": [],
+          "exact_feature_reads": 1
+        },
+        {
+          "revision": 3,
+          "context": "main",
+          "strength": "1/1024",
+          "word": "HHHSUT",
+          "mode": "INDIVIDUAL",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [],
+          "derived_keys": [
+            "s",
+            "t"
+          ],
+          "exact_feature_reads": 0
+        },
+        {
+          "revision": 4,
+          "context": "mixed",
+          "strength": "0",
+          "word": "HHHUST",
+          "mode": "PRODUCT",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [],
+          "derived_keys": [],
+          "exact_feature_reads": 0
+        }
+      ]
+    },
+    {
+      "name": "the_connected_case_uses_product_and_actual_port_without_individual_reads",
+      "passed": true,
+      "true_archive_queries": 2,
+      "individual_exact_queries": 0
+    },
+    {
+      "name": "the_current_word_binds_the_port_feature_and_keeps_order_freedom",
+      "passed": true,
+      "trace": [
+        {
+          "revision": 0,
+          "context": "mixed",
+          "strength": "1/1024",
+          "word": "HHHSUT",
+          "mode": "PORT_PRODUCT",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [
+            "p",
+            "port-HHHSUT"
+          ],
+          "derived_keys": [],
+          "exact_feature_reads": 2
+        },
+        {
+          "revision": 1,
+          "context": "mixed",
+          "strength": "1/1024",
+          "word": "HHHUST",
+          "mode": "PORT_PRODUCT",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [
+            "port-HHHUST"
+          ],
+          "derived_keys": [],
+          "exact_feature_reads": 1
+        }
+      ]
+    },
+    {
+      "name": "an_empty_result_does_not_delete_information_needed_by_a_new_requirement",
+      "passed": true,
+      "trace": [
+        {
+          "revision": 0,
+          "context": "mixed",
+          "strength": "0",
+          "word": "HHHSUT",
+          "mode": "PRODUCT",
+          "action_status": "EMPTY",
+          "new_keys": [
+            "p"
+          ],
+          "derived_keys": [],
+          "exact_feature_reads": 1
+        },
+        {
+          "revision": 1,
+          "context": "main",
+          "strength": "0",
+          "word": "HHHSUT",
+          "mode": "SUM_PRODUCT",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [
+            "sum"
+          ],
+          "derived_keys": [],
+          "exact_feature_reads": 1
+        }
+      ]
+    },
+    {
+      "name": "restore_reproduces_the_same_physical_actions",
+      "passed": true
+    },
+    {
+      "name": "all_five_declared_motions_close_two_local_cells_and_the_bundle",
+      "passed": true
+    },
+    {
+      "name": "every_declared_adaptive_checkpoint_replays_the_original_request_journal",
+      "passed": true,
+      "stages": [
+        {
+          "index": 0,
+          "phase": "BOUND",
+          "sha256": "b480370565d4a6584726bbfe48cc98ab4240c6c8e9c208fa2b1ef78d7b8ff357",
+          "bytes": 48150,
+          "same_state_digest": true
+        },
+        {
+          "index": 1,
+          "phase": "CHOSEN",
+          "sha256": "6acfb2db9c09877ebb4df0f911a59be8a5eaa5bd1e3306d78750e913d7eaa881",
+          "bytes": 48468,
+          "same_state_digest": true
+        },
+        {
+          "index": 2,
+          "phase": "READY",
+          "sha256": "406da582b5d3882af54d4691feea1a7f35289082484199135851de07ca4e931f",
+          "bytes": 48968,
+          "same_state_digest": true
+        },
+        {
+          "index": 3,
+          "phase": "BOUND",
+          "sha256": "feece9e97ae0b3801b42a0a581ade66bda92c7a97967d2a4a527cb1bec9d1970",
+          "bytes": 49960,
+          "same_state_digest": true
+        },
+        {
+          "index": 4,
+          "phase": "CHOSEN",
+          "sha256": "75cf57b953e2ce82f055b058ecdbbbb6bd5829f4667154b30b3f84bc3c92186a",
+          "bytes": 50278,
+          "same_state_digest": true
+        },
+        {
+          "index": 5,
+          "phase": "READY",
+          "sha256": "6b4d2fa431afa6a3017329cd4b24d326047542005b0daac46bef66210450d65a",
+          "bytes": 50825,
+          "same_state_digest": true
+        },
+        {
+          "index": 6,
+          "phase": "STOPPED",
+          "sha256": "e37480f2a2c79e041d3048446186109010096e8b46953fa2c9357bb42768fbb3",
+          "bytes": 149108,
+          "same_state_digest": true
+        }
+      ]
+    },
+    {
+      "name": "a_budget_limit_is_unknown_instead_of_a_false_omission_or_empty_set",
+      "passed": true,
+      "status": "UNDETERMINED_NO_SCHEMA"
+    }
+  ],
+  "plans": 64,
+  "plan_modes": {
+    "PRODUCT": 6,
+    "CONSTANT": 36,
+    "PORT_PRODUCT": 6,
+    "SUM_PRODUCT": 8,
+    "INDIVIDUAL": 8
+  },
+  "scenarios": [
+    {
+      "name": "full-cycle",
+      "entry_digest": "f3228fd6d82619e91708bdccbe99053c88985563fe41b9827c9eaf24ef14a6f8",
+      "trace": [
+        {
+          "revision": 0,
+          "context": "mixed",
+          "strength": "0",
+          "word": "HHHSUT",
+          "mode": "PRODUCT",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [
+            "p"
+          ],
+          "derived_keys": [],
+          "exact_feature_reads": 1
+        },
+        {
+          "revision": 1,
+          "context": "mixed",
+          "strength": "1/1024",
+          "word": "HHHSUT",
+          "mode": "PORT_PRODUCT",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [
+            "port-HHHSUT"
+          ],
+          "derived_keys": [],
+          "exact_feature_reads": 1
+        },
+        {
+          "revision": 2,
+          "context": "main",
+          "strength": "0",
+          "word": "HHHSUT",
+          "mode": "SUM_PRODUCT",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [
+            "sum"
+          ],
+          "derived_keys": [],
+          "exact_feature_reads": 1
+        },
+        {
+          "revision": 3,
+          "context": "main",
+          "strength": "1/1024",
+          "word": "HHHSUT",
+          "mode": "INDIVIDUAL",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [],
+          "derived_keys": [
+            "s",
+            "t"
+          ],
+          "exact_feature_reads": 0
+        },
+        {
+          "revision": 4,
+          "context": "mixed",
+          "strength": "0",
+          "word": "HHHUST",
+          "mode": "PRODUCT",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [],
+          "derived_keys": [],
+          "exact_feature_reads": 0
+        }
+      ],
+      "final": {
+        "digest": "61bb562d24631fe7a909125a2e24d664d9862fa49698eb3880a8c7f4f6465fb5",
+        "phase": "STOPPED",
+        "revision": 4,
+        "scope_digest": "2b7e143d07ea1d27bbddbe297ff3a359cdb6e1b95943eca4e8168b8ccd54660f",
+        "choice": [
+          [
+            "1",
+            "1"
+          ],
+          "HHHUST"
+        ],
+        "mode": "PRODUCT",
+        "action_status": "ADMISSIBLE",
+        "cached_keys": [
+          "p",
+          "port-HHHSUT",
+          "s",
+          "sum",
+          "t"
+        ],
+        "read_log": [
+          {
+            "revision": 0,
+            "mode": "PRODUCT",
+            "new_keys": [
+              "p"
+            ],
+            "derived_keys": []
+          },
+          {
+            "revision": 1,
+            "mode": "PORT_PRODUCT",
+            "new_keys": [
+              "port-HHHSUT"
+            ],
+            "derived_keys": []
+          },
+          {
+            "revision": 2,
+            "mode": "SUM_PRODUCT",
+            "new_keys": [
+              "sum"
+            ],
+            "derived_keys": []
+          },
+          {
+            "revision": 3,
+            "mode": "INDIVIDUAL",
+            "new_keys": [],
+            "derived_keys": [
+              "s",
+              "t"
+            ]
+          },
+          {
+            "revision": 4,
+            "mode": "PRODUCT",
+            "new_keys": [],
+            "derived_keys": []
+          }
+        ],
+        "certified": true
+      },
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "upper_endpoint": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "product-to-port",
+      "entry_digest": "f3228fd6d82619e91708bdccbe99053c88985563fe41b9827c9eaf24ef14a6f8",
+      "trace": [
+        {
+          "revision": 0,
+          "context": "mixed",
+          "strength": "0",
+          "word": "HHHSUT",
+          "mode": "PRODUCT",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [
+            "p"
+          ],
+          "derived_keys": [],
+          "exact_feature_reads": 1
+        },
+        {
+          "revision": 1,
+          "context": "mixed",
+          "strength": "1/1024",
+          "word": "HHHSUT",
+          "mode": "PORT_PRODUCT",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [
+            "port-HHHSUT"
+          ],
+          "derived_keys": [],
+          "exact_feature_reads": 1
+        }
+      ],
+      "final": {
+        "digest": "7213e6258409be98e3818de40d45479edb3abe9b90906c41e060a7c0287f137a",
+        "phase": "STOPPED",
+        "revision": 1,
+        "scope_digest": "9219cb3feff57450177cb75513e51e53589b88d625289097935f8917410c4de4",
+        "choice": [
+          [
+            "1",
+            "1"
+          ],
+          "HHHSUT"
+        ],
+        "mode": "PORT_PRODUCT",
+        "action_status": "ADMISSIBLE",
+        "cached_keys": [
+          "p",
+          "port-HHHSUT"
+        ],
+        "read_log": [
+          {
+            "revision": 0,
+            "mode": "PRODUCT",
+            "new_keys": [
+              "p"
+            ],
+            "derived_keys": []
+          },
+          {
+            "revision": 1,
+            "mode": "PORT_PRODUCT",
+            "new_keys": [
+              "port-HHHSUT"
+            ],
+            "derived_keys": []
+          }
+        ],
+        "certified": true
+      },
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "upper_endpoint": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "word-sensitive-port",
+      "entry_digest": "f3228fd6d82619e91708bdccbe99053c88985563fe41b9827c9eaf24ef14a6f8",
+      "trace": [
+        {
+          "revision": 0,
+          "context": "mixed",
+          "strength": "1/1024",
+          "word": "HHHSUT",
+          "mode": "PORT_PRODUCT",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [
+            "p",
+            "port-HHHSUT"
+          ],
+          "derived_keys": [],
+          "exact_feature_reads": 2
+        },
+        {
+          "revision": 1,
+          "context": "mixed",
+          "strength": "1/1024",
+          "word": "HHHUST",
+          "mode": "PORT_PRODUCT",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [
+            "port-HHHUST"
+          ],
+          "derived_keys": [],
+          "exact_feature_reads": 1
+        }
+      ],
+      "final": {
+        "digest": "c652b0f20759553a403770652a2bb774c2682319e9d97b41962b9db51e0427c0",
+        "phase": "STOPPED",
+        "revision": 1,
+        "scope_digest": "9219cb3feff57450177cb75513e51e53589b88d625289097935f8917410c4de4",
+        "choice": [
+          [
+            "1",
+            "1"
+          ],
+          "HHHUST"
+        ],
+        "mode": "PORT_PRODUCT",
+        "action_status": "ADMISSIBLE",
+        "cached_keys": [
+          "p",
+          "port-HHHSUT",
+          "port-HHHUST"
+        ],
+        "read_log": [
+          {
+            "revision": 0,
+            "mode": "PORT_PRODUCT",
+            "new_keys": [
+              "p",
+              "port-HHHSUT"
+            ],
+            "derived_keys": []
+          },
+          {
+            "revision": 1,
+            "mode": "PORT_PRODUCT",
+            "new_keys": [
+              "port-HHHUST"
+            ],
+            "derived_keys": []
+          }
+        ],
+        "certified": true
+      },
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "upper_endpoint": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "empty-to-new-requirement",
+      "entry_digest": "6a0692a38ca116804df3eee7e95466f30a641ab5714a967609e2d101a5690836",
+      "trace": [
+        {
+          "revision": 0,
+          "context": "mixed",
+          "strength": "0",
+          "word": "HHHSUT",
+          "mode": "PRODUCT",
+          "action_status": "EMPTY",
+          "new_keys": [
+            "p"
+          ],
+          "derived_keys": [],
+          "exact_feature_reads": 1
+        },
+        {
+          "revision": 1,
+          "context": "main",
+          "strength": "0",
+          "word": "HHHSUT",
+          "mode": "SUM_PRODUCT",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [
+            "sum"
+          ],
+          "derived_keys": [],
+          "exact_feature_reads": 1
+        }
+      ],
+      "final": {
+        "digest": "ea850a7de75501b40264a965da7645f3340e950ac2011e69a1b2fb094d275d30",
+        "phase": "STOPPED",
+        "revision": 1,
+        "scope_digest": "0ca0092f3ed3c8ca1465c89fcb7ae6fbc26f11c4e0d75dba9fd9ad98929c35ec",
+        "choice": [
+          [
+            "1",
+            "1"
+          ],
+          "HHHSUT"
+        ],
+        "mode": "SUM_PRODUCT",
+        "action_status": "ADMISSIBLE",
+        "cached_keys": [
+          "p",
+          "sum"
+        ],
+        "read_log": [
+          {
+            "revision": 0,
+            "mode": "PRODUCT",
+            "new_keys": [
+              "p"
+            ],
+            "derived_keys": []
+          },
+          {
+            "revision": 1,
+            "mode": "SUM_PRODUCT",
+            "new_keys": [
+              "sum"
+            ],
+            "derived_keys": []
+          }
+        ],
+        "certified": true
+      },
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "upper_endpoint": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "name": "restore-product-to-port",
+      "entry_digest": "b4edc38d9a12756fd7d9ccea914ed80f4c92352116ee63019b03392c0bdc00f1",
+      "trace": [
+        {
+          "revision": 0,
+          "context": "mixed",
+          "strength": "0",
+          "word": "HHHSUT",
+          "mode": "PRODUCT",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [
+            "p"
+          ],
+          "derived_keys": [],
+          "exact_feature_reads": 1
+        },
+        {
+          "revision": 1,
+          "context": "mixed",
+          "strength": "1/1024",
+          "word": "HHHSUT",
+          "mode": "PORT_PRODUCT",
+          "action_status": "ADMISSIBLE",
+          "new_keys": [
+            "port-HHHSUT"
+          ],
+          "derived_keys": [],
+          "exact_feature_reads": 1
+        }
+      ],
+      "final": {
+        "digest": "f1eb11707a80dfefa7092935b21540006516ff1ba55b608f16d76f0ca40d9d49",
+        "phase": "STOPPED",
+        "revision": 1,
+        "scope_digest": "6b31b19a4adecc11a37692888eac69a4f21327575222d4cd4bae79219e638e7b",
+        "choice": [
+          [
+            "1",
+            "1"
+          ],
+          "HHHSUT"
+        ],
+        "mode": "PORT_PRODUCT",
+        "action_status": "ADMISSIBLE",
+        "cached_keys": [
+          "p",
+          "port-HHHSUT"
+        ],
+        "read_log": [
+          {
+            "revision": 0,
+            "mode": "PRODUCT",
+            "new_keys": [
+              "p"
+            ],
+            "derived_keys": []
+          },
+          {
+            "revision": 1,
+            "mode": "PORT_PRODUCT",
+            "new_keys": [
+              "port-HHHSUT"
+            ],
+            "derived_keys": []
+          }
+        ],
+        "certified": true
+      },
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "upper_endpoint": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "checkpoint_stages": [
+    {
+      "index": 0,
+      "phase": "BOUND",
+      "sha256": "b480370565d4a6584726bbfe48cc98ab4240c6c8e9c208fa2b1ef78d7b8ff357",
+      "bytes": 48150,
+      "same_state_digest": true
+    },
+    {
+      "index": 1,
+      "phase": "CHOSEN",
+      "sha256": "6acfb2db9c09877ebb4df0f911a59be8a5eaa5bd1e3306d78750e913d7eaa881",
+      "bytes": 48468,
+      "same_state_digest": true
+    },
+    {
+      "index": 2,
+      "phase": "READY",
+      "sha256": "406da582b5d3882af54d4691feea1a7f35289082484199135851de07ca4e931f",
+      "bytes": 48968,
+      "same_state_digest": true
+    },
+    {
+      "index": 3,
+      "phase": "BOUND",
+      "sha256": "feece9e97ae0b3801b42a0a581ade66bda92c7a97967d2a4a527cb1bec9d1970",
+      "bytes": 49960,
+      "same_state_digest": true
+    },
+    {
+      "index": 4,
+      "phase": "CHOSEN",
+      "sha256": "75cf57b953e2ce82f055b058ecdbbbb6bd5829f4667154b30b3f84bc3c92186a",
+      "bytes": 50278,
+      "same_state_digest": true
+    },
+    {
+      "index": 5,
+      "phase": "READY",
+      "sha256": "6b4d2fa431afa6a3017329cd4b24d326047542005b0daac46bef66210450d65a",
+      "bytes": 50825,
+      "same_state_digest": true
+    },
+    {
+      "index": 6,
+      "phase": "STOPPED",
+      "sha256": "e37480f2a2c79e041d3048446186109010096e8b46953fa2c9357bb42768fbb3",
+      "bytes": 149108,
+      "same_state_digest": true
+    }
+  ],
+  "requested_actual_bundles": 5,
+  "original_values_deleted": false,
+  "global_minimum_information_claimed": false,
+  "registration_is_exact_and_separate": true
+}

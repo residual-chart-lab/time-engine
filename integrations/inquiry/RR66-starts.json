@@ -1,0 +1,1473 @@
+{
+  "input_commit": "1b1fa6c76acdbaa39e6adb2f557b7bad588e794d",
+  "input_sha256": "d2b69bec39636bab6cbe277481021597dde2b7c0768dd0ff924f60ad995d09d7",
+  "all_before_requested_bundle_motion": true,
+  "plans": [
+    {
+      "context": "mixed",
+      "strength": "0",
+      "v": "-64",
+      "word": "HHHSUT",
+      "mode": "PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "3b67e8602221d714bc3894aadb22cefeb8ed6109384fbf88aeca1633935c654b",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 1,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "mixed",
+      "strength": "0",
+      "v": "-64",
+      "word": "HHHUST",
+      "mode": "PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "d7333fa34c346417c45b329f30b9f98e8f457b207785a3c7f9a0f180098a1636",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 1,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "mixed",
+      "strength": "0",
+      "v": "0",
+      "word": "HHHSUT",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "d6c45d46acef8b521303b3525077a0e717e82cff6ca30715823c09b85e736434",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "mixed",
+      "strength": "0",
+      "v": "0",
+      "word": "HHHUST",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "80f5391fe75c7ef8db578f80ae0a005a0e6dd8394fb3dcde08bbb415e17ccdf3",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "mixed",
+      "strength": "0",
+      "v": "1",
+      "word": "HHHSUT",
+      "mode": "PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "fe0b33c8e8721eb84bf97bc8b33cc9ce1ddb2bb4ee91f4115c1272b8dfb49688",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 1,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "mixed",
+      "strength": "0",
+      "v": "1",
+      "word": "HHHUST",
+      "mode": "PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "a3ce3d8af5bbbf139bba12ad713a50f763ee46bf7dcc0bc703c73bfc06f1dd41",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 1,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "mixed",
+      "strength": "0",
+      "v": "64",
+      "word": "HHHSUT",
+      "mode": "PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "05cdcbb62c129fe6a89a2e3cbf0f60dd44d6ea7985ac987456cfd7af60cbd564",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 1,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "mixed",
+      "strength": "0",
+      "v": "64",
+      "word": "HHHUST",
+      "mode": "PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "3b94dd111c62a69d6b3df8582b10aaeaa857b128318e00d076b50a24c3f81452",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 1,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "mixed",
+      "strength": "1/1024",
+      "v": "-64",
+      "word": "HHHSUT",
+      "mode": "PORT_PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p",
+        "port-HHHSUT"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "9a44f18f56ecdf6222d7e33e39bfe07c712149b0e66fa9f1f10f496aaec91d62",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PORT_PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "mixed",
+      "strength": "1/1024",
+      "v": "-64",
+      "word": "HHHUST",
+      "mode": "PORT_PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p",
+        "port-HHHUST"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "57c776ec50169f370f83440e5dbf9d3ce4bfc0b0b34d84d56786d83559b78e27",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PORT_PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "mixed",
+      "strength": "1/1024",
+      "v": "0",
+      "word": "HHHSUT",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "d26523d4932f0a4e15cc2731d29f21dc06656a0dcce39900c2a77622fab0042d",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "mixed",
+      "strength": "1/1024",
+      "v": "0",
+      "word": "HHHUST",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "efd2968b58ddaa8b8722c0393fa019bfbe9bbc92a5c628c8687e92441e0b8785",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "mixed",
+      "strength": "1/1024",
+      "v": "1",
+      "word": "HHHSUT",
+      "mode": "PORT_PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p",
+        "port-HHHSUT"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "39dadb3fb030f2034f3759cd4adc524f15167ef5a2f17c3048b63f9b559b996c",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PORT_PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "mixed",
+      "strength": "1/1024",
+      "v": "1",
+      "word": "HHHUST",
+      "mode": "PORT_PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p",
+        "port-HHHUST"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "26d665d83ba5218d41b1e48754a19af4798769eb6b2f227de6334c72deda9c80",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PORT_PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "mixed",
+      "strength": "1/1024",
+      "v": "64",
+      "word": "HHHSUT",
+      "mode": "PORT_PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p",
+        "port-HHHSUT"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "dce1d2eccaedf335b2db0df02956266e8e8a69d397e2a1eb4ab3582d4bd52ed6",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PORT_PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "mixed",
+      "strength": "1/1024",
+      "v": "64",
+      "word": "HHHUST",
+      "mode": "PORT_PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p",
+        "port-HHHUST"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "6d80b94c2ca9bac1b105e1a45581d5a042793dd6c97b426b0eeb5cd90c448f45",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PORT_PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "main",
+      "strength": "0",
+      "v": "-64",
+      "word": "HHHSUT",
+      "mode": "SUM_PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p",
+        "sum"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "6727c641827008c8e45175749d6a3d5f57c0e70a54a3cf4c3956a1d9d67088ec",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "main",
+      "strength": "0",
+      "v": "-64",
+      "word": "HHHUST",
+      "mode": "SUM_PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p",
+        "sum"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "caa75e975c13b67e0795a09b7c729b715c530af67bdb8bf595d7c2379040ec26",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "main",
+      "strength": "0",
+      "v": "0",
+      "word": "HHHSUT",
+      "mode": "SUM_PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p",
+        "sum"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "2f01b0be7762f6cd5757f74b3334ffc0b25f5ee44aa5edc2783ebbd076fd6f3f",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "main",
+      "strength": "0",
+      "v": "0",
+      "word": "HHHUST",
+      "mode": "SUM_PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p",
+        "sum"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "1397f0fc98d7ee4e84c26f0b1eb364c324f434a2834421f0361a75345e3c402f",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "main",
+      "strength": "0",
+      "v": "1",
+      "word": "HHHSUT",
+      "mode": "SUM_PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p",
+        "sum"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "463b672552facccaf0c4803392e658b33da7dfd263e6f21ac99112b15fa51d92",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "main",
+      "strength": "0",
+      "v": "1",
+      "word": "HHHUST",
+      "mode": "SUM_PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p",
+        "sum"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "6bf9b43a17bc119f75b8820fea2341f972bbe85e754167e764d6e9fc29fa6ffc",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "main",
+      "strength": "0",
+      "v": "64",
+      "word": "HHHSUT",
+      "mode": "SUM_PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p",
+        "sum"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "9161be7ebfeff124dc679fd8310bef05486740281fab677fe07e5eedc523f67d",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "main",
+      "strength": "0",
+      "v": "64",
+      "word": "HHHUST",
+      "mode": "SUM_PRODUCT",
+      "status": "AVAILABLE",
+      "features": [
+        "p",
+        "sum"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "be4b268f68d972ab0987eeaf3cec99003a684a7d227ea528626f323d6b76a668",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "main",
+      "strength": "1/1024",
+      "v": "-64",
+      "word": "HHHSUT",
+      "mode": "INDIVIDUAL",
+      "status": "AVAILABLE",
+      "features": [
+        "s",
+        "t"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "e97c4319bda1caf06485b1c07a1deb3095130b3326cfa04390fd480d870e629e",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PORT_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "INDIVIDUAL",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "main",
+      "strength": "1/1024",
+      "v": "-64",
+      "word": "HHHUST",
+      "mode": "INDIVIDUAL",
+      "status": "AVAILABLE",
+      "features": [
+        "s",
+        "t"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "ed1b09f39ede0078558913b42b2158e187e301c7ca624c90fb368e84e71a98d7",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PORT_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "INDIVIDUAL",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "main",
+      "strength": "1/1024",
+      "v": "0",
+      "word": "HHHSUT",
+      "mode": "INDIVIDUAL",
+      "status": "AVAILABLE",
+      "features": [
+        "s",
+        "t"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "69958eb67d1988f05d9e473047bcac116cec9e47246502aff4500f9300546c50",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PORT_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "INDIVIDUAL",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "main",
+      "strength": "1/1024",
+      "v": "0",
+      "word": "HHHUST",
+      "mode": "INDIVIDUAL",
+      "status": "AVAILABLE",
+      "features": [
+        "s",
+        "t"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "7cf663861d3b3203fbb158284a49c61f5cef202353c9a50fe0216894300f4fcf",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PORT_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "INDIVIDUAL",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "main",
+      "strength": "1/1024",
+      "v": "1",
+      "word": "HHHSUT",
+      "mode": "INDIVIDUAL",
+      "status": "AVAILABLE",
+      "features": [
+        "s",
+        "t"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "7582a104d438c04a031d53e9ab8197a332c0832dda4e3d04e358bd0a0cb7f99c",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PORT_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "INDIVIDUAL",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "main",
+      "strength": "1/1024",
+      "v": "1",
+      "word": "HHHUST",
+      "mode": "INDIVIDUAL",
+      "status": "AVAILABLE",
+      "features": [
+        "s",
+        "t"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "0287f59ec5b0463f8aea94d072e30359f69599549395db1066dfa84eb7c5b18d",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PORT_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "INDIVIDUAL",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "main",
+      "strength": "1/1024",
+      "v": "64",
+      "word": "HHHSUT",
+      "mode": "INDIVIDUAL",
+      "status": "AVAILABLE",
+      "features": [
+        "s",
+        "t"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "487ceaa44360d52373d95d7f67203710f216d1fcfc6a4946d31ce85b82b038f3",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PORT_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "INDIVIDUAL",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "main",
+      "strength": "1/1024",
+      "v": "64",
+      "word": "HHHUST",
+      "mode": "INDIVIDUAL",
+      "status": "AVAILABLE",
+      "features": [
+        "s",
+        "t"
+      ],
+      "action_status": "ADMISSIBLE",
+      "plan_digest": "42d46f987317679b61f18f114fb7a9b2b9e0b95f98b53a5c4ef31d6aed36cdc4",
+      "proof_attempts": [
+        [
+          "CONSTANT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "SUM_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "PORT_PRODUCT",
+          "NONZERO_REMAINDER"
+        ],
+        [
+          "INDIVIDUAL",
+          "EXACT_IDENTITY"
+        ]
+      ],
+      "exact_feature_reads": 2,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "zero_head",
+      "strength": "0",
+      "v": "-64",
+      "word": "HHHSUT",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "05648b33a57c049256790b31c9b73850dbb5af153dbfdd480a49c3ca4a47b7c4",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "zero_head",
+      "strength": "0",
+      "v": "-64",
+      "word": "HHHUST",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "059831a767a6d85725c0683bab3a65207f040268070f36dbe41c23af11e53e63",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "zero_head",
+      "strength": "0",
+      "v": "0",
+      "word": "HHHSUT",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "68f8ede654a0b2a207127efd0d138e9ed97c18eb97d8ba4a0644a23f3846fe80",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "zero_head",
+      "strength": "0",
+      "v": "0",
+      "word": "HHHUST",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "2ff302e25c320d06933ded1ec2ab614a42a1edd4cb379a2c71d86f31f15d43e4",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "zero_head",
+      "strength": "0",
+      "v": "1",
+      "word": "HHHSUT",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "e090f468a8e622f0df7a5b05b2e8388c224f45c7fb77f1d7d6ef5712ddacae76",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "zero_head",
+      "strength": "0",
+      "v": "1",
+      "word": "HHHUST",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "64724df962a33f36e42358763078d1deecd8d9d6e0bb66b3510a7b141152517f",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "zero_head",
+      "strength": "0",
+      "v": "64",
+      "word": "HHHSUT",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "409c24da101b57640ae1b779ea35626160a335546044e3cacbf903535d4105c5",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "zero_head",
+      "strength": "0",
+      "v": "64",
+      "word": "HHHUST",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "6ba141a4400cfca23b9012bbfb00c70af8a990c90beffb91e81798ce0be1d26b",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "zero_head",
+      "strength": "1/1024",
+      "v": "-64",
+      "word": "HHHSUT",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "8148feb846937452a898bc43fcf6a5513eff9846f6239003fb826adac2525ff0",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "zero_head",
+      "strength": "1/1024",
+      "v": "-64",
+      "word": "HHHUST",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "adf137e105a8f6a084ed6d867c8e14f3c8981220200d2163ada45e9f5caf79fa",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "zero_head",
+      "strength": "1/1024",
+      "v": "0",
+      "word": "HHHSUT",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "ffd628cecfe0d2c3b045ac806a5055a87173b0e4b25ca5a4980e3f4ee34638a9",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "zero_head",
+      "strength": "1/1024",
+      "v": "0",
+      "word": "HHHUST",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "ec2914f7b09e5a198cf9e50bc00316b6bab670976fabd81c0fd84ea6d61e061b",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "zero_head",
+      "strength": "1/1024",
+      "v": "1",
+      "word": "HHHSUT",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "fe3b018d9e225b52e6ddb59ffc7a6041b611ee94d20cdfa3e68148aec3190cbb",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "zero_head",
+      "strength": "1/1024",
+      "v": "1",
+      "word": "HHHUST",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "fceb7838a1a44fd213f38eea9ab4480cb6cd04039e209cb20801d2e240eeab4d",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "zero_head",
+      "strength": "1/1024",
+      "v": "64",
+      "word": "HHHSUT",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "ec8e81263ff19fe6b77a4e1443edead04dfb37ae5b4321d174b01cf3b02211ab",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "zero_head",
+      "strength": "1/1024",
+      "v": "64",
+      "word": "HHHUST",
+      "mode": "CONSTANT",
+      "status": "EMPTY",
+      "features": [],
+      "action_status": "EMPTY",
+      "plan_digest": "86e212abab0ae1845b2e4952541ef920aa40b7dedf1dacffd65debb848689caf",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "outside_chart",
+      "strength": "0",
+      "v": "-64",
+      "word": "HHHSUT",
+      "mode": "CONSTANT",
+      "status": "UNKNOWN_CHART",
+      "features": [],
+      "action_status": "UNKNOWN_CHART",
+      "plan_digest": "186d92ecde706713c4be896f17eab1cdc2226f7c70fafadb260643dea639d587",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "outside_chart",
+      "strength": "0",
+      "v": "-64",
+      "word": "HHHUST",
+      "mode": "CONSTANT",
+      "status": "UNKNOWN_CHART",
+      "features": [],
+      "action_status": "UNKNOWN_CHART",
+      "plan_digest": "5ed6a7ea249c62b22bcbb7d16a47a57c5d5d61ecbdda83cff98a0562d0e6543c",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "outside_chart",
+      "strength": "0",
+      "v": "0",
+      "word": "HHHSUT",
+      "mode": "CONSTANT",
+      "status": "UNKNOWN_CHART",
+      "features": [],
+      "action_status": "UNKNOWN_CHART",
+      "plan_digest": "8cb3243eab5cc69db90ec73738a0e7b7af946332445b702e183c40f6da1a902a",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "outside_chart",
+      "strength": "0",
+      "v": "0",
+      "word": "HHHUST",
+      "mode": "CONSTANT",
+      "status": "UNKNOWN_CHART",
+      "features": [],
+      "action_status": "UNKNOWN_CHART",
+      "plan_digest": "38a16e667d6e1ba323122b376be8fc777b40f131f038e496a235f6ce63dac635",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "outside_chart",
+      "strength": "0",
+      "v": "1",
+      "word": "HHHSUT",
+      "mode": "CONSTANT",
+      "status": "UNKNOWN_CHART",
+      "features": [],
+      "action_status": "UNKNOWN_CHART",
+      "plan_digest": "3eb6302ed2614f8c599962b928495ed669b532cd25afcf5fa3c5221204c8c531",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "outside_chart",
+      "strength": "0",
+      "v": "1",
+      "word": "HHHUST",
+      "mode": "CONSTANT",
+      "status": "UNKNOWN_CHART",
+      "features": [],
+      "action_status": "UNKNOWN_CHART",
+      "plan_digest": "a0848db8762508699dcb1c2076b43ec7aedeedecb356d3f666aacb612c8fc108",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "outside_chart",
+      "strength": "0",
+      "v": "64",
+      "word": "HHHSUT",
+      "mode": "CONSTANT",
+      "status": "UNKNOWN_CHART",
+      "features": [],
+      "action_status": "UNKNOWN_CHART",
+      "plan_digest": "e24ef1ce29138a7ef0489feb7b6765029d2ac86a77fdfe4eaf6c747d00820f30",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "outside_chart",
+      "strength": "0",
+      "v": "64",
+      "word": "HHHUST",
+      "mode": "CONSTANT",
+      "status": "UNKNOWN_CHART",
+      "features": [],
+      "action_status": "UNKNOWN_CHART",
+      "plan_digest": "77f7d340810435000e1d78c643489d8e86ecb3c15e1be58702433cb17beffd15",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "outside_chart",
+      "strength": "1/1024",
+      "v": "-64",
+      "word": "HHHSUT",
+      "mode": "CONSTANT",
+      "status": "UNKNOWN_CHART",
+      "features": [],
+      "action_status": "UNKNOWN_CHART",
+      "plan_digest": "fcd94c9a07cdfc7a527dae5d76dc2bea175cf9048049f7cb043cddee5678b020",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "outside_chart",
+      "strength": "1/1024",
+      "v": "-64",
+      "word": "HHHUST",
+      "mode": "CONSTANT",
+      "status": "UNKNOWN_CHART",
+      "features": [],
+      "action_status": "UNKNOWN_CHART",
+      "plan_digest": "9f765f948471ad17b5cb13fa8bd24f0cacc36de596ce10873fefacb80ae17951",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "outside_chart",
+      "strength": "1/1024",
+      "v": "0",
+      "word": "HHHSUT",
+      "mode": "CONSTANT",
+      "status": "UNKNOWN_CHART",
+      "features": [],
+      "action_status": "UNKNOWN_CHART",
+      "plan_digest": "ae8f070a560ddc883cbfdde8bfc58b39b76eaef60b0c3db8c8c4d5e99ce6a61f",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "outside_chart",
+      "strength": "1/1024",
+      "v": "0",
+      "word": "HHHUST",
+      "mode": "CONSTANT",
+      "status": "UNKNOWN_CHART",
+      "features": [],
+      "action_status": "UNKNOWN_CHART",
+      "plan_digest": "4a1c02b2b86f85ae6909fe0e19c271c4830f0b61991bf955e2be3932323a420d",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "outside_chart",
+      "strength": "1/1024",
+      "v": "1",
+      "word": "HHHSUT",
+      "mode": "CONSTANT",
+      "status": "UNKNOWN_CHART",
+      "features": [],
+      "action_status": "UNKNOWN_CHART",
+      "plan_digest": "7ed2df5b05d47cd9c00ca4cd6dcf74f25d7de299c0a0d389ffd4dfeb62287316",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "outside_chart",
+      "strength": "1/1024",
+      "v": "1",
+      "word": "HHHUST",
+      "mode": "CONSTANT",
+      "status": "UNKNOWN_CHART",
+      "features": [],
+      "action_status": "UNKNOWN_CHART",
+      "plan_digest": "86270070c0092280b585599577f84e088410a09ef4e2a1fc37c35a3b8b918a8c",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "outside_chart",
+      "strength": "1/1024",
+      "v": "64",
+      "word": "HHHSUT",
+      "mode": "CONSTANT",
+      "status": "UNKNOWN_CHART",
+      "features": [],
+      "action_status": "UNKNOWN_CHART",
+      "plan_digest": "434af7daabebef2ef942e473a670370da6a3a3c7661cb5bd057cfdd2730f2cdc",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    },
+    {
+      "context": "outside_chart",
+      "strength": "1/1024",
+      "v": "64",
+      "word": "HHHUST",
+      "mode": "CONSTANT",
+      "status": "UNKNOWN_CHART",
+      "features": [],
+      "action_status": "UNKNOWN_CHART",
+      "plan_digest": "ce64eba42fa67bac6db6ca64922cabf48799d14d121e2edf22922923131cf42c",
+      "proof_attempts": [],
+      "exact_feature_reads": 0,
+      "requested_future_paths_executed": 0,
+      "matches_independent_matrix_action_oracle": true
+    }
+  ]
+}
