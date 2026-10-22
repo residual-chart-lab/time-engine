@@ -1,0 +1,22 @@
+{
+  "audited_commit": "cb4d505dd1c93bd1b6194593a1225500f0e304e4",
+  "same_product_and_port_preserve_all_13_original_polynomials": 12,
+  "pairs_distinguished_by_the_main_request": 10,
+  "read_redundancy": {
+    "starting_cache": [
+      "p",
+      "port-HHHSUT"
+    ],
+    "current_new_keys": [
+      "s",
+      "t"
+    ],
+    "current_exact_reads": 2,
+    "after_reading_s_t_is_unique": true,
+    "formula": "t = (port-HHHSUT - 7*s) / 8",
+    "existing_derive_cached_returns_none": true,
+    "derived_t_matches_original_commitment": true,
+    "same_action_from_derived_t": true,
+    "extra_exact_reads_with_derived_cache": 0
+  }
+}
