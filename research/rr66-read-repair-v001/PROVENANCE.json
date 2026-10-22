@@ -1,0 +1,95 @@
+{
+  "schema": "time-engine-rr66-read-repair-provenance-v1",
+  "date": "2026-10-22",
+  "prior_commit": "cb4d505dd1c93bd1b6194593a1225500f0e304e4",
+  "prior_tree": "8b938b860e2cd823aaf1a3aaacaf2eee53d90ecf",
+  "audit_review_git_blob": "52ee8b8504e731a91609376835094122a132dd0d",
+  "unchanged_prior_files": 324,
+  "modified_prior_files": {
+    "README.md": {
+      "before_sha256": "6fa0b4522b996c51d9daad1848a79cd759e07b8e36f90189888929a5b4961d39",
+      "sha256": "0facf2f9e7a5ec32947a4cc84a70bb9b722ec1244898135226f7e8612b72e2d4",
+      "git_blob_sha": "807135a7dd4324c4d8817b07e8e4606b2c1da3cd"
+    },
+    "docs/RR66_ADAPTIVE_IDENTITY_RESOLUTION.md": {
+      "before_sha256": "ad1a03868ca75277ad149554f26336d2d1e43843527351bd6acf6b528930a65f",
+      "sha256": "316ce609da5f541eae251d48b40dca2a5a55b3da072d60645893054106c87ea4",
+      "git_blob_sha": "eb289b3778a9fb786dd776e3942dd6e7e4379355"
+    },
+    "integrations/inquiry/README.md": {
+      "before_sha256": "408d43b6792f675b7cb355d3788bf4b90794827a922993d4ac1034427605a406",
+      "sha256": "082a20c7b7bc1a1953804c75d99b3ebcd0feb6d69372fd6ca4e7384db7667515",
+      "git_blob_sha": "b39952ace763091ce3c3dbfa1a1d45280433cd13"
+    },
+    "integrations/inquiry/adaptive_resolution.py": {
+      "before_sha256": "3cccac62138f5b5bf9f6bfa37ee38ad2a2c949ddf11b4c6a76a82c62339b67ce",
+      "sha256": "0b6688c3c4e962cbc45f8439b52c2845917085e38ae0dd26309acf61da1365e8",
+      "git_blob_sha": "b290db07fa80856c78fea21fdf0fda9a987e9106"
+    },
+    "integrations/inquiry/test_adaptive_session.py": {
+      "before_sha256": "034b9b9a467d6d150fb21f9ad9942e67a96285816b2249c6a2d89154c9152466",
+      "sha256": "b925378544d1f12e6331bad011c64bc3b3699d7dbb23624cac1abdb873c29655",
+      "git_blob_sha": "41ab5b4c389076648194f5e092851e524150cb10"
+    }
+  },
+  "tests": 61,
+  "original_groups": 11,
+  "original_actual_bundles": 5,
+  "additional_actual_bundles": 2,
+  "original_published_artifacts_byte_identical": {
+    "RR66-starts.json": "22da29a1008e5dc48c18c450c0c0ed4bf61f86fd5c07db8e6036409f0a8ba585",
+    "RR66-result.json": "19ed782ac00aa7ddd656280fb2f618673b929032507dcbdd165a85c559d82cec",
+    "RR66-product-to-port.record.json": "e37480f2a2c79e041d3048446186109010096e8b46953fa2c9357bb42768fbb3"
+  },
+  "repair_files": {
+    "research/rr66-read-repair-v001/HHHSUT.record.json": {
+      "sha256": "56f4f39751b0935945da0374654633e5216db09b4733f2da9232220ddac117a1",
+      "git_blob_sha": "1e0db324924c510256c652d81eefc815ff712caf"
+    },
+    "research/rr66-read-repair-v001/HHHUST.record.json": {
+      "sha256": "21bffbe70b731bcd4f9b3d7d6ec2e5ed9c16d12e51fd3a247ef49b41dcc52780",
+      "git_blob_sha": "428fc004d4e5dc6043bf3d4eb3ee8ff21b062e19"
+    },
+    "research/rr66-read-repair-v001/README.md": {
+      "sha256": "5d4fa6b9966679e3560c40ec64609422953888315d6b0f682d30968c876b8ff7",
+      "git_blob_sha": "58bb77d58c0267feb2a505b0a497c509fb246436"
+    },
+    "research/rr66-read-repair-v001/check_replay_boundary.py": {
+      "sha256": "1a1c310179e84d19e5aeedbc2173b3d7fab317c3b3d38516fe60187377feed84",
+      "git_blob_sha": "41b5b0ce5feff8bf361f826645a60404800192bf"
+    },
+    "research/rr66-read-repair-v001/cost.json": {
+      "sha256": "857ec02147748dd00ce4ebd1b4e094239be40447a71aa0b6718ab2e29039b5bb",
+      "git_blob_sha": "7b88689f6a38a23d6c07c1bd0ab6558622b482f2"
+    },
+    "research/rr66-read-repair-v001/profile_repair.py": {
+      "sha256": "e41c5dd1c4dc6cfc1142955c558a365029f4a0a7e0a91ec6323e13109d105e69",
+      "git_blob_sha": "e91e47389faed90a3ead76e7a057195d67853794"
+    },
+    "research/rr66-read-repair-v001/reference_derivation.py": {
+      "sha256": "4be12233437f62d5d7fb666b2c5bcb40ca8098faa37e22d655c34892be9585aa",
+      "git_blob_sha": "1c6888847c2fa63789a183f0f325bf3d190b810f"
+    },
+    "research/rr66-read-repair-v001/repair-validation.json": {
+      "sha256": "8e7a7513a82fdd432b1eef2a2969a4a9e3d587e53ab945481ffbec40d20b6b83",
+      "git_blob_sha": "abb3de08edc5a0789a878c1e8c32f8ff2ef37d5c"
+    },
+    "research/rr66-read-repair-v001/replay-boundary.json": {
+      "sha256": "2b0effd09ac34d8ccd1e613e934f6b0010ba8778729204d2b52c660e419f5600",
+      "git_blob_sha": "829890367c7089dcb0852361584868ff4984577c"
+    },
+    "research/rr66-read-repair-v001/validate_repair.py": {
+      "sha256": "ab9ddd1d5a140289feff3aca880679c7fe929fef025e19fc235435c4fe7510a5",
+      "git_blob_sha": "91a232773c3d6ed50ab241d6e48337301d8609db"
+    },
+    "research/rr66-read-repair-v001/validation.json": {
+      "sha256": "df1661bfd52a6d40d6c6ee4d76bda8b4e18f170061fe7e1e29714a15170a0e56",
+      "git_blob_sha": "e47ebada747107e3593332f92d669ca616c419be"
+    },
+    "research/rr66-read-repair-v001/validation.log": {
+      "sha256": "b59bfced137a4b0093dd92c7e74896b905fe8ba600b54252c76eb1406368aac9",
+      "git_blob_sha": "a12c6ee05e8637c31a03afdad24ec1158f655a4d"
+    }
+  },
+  "original_RR66_evidence_and_provenance_retained": true
+}

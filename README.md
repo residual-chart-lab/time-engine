@@ -48,6 +48,8 @@ RR65で積だけでは扱えなかった非零結合を、積と、実際の接�
 
 64計画が厳密行列対照と一致。5つの要求更新列で実際の二輪と上位セルが成立し、7時点で保存・再開を確認した。[条件・観測の選択・実行手順](docs/RR66_ADAPTIVE_IDENTITY_RESOLUTION.md)。
 
+Astra監査後、既読の重み付き和と個別値一つから残りを復元し、個別値への移行で新規読出しを2回から1回にした。[補修・段階別費用・再現手順](research/rr66-read-repair-v001/README.md)。元の保持と公開済みの主実験結果は保持する。
+
 ```sh
 python run_adaptive.py demo --out-dir .work/adaptive-demo
 python integrations/inquiry/validate_adaptive.py

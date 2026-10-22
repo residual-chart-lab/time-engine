@@ -78,11 +78,72 @@ class AdaptiveTests(unittest.TestCase):
             complete=live.execute(ready)
         self.assertTrue(complete.result.certified)
 
-    def test_a_real_full_fallback_reads_individuals_when_joint_cache_is_ambiguous(self):
-        self.assertIsNone(a.derive_cached(self.entry,'s',dict(self.ready.cache)))
-        meter=fn.Meter();session=live.resolve(live.choose(live.revise(self.ready,self.main),1,'HHHSUT'),meter)
-        self.assertEqual(session.prepared.plan.mode,'INDIVIDUAL')
-        self.assertEqual(live.history(session)[-1]['new_keys'],['s','t']);self.assertEqual(meter.exact_reads,2)
+    def test_joint_cache_is_ambiguous_until_one_individual_is_read(self):
+        for word in m.WORDS:
+            ready=live.resolve(live.choose(live.start(self.entry,self.fine),1,word))
+            self.assertIsNone(a.derive_cached(self.entry,'s',dict(ready.cache)))
+            self.assertIsNone(a.derive_cached(self.entry,'t',dict(ready.cache)))
+            meter=fn.Meter();session=live.resolve(live.choose(live.revise(ready,self.main),1,word),meter)
+            self.assertEqual(session.prepared.plan.mode,'INDIVIDUAL')
+            self.assertEqual(live.history(session)[-1]['new_keys'],['s'])
+            self.assertEqual(live.history(session)[-1]['derived_keys'],['t'])
+            self.assertEqual(meter.exact_reads,1)
+            self.assertEqual((session.prepared.action.status,session.prepared.action.T,session.prepared.action.R),
+                oracle.oracle(self.entry.base,self.main,Q(1),word))
+
+    def test_one_individual_and_either_port_recover_the_other_without_queries(self):
+        for word in m.WORDS:
+            for known,missing in (('s','t'),('t','s')):
+                cache={}
+                for key in (known,'port-'+word):
+                    vault=a.vault_for(self.entry,key)
+                    cache[key]=(vault.reference(key).digest,vault.exact(key,fn.Meter()))
+                a.validate_cache(self.entry,cache)
+                with patch.object(self.entry.base.vault,'exact',side_effect=AssertionError('derive, do not read')):
+                    value=a.derive_cached(self.entry,missing,cache)
+                ref=self.entry.base.vault.reference(missing)
+                cache[missing]=(ref.digest,value)
+                a.validate_cache(self.entry,cache)
+
+    def test_one_individual_and_sum_also_recover_the_other(self):
+        for known,missing in (('s','t'),('t','s')):
+            cache={key:(a.vault_for(self.entry,key).reference(key).digest,
+                a.vault_for(self.entry,key).exact(key,fn.Meter())) for key in (known,'sum')}
+            ref=self.entry.base.vault.reference(missing)
+            cache[missing]=(ref.digest,a.derive_cached(self.entry,missing,cache))
+            a.validate_cache(self.entry,cache)
+
+    def test_no_linear_observation_still_requires_both_individuals(self):
+        meter=fn.Meter();session=live.resolve(live.choose(live.revise(self.coarse,self.main),1,'HHHSUT'),meter)
+        self.assertEqual(live.history(session)[-1]['new_keys'],['s','t'])
+        self.assertEqual(live.history(session)[-1]['derived_keys'],[])
+        self.assertEqual(meter.exact_reads,2)
+
+    def test_a_wrong_derived_coordinate_is_rejected_before_preparing_an_action(self):
+        true_derive=a.derive_cached
+        def corrupt(entry,key,cache):
+            value=true_derive(entry,key,cache)
+            return value+1 if key=='t' and value is not None else value
+        with patch.object(a,'derive_cached',side_effect=corrupt):
+            with self.assertRaisesRegex(ValueError,'cached exact feature value changed'):
+                live.resolve(live.choose(live.revise(self.ready,self.main),1,'HHHSUT'))
+
+    def test_repaired_transition_executes_and_replays_without_reading_t(self):
+        for word in m.WORDS:
+            ready=live.resolve(live.choose(live.start(self.entry,self.fine),1,word))
+            exact=self.entry.base.vault.exact
+            def guard(key,meter):
+                if key=='t':raise AssertionError('the second coordinate must be derived')
+                return exact(key,meter)
+            with patch.object(self.entry.base.vault,'exact',side_effect=guard):
+                ready=live.resolve(live.choose(live.revise(ready,self.main),1,word))
+                raw,h=live.dumps(ready)
+                restored=live.loads(raw,h,self.entry,self.fine,self.main,ready.choice)
+                complete=live.execute(ready);resumed=live.execute(restored)
+                self.assertTrue(complete.result.certified)
+                self.assertEqual(resumed.digest,complete.digest)
+                raw,h=live.dumps(complete)
+                self.assertEqual(live.loads(raw,h,self.entry,self.fine,self.main,complete.choice).digest,complete.digest)
 
     def test_cached_sum_and_port_recover_originals_without_another_archive_query(self):
         session=live.resolve(live.choose(live.revise(self.ready,self.sum_scope),1,'HHHSUT'))

@@ -140,6 +140,21 @@ def derive_cached(entry,key,cache):
     values={k:record[1] for k,record in cache.items()}
     pair=None
     if 's' in values and 't' in values:pair=values['s'],values['t']
+    elif 's' in values or 't' in values:
+        # A single coordinate resolves the two-branch (p, port) ambiguity.
+        # This uses an already authenticated linear observation; p alone
+        # never selects a branch, and no second archive query is required.
+        for word in m.WORDS:
+            name='port-'+word
+            if name not in values:continue
+            a,b_=port_weights(entry.base,word);z=values[name]
+            if 's' in values and b_:
+                pair=values['s'],(z-a*values['s'])/b_;break
+            if 't' in values and a:
+                pair=(z-b_*values['t'])/a,values['t'];break
+        if pair is None and 'sum' in values:
+            if 's' in values:pair=values['s'],values['sum']-values['s']
+            else:pair=values['sum']-values['t'],values['t']
     elif 'sum' in values:
         for word in m.WORDS:
             if 'port-'+word in values:

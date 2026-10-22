@@ -1,0 +1,251 @@
+{
+  "schema": "time-engine-rr66-read-repair-cost-v1",
+  "date": "2026-10-22",
+  "environment": {
+    "python": "3.12.14",
+    "implementation": "CPython",
+    "system": "Windows",
+    "machine": "AMD64",
+    "clock_resolution_s": 1e-07
+  },
+  "workload": {
+    "word": "HHHSUT",
+    "requests": [
+      "mixed/1/1024",
+      "main/1/1024"
+    ],
+    "v": "1",
+    "initial_cached_keys": [
+      "p",
+      "port-HHHSUT"
+    ],
+    "selected_mode": "INDIVIDUAL",
+    "paired_samples": 3,
+    "before_source_commit": "cb4d505dd1c93bd1b6194593a1225500f0e304e4",
+    "treatment": "only derive_cached is replaced; same entry, current choice, requests, plans and cache",
+    "plan_cold": "entry._plans cleared; already registered entry",
+    "planning_and_registration_shared": true,
+    "save_and_load_include_strict_command_and_motion_replay": true,
+    "in_memory_vault": true,
+    "registration_exact_references": 6
+  },
+  "common_phases": {
+    "registration": {
+      "samples_ms": [
+        1816.9215,
+        1500.6074,
+        1482.9365
+      ],
+      "median_ms": 1500.6074,
+      "min_ms": 1482.9365,
+      "max_ms": 1816.9215
+    },
+    "plan_cold": {
+      "samples_ms": [
+        305.3646,
+        97.351,
+        98.256
+      ],
+      "median_ms": 98.256,
+      "min_ms": 97.351,
+      "max_ms": 305.3646
+    },
+    "plan_warm": {
+      "samples_ms": [
+        0.0705,
+        0.0639,
+        0.0648
+      ],
+      "median_ms": 0.0648,
+      "min_ms": 0.0639,
+      "max_ms": 0.0705
+    }
+  },
+  "comparison": {
+    "before": {
+      "phases": {
+        "resolve": {
+          "samples_ms": [
+            71.0768,
+            73.5931,
+            71.6524
+          ],
+          "median_ms": 71.6524,
+          "min_ms": 71.0768,
+          "max_ms": 73.5931
+        },
+        "execute": {
+          "samples_ms": [
+            1764.0464,
+            1812.1736,
+            1756.2719
+          ],
+          "median_ms": 1764.0464,
+          "min_ms": 1756.2719,
+          "max_ms": 1812.1736
+        },
+        "save_complete": {
+          "samples_ms": [
+            1903.6787,
+            1925.1543,
+            1904.1048
+          ],
+          "median_ms": 1904.1048,
+          "min_ms": 1903.6787,
+          "max_ms": 1925.1543
+        },
+        "load_complete": {
+          "samples_ms": [
+            3735.358,
+            3731.8959,
+            3718.8152
+          ],
+          "median_ms": 3731.8959,
+          "min_ms": 3718.8152,
+          "max_ms": 3735.358
+        }
+      },
+      "trials": [
+        {
+          "sample": 0,
+          "exact_reads": 2,
+          "new_keys": [
+            "s",
+            "t"
+          ],
+          "derived_keys": [],
+          "checkpoint_bytes": 148289,
+          "physical_signature": "2cfb8524c63942e8b0025eba3f6bea54e8f2228b742e1f197935a62e1294dfc4",
+          "archives_unchanged": true
+        },
+        {
+          "sample": 1,
+          "exact_reads": 2,
+          "new_keys": [
+            "s",
+            "t"
+          ],
+          "derived_keys": [],
+          "checkpoint_bytes": 148289,
+          "physical_signature": "2cfb8524c63942e8b0025eba3f6bea54e8f2228b742e1f197935a62e1294dfc4",
+          "archives_unchanged": true
+        },
+        {
+          "sample": 2,
+          "exact_reads": 2,
+          "new_keys": [
+            "s",
+            "t"
+          ],
+          "derived_keys": [],
+          "checkpoint_bytes": 148289,
+          "physical_signature": "2cfb8524c63942e8b0025eba3f6bea54e8f2228b742e1f197935a62e1294dfc4",
+          "archives_unchanged": true
+        }
+      ],
+      "measured_phase_sum_ms": [
+        7474.1599,
+        7542.8169,
+        7450.8443
+      ]
+    },
+    "after": {
+      "phases": {
+        "resolve": {
+          "samples_ms": [
+            76.6603,
+            71.4554,
+            70.5267
+          ],
+          "median_ms": 71.4554,
+          "min_ms": 70.5267,
+          "max_ms": 76.6603
+        },
+        "execute": {
+          "samples_ms": [
+            1757.9095,
+            1755.6397,
+            1818.3662
+          ],
+          "median_ms": 1757.9095,
+          "min_ms": 1755.6397,
+          "max_ms": 1818.3662
+        },
+        "save_complete": {
+          "samples_ms": [
+            1881.4346,
+            1874.2714,
+            1931.4982
+          ],
+          "median_ms": 1881.4346,
+          "min_ms": 1874.2714,
+          "max_ms": 1931.4982
+        },
+        "load_complete": {
+          "samples_ms": [
+            3699.1441,
+            3723.0417,
+            3756.2385
+          ],
+          "median_ms": 3723.0417,
+          "min_ms": 3699.1441,
+          "max_ms": 3756.2385
+        }
+      },
+      "trials": [
+        {
+          "sample": 0,
+          "exact_reads": 1,
+          "new_keys": [
+            "s"
+          ],
+          "derived_keys": [
+            "t"
+          ],
+          "checkpoint_bytes": 148287,
+          "physical_signature": "2cfb8524c63942e8b0025eba3f6bea54e8f2228b742e1f197935a62e1294dfc4",
+          "archives_unchanged": true
+        },
+        {
+          "sample": 1,
+          "exact_reads": 1,
+          "new_keys": [
+            "s"
+          ],
+          "derived_keys": [
+            "t"
+          ],
+          "checkpoint_bytes": 148287,
+          "physical_signature": "2cfb8524c63942e8b0025eba3f6bea54e8f2228b742e1f197935a62e1294dfc4",
+          "archives_unchanged": true
+        },
+        {
+          "sample": 2,
+          "exact_reads": 1,
+          "new_keys": [
+            "s"
+          ],
+          "derived_keys": [
+            "t"
+          ],
+          "checkpoint_bytes": 148287,
+          "physical_signature": "2cfb8524c63942e8b0025eba3f6bea54e8f2228b742e1f197935a62e1294dfc4",
+          "archives_unchanged": true
+        }
+      ],
+      "measured_phase_sum_ms": [
+        7415.1485,
+        7424.4082,
+        7576.6296
+      ]
+    }
+  },
+  "equivalent_cache_and_physical_signature": true,
+  "retained_archives_unchanged": true,
+  "interpretation": "One fewer exact archive query; extra rational reconstruction and commitment checks remain. Timings do not establish general end-to-end acceleration.",
+  "source_sha256": {
+    "integrations/inquiry/adaptive_resolution.py": "0b6688c3c4e962cbc45f8439b52c2845917085e38ae0dd26309acf61da1365e8",
+    "research/rr66-read-repair-v001/reference_derivation.py": "4be12233437f62d5d7fb666b2c5bcb40ca8098faa37e22d655c34892be9585aa",
+    "research/rr66-read-repair-v001/profile_repair.py": "e41c5dd1c4dc6cfc1142955c558a365029f4a0a7e0a91ec6323e13109d105e69"
+  }
+}

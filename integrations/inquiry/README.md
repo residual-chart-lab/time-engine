@@ -11,6 +11,8 @@ python integrations/inquiry/validate_adaptive.py
 
 元値を消去せず、新規読出し・既存観測の再利用・一意な復元を分けて記録する。新しい出力は`.work/rr66-local/`、固定結果はRR66ファイル群。登録時の派生観測生成と、既存のセル厳密実行の費用は読出し省略件数と分ける。
 
+監査後の一読出しへの補修と段階別費用は[別記録](../../research/rr66-read-repair-v001/README.md)。補修検証は`python research/rr66-read-repair-v001/validate_repair.py`、費用計測は同ディレクトリの`profile_repair.py`で再現できる。公開済みのRR66結果・旧検証報告は上書きしない。
+
 ## 混合残差と、束の実作用集合の保存：RR65
 
 [RR65の作用則・条件・再現手順](../../docs/RR65_MIXED_RESIDUAL_ACTION_SETS.md)。二つの独立な保持差を自由数の混合多項式で運び、指定した差を省略しても、束を成立させる新作用の全係数が保存されるかを実行前に判定する。
