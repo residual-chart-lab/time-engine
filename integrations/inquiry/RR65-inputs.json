@@ -1,0 +1,123 @@
+{
+  "schema": "time-engine-rr65-mixed-action-set-inputs-v1",
+  "date": "2026-10-21",
+  "base": "b3dd0263d71e7284d6ca59875476d893c13f71ac",
+  "retained_origins": {
+    "s": "RR60 contact 1",
+    "t": "independent RR60 contact 2"
+  },
+  "envelope": [
+    "-1/1024",
+    "1/1024"
+  ],
+  "cases": [
+    {
+      "family": "diagonal",
+      "strength": "0"
+    },
+    {
+      "family": "diagonal",
+      "strength": "1/1024"
+    },
+    {
+      "family": "offdiagonal",
+      "strength": "0"
+    }
+  ],
+  "contexts": {
+    "main": [
+      "-1",
+      "2",
+      "0"
+    ],
+    "mixed": {
+      "c0": "1/4",
+      "rule": "trace(X_star C)=1/2; trace(C)=1; diagonal C; X_star is the frozen RR60 representative"
+    },
+    "zero_head": [
+      "1/2",
+      "1/2",
+      "0"
+    ],
+    "outside_chart": [
+      "0",
+      "1",
+      "0"
+    ]
+  },
+  "first_controls": [
+    "-64",
+    "0",
+    "1",
+    "64"
+  ],
+  "words": [
+    "HHHSUT",
+    "HHHUST"
+  ],
+  "next_word": "HR",
+  "omitted_subsets": [
+    [
+      "s"
+    ],
+    [
+      "t"
+    ],
+    [
+      "s",
+      "t"
+    ]
+  ],
+  "replacement": "0",
+  "current_target": "-1",
+  "bundle_target": "1",
+  "domain": [
+    "-10000000000000000000000000000000000000000",
+    "10000000000000000000000000000000000000000"
+  ],
+  "precisions": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "action_observation": "word, physical new-T coefficients, all physical new-R coefficients",
+  "single_coordinate_linearization_is_only_a_negative_control": true,
+  "bootstrap": "U is executed, certified, published and consumed in one extra prior flower before the requested two-flower bundle",
+  "execution_histories": [
+    [
+      "keep",
+      "keep"
+    ],
+    [
+      "erase",
+      "keep"
+    ],
+    [
+      "keep",
+      "erase"
+    ],
+    [
+      "erase",
+      "erase"
+    ],
+    [
+      "restore",
+      "restore"
+    ]
+  ],
+  "execution_base": {
+    "context": "mixed",
+    "family": "diagonal",
+    "strength": "1/1024",
+    "v": "1",
+    "word": "HHHSUT"
+  },
+  "explicit_negative_controls": "An empty predicted bundle is tested with alpha=0 only as a labelled counterfactual; never a completed record",
+  "additional_executions": [
+    "diagonal/main/1/1024/v=1/HHHSUT: full and t-omitted correction applied to full plant",
+    "offdiagonal/main/0/v=1/HHHSUT: keep and erase t",
+    "diagonal/mixed/1/1024/v=1/HHHUST: keep both"
+  ],
+  "input_fixed_before_new_bundle_calculations": true
+}
