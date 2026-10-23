@@ -1,0 +1,152 @@
+{
+  "schema": "time-engine-rr66-adaptive-resolution-inputs-v1",
+  "date": "2026-10-22",
+  "base": "6d3a949f3cca69f3e0be9a3b1457cc306296b374",
+  "contexts": [
+    "mixed",
+    "main",
+    "zero_head",
+    "outside_chart"
+  ],
+  "strengths": [
+    "0",
+    "1/1024"
+  ],
+  "controls": [
+    "-64",
+    "0",
+    "1",
+    "64"
+  ],
+  "words": [
+    "HHHSUT",
+    "HHHUST"
+  ],
+  "observation": "selected current word and complete physical T/R coefficients; all RR65 guards",
+  "catalogue_priority": [
+    "CONSTANT",
+    "PRODUCT",
+    "SUM_PRODUCT",
+    "PORT_PRODUCT",
+    "INDIVIDUAL"
+  ],
+  "authenticated_derived_features": [
+    "p=s*t (existing RR65)",
+    "sum=s+t",
+    "port(word)=a(word)*s+b(word)*t"
+  ],
+  "port_weights": "a,b are primitive-leaf positions of S,U in the actual RR53 word, not fitted from successful futures",
+  "scope_updates": "explicit pre-actuation revisions; invalidate old selected action; retain all originals and exact feature cache",
+  "execution": "current selects v and word before precise resolution; requirement and selection fixed at actuation",
+  "scenarios": [
+    {
+      "name": "full-cycle",
+      "requests": [
+        [
+          "mixed",
+          "0",
+          "HHHSUT"
+        ],
+        [
+          "mixed",
+          "1/1024",
+          "HHHSUT"
+        ],
+        [
+          "main",
+          "0",
+          "HHHSUT"
+        ],
+        [
+          "main",
+          "1/1024",
+          "HHHSUT"
+        ],
+        [
+          "mixed",
+          "0",
+          "HHHUST"
+        ]
+      ],
+      "execute": true
+    },
+    {
+      "name": "product-to-port",
+      "requests": [
+        [
+          "mixed",
+          "0",
+          "HHHSUT"
+        ],
+        [
+          "mixed",
+          "1/1024",
+          "HHHSUT"
+        ]
+      ],
+      "execute": true
+    },
+    {
+      "name": "word-sensitive-port",
+      "requests": [
+        [
+          "mixed",
+          "1/1024",
+          "HHHSUT"
+        ],
+        [
+          "mixed",
+          "1/1024",
+          "HHHUST"
+        ]
+      ],
+      "execute": true
+    },
+    {
+      "name": "empty-to-new-requirement",
+      "modes": [
+        "keep",
+        "erase"
+      ],
+      "requests": [
+        [
+          "mixed",
+          "0",
+          "HHHSUT"
+        ],
+        [
+          "main",
+          "0",
+          "HHHSUT"
+        ]
+      ],
+      "execute": true
+    },
+    {
+      "name": "restore-product-to-port",
+      "modes": [
+        "restore",
+        "restore"
+      ],
+      "requests": [
+        [
+          "mixed",
+          "0",
+          "HHHSUT"
+        ],
+        [
+          "mixed",
+          "1/1024",
+          "HHHSUT"
+        ]
+      ],
+      "execute": true
+    }
+  ],
+  "selected_control": "1",
+  "budget_control": "max_features=1 must not pretend PORT_PRODUCT is available",
+  "checkpoint_stages": "each issued stage of the product-to-port trace, including final normal stop",
+  "exact_read_accounting": "feature extraction and verification during demand/actuation counted; registration, save and fresh-entry authentication separately disclosed",
+  "compiled_proof": "exact polynomial factorization through declared real-valued feature maps; finite catalogue, not a universal minimum-information theorem",
+  "input_fixed_before_new_adaptive_calculations": true
+}

@@ -1,0 +1,99 @@
+{
+  "schema": "time-engine-rr66-audit-repair-validation-v1",
+  "passed": true,
+  "prior_commit": "cb4d505dd1c93bd1b6194593a1225500f0e304e4",
+  "original_experiment": {
+    "schema": "time-engine-rr66-validation-v1",
+    "passed": true,
+    "integrity": {
+      "base_commit": "6d3a949f3cca69f3e0be9a3b1457cc306296b374",
+      "unchanged_baseline_files": 311,
+      "navigation_updates": [
+        "README.md",
+        "integrations/inquiry/README.md"
+      ],
+      "input_commit": "1b1fa6c76acdbaa39e6adb2f557b7bad588e794d",
+      "input_sha256": "d2b69bec39636bab6cbe277481021597dde2b7c0768dd0ff924f60ad995d09d7"
+    },
+    "total_tests": 61,
+    "test_counts": {
+      "test_adaptive_session": 34,
+      "test_mixed_action_sets": 27
+    },
+    "groups": 11,
+    "plans": 64,
+    "plan_modes": {
+      "PRODUCT": 6,
+      "CONSTANT": 36,
+      "PORT_PRODUCT": 6,
+      "SUM_PRODUCT": 8,
+      "INDIVIDUAL": 8
+    },
+    "actual_bundles": 5,
+    "checkpoint_stages": 7,
+    "source_sha256": {
+      "integrations/inquiry/resolution_algebra.py": "ba437335ec7d7a37e5d06d0451a3fe4107e397dd75a73816bd0563f9dc947dca",
+      "integrations/inquiry/adaptive_resolution.py": "0b6688c3c4e962cbc45f8439b52c2845917085e38ae0dd26309acf61da1365e8",
+      "integrations/inquiry/adaptive_session.py": "b950109cd1009986d8bbb3d7133c8ba13b69d5fdeeaa960f4795f45a3b0d4cea",
+      "integrations/inquiry/rr66_study.py": "2b50216b2f3c5210d62d29943f51dc14ab943aec10fe270750a4e0f0920f160f",
+      "integrations/inquiry/test_adaptive_session.py": "b925378544d1f12e6331bad011c64bc3b3699d7dbb23624cac1abdb873c29655",
+      "integrations/inquiry/validate_adaptive.py": "f3663a26e240ee1659b053d2b08a9c5b9bdb8afccd4d091772181989fff9cea0",
+      "integrations/inquiry/RR66-inputs.json": "d2b69bec39636bab6cbe277481021597dde2b7c0768dd0ff924f60ad995d09d7",
+      "integrations/inquiry/RR66-BASELINE.json": "7cc5274f80636bbccc5f2bb8dd478b012495a21bc9e2e8a322d1826fbbd2e286",
+      "run_adaptive.py": "79700b96b4a90db29b603d942513aab4644d9b29a9bc50ec4423ce15f3178651"
+    },
+    "evidence_sha256": {
+      "starts.json": "22da29a1008e5dc48c18c450c0c0ed4bf61f86fd5c07db8e6036409f0a8ba585",
+      "result.json": "19ed782ac00aa7ddd656280fb2f618673b929032507dcbdd165a85c559d82cec",
+      "product-to-port.record.json": "e37480f2a2c79e041d3048446186109010096e8b46953fa2c9357bb42768fbb3"
+    }
+  },
+  "published_artifacts_byte_identical": {
+    "RR66-starts.json": "22da29a1008e5dc48c18c450c0c0ed4bf61f86fd5c07db8e6036409f0a8ba585",
+    "RR66-result.json": "19ed782ac00aa7ddd656280fb2f618673b929032507dcbdd165a85c559d82cec",
+    "RR66-product-to-port.record.json": "e37480f2a2c79e041d3048446186109010096e8b46953fa2c9357bb42768fbb3"
+  },
+  "repaired_transitions": [
+    {
+      "word": "HHHSUT",
+      "mode": "INDIVIDUAL",
+      "new_keys": [
+        "s"
+      ],
+      "derived_keys": [
+        "t"
+      ],
+      "exact_reads": 1,
+      "certified": true,
+      "same_resumed_motion": true,
+      "record": "HHHSUT.record.json",
+      "record_sha256": "56f4f39751b0935945da0374654633e5216db09b4733f2da9232220ddac117a1",
+      "local_endpoints": [
+        "(Fraction(-1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))",
+        "(Fraction(-1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))"
+      ],
+      "upper_endpoint": "(Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))"
+    },
+    {
+      "word": "HHHUST",
+      "mode": "INDIVIDUAL",
+      "new_keys": [
+        "s"
+      ],
+      "derived_keys": [
+        "t"
+      ],
+      "exact_reads": 1,
+      "certified": true,
+      "same_resumed_motion": true,
+      "record": "HHHUST.record.json",
+      "record_sha256": "21bffbe70b731bcd4f9b3d7d6ec2e5ed9c16d12e51fd3a247ef49b41dcc52780",
+      "local_endpoints": [
+        "(Fraction(-1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))",
+        "(Fraction(-1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))"
+      ],
+      "upper_endpoint": "(Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))"
+    }
+  ],
+  "source_sha256": "ab9ddd1d5a140289feff3aca880679c7fe929fef025e19fc235435c4fe7510a5"
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "old_trace_replays_under_reference": true,
+  "new_runtime_rejects_old_query_trace": true,
+  "reason": "the declared observation, query or current choice changed",
+  "action_and_cache_equal": true,
+  "old_trace_sha256": "486e14dfaf26b65374a521c9a8fcdcf7c01e3efd1d0b410cea0230a4abe7ce24",
+  "old_code_commit": "cb4d505dd1c93bd1b6194593a1225500f0e304e4",
+  "source_sha256": "1a1c310179e84d19e5aeedbc2173b3d7fab317c3b3d38516fe60187377feed84"
+}
