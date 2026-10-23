@@ -1,0 +1,76 @@
+{
+  "schema": "time-engine-e1-provenance-v1",
+  "date": "2026-10-23",
+  "base_commit": "fbf0bb413436f26b29825addccd435aace288fa3",
+  "base_tree": "8055e1d1690ae41d6476266e61479485d0b164ae",
+  "unchanged_baseline_files": 393,
+  "baseline_manifest": "integrations/inquiry/E1-BASELINE.json",
+  "source_and_evidence": [
+    {
+      "path": "run_entry_transport.py",
+      "sha256": "f70a8c7b51757a8dbe6021a69a290a25e0c2a868154f333fc1c55c37daa8bcb0",
+      "blob_sha": "57b9b2ace8c831c4a9ff19299823a822d76b06ee",
+      "bytes": 1792
+    },
+    {
+      "path": "docs/ENTRY_TRANSPORT_E1.md",
+      "sha256": "fc23f499cbc719cb3f9926b81719ba786628f514c1a69e4125f29602ec589d6c",
+      "blob_sha": "e5a669db99d1e0d357d0df1343a1324c2bf56ed3",
+      "bytes": 6013
+    },
+    {
+      "path": "integrations/inquiry/entry_transport.py",
+      "sha256": "2862ad46cd44aace1eade9e78fe783b4eec1e0c7289c9fabb4163735ee263741",
+      "blob_sha": "ddb60239dbdb01618969e766183581440b05cf3c",
+      "bytes": 9608
+    },
+    {
+      "path": "integrations/inquiry/test_entry_transport.py",
+      "sha256": "15156efc87fcbe341e01506a01cab0e5feee6f67c539a8edd8ded634b38b1e96",
+      "blob_sha": "7cb27d84de17e8b6f3d0777022a97391432aec5d",
+      "bytes": 6449
+    },
+    {
+      "path": "integrations/inquiry/validate_entry_transport.py",
+      "sha256": "c9321c2c751b16662b58f11e82a059c9202a6ded48293a440b0f85fb0b3281f9",
+      "blob_sha": "8418a4efbcf8ecedbf5e98ee417b203144b77b05",
+      "bytes": 2179
+    },
+    {
+      "path": "integrations/inquiry/E1-BASELINE.json",
+      "sha256": "b161acc3c5a894f5eaa6afbd0bc386064dc20064548cd97884a2839f5556d62a",
+      "blob_sha": "f3df47aad1d5522720fcd9da39e0f0e68837f8b3",
+      "bytes": 95055
+    },
+    {
+      "path": "integrations/inquiry/E1-entry.record.json",
+      "sha256": "d71a430cf049b645dd44d6ebfd9870acfe00ed2b3ac54d1b5766641fa1f805a3",
+      "blob_sha": "512e876e798d877f3b717ea84e24aaae52bde2e2",
+      "bytes": 79158
+    },
+    {
+      "path": "integrations/inquiry/E1-validation.json",
+      "sha256": "2925a1fb0d3b6b8c24817f3cfa9a3f253b3a7fe21cd286696f8ba1940de9c3f0",
+      "blob_sha": "7b71cd4bc0880a127c3c9291732248d4a24b1e0b",
+      "bytes": 1496
+    },
+    {
+      "path": "integrations/inquiry/E1-validation.log",
+      "sha256": "f3c2cf126111b59ec6afbf11c197f7c39196f09198c2cebe4acb8049c76c7e29",
+      "blob_sha": "8afd9c91222544035bd88b4a04c3b9598a297f1f",
+      "bytes": 6878
+    }
+  ],
+  "provenance_self_hash_excluded": true,
+  "verification": {
+    "tests": 42,
+    "fresh_process": true,
+    "cli_run": {
+      "phase": "STOPPED",
+      "certified": true,
+      "stock": 9
+    },
+    "different_environment": false,
+    "full_247_regression_rerun": false
+  }
+}
