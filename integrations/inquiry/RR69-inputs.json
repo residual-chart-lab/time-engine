@@ -1,0 +1,189 @@
+{
+  "schema": "time-engine-rr69-inputs-v1",
+  "date": "2026-10-23",
+  "base_commit": "a189fc12382cdda3011c7b73c2e783821745a16c",
+  "frozen_component": {
+    "path": "integrations/inquiry/observation_synthesis.py",
+    "sha256": "407250087436ae8abe5dd487d9a2e9334fb45070e379ddbc04b9c857f706d5e0",
+    "budget": {
+      "max_features": 2,
+      "max_feature_degree": 2,
+      "max_input_degree": 16,
+      "max_terms": 512,
+      "max_products": 512
+    }
+  },
+  "consumer": "HHHSUT or HHHUST; RR53 port; HR2; RR53 port; HR3; common upper three-output target +1 from inherited -1",
+  "middle_source": "R2=R0(Y2)+u*Delta(Y2), with u chosen by current, not by future target",
+  "last_source": "R3=R0(Y3)+alpha*Delta(Y3); solve common C target exactly before requested motion",
+  "contexts": [
+    "mixed",
+    "main",
+    "zero_head",
+    "outside_chart"
+  ],
+  "strength_pairs": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "1/1024",
+      "1/1024"
+    ],
+    [
+      "0",
+      "1/1024"
+    ]
+  ],
+  "controls": [
+    "0",
+    "1"
+  ],
+  "middle_controls": [
+    "-1",
+    "0",
+    "1"
+  ],
+  "words": [
+    "HHHSUT",
+    "HHHUST"
+  ],
+  "frames": {
+    "identity": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "split": [
+      1,
+      1,
+      1,
+      -1
+    ]
+  },
+  "adapter": {
+    "method": "maximal division-free polynomial islands of a bounded rational arithmetic DAG; exact observation identities at every island; deterministic graph congruence above divisions",
+    "max_nodes": 1024,
+    "polynomial_input_budget": "same RR68 budget for every island family; no whole rational-request degree bound is claimed",
+    "divisions": "all original denominator checks retained, including canceled or zero-multiplied branches",
+    "guards": "all context chart, local first-boundary, upper prefix, nonzero division and resource tests checked on reconstructed values",
+    "catalogue_supplied": false,
+    "exact_values_during_discovery": false,
+    "completed_future_paths_during_discovery": false,
+    "early_guard": "only zero head at common C and declared common chart may reject without synthesis"
+  },
+  "domain": [
+    "-10000000000000000000000000000000000000000",
+    "10000000000000000000000000000000000000000"
+  ],
+  "motions": [
+    {
+      "name": "mixed-disconnected",
+      "context": "mixed",
+      "strengths": [
+        "0",
+        "0"
+      ],
+      "v": "1",
+      "u": "0",
+      "word": "HHHSUT",
+      "frame": "identity",
+      "modes": [
+        "keep",
+        "keep"
+      ]
+    },
+    {
+      "name": "mixed-connected",
+      "context": "mixed",
+      "strengths": [
+        "1/1024",
+        "1/1024"
+      ],
+      "v": "1",
+      "u": "0",
+      "word": "HHHSUT",
+      "frame": "split",
+      "modes": [
+        "keep",
+        "keep"
+      ]
+    },
+    {
+      "name": "main-reordered",
+      "context": "main",
+      "strengths": [
+        "1/1024",
+        "1/1024"
+      ],
+      "v": "1",
+      "u": "1",
+      "word": "HHHUST",
+      "frame": "split",
+      "modes": [
+        "keep",
+        "keep"
+      ]
+    },
+    {
+      "name": "mixed-last-port",
+      "context": "mixed",
+      "strengths": [
+        "0",
+        "1/1024"
+      ],
+      "v": "1",
+      "u": "-1",
+      "word": "HHHUST",
+      "frame": "identity",
+      "modes": [
+        "keep",
+        "keep"
+      ]
+    },
+    {
+      "name": "restored-connected",
+      "context": "mixed",
+      "strengths": [
+        "1/1024",
+        "1/1024"
+      ],
+      "v": "1",
+      "u": "1",
+      "word": "HHHSUT",
+      "frame": "split",
+      "modes": [
+        "restore",
+        "restore"
+      ]
+    }
+  ],
+  "retention_controls": [
+    [
+      "keep",
+      "keep"
+    ],
+    [
+      "keep",
+      "erase"
+    ],
+    [
+      "erase",
+      "keep"
+    ],
+    [
+      "erase",
+      "erase"
+    ],
+    [
+      "restore",
+      "restore"
+    ]
+  ],
+  "snapshots": "bound, chosen, resolved, after each of three actual flower closures, stopped upper certificate; fresh issued entry on reload",
+  "no_change_to_RR54_claim": "uses existing exact RR65 source family and RR53 connection law; not the old RR54 isolated approximate branches or calibrated common fixture",
+  "failures": "UNDETERMINED for synthesis budgets; EMPTY only for a proved obstruction in this declared current family; no requirement to force successful motions",
+  "fixed_before_new_three_flower_calculations": true
+}

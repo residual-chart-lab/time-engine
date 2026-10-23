@@ -1,0 +1,619 @@
+{
+  "schema": "time-engine-rr69-three-flower-result-v1",
+  "input_commit": "828a7f9dd52855f10f27399d8dfb0f699e0323b0",
+  "input_sha256": "2a50ac6c2431d473555a9240c93defeaf58f9c07e26e66bbed2344f7b736c411",
+  "groups": [
+    {
+      "name": "all_precommitted_current_plans_match_independent_three_by_three_matrix_solves",
+      "passed": true
+    },
+    {
+      "name": "construction_is_before_exact_values_and_requested_motion",
+      "passed": true,
+      "exact_queries": 0,
+      "requested_future_paths": 0
+    },
+    {
+      "name": "all_polynomial_islands_have_exact_reconstruction_certificates",
+      "passed": true,
+      "certificates": 144
+    },
+    {
+      "name": "the_same_frozen_budget_accepts_this_new_rational_consumer",
+      "passed": true,
+      "maximum_nodes": 191,
+      "maximum_island_degree": 2
+    },
+    {
+      "name": "disconnected_mixed_requires_a_joint_observation",
+      "passed": true
+    },
+    {
+      "name": "connected_mixed_constructs_a_linear_and_a_quadratic_observation",
+      "passed": true
+    },
+    {
+      "name": "five_declared_cases_close_three_real_flowers_and_one_upper_cell",
+      "passed": true
+    },
+    {
+      "name": "erasure_obstructs_the_same_upper_demand_and_restoration_recovers_it",
+      "passed": true
+    },
+    {
+      "name": "upper_constraint_excludes_a_locally_closing_current_choice_before_execution",
+      "passed": true,
+      "control": {
+        "certified": false,
+        "local_endpoints": [
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "upper_endpoint": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "successful_record_issued": false
+      }
+    },
+    {
+      "name": "unavailable_common_charts_are_not_execution_permissions",
+      "passed": true
+    },
+    {
+      "name": "two_complete_seven_stage_histories_replay_from_fresh_entries",
+      "passed": true,
+      "checkpoints": 14
+    },
+    {
+      "name": "RR68_component_bytes_are_unchanged",
+      "passed": true
+    }
+  ],
+  "plans": 288,
+  "available_proofs": 144,
+  "motions": [
+    {
+      "name": "mixed-disconnected",
+      "phase": "STOPPED",
+      "status": "ADMISSIBLE",
+      "certified": true,
+      "source_counts": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "work": {
+        "new_feature_queries": 1,
+        "source_reads_for_registration": 2,
+        "newly_registered": [
+          "obs-8eaeae2b3968a2f51bec978215d36cc4869844dd7f6b0277b57835013f317292"
+        ],
+        "derived_features": [],
+        "total_exact_queries": 3
+      },
+      "features": 1,
+      "upper_endpoint": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "name": "mixed-connected",
+      "phase": "STOPPED",
+      "status": "ADMISSIBLE",
+      "certified": true,
+      "source_counts": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "work": {
+        "new_feature_queries": 2,
+        "source_reads_for_registration": 2,
+        "newly_registered": [
+          "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604",
+          "obs-5ce2ff375ff3cea84f4337c7c7ea9428c705c65b8fb8647ac2270708f8242814"
+        ],
+        "derived_features": [],
+        "total_exact_queries": 4
+      },
+      "features": 2,
+      "upper_endpoint": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "name": "main-reordered",
+      "phase": "STOPPED",
+      "status": "ADMISSIBLE",
+      "certified": true,
+      "source_counts": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "work": {
+        "new_feature_queries": 2,
+        "source_reads_for_registration": 2,
+        "newly_registered": [
+          "obs-cba0ca6d721dd62b64268dd4d7e64f001b01bd54c60515709017b9e9f86d30f6",
+          "obs-ce98dbe538f6d80a39c4f6abf7e493587524e1ac506bb39d5ec284e49bda8cdc"
+        ],
+        "derived_features": [],
+        "total_exact_queries": 4
+      },
+      "features": 2,
+      "upper_endpoint": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "name": "mixed-last-port",
+      "phase": "STOPPED",
+      "status": "ADMISSIBLE",
+      "certified": true,
+      "source_counts": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "work": {
+        "new_feature_queries": 1,
+        "source_reads_for_registration": 2,
+        "newly_registered": [
+          "obs-8eaeae2b3968a2f51bec978215d36cc4869844dd7f6b0277b57835013f317292"
+        ],
+        "derived_features": [],
+        "total_exact_queries": 3
+      },
+      "features": 1,
+      "upper_endpoint": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    {
+      "name": "restored-connected",
+      "phase": "STOPPED",
+      "status": "ADMISSIBLE",
+      "certified": true,
+      "source_counts": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "work": {
+        "new_feature_queries": 2,
+        "source_reads_for_registration": 2,
+        "newly_registered": [
+          "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604",
+          "obs-5ce2ff375ff3cea84f4337c7c7ea9428c705c65b8fb8647ac2270708f8242814"
+        ],
+        "derived_features": [],
+        "total_exact_queries": 4
+      },
+      "features": 2,
+      "upper_endpoint": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    }
+  ],
+  "retention_controls": [
+    {
+      "modes": [
+        "keep",
+        "keep"
+      ],
+      "status": "ADMISSIBLE",
+      "certified": true,
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "upper_endpoint": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "successful_record_issued": true
+    },
+    {
+      "modes": [
+        "keep",
+        "erase"
+      ],
+      "status": "EMPTY",
+      "certified": false,
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "upper_endpoint": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "successful_record_issued": false
+    },
+    {
+      "modes": [
+        "erase",
+        "keep"
+      ],
+      "status": "EMPTY",
+      "certified": false,
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "upper_endpoint": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "successful_record_issued": false
+    },
+    {
+      "modes": [
+        "erase",
+        "erase"
+      ],
+      "status": "EMPTY",
+      "certified": false,
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "upper_endpoint": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "successful_record_issued": false
+    },
+    {
+      "modes": [
+        "restore",
+        "restore"
+      ],
+      "status": "ADMISSIBLE",
+      "certified": true,
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "upper_endpoint": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      "successful_record_issued": true
+    }
+  ],
+  "checkpoints": [
+    {
+      "name": "mixed-connected",
+      "index": 0,
+      "phase": "BOUND",
+      "sha256": "d955648b789eb7b92ec46612309d7cef6e00b586b81da37e89194eb5feb032ef",
+      "bytes": 49211
+    },
+    {
+      "name": "mixed-connected",
+      "index": 1,
+      "phase": "CHOSEN",
+      "sha256": "21a3f5c936bf27c1f35aa91c4da2a31523b59acc873e104e7720052f26656bfe",
+      "bytes": 49336
+    },
+    {
+      "name": "mixed-connected",
+      "index": 2,
+      "phase": "READY",
+      "sha256": "4f181d82059c8cdd5085389eacdf0ad1cc04ed7009df6d8ca13b3957eff31e5e",
+      "bytes": 73847
+    },
+    {
+      "name": "mixed-connected",
+      "index": 3,
+      "phase": "CLOSED1",
+      "sha256": "ebab53886e715104da6a7b9a688fb027947374ee161d02e6f6af91c3a21f1d57",
+      "bytes": 84057
+    },
+    {
+      "name": "mixed-connected",
+      "index": 4,
+      "phase": "CLOSED2",
+      "sha256": "11f3df07cccf3493bb4182252ba2b81000073a5dfde8892158b3a98fce7f97ca",
+      "bytes": 102387
+    },
+    {
+      "name": "mixed-connected",
+      "index": 5,
+      "phase": "CLOSED3",
+      "sha256": "562d80c43138b434ae969415fddc8afbfc87d00388bec374d0f9fa7a6262b5ef",
+      "bytes": 144602
+    },
+    {
+      "name": "mixed-connected",
+      "index": 6,
+      "phase": "STOPPED",
+      "sha256": "e9c12711a1a83ad0e00dc415dec22c304bdad6fd33e3bcb07e9a63c53b4dadb4",
+      "bytes": 149404
+    },
+    {
+      "name": "mixed-last-port",
+      "index": 0,
+      "phase": "BOUND",
+      "sha256": "a7490c4f6477bc3c4a34ffba31e39994df988aeb737c65ec03697de8c08831ed",
+      "bytes": 49203
+    },
+    {
+      "name": "mixed-last-port",
+      "index": 1,
+      "phase": "CHOSEN",
+      "sha256": "34ddbf4a486b0034cf76b5aff297efe1bf50fa3b769e132caa075cc33901e0e8",
+      "bytes": 49329
+    },
+    {
+      "name": "mixed-last-port",
+      "index": 2,
+      "phase": "READY",
+      "sha256": "79da64e2f2679964b84f58aeaa05018ccfd0367013579770ac7cec2283f454aa",
+      "bytes": 55442
+    },
+    {
+      "name": "mixed-last-port",
+      "index": 3,
+      "phase": "CLOSED1",
+      "sha256": "3e4a1fe85f1e15bc6f1f46f7af727c1c80f70e6a7f51a8aaf2a9e92a561bfa45",
+      "bytes": 65652
+    },
+    {
+      "name": "mixed-last-port",
+      "index": 4,
+      "phase": "CLOSED2",
+      "sha256": "35100bd20600e41e40d94e63135c6f67ea98346bb5f0dd548d9642f8b060b8da",
+      "bytes": 75655
+    },
+    {
+      "name": "mixed-last-port",
+      "index": 5,
+      "phase": "CLOSED3",
+      "sha256": "7f2421b8643e0473b97fe15ce405a639888c683f2322c8c6d93e44d1e06a1bc1",
+      "bytes": 87636
+    },
+    {
+      "name": "mixed-last-port",
+      "index": 6,
+      "phase": "STOPPED",
+      "sha256": "e6a1ea7f211d33a1944224e1fe5b45ca08002fb4e78a0768b12b0f59eb760d15",
+      "bytes": 91546
+    }
+  ],
+  "original_RR54_root_family_reused": false,
+  "unchanged_component_sha256": "407250087436ae8abe5dd487d9a2e9334fb45070e379ddbc04b9c857f706d5e0",
+  "global_rational_degree_bound_claimed": false,
+  "globally_minimal_observations_claimed": false
+}
