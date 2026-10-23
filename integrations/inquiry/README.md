@@ -1,5 +1,17 @@
 # 精査を始める起点と、その後の成立判定
 
+## 十分な観測を、要求の式から構成する：RR68
+
+[条件・保証・実行](../../docs/RR68_OBSERVATION_SYNTHESIS.md)。観測の固定候補を渡さず、全13作用・guard式から低次数の生成元を構成する。全再展開、動的登録、実行、保存再開を接続する。数値登録の元値読出しと、観測値の抽出を別に数える。
+
+```sh
+python run_synthesis.py inspect --context mixed --strength 0 --frame split
+python run_synthesis.py demo --out-dir .work/synthesis-demo
+python integrations/inquiry/validate_synthesis.py
+```
+
+240計画、5変更列、保持・消去・復元の5運動、14時点の保存再開。出力先は`.work/rr68-local/`、固定記録はRR68ファイル群。旧版の実装と結果は保持する。
+
 ## 要求変更と、計算・証明の範囲付き再利用：RR67
 
 [保証の条件と実行手順](../../docs/RR67_INCREMENTAL_DEMAND_PROOFS.md)。同じ入口のまま要求を変更し、影響しない算術・恒等式・区間包含を再利用する。現在の要求に対する計画と合否は新しく束縛する。

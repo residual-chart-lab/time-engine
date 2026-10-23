@@ -10,6 +10,7 @@
 
 | 用途 | 入口 |
 |---|---|
+| 候補を渡さず、要求の式から十分な観測を構成する | [RR68：観測の構成と実行](docs/RR68_OBSERVATION_SYNTHESIS.md) |
 | 要求変更で、どの式と保証を計算し直すか取り出す | [RR67：要求の変更と、計算・証明の再利用](docs/RR67_INCREMENTAL_DEMAND_PROOFS.md) |
 | 要求に応じて必要な観測を選び、同じ履歴で切り替える | [RR66：同一性の解像度を変える実行器](docs/RR66_ADAPTIVE_IDENTITY_RESOLUTION.md) |
 | 保持差の省略が、束の実作用集合を変えるか判定する | [RR65：混合残差と作用集合の保存](docs/RR65_MIXED_RESIDUAL_ACTION_SETS.md) |
@@ -42,6 +43,18 @@
 **未来要求は通過可能性を定め、現在が選択する。** Cに選択や駆動の役割を追加しない。
 
 上位未来文脈は明示した可解fixtureであり、候補照合には有限列挙を使う。独立した未来供給原理・任意経路への一般化・輪数一般の単調な拘束強化は未導出。未来因果は研究の中心仮説として保持し、模型で確認した作用と一般的な真理の証明を区別する。
+
+## 要求の式から、観測を構成する：RR68
+
+積や和を候補として渡さず、全作用・判定多項式の同次成分から低次数の観測を構成する。全係数の再展開で十分性を確認し、保持値へ照合して、実際の二輪と上位セルへ使う。数値の登録費用も別に記録する。
+
+[条件・具体例・検証](docs/RR68_OBSERVATION_SYNTHESIS.md)。
+
+```sh
+python run_synthesis.py inspect --context mixed --strength 0 --frame split
+python run_synthesis.py demo --out-dir .work/synthesis-demo
+python integrations/inquiry/validate_synthesis.py
+```
 
 ## 要求変更から、再計算する範囲を取り出す：RR67
 
