@@ -1,0 +1,9 @@
+{"op":"bind","requirement":{"context":"mixed","strengths":["1/1024","1/1024"],"frame":"split"}}
+{"op":"choose","v":"1","u":"0","word":"HHHSUT"}
+{"op":"resolve"}
+{"op":"advance"}
+{"op":"advance"}
+{"op":"advance"}
+{"op":"advance"}
+{"op":"status"}
+{"op":"quit"}
