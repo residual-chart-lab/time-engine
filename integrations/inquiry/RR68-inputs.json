@@ -1,0 +1,218 @@
+{
+  "schema": "time-engine-rr68-synthesis-inputs-v1",
+  "date": "2026-10-23",
+  "base_commit": "84f3425aecdda16903ab925f4c348fe519b87f71",
+  "contexts": [
+    "mixed",
+    "main",
+    "zero_head",
+    "outside_chart",
+    "main_perturbed"
+  ],
+  "strengths": [
+    "0",
+    "1/1024"
+  ],
+  "controls": [
+    "-64",
+    "0",
+    "1",
+    "64"
+  ],
+  "words": [
+    "HHHSUT",
+    "HHHUST"
+  ],
+  "frames": {
+    "identity": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "split": [
+      1,
+      1,
+      1,
+      -1
+    ],
+    "shear": [
+      2,
+      1,
+      1,
+      1
+    ]
+  },
+  "frame_definition": "x=a*s+b*t, y=c*s+d*t; invertible exact coordinates, same physical TE model",
+  "synthesis": {
+    "max_features": 2,
+    "max_feature_degree": 2,
+    "max_input_degree": 16,
+    "max_terms": 512,
+    "max_products": 512,
+    "method": "graded exact linear algebra on homogeneous pieces; add a new residual generator only when existing products cannot span a required component",
+    "no_feature_catalogue": true,
+    "no_feature_values_during_discovery": true,
+    "no_completed_future_paths": true,
+    "proof": "every full action/guard polynomial re-expands exactly from discovered generators",
+    "limits": "bounded graded heuristic; no universal minimum-information claim; budget failures are unresolved"
+  },
+  "sequences": [
+    {
+      "name": "refine-to-individual",
+      "modes": [
+        "keep",
+        "keep"
+      ],
+      "requests": [
+        [
+          "mixed",
+          "0",
+          "identity",
+          "HHHSUT",
+          2
+        ],
+        [
+          "mixed",
+          "1/1024",
+          "identity",
+          "HHHSUT",
+          2
+        ],
+        [
+          "main",
+          "1/1024",
+          "identity",
+          "HHHSUT",
+          2
+        ]
+      ],
+      "execute": true
+    },
+    {
+      "name": "unregistered-split",
+      "modes": [
+        "keep",
+        "keep"
+      ],
+      "requests": [
+        [
+          "mixed",
+          "0",
+          "split",
+          "HHHSUT",
+          2
+        ],
+        [
+          "mixed",
+          "1/1024",
+          "split",
+          "HHHSUT",
+          2
+        ]
+      ],
+      "execute": true
+    },
+    {
+      "name": "word-and-frame",
+      "modes": [
+        "keep",
+        "keep"
+      ],
+      "requests": [
+        [
+          "mixed",
+          "1/1024",
+          "split",
+          "HHHSUT",
+          2
+        ],
+        [
+          "mixed",
+          "1/1024",
+          "shear",
+          "HHHUST",
+          2
+        ]
+      ],
+      "execute": true
+    },
+    {
+      "name": "budget-recovery",
+      "modes": [
+        "keep",
+        "keep"
+      ],
+      "requests": [
+        [
+          "mixed",
+          "1/1024",
+          "shear",
+          "HHHSUT",
+          1
+        ],
+        [
+          "mixed",
+          "1/1024",
+          "shear",
+          "HHHSUT",
+          2
+        ]
+      ],
+      "execute": true
+    },
+    {
+      "name": "restore",
+      "modes": [
+        "restore",
+        "restore"
+      ],
+      "requests": [
+        [
+          "mixed",
+          "1/1024",
+          "split",
+          "HHHSUT",
+          2
+        ]
+      ],
+      "execute": true
+    }
+  ],
+  "retention_controls": [
+    [
+      "keep",
+      "keep"
+    ],
+    [
+      "keep",
+      "erase"
+    ],
+    [
+      "erase",
+      "keep"
+    ],
+    [
+      "erase",
+      "erase"
+    ],
+    [
+      "restore",
+      "restore"
+    ]
+  ],
+  "synthetic_diagnostic": {
+    "linear": [
+      3,
+      5
+    ],
+    "quadratic": [
+      2,
+      -1,
+      7
+    ],
+    "role": "pure algebra diagnostic only; not an additional TE source history"
+  },
+  "read_accounting": "new observer registration evaluates original retained values explicitly and is counted separately from feature extraction; original legacy observations are not consulted",
+  "fixed_before_new_synthesis_calculations": true
+}
