@@ -1,0 +1,2145 @@
+{
+  "schema": "time-engine-rr67-paired-profile-v1",
+  "date": "2026-10-23",
+  "environment": {
+    "python": "3.12.14",
+    "system": "Windows",
+    "machine": "AMD64"
+  },
+  "cases": [
+    {
+      "name": "future-C",
+      "before": [
+        "mixed",
+        "1/1024",
+        "wide",
+        2
+      ],
+      "after": [
+        "main",
+        "1/1024",
+        "wide",
+        2
+      ],
+      "trials": [
+        {
+          "cold": {
+            "ms": 202.9716,
+            "plan_digest": "cd9a0150c142b5e445657099b3c240a3e0e491748299cefd7885a8fe8322c0ce",
+            "work": {
+              "nodes_new": [
+                "S0",
+                "S1",
+                "S2",
+                "U0",
+                "U1",
+                "U2",
+                "T0",
+                "T1",
+                "T2",
+                "raw0",
+                "Y0",
+                "raw1",
+                "Y1",
+                "raw2",
+                "Y2",
+                "h",
+                "dy",
+                "SC",
+                "UC",
+                "TC",
+                "B1",
+                "prefix",
+                "k",
+                "A",
+                "B",
+                "N",
+                "D",
+                "a0",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "nodes_reused": [],
+              "factors_new": [
+                [
+                  "CONSTANT",
+                  "Y0"
+                ],
+                [
+                  "PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "SUM_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y1"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y2"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "h"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "dy"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "prefix"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "Y0"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "Y1"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "Y2"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "h"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "dy"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "prefix"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "B1"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "N"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "D"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "L"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "R0n"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "R1n"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "R2n"
+                ]
+              ],
+              "factors_reused": [],
+              "bounds_new": [
+                "Y0",
+                "Y1",
+                "Y2",
+                "h",
+                "dy",
+                "prefix",
+                "B1",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "bounds_reused": [],
+              "plan_cache_hits": 0
+            },
+            "mode": "INDIVIDUAL",
+            "status": "AVAILABLE"
+          },
+          "warm": {
+            "ms": 197.1675,
+            "plan_digest": "cd9a0150c142b5e445657099b3c240a3e0e491748299cefd7885a8fe8322c0ce",
+            "work": {
+              "nodes_new": [
+                "SC",
+                "UC",
+                "TC",
+                "B1",
+                "prefix",
+                "k",
+                "A",
+                "B",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "nodes_reused": [
+                "S0",
+                "S1",
+                "S2",
+                "U0",
+                "U1",
+                "U2",
+                "T0",
+                "T1",
+                "T2",
+                "raw0",
+                "Y0",
+                "raw1",
+                "Y1",
+                "raw2",
+                "Y2",
+                "h",
+                "dy",
+                "a0"
+              ],
+              "factors_new": [
+                [
+                  "PORT_PRODUCT",
+                  "prefix"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "Y0"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "Y1"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "Y2"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "h"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "dy"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "prefix"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "B1"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "N"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "D"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "L"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "R0n"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "R1n"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "R2n"
+                ]
+              ],
+              "factors_reused": [
+                [
+                  "CONSTANT",
+                  "Y0"
+                ],
+                [
+                  "PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "SUM_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y1"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y2"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "h"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "dy"
+                ]
+              ],
+              "bounds_new": [
+                "prefix",
+                "B1",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "bounds_reused": [
+                "Y0",
+                "Y1",
+                "Y2",
+                "h",
+                "dy"
+              ],
+              "plan_cache_hits": 0
+            },
+            "mode": "INDIVIDUAL",
+            "status": "AVAILABLE"
+          }
+        },
+        {
+          "warm": {
+            "ms": 196.3129,
+            "plan_digest": "cd9a0150c142b5e445657099b3c240a3e0e491748299cefd7885a8fe8322c0ce",
+            "work": {
+              "nodes_new": [
+                "SC",
+                "UC",
+                "TC",
+                "B1",
+                "prefix",
+                "k",
+                "A",
+                "B",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "nodes_reused": [
+                "S0",
+                "S1",
+                "S2",
+                "U0",
+                "U1",
+                "U2",
+                "T0",
+                "T1",
+                "T2",
+                "raw0",
+                "Y0",
+                "raw1",
+                "Y1",
+                "raw2",
+                "Y2",
+                "h",
+                "dy",
+                "a0"
+              ],
+              "factors_new": [
+                [
+                  "PORT_PRODUCT",
+                  "prefix"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "Y0"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "Y1"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "Y2"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "h"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "dy"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "prefix"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "B1"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "N"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "D"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "L"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "R0n"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "R1n"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "R2n"
+                ]
+              ],
+              "factors_reused": [
+                [
+                  "CONSTANT",
+                  "Y0"
+                ],
+                [
+                  "PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "SUM_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y1"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y2"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "h"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "dy"
+                ]
+              ],
+              "bounds_new": [
+                "prefix",
+                "B1",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "bounds_reused": [
+                "Y0",
+                "Y1",
+                "Y2",
+                "h",
+                "dy"
+              ],
+              "plan_cache_hits": 0
+            },
+            "mode": "INDIVIDUAL",
+            "status": "AVAILABLE"
+          },
+          "cold": {
+            "ms": 209.8775,
+            "plan_digest": "cd9a0150c142b5e445657099b3c240a3e0e491748299cefd7885a8fe8322c0ce",
+            "work": {
+              "nodes_new": [
+                "S0",
+                "S1",
+                "S2",
+                "U0",
+                "U1",
+                "U2",
+                "T0",
+                "T1",
+                "T2",
+                "raw0",
+                "Y0",
+                "raw1",
+                "Y1",
+                "raw2",
+                "Y2",
+                "h",
+                "dy",
+                "SC",
+                "UC",
+                "TC",
+                "B1",
+                "prefix",
+                "k",
+                "A",
+                "B",
+                "N",
+                "D",
+                "a0",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "nodes_reused": [],
+              "factors_new": [
+                [
+                  "CONSTANT",
+                  "Y0"
+                ],
+                [
+                  "PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "SUM_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y1"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y2"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "h"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "dy"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "prefix"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "Y0"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "Y1"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "Y2"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "h"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "dy"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "prefix"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "B1"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "N"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "D"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "L"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "R0n"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "R1n"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "R2n"
+                ]
+              ],
+              "factors_reused": [],
+              "bounds_new": [
+                "Y0",
+                "Y1",
+                "Y2",
+                "h",
+                "dy",
+                "prefix",
+                "B1",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "bounds_reused": [],
+              "plan_cache_hits": 0
+            },
+            "mode": "INDIVIDUAL",
+            "status": "AVAILABLE"
+          }
+        },
+        {
+          "cold": {
+            "ms": 212.094,
+            "plan_digest": "cd9a0150c142b5e445657099b3c240a3e0e491748299cefd7885a8fe8322c0ce",
+            "work": {
+              "nodes_new": [
+                "S0",
+                "S1",
+                "S2",
+                "U0",
+                "U1",
+                "U2",
+                "T0",
+                "T1",
+                "T2",
+                "raw0",
+                "Y0",
+                "raw1",
+                "Y1",
+                "raw2",
+                "Y2",
+                "h",
+                "dy",
+                "SC",
+                "UC",
+                "TC",
+                "B1",
+                "prefix",
+                "k",
+                "A",
+                "B",
+                "N",
+                "D",
+                "a0",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "nodes_reused": [],
+              "factors_new": [
+                [
+                  "CONSTANT",
+                  "Y0"
+                ],
+                [
+                  "PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "SUM_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y1"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y2"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "h"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "dy"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "prefix"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "Y0"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "Y1"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "Y2"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "h"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "dy"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "prefix"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "B1"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "N"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "D"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "L"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "R0n"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "R1n"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "R2n"
+                ]
+              ],
+              "factors_reused": [],
+              "bounds_new": [
+                "Y0",
+                "Y1",
+                "Y2",
+                "h",
+                "dy",
+                "prefix",
+                "B1",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "bounds_reused": [],
+              "plan_cache_hits": 0
+            },
+            "mode": "INDIVIDUAL",
+            "status": "AVAILABLE"
+          },
+          "warm": {
+            "ms": 192.0306,
+            "plan_digest": "cd9a0150c142b5e445657099b3c240a3e0e491748299cefd7885a8fe8322c0ce",
+            "work": {
+              "nodes_new": [
+                "SC",
+                "UC",
+                "TC",
+                "B1",
+                "prefix",
+                "k",
+                "A",
+                "B",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "nodes_reused": [
+                "S0",
+                "S1",
+                "S2",
+                "U0",
+                "U1",
+                "U2",
+                "T0",
+                "T1",
+                "T2",
+                "raw0",
+                "Y0",
+                "raw1",
+                "Y1",
+                "raw2",
+                "Y2",
+                "h",
+                "dy",
+                "a0"
+              ],
+              "factors_new": [
+                [
+                  "PORT_PRODUCT",
+                  "prefix"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "Y0"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "Y1"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "Y2"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "h"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "dy"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "prefix"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "B1"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "N"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "D"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "L"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "R0n"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "R1n"
+                ],
+                [
+                  "INDIVIDUAL",
+                  "R2n"
+                ]
+              ],
+              "factors_reused": [
+                [
+                  "CONSTANT",
+                  "Y0"
+                ],
+                [
+                  "PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "SUM_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y1"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y2"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "h"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "dy"
+                ]
+              ],
+              "bounds_new": [
+                "prefix",
+                "B1",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "bounds_reused": [
+                "Y0",
+                "Y1",
+                "Y2",
+                "h",
+                "dy"
+              ],
+              "plan_cache_hits": 0
+            },
+            "mode": "INDIVIDUAL",
+            "status": "AVAILABLE"
+          }
+        }
+      ],
+      "cold_median_ms": 209.8775,
+      "warm_median_ms": 196.3129
+    },
+    {
+      "name": "domain",
+      "before": [
+        "main",
+        "1/1024",
+        "wide",
+        2
+      ],
+      "after": [
+        "main",
+        "1/1024",
+        "zero",
+        2
+      ],
+      "trials": [
+        {
+          "cold": {
+            "ms": 140.1721,
+            "plan_digest": "5692467f1c7870964debc7d87acb7cbf1c9b8c5100f89fec08b2b58f2e89b12d",
+            "work": {
+              "nodes_new": [
+                "S0",
+                "S1",
+                "S2",
+                "U0",
+                "U1",
+                "U2",
+                "T0",
+                "T1",
+                "T2",
+                "raw0",
+                "Y0",
+                "raw1",
+                "Y1",
+                "raw2",
+                "Y2",
+                "h",
+                "dy",
+                "SC",
+                "UC",
+                "TC",
+                "B1",
+                "prefix",
+                "k",
+                "A",
+                "B",
+                "N",
+                "D",
+                "a0",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "nodes_reused": [],
+              "factors_new": [],
+              "factors_reused": [],
+              "bounds_new": [
+                "Y0",
+                "Y1",
+                "Y2",
+                "h",
+                "dy",
+                "prefix",
+                "B1",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "bounds_reused": [],
+              "plan_cache_hits": 0
+            },
+            "mode": "CONSTANT",
+            "status": "EMPTY"
+          },
+          "warm": {
+            "ms": 46.4444,
+            "plan_digest": "5692467f1c7870964debc7d87acb7cbf1c9b8c5100f89fec08b2b58f2e89b12d",
+            "work": {
+              "nodes_new": [],
+              "nodes_reused": [
+                "S0",
+                "S1",
+                "S2",
+                "U0",
+                "U1",
+                "U2",
+                "T0",
+                "T1",
+                "T2",
+                "raw0",
+                "Y0",
+                "raw1",
+                "Y1",
+                "raw2",
+                "Y2",
+                "h",
+                "dy",
+                "SC",
+                "UC",
+                "TC",
+                "B1",
+                "prefix",
+                "k",
+                "A",
+                "B",
+                "N",
+                "D",
+                "a0",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "factors_new": [],
+              "factors_reused": [],
+              "bounds_new": [],
+              "bounds_reused": [
+                "Y0",
+                "Y1",
+                "Y2",
+                "h",
+                "dy",
+                "prefix",
+                "B1",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "plan_cache_hits": 0
+            },
+            "mode": "CONSTANT",
+            "status": "EMPTY"
+          }
+        },
+        {
+          "warm": {
+            "ms": 44.6051,
+            "plan_digest": "5692467f1c7870964debc7d87acb7cbf1c9b8c5100f89fec08b2b58f2e89b12d",
+            "work": {
+              "nodes_new": [],
+              "nodes_reused": [
+                "S0",
+                "S1",
+                "S2",
+                "U0",
+                "U1",
+                "U2",
+                "T0",
+                "T1",
+                "T2",
+                "raw0",
+                "Y0",
+                "raw1",
+                "Y1",
+                "raw2",
+                "Y2",
+                "h",
+                "dy",
+                "SC",
+                "UC",
+                "TC",
+                "B1",
+                "prefix",
+                "k",
+                "A",
+                "B",
+                "N",
+                "D",
+                "a0",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "factors_new": [],
+              "factors_reused": [],
+              "bounds_new": [],
+              "bounds_reused": [
+                "Y0",
+                "Y1",
+                "Y2",
+                "h",
+                "dy",
+                "prefix",
+                "B1",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "plan_cache_hits": 0
+            },
+            "mode": "CONSTANT",
+            "status": "EMPTY"
+          },
+          "cold": {
+            "ms": 138.5224,
+            "plan_digest": "5692467f1c7870964debc7d87acb7cbf1c9b8c5100f89fec08b2b58f2e89b12d",
+            "work": {
+              "nodes_new": [
+                "S0",
+                "S1",
+                "S2",
+                "U0",
+                "U1",
+                "U2",
+                "T0",
+                "T1",
+                "T2",
+                "raw0",
+                "Y0",
+                "raw1",
+                "Y1",
+                "raw2",
+                "Y2",
+                "h",
+                "dy",
+                "SC",
+                "UC",
+                "TC",
+                "B1",
+                "prefix",
+                "k",
+                "A",
+                "B",
+                "N",
+                "D",
+                "a0",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "nodes_reused": [],
+              "factors_new": [],
+              "factors_reused": [],
+              "bounds_new": [
+                "Y0",
+                "Y1",
+                "Y2",
+                "h",
+                "dy",
+                "prefix",
+                "B1",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "bounds_reused": [],
+              "plan_cache_hits": 0
+            },
+            "mode": "CONSTANT",
+            "status": "EMPTY"
+          }
+        },
+        {
+          "cold": {
+            "ms": 170.6425,
+            "plan_digest": "5692467f1c7870964debc7d87acb7cbf1c9b8c5100f89fec08b2b58f2e89b12d",
+            "work": {
+              "nodes_new": [
+                "S0",
+                "S1",
+                "S2",
+                "U0",
+                "U1",
+                "U2",
+                "T0",
+                "T1",
+                "T2",
+                "raw0",
+                "Y0",
+                "raw1",
+                "Y1",
+                "raw2",
+                "Y2",
+                "h",
+                "dy",
+                "SC",
+                "UC",
+                "TC",
+                "B1",
+                "prefix",
+                "k",
+                "A",
+                "B",
+                "N",
+                "D",
+                "a0",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "nodes_reused": [],
+              "factors_new": [],
+              "factors_reused": [],
+              "bounds_new": [
+                "Y0",
+                "Y1",
+                "Y2",
+                "h",
+                "dy",
+                "prefix",
+                "B1",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "bounds_reused": [],
+              "plan_cache_hits": 0
+            },
+            "mode": "CONSTANT",
+            "status": "EMPTY"
+          },
+          "warm": {
+            "ms": 45.4121,
+            "plan_digest": "5692467f1c7870964debc7d87acb7cbf1c9b8c5100f89fec08b2b58f2e89b12d",
+            "work": {
+              "nodes_new": [],
+              "nodes_reused": [
+                "S0",
+                "S1",
+                "S2",
+                "U0",
+                "U1",
+                "U2",
+                "T0",
+                "T1",
+                "T2",
+                "raw0",
+                "Y0",
+                "raw1",
+                "Y1",
+                "raw2",
+                "Y2",
+                "h",
+                "dy",
+                "SC",
+                "UC",
+                "TC",
+                "B1",
+                "prefix",
+                "k",
+                "A",
+                "B",
+                "N",
+                "D",
+                "a0",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "factors_new": [],
+              "factors_reused": [],
+              "bounds_new": [],
+              "bounds_reused": [
+                "Y0",
+                "Y1",
+                "Y2",
+                "h",
+                "dy",
+                "prefix",
+                "B1",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "plan_cache_hits": 0
+            },
+            "mode": "CONSTANT",
+            "status": "EMPTY"
+          }
+        }
+      ],
+      "cold_median_ms": 140.1721,
+      "warm_median_ms": 45.4121
+    },
+    {
+      "name": "budget",
+      "before": [
+        "mixed",
+        "1/1024",
+        "wide",
+        1
+      ],
+      "after": [
+        "mixed",
+        "1/1024",
+        "wide",
+        2
+      ],
+      "trials": [
+        {
+          "cold": {
+            "ms": 404.8018,
+            "plan_digest": "916862361162de6db2271d3afd288844695d0d1393f18aac9123ab20c87e0543",
+            "work": {
+              "nodes_new": [
+                "S0",
+                "S1",
+                "S2",
+                "U0",
+                "U1",
+                "U2",
+                "T0",
+                "T1",
+                "T2",
+                "raw0",
+                "Y0",
+                "raw1",
+                "Y1",
+                "raw2",
+                "Y2",
+                "h",
+                "dy",
+                "SC",
+                "UC",
+                "TC",
+                "B1",
+                "prefix",
+                "k",
+                "A",
+                "B",
+                "N",
+                "D",
+                "a0",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "nodes_reused": [],
+              "factors_new": [
+                [
+                  "CONSTANT",
+                  "Y0"
+                ],
+                [
+                  "PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "SUM_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y1"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y2"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "h"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "dy"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "prefix"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "B1"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "N"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "D"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "L"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "R0n"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "R1n"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "R2n"
+                ]
+              ],
+              "factors_reused": [],
+              "bounds_new": [
+                "Y0",
+                "Y1",
+                "Y2",
+                "h",
+                "dy",
+                "prefix",
+                "B1",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "bounds_reused": [],
+              "plan_cache_hits": 0
+            },
+            "mode": "PORT_PRODUCT",
+            "status": "AVAILABLE"
+          },
+          "warm": {
+            "ms": 50.2549,
+            "plan_digest": "916862361162de6db2271d3afd288844695d0d1393f18aac9123ab20c87e0543",
+            "work": {
+              "nodes_new": [],
+              "nodes_reused": [
+                "S0",
+                "S1",
+                "S2",
+                "U0",
+                "U1",
+                "U2",
+                "T0",
+                "T1",
+                "T2",
+                "raw0",
+                "Y0",
+                "raw1",
+                "Y1",
+                "raw2",
+                "Y2",
+                "h",
+                "dy",
+                "SC",
+                "UC",
+                "TC",
+                "B1",
+                "prefix",
+                "k",
+                "A",
+                "B",
+                "N",
+                "D",
+                "a0",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "factors_new": [],
+              "factors_reused": [
+                [
+                  "CONSTANT",
+                  "Y0"
+                ],
+                [
+                  "PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "SUM_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y1"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y2"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "h"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "dy"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "prefix"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "B1"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "N"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "D"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "L"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "R0n"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "R1n"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "R2n"
+                ]
+              ],
+              "bounds_new": [],
+              "bounds_reused": [
+                "Y0",
+                "Y1",
+                "Y2",
+                "h",
+                "dy",
+                "prefix",
+                "B1",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "plan_cache_hits": 0
+            },
+            "mode": "PORT_PRODUCT",
+            "status": "AVAILABLE"
+          }
+        },
+        {
+          "warm": {
+            "ms": 48.4499,
+            "plan_digest": "916862361162de6db2271d3afd288844695d0d1393f18aac9123ab20c87e0543",
+            "work": {
+              "nodes_new": [],
+              "nodes_reused": [
+                "S0",
+                "S1",
+                "S2",
+                "U0",
+                "U1",
+                "U2",
+                "T0",
+                "T1",
+                "T2",
+                "raw0",
+                "Y0",
+                "raw1",
+                "Y1",
+                "raw2",
+                "Y2",
+                "h",
+                "dy",
+                "SC",
+                "UC",
+                "TC",
+                "B1",
+                "prefix",
+                "k",
+                "A",
+                "B",
+                "N",
+                "D",
+                "a0",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "factors_new": [],
+              "factors_reused": [
+                [
+                  "CONSTANT",
+                  "Y0"
+                ],
+                [
+                  "PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "SUM_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y1"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y2"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "h"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "dy"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "prefix"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "B1"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "N"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "D"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "L"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "R0n"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "R1n"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "R2n"
+                ]
+              ],
+              "bounds_new": [],
+              "bounds_reused": [
+                "Y0",
+                "Y1",
+                "Y2",
+                "h",
+                "dy",
+                "prefix",
+                "B1",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "plan_cache_hits": 0
+            },
+            "mode": "PORT_PRODUCT",
+            "status": "AVAILABLE"
+          },
+          "cold": {
+            "ms": 420.0743,
+            "plan_digest": "916862361162de6db2271d3afd288844695d0d1393f18aac9123ab20c87e0543",
+            "work": {
+              "nodes_new": [
+                "S0",
+                "S1",
+                "S2",
+                "U0",
+                "U1",
+                "U2",
+                "T0",
+                "T1",
+                "T2",
+                "raw0",
+                "Y0",
+                "raw1",
+                "Y1",
+                "raw2",
+                "Y2",
+                "h",
+                "dy",
+                "SC",
+                "UC",
+                "TC",
+                "B1",
+                "prefix",
+                "k",
+                "A",
+                "B",
+                "N",
+                "D",
+                "a0",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "nodes_reused": [],
+              "factors_new": [
+                [
+                  "CONSTANT",
+                  "Y0"
+                ],
+                [
+                  "PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "SUM_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y1"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y2"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "h"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "dy"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "prefix"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "B1"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "N"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "D"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "L"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "R0n"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "R1n"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "R2n"
+                ]
+              ],
+              "factors_reused": [],
+              "bounds_new": [
+                "Y0",
+                "Y1",
+                "Y2",
+                "h",
+                "dy",
+                "prefix",
+                "B1",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "bounds_reused": [],
+              "plan_cache_hits": 0
+            },
+            "mode": "PORT_PRODUCT",
+            "status": "AVAILABLE"
+          }
+        },
+        {
+          "cold": {
+            "ms": 404.5354,
+            "plan_digest": "916862361162de6db2271d3afd288844695d0d1393f18aac9123ab20c87e0543",
+            "work": {
+              "nodes_new": [
+                "S0",
+                "S1",
+                "S2",
+                "U0",
+                "U1",
+                "U2",
+                "T0",
+                "T1",
+                "T2",
+                "raw0",
+                "Y0",
+                "raw1",
+                "Y1",
+                "raw2",
+                "Y2",
+                "h",
+                "dy",
+                "SC",
+                "UC",
+                "TC",
+                "B1",
+                "prefix",
+                "k",
+                "A",
+                "B",
+                "N",
+                "D",
+                "a0",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "nodes_reused": [],
+              "factors_new": [
+                [
+                  "CONSTANT",
+                  "Y0"
+                ],
+                [
+                  "PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "SUM_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y1"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y2"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "h"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "dy"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "prefix"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "B1"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "N"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "D"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "L"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "R0n"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "R1n"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "R2n"
+                ]
+              ],
+              "factors_reused": [],
+              "bounds_new": [
+                "Y0",
+                "Y1",
+                "Y2",
+                "h",
+                "dy",
+                "prefix",
+                "B1",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "bounds_reused": [],
+              "plan_cache_hits": 0
+            },
+            "mode": "PORT_PRODUCT",
+            "status": "AVAILABLE"
+          },
+          "warm": {
+            "ms": 48.7659,
+            "plan_digest": "916862361162de6db2271d3afd288844695d0d1393f18aac9123ab20c87e0543",
+            "work": {
+              "nodes_new": [],
+              "nodes_reused": [
+                "S0",
+                "S1",
+                "S2",
+                "U0",
+                "U1",
+                "U2",
+                "T0",
+                "T1",
+                "T2",
+                "raw0",
+                "Y0",
+                "raw1",
+                "Y1",
+                "raw2",
+                "Y2",
+                "h",
+                "dy",
+                "SC",
+                "UC",
+                "TC",
+                "B1",
+                "prefix",
+                "k",
+                "A",
+                "B",
+                "N",
+                "D",
+                "a0",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "factors_new": [],
+              "factors_reused": [
+                [
+                  "CONSTANT",
+                  "Y0"
+                ],
+                [
+                  "PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "SUM_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y0"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y1"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "Y2"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "h"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "dy"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "prefix"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "B1"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "N"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "D"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "L"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "R0n"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "R1n"
+                ],
+                [
+                  "PORT_PRODUCT",
+                  "R2n"
+                ]
+              ],
+              "bounds_new": [],
+              "bounds_reused": [
+                "Y0",
+                "Y1",
+                "Y2",
+                "h",
+                "dy",
+                "prefix",
+                "B1",
+                "N",
+                "D",
+                "L",
+                "R0n",
+                "R1n",
+                "R2n"
+              ],
+              "plan_cache_hits": 0
+            },
+            "mode": "PORT_PRODUCT",
+            "status": "AVAILABLE"
+          }
+        }
+      ],
+      "cold_median_ms": 404.8018,
+      "warm_median_ms": 48.7659
+    }
+  ],
+  "paired_samples": 3,
+  "comparison": "same RR67 arithmetic implementation; identical entry content, new request, v=1 and HHHSUT; only prior caches differ",
+  "excludes": "entry registration, preparing the prior request, exact feature resolution, actuation and checkpoint replay",
+  "all_mathematical_plan_digests_equal": true,
+  "all_final_requests_previously_uncompiled": true,
+  "total_system_speedup_claimed": false,
+  "source_sha256": {
+    "integrations/inquiry/profile_incremental.py": "54ea0ed363a702715df06268c312e16b0efb9685b935c17029931ba3828d0682",
+    "integrations/inquiry/incremental_resolution.py": "d915317b73d61d64c772d62a31ae909d9feb36ecb1213bba2adcbafe03d5ca21"
+  }
+}
