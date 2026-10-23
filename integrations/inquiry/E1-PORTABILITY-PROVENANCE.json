@@ -1,0 +1,46 @@
+{
+  "schema": "time-engine-e1-portability-provenance-v1",
+  "date": "2026-10-23",
+  "input_commit": "1a2e0c9b706055f2ef04fd10380e73807c6e0207",
+  "input_tree": "95f2d4b153ce51c377e17815332a5235e970f87c",
+  "unchanged_input_files": 403,
+  "code_changed": false,
+  "source_and_evidence": [
+    {
+      "path": "integrations/inquiry/validate_entry_transport_external.py",
+      "sha256": "e65c7d06bf9301cc57f149423b25c5eba29be4d95344a4720b56e74c94aed604",
+      "bytes": 7716
+    },
+    {
+      "path": "integrations/inquiry/E1-PORTABILITY-INPUT.json",
+      "sha256": "a2dfe383b992b39c425a1a1f8816b00cfb6c93949cb50ce7319f2ca6cfec314e",
+      "bytes": 72418
+    },
+    {
+      "path": "integrations/inquiry/E1-python312.json",
+      "sha256": "0cb540bb788f79b089997802dcb581b7f77daf248e9fe671e6baddcca6f0b9e7",
+      "bytes": 1418
+    },
+    {
+      "path": "integrations/inquiry/E1-python314.json",
+      "sha256": "703f06fe19fecaeb071072632c9aaae6e8433aa1f06499ef6d656e4405fa1906",
+      "bytes": 1519
+    },
+    {
+      "path": "docs/ENTRY_TRANSPORT_E1_PORTABILITY.md",
+      "sha256": "f057a8cbfbe382e0823678c329fcdf5dd002c9bc299383844321edf3cf2a2c14",
+      "bytes": 4097
+    }
+  ],
+  "provenance_self_hash_excluded": true,
+  "results": {
+    "python312_checks": 13,
+    "python314_checks": 14,
+    "source_generator_calls": 0,
+    "python312_checkpoint_accepted_in_python314": true,
+    "completed_bytes_equal_between_runtimes": true,
+    "checkpoint_sha256": "5149e8d86856b514c13ea2e9a9c3f8995410d2adef7c917d8439a9ba21479415",
+    "same_PC_and_OS": true,
+    "other_OS_tested": false
+  }
+}

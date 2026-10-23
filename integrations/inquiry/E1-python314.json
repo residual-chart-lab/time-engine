@@ -1,0 +1,42 @@
+{
+  "schema": "time-engine-e1-runtime-portability-v1",
+  "passed": true,
+  "input_commit": "1a2e0c9b706055f2ef04fd10380e73807c6e0207",
+  "input_files": 403,
+  "runtime": {
+    "implementation": "CPython",
+    "version": "3.14.3",
+    "compiler": "MSC v.1944 64 bit (AMD64)",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "isolated": true
+  },
+  "entry_sha256": "d71a430cf049b645dd44d6ebfd9870acfe00ed2b3ac54d1b5766641fa1f805a3",
+  "entry_digest": "24ccd25412e46f5051ee5e48325358f8f62a66ce1244b69ce65fa57abce6f5de",
+  "checkpoint_sha256": "5149e8d86856b514c13ea2e9a9c3f8995410d2adef7c917d8439a9ba21479415",
+  "checkpoint_bytes": 162897,
+  "phase": "STOPPED",
+  "certified": true,
+  "stock": 9,
+  "checks": [
+    "403_frozen_input_files_match",
+    "unbound_entry_received",
+    "entry_bytes_roundtrip",
+    "wrong_external_hash_rejected",
+    "wrong_entry_identity_rejected",
+    "source_history_swap_rejected",
+    "failed_imports_issue_no_authority",
+    "first_flower_checkpoint_replayed",
+    "three_flowers_and_upper_certified",
+    "exact_full_history_matches_RR69",
+    "all_non_graph_fields_match_RR69",
+    "completed_checkpoint_replayed",
+    "other_runtime_checkpoint_replayed",
+    "seven_past_generators_never_called"
+  ],
+  "checks_passed": 14,
+  "past_generators_called": 0,
+  "external_checkpoint_checked": true,
+  "external_checkpoint_sha256": "5149e8d86856b514c13ea2e9a9c3f8995410d2adef7c917d8439a9ba21479415",
+  "old_RR69_record_byte_identity_claimed": false,
+  "operating_system_changed": false
+}
