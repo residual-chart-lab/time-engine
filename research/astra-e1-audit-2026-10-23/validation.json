@@ -1,0 +1,35 @@
+{
+  "schema": "time-engine-e1-entry-validation-v1",
+  "passed": true,
+  "base_commit": "fbf0bb413436f26b29825addccd435aace288fa3",
+  "unchanged_baseline_files": 393,
+  "tests": 42,
+  "new_entry_tests": 11,
+  "three_flower_regression_tests": 31,
+  "entry_digest": "24ccd25412e46f5051ee5e48325358f8f62a66ce1244b69ce65fa57abce6f5de",
+  "entry_sha256": "d71a430cf049b645dd44d6ebfd9870acfe00ed2b3ac54d1b5766641fa1f805a3",
+  "entry_bytes": 79158,
+  "entry_nodes": 527,
+  "fresh_process": {
+    "certified": true,
+    "stock": 9,
+    "full_physical_history_matches_RR69": true,
+    "receiver_checkpoint_replays": true,
+    "past_generators_called": 0
+  },
+  "old_record_byte_identity_claimed": false,
+  "limits": {
+    "max_bytes": 2000000,
+    "max_nodes": 4096
+  },
+  "supported_profile": "rr69-diagonal-two-origin-entry-v1",
+  "different_environment_tested": false,
+  "full_247_regression_rerun": false,
+  "source_sha256": {
+    "integrations/inquiry/entry_transport.py": "2862ad46cd44aace1eade9e78fe783b4eec1e0c7289c9fabb4163735ee263741",
+    "integrations/inquiry/test_entry_transport.py": "15156efc87fcbe341e01506a01cab0e5feee6f67c539a8edd8ded634b38b1e96",
+    "integrations/inquiry/validate_entry_transport.py": "c9321c2c751b16662b58f11e82a059c9202a6ded48293a440b0f85fb0b3281f9",
+    "integrations/inquiry/E1-BASELINE.json": "b161acc3c5a894f5eaa6afbd0bc386064dc20064548cd97884a2839f5556d62a",
+    "run_entry_transport.py": "f70a8c7b51757a8dbe6021a69a290a25e0c2a868154f333fc1c55c37daa8bcb0"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "pinned_commit": "0f708c1d35eda52415a24347839d122046cf595b",
+  "runtime": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "passed": true,
+  "canonical_tampering_cases": [
+    {
+      "name": "history_event_kind",
+      "rejected": true,
+      "error": "actual U publication, inheritance or bootstrap history changed",
+      "authority_issued": false
+    },
+    {
+      "name": "inherited_upper_value",
+      "rejected": true,
+      "error": "actual U publication, inheritance or bootstrap history changed",
+      "authority_issued": false
+    },
+    {
+      "name": "inherited_lower_value",
+      "rejected": true,
+      "error": "actual U publication, inheritance or bootstrap history changed",
+      "authority_issued": false
+    },
+    {
+      "name": "retained_stock_deleted",
+      "rejected": true,
+      "error": "actual U publication, inheritance or bootstrap history changed",
+      "authority_issued": false
+    },
+    {
+      "name": "first_retained_shift",
+      "rejected": true,
+      "error": "the immutable original, representative and exact residual recipe must agree",
+      "authority_issued": false
+    },
+    {
+      "name": "second_retained_shift",
+      "rejected": true,
+      "error": "the immutable original, representative and exact residual recipe must agree",
+      "authority_issued": false
+    },
+    {
+      "name": "original_coefficients",
+      "rejected": true,
+      "error": "a normalized signed affine action is required",
+      "authority_issued": false
+    },
+    {
+      "name": "published_U_value",
+      "rejected": true,
+      "error": "actual U publication, inheritance or bootstrap history changed",
+      "authority_issued": false
+    },
+    {
+      "name": "source_roles_swapped",
+      "rejected": true,
+      "error": "unsupported fixed entry profile",
+      "authority_issued": false
+    },
+    {
+      "name": "history_truncated",
+      "rejected": true,
+      "error": "actual U publication, inheritance or bootstrap history changed",
+      "authority_issued": false
+    },
+    {
+      "name": "number_archive_changed",
+      "rejected": true,
+      "error": "expected entry or complete exact number state changed",
+      "authority_issued": false
+    }
+  ],
+  "requirement_separation": [
+    {
+      "name": "outside_chart",
+      "status": "UNKNOWN_CHART",
+      "execution_blocked": true
+    },
+    {
+      "name": "empty_domain",
+      "status": "EMPTY",
+      "execution_blocked": true
+    },
+    {
+      "name": "plan_under_changed_requirement",
+      "execution_blocked": true
+    }
+  ],
+  "reuse": {
+    "first_resolution": {
+      "new_feature_queries": 2,
+      "source_reads_for_registration": 2,
+      "newly_registered": [
+        "obs-5ce2ff375ff3cea84f4337c7c7ea9428c705c65b8fb8647ac2270708f8242814"
+      ],
+      "derived_features": [],
+      "total_exact_queries": 4
+    },
+    "repeated_resolution": {
+      "new_feature_queries": 0,
+      "source_reads_for_registration": 0,
+      "newly_registered": [],
+      "derived_features": [],
+      "total_exact_queries": 0
+    },
+    "action_equal": true
+  },
+  "single_run_seconds": {
+    "receive": 0.7982034670000075,
+    "compile": 0.06669518000001062
+  },
+  "timing_note": "One warmed-process timing sample after negative cases; not a benchmark. Prior rejected requests may populate observations."
+}
