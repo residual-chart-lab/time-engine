@@ -1,0 +1,69 @@
+{
+  "role": "implementation diagnostic added after the primary 600-query grid; not a preregistered discovery",
+  "rows": [
+    {
+      "maximum": "4",
+      "allowed": [],
+      "count": 0
+    },
+    {
+      "maximum": "8",
+      "allowed": [],
+      "count": 0
+    },
+    {
+      "maximum": "12",
+      "allowed": [
+        [
+          "0",
+          "HHST"
+        ],
+        [
+          "0",
+          "HHTS"
+        ],
+        [
+          "64",
+          "HHST"
+        ],
+        [
+          "64",
+          "HHTS"
+        ]
+      ],
+      "count": 4
+    },
+    {
+      "maximum": "16",
+      "allowed": [
+        [
+          "-64",
+          "HHST"
+        ],
+        [
+          "-64",
+          "HHTS"
+        ],
+        [
+          "0",
+          "HHST"
+        ],
+        [
+          "0",
+          "HHTS"
+        ],
+        [
+          "64",
+          "HHST"
+        ],
+        [
+          "64",
+          "HHTS"
+        ]
+      ],
+      "count": 6
+    }
+  ],
+  "exact_residual_reads": 0,
+  "completed_future_paths": 0
+}

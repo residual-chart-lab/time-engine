@@ -1,0 +1,27 @@
+{
+  "schema": "time-engine-rr64-two-flower-demand-inputs-v1",
+  "date": "2026-10-21",
+  "TE_base": "d235252bd6630baa08068534cf898535e06036e8",
+  "FN_adopted_merge": "a9c3041a411db8f79f51d02e9f35af58f5edb2d3",
+  "prior_frame_source": "RR61/RR62 full fixed 14-frame grid, reused without success filtering",
+  "future_x": ["-1", "-3/4", "-1/2", "-1/4", "0", "1/4", "1/2", "3/4", "1", "5/4", "3/2", "7/4", "2", "1/3"],
+  "histories": ["keep", "erase", "restore"],
+  "contact": 1,
+  "first_controls": ["-64", "0", "64"],
+  "first_words": ["HHST", "HHTS"],
+  "next_word": "HR",
+  "current_target": "-1",
+  "bundle_target": "1",
+  "actual_inheritance": "-1",
+  "strength": "1/1024",
+  "later_control_domain": ["0", "16"],
+  "envelope": ["-1/1024", "1/1024"],
+  "narrow_controls": {"x": ["-1", "1/4"], "domain": ["0", "8"]},
+  "zero_coupling_controls": {"histories": ["keep"], "x": ["-1", "1/4"]},
+  "observations": ["existence-of-two-flower-completion", "next-source-action-set"],
+  "execution_cases": {"x": ["-1", "1/4"], "preferred_first_control": "64", "histories": ["keep", "erase", "restore"], "words": ["HHST", "HHTS"]},
+  "partial_statuses_are_retained": true,
+  "terminal_C_is_not_constructed_from_a_successful_future_path": true,
+  "input_fixed_before_the_new_bundle_calculations": true
+}
+

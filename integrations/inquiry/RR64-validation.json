@@ -1,0 +1,58 @@
+{
+  "schema": "time-engine-rr64-validation-v1",
+  "passed": true,
+  "integrity": {
+    "TE_base": "d235252bd6630baa08068534cf898535e06036e8",
+    "unchanged_TE_files": 267,
+    "navigation_updates": [
+      "README.md",
+      "integrations/inquiry/README.md"
+    ],
+    "adopted_FN_merge": "a9c3041a411db8f79f51d02e9f35af58f5edb2d3",
+    "unchanged_FN_files": 9,
+    "input_commit": "9f534b9d1223c4ee4f6388363f1b4432d244f243",
+    "input_sha256": "1db157d7d6548905390766382ff4d69a8028500011ef758c6dd87a2014a19f77"
+  },
+  "total_tests": 89,
+  "test_counts": {
+    "test_bundle_demand": 22,
+    "test_demand_filter": 20,
+    "test_live_flower": 14,
+    "test_deferred": 22,
+    "test_portability": 11
+  },
+  "groups": 11,
+  "queries": 600,
+  "successful_requested_pairs": 7,
+  "exact_residual_reads": {
+    "existence-of-two-flower-completion": 0,
+    "next-source-action-set": 168
+  },
+  "source_sha256": {
+    "integrations/inquiry/bundle_demand.py": "bdf7b21a26888cf6eb7223d6439de94f15cfe6fda9b8c7c72c743294742c7cb8",
+    "integrations/inquiry/bundle_execution.py": "dfffdc44f5469ea3c20bead1cd3d71d2f510220d03a8a5e952c831a387da93d1",
+    "integrations/inquiry/bundle_resource_sweep.py": "b7ebf06278116b7011747f66e320a23f3d5a727b66f7c366b622b10659f770f5",
+    "integrations/inquiry/rr64_study.py": "6b26afeacd719c5a08853ba6b7a553871d77e78a59872a6f9a84c9f079f5eac7",
+    "integrations/inquiry/test_bundle_demand.py": "83d26ba5f285a842798c74f64dce0b11d949cfeca817cfc47ae269258e987fb4",
+    "integrations/inquiry/validate_bundle.py": "f2bc83084714e4ccbab20d11e31fb18f359fb205d5c1f6f112be9543ee6d7045",
+    "integrations/inquiry/RR64-inputs.json": "1db157d7d6548905390766382ff4d69a8028500011ef758c6dd87a2014a19f77",
+    "integrations/inquiry/RR64-resource-sweep-inputs.json": "15bf1b610c97e677e1c7023a3d338a8594ffc06cd2440b1c754cccb15acd5574",
+    "integrations/inquiry/RR64-BASELINE.json": "da1f95ceac41990c8ffae07978a467d78cadaf9b0f13fdca0aa921d786b99ea5",
+    "run_bundle.py": "9efe5c12483a4d79f76248e31391aadad9d2684e1a3582929b0a32e8dde794fe",
+    "vendor/free-number-runtime/SOURCE.json": "8dc97247560061372fecef9b5d95a1359576a4a9bdd9ae3852a5799e5ae85ab1",
+    "vendor/free-number-runtime/runtime/free_numbers/__init__.py": "6fc16abf333d49ad8dec9603578a6eaacb31530713cba41065990906a80f6ab5",
+    "vendor/free-number-runtime/runtime/free_numbers/algebra.py": "0e8ebfe0bcf7872f8ea2a96c0cdf20be327087879cddad3d519e9a00bed547b0",
+    "vendor/free-number-runtime/runtime/free_numbers/checkpoint.py": "39206f41ce982cfe6d8586ca9b2a4829478702e743446fb03efcfc1b8e1b654a",
+    "vendor/free-number-runtime/runtime/free_numbers/demand.py": "c3ea6349d4149bd8674a3585b711ef50729ca36bca7da892effe2119681bf055",
+    "vendor/free-number-runtime/runtime/free_numbers/evaluate.py": "d472c51e384147edeff21ae9f571ce76828279c0186ea5f5d94c427ce4ea7590",
+    "vendor/free-number-runtime/runtime/free_numbers/expression.py": "2aeafdd375cd38f09c3091937bbc660bb0df802f0b1d37a7ffece3e5bf8fbaac",
+    "vendor/free-number-runtime/runtime/free_numbers/retention.py": "6c7958bf20ec16193ad2b07be553ffc5fc2fff99ed73b7ca682546162e1122c9",
+    "vendor/free-number-runtime/runtime/free_numbers/traversal.py": "b0ef3ccfdc57ceaa449f513cb245c3000939772643d7327321c25163d82b7cc9"
+  },
+  "evidence_sha256": {
+    "result.json": "3cec35770e7c45f4e7b5ebd102f1419731dc2cffd526c65ca3b453d08dfbe668",
+    "starts.json": "462b1e76bbbe151c51786dfc4bf432e9dc88330336da4d70dcb2ad280bb5e07d",
+    "resource-sweep.json": "825998fb8328489a9e9133100d07b1a039c1aa712607ef5e49dad2aecf701c6a",
+    "keep-primary.record.json": "7e11e601e2d86ff5b79891c1cd56ef147b5c7d965fd36bbe8436793af706b000"
+  }
+}
