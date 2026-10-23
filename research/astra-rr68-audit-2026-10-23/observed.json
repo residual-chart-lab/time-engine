@@ -1,0 +1,17 @@
+{
+  "audited_commit": "a189fc12382cdda3011c7b73c2e783821745a16c",
+  "independent_ring_verifier": true,
+  "synthetic_families": 8,
+  "new_frames": 2,
+  "physical_plans": 8,
+  "physical_polynomial_identities": 104,
+  "rr66_repair": {
+    "exact_reads": 1,
+    "new_keys": [
+      "s"
+    ],
+    "derived_keys": [
+      "t"
+    ]
+  }
+}
