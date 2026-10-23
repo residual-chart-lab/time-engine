@@ -1,0 +1,89 @@
+{
+  "schema": "time-engine-rr68-provenance-v1",
+  "date": "2026-10-23",
+  "base_commit": "84f3425aecdda16903ab925f4c348fe519b87f71",
+  "base_tree": "88fd768ee97e274d63d44480c1509551dbd64265",
+  "input_commit": "78f1470cc1899e817e51afb909b3e09873013834",
+  "input_sha256": "6f58ee64492612859ad58c6e418b459fb2dc51659dee331b6086e1903d9912b2",
+  "unchanged_prior_files": 358,
+  "tests": 110,
+  "groups": 11,
+  "plans": 240,
+  "actual_sequence_bundles": 5,
+  "retention_control_motions": 5,
+  "checkpoint_stages": 14,
+  "files": {
+    "README.md": {
+      "sha256": "01ce122fdad44d7be95099a58622305c020df9dc4d81e88be8e9415d34169480",
+      "git_blob_sha": "4f04a293d0a30281e5fcd2cff370cfd52515b480"
+    },
+    "docs/RR68_OBSERVATION_SYNTHESIS.md": {
+      "sha256": "804d00cec4ab6a913a3f13d124de8f771bcf12669c247fe5325159bd5b0fc842",
+      "git_blob_sha": "14908cb1788868c6ae495ad3e318947bce921e47"
+    },
+    "integrations/inquiry/README.md": {
+      "sha256": "c62cc6f52edb933a542e62c77d41a07998fd902a7be8520aa88d67ea0e2705f5",
+      "git_blob_sha": "9350dd6125cd2bda3d69ee3c9349ded0349b507c"
+    },
+    "integrations/inquiry/RR68-BASELINE.json": {
+      "sha256": "97052bfb827622ea192a43a352e8e6bae7916dce45b9e459c3a4d80f56bc2bb9",
+      "git_blob_sha": "aa06503c00e21bc8c26a293456eac1ddca07be21"
+    },
+    "integrations/inquiry/RR68-inputs.json": {
+      "sha256": "6f58ee64492612859ad58c6e418b459fb2dc51659dee331b6086e1903d9912b2",
+      "git_blob_sha": "2cb6a7c5ba620bbd3ce16b233910c41f5d5c963c"
+    },
+    "integrations/inquiry/RR68-result.json": {
+      "sha256": "8016386f61948f1c60f5a4b7b817cc21a025f2b89b9eeeb22d6ff1c23207da1e",
+      "git_blob_sha": "d4e9c2c68ea82671582a4698f46c8460866cc719"
+    },
+    "integrations/inquiry/RR68-starts.json": {
+      "sha256": "22520d5b6ac698ef0b7636723a3a27095269107c9cc02f8dd88c4366bd4e731f",
+      "git_blob_sha": "a1f90cd4009c776c91202fbf62721421057e4cb4"
+    },
+    "integrations/inquiry/RR68-unregistered-split.record.json": {
+      "sha256": "3536eb4eb092ccf2d5c4535fc1c04390dc1583e181c7d9530fe612648579725e",
+      "git_blob_sha": "1df30d4c9bf13cae3a4f0670f3775f1abe421490"
+    },
+    "integrations/inquiry/RR68-validation.json": {
+      "sha256": "dce588d436c23aa406222b0ee8760174e22b761a450d3502c1ed5223edd0435f",
+      "git_blob_sha": "ea1247b0c9c4b6f133f0c81f32f619866baa6ee4"
+    },
+    "integrations/inquiry/RR68-validation.log": {
+      "sha256": "51a6320a48da09c35590ba071cea459d3d1f7635b1057c87ae57788adaeb0904",
+      "git_blob_sha": "7f8290c07cef04326951b1d448f36b1469172723"
+    },
+    "integrations/inquiry/RR68-word-and-frame.record.json": {
+      "sha256": "c47d44b5932d892eee37e57e7bbd58400909108864161b4d17c17bebd32af635",
+      "git_blob_sha": "97ee67ac6e2f6aac11868ed4fa41529d20c1874d"
+    },
+    "integrations/inquiry/observation_synthesis.py": {
+      "sha256": "407250087436ae8abe5dd487d9a2e9334fb45070e379ddbc04b9c857f706d5e0",
+      "git_blob_sha": "789434983ec17723b199d2ad584e200779bab24d"
+    },
+    "integrations/inquiry/rr68_study.py": {
+      "sha256": "addb7ae9621b2581a7ee779611c0d645bf4dd011b4458dcbb9e2a577d98e13be",
+      "git_blob_sha": "f919f31e83d683919728aff96166895baf0418bc"
+    },
+    "integrations/inquiry/synthesized_resolution.py": {
+      "sha256": "ef16edf9867530e43d496c0f9ec5646d8ff4b8ffc9ce60e2cf348611edfc796f",
+      "git_blob_sha": "949c06999421868cadb710348c7d8bc81eb72a32"
+    },
+    "integrations/inquiry/synthesized_session.py": {
+      "sha256": "67abc27fae4d923603149e0590de800d8308d1a19bdf2d63cfb30dcdeb64a506",
+      "git_blob_sha": "ffdac62990d8abba020eb3fe9b11062b268fdf45"
+    },
+    "integrations/inquiry/test_synthesized_session.py": {
+      "sha256": "7d85fcd5fade15a7ef1f8320ecf4e4a07cfd0a7d39a76acca3c850764533eb5f",
+      "git_blob_sha": "f2cc1749a3b142a4c0ed5d237199a5b90a9c3415"
+    },
+    "integrations/inquiry/validate_synthesis.py": {
+      "sha256": "2492d482f0ae08ba5b6201050d0fdc9bb2cb22ed1b3363deb0358753ab8175f6",
+      "git_blob_sha": "e8862e8df451d72151e8ebb9d44ca38df10fef19"
+    },
+    "run_synthesis.py": {
+      "sha256": "a9c20ecb1212d1a4f8bc4623171cac45cb48735e5c92e63ac3f2c7b8fb75d91d",
+      "git_blob_sha": "063a2599df45f3f29152608cadc5ead5b205b3a0"
+    }
+  }
+}

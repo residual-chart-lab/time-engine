@@ -1,0 +1,1672 @@
+{
+  "schema": "time-engine-rr68-synthesis-result-v1",
+  "input_commit": "78f1470cc1899e817e51afb909b3e09873013834",
+  "groups": [
+    {
+      "name": "all_precommitted_frames_and_demands_match_complete_physical_action",
+      "passed": true
+    },
+    {
+      "name": "all_synthesis_runs_precede_value_queries_and_requested_motion",
+      "passed": true
+    },
+    {
+      "name": "a_joint_quadratic_is_constructed_without_a_product_catalogue",
+      "passed": true
+    },
+    {
+      "name": "changed_coordinates_produce_an_unregistered_quadratic_form",
+      "passed": true
+    },
+    {
+      "name": "connected_requirement_constructs_both_linear_and_quadratic_generators",
+      "passed": true
+    },
+    {
+      "name": "insufficient_synthesis_budget_is_unresolved_not_empty",
+      "passed": true
+    },
+    {
+      "name": "the_constructed_observation_need_not_encode_the_whole_original_state",
+      "passed": true,
+      "role": "algebraic witness inside source envelopes, not a newly issued TE history"
+    },
+    {
+      "name": "all_five_declared_synthesis_sequences_actuate_and_close",
+      "passed": true
+    },
+    {
+      "name": "erasure_is_distinguished_from_retention_in_real_motion",
+      "passed": true,
+      "controls": [
+        {
+          "modes": [
+            "keep",
+            "keep"
+          ],
+          "status": "ADMISSIBLE",
+          "certified": true,
+          "local_endpoints": [
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "upper_endpoint": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "modes": [
+            "keep",
+            "erase"
+          ],
+          "status": "EMPTY",
+          "certified": false,
+          "local_endpoints": [
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "upper_endpoint": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "modes": [
+            "erase",
+            "keep"
+          ],
+          "status": "EMPTY",
+          "certified": false,
+          "local_endpoints": [
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "upper_endpoint": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "modes": [
+            "erase",
+            "erase"
+          ],
+          "status": "EMPTY",
+          "certified": false,
+          "local_endpoints": [
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "upper_endpoint": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "modes": [
+            "restore",
+            "restore"
+          ],
+          "status": "ADMISSIBLE",
+          "certified": true,
+          "local_endpoints": [
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          "upper_endpoint": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "original_archives_and_prior_stock_survive",
+      "passed": true
+    },
+    {
+      "name": "dynamic_observations_replay_from_fresh_entries",
+      "passed": true,
+      "checkpoints": 14
+    }
+  ],
+  "plans": 240,
+  "sequences": [
+    {
+      "name": "refine-to-individual",
+      "trace": [
+        {
+          "context": "mixed",
+          "strength": "0",
+          "frame": "identity",
+          "word": "HHHSUT",
+          "budget": 2,
+          "mode": "SYNTHESIZED_1",
+          "status": "ADMISSIBLE",
+          "frame_generators": [
+            [
+              "g0",
+              [
+                [
+                  [
+                    "x",
+                    "y"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "physical_generators": [
+            [
+              "obs-8eaeae2b3968a2f51bec978215d36cc4869844dd7f6b0277b57835013f317292",
+              [
+                [
+                  [
+                    "s",
+                    "t"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "proof_digest": "6945285c4db14050bcf2bd6313ba4eb189b965814d80384c7273c07f182033ac",
+          "reads": {
+            "new_feature_queries": 1,
+            "source_reads_for_registration": 2,
+            "newly_registered": [
+              "obs-8eaeae2b3968a2f51bec978215d36cc4869844dd7f6b0277b57835013f317292"
+            ],
+            "derived_features": 0
+          },
+          "total_exact_queries": 3,
+          "new_keys": [
+            "obs-8eaeae2b3968a2f51bec978215d36cc4869844dd7f6b0277b57835013f317292"
+          ],
+          "derived_keys": []
+        },
+        {
+          "context": "mixed",
+          "strength": "1/1024",
+          "frame": "identity",
+          "word": "HHHSUT",
+          "budget": 2,
+          "mode": "SYNTHESIZED_2",
+          "status": "ADMISSIBLE",
+          "frame_generators": [
+            [
+              "g0",
+              [
+                [
+                  [
+                    "x"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "y"
+                  ],
+                  [
+                    "8/7",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "g1",
+              [
+                [
+                  [
+                    "x",
+                    "y"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "physical_generators": [
+            [
+              "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604",
+              [
+                [
+                  [
+                    "s"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "t"
+                  ],
+                  [
+                    "8/7",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "obs-8eaeae2b3968a2f51bec978215d36cc4869844dd7f6b0277b57835013f317292",
+              [
+                [
+                  [
+                    "s",
+                    "t"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "proof_digest": "2f642d844db0d6dd6768d2fec7bfbf899ec08fd6735442a992005f74bad5b1fa",
+          "reads": {
+            "new_feature_queries": 1,
+            "source_reads_for_registration": 2,
+            "newly_registered": [
+              "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604"
+            ],
+            "derived_features": 0
+          },
+          "total_exact_queries": 3,
+          "new_keys": [
+            "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604"
+          ],
+          "derived_keys": []
+        },
+        {
+          "context": "main",
+          "strength": "1/1024",
+          "frame": "identity",
+          "word": "HHHSUT",
+          "budget": 2,
+          "mode": "SYNTHESIZED_2",
+          "status": "ADMISSIBLE",
+          "frame_generators": [
+            [
+              "g0",
+              [
+                [
+                  [
+                    "x"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "y"
+                  ],
+                  [
+                    "8/7",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "g1",
+              [
+                [
+                  [
+                    "y"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "physical_generators": [
+            [
+              "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604",
+              [
+                [
+                  [
+                    "s"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "t"
+                  ],
+                  [
+                    "8/7",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "obs-492048d47c4384f75ae90b1f6f33517c44a0df11a63acf6223a95476f3c24b26",
+              [
+                [
+                  [
+                    "t"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "proof_digest": "d0ad7cb5a9530108597053551c1058d816352249150b1988c410578184136e6e",
+          "reads": {
+            "new_feature_queries": 1,
+            "source_reads_for_registration": 1,
+            "newly_registered": [
+              "obs-492048d47c4384f75ae90b1f6f33517c44a0df11a63acf6223a95476f3c24b26"
+            ],
+            "derived_features": 0
+          },
+          "total_exact_queries": 2,
+          "new_keys": [
+            "obs-492048d47c4384f75ae90b1f6f33517c44a0df11a63acf6223a95476f3c24b26"
+          ],
+          "derived_keys": []
+        }
+      ],
+      "certified": true,
+      "checkpoints": [],
+      "original_archives_unchanged": true,
+      "stock_counts": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "name": "unregistered-split",
+      "trace": [
+        {
+          "context": "mixed",
+          "strength": "0",
+          "frame": "split",
+          "word": "HHHSUT",
+          "budget": 2,
+          "mode": "SYNTHESIZED_1",
+          "status": "ADMISSIBLE",
+          "frame_generators": [
+            [
+              "g0",
+              [
+                [
+                  [
+                    "x",
+                    "x"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "y",
+                    "y"
+                  ],
+                  [
+                    "-1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "physical_generators": [
+            [
+              "obs-8eaeae2b3968a2f51bec978215d36cc4869844dd7f6b0277b57835013f317292",
+              [
+                [
+                  [
+                    "s",
+                    "t"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "proof_digest": "1b96de8e629a2bd5d4b184d5e28316442b91c70196e9380cd41769ecc4f45540",
+          "reads": {
+            "new_feature_queries": 1,
+            "source_reads_for_registration": 2,
+            "newly_registered": [
+              "obs-8eaeae2b3968a2f51bec978215d36cc4869844dd7f6b0277b57835013f317292"
+            ],
+            "derived_features": 0
+          },
+          "total_exact_queries": 3,
+          "new_keys": [
+            "obs-8eaeae2b3968a2f51bec978215d36cc4869844dd7f6b0277b57835013f317292"
+          ],
+          "derived_keys": []
+        },
+        {
+          "context": "mixed",
+          "strength": "1/1024",
+          "frame": "split",
+          "word": "HHHSUT",
+          "budget": 2,
+          "mode": "SYNTHESIZED_2",
+          "status": "ADMISSIBLE",
+          "frame_generators": [
+            [
+              "g0",
+              [
+                [
+                  [
+                    "x"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "y"
+                  ],
+                  [
+                    "-1/15",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "g1",
+              [
+                [
+                  [
+                    "x",
+                    "y"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "y",
+                    "y"
+                  ],
+                  [
+                    "-113/15",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "physical_generators": [
+            [
+              "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604",
+              [
+                [
+                  [
+                    "s"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "t"
+                  ],
+                  [
+                    "8/7",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "obs-5ce2ff375ff3cea84f4337c7c7ea9428c705c65b8fb8647ac2270708f8242814",
+              [
+                [
+                  [
+                    "s",
+                    "s"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "s",
+                    "t"
+                  ],
+                  [
+                    "-113/49",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "t",
+                    "t"
+                  ],
+                  [
+                    "64/49",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "proof_digest": "bd51d298c2ecf990e806015673308b1a55f936c7f56fafbe1509a309bd8dae27",
+          "reads": {
+            "new_feature_queries": 1,
+            "source_reads_for_registration": 2,
+            "newly_registered": [
+              "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604"
+            ],
+            "derived_features": 1
+          },
+          "total_exact_queries": 3,
+          "new_keys": [
+            "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604"
+          ],
+          "derived_keys": [
+            "obs-5ce2ff375ff3cea84f4337c7c7ea9428c705c65b8fb8647ac2270708f8242814"
+          ]
+        }
+      ],
+      "certified": true,
+      "checkpoints": [
+        {
+          "index": 0,
+          "phase": "BOUND",
+          "sha256": "88be0ea283efde0e4e3b4dd0304b3cfc02697ca7431551199eac3f4c665f4dd2",
+          "bytes": 48979
+        },
+        {
+          "index": 1,
+          "phase": "CHOSEN",
+          "sha256": "7d6e22362cbd5c6e209e4758a60a1253a9b41498ee69eb6ec9dfaeeeee1c4253",
+          "bytes": 49297
+        },
+        {
+          "index": 2,
+          "phase": "READY",
+          "sha256": "54884230eb2f3644cea8d83b0dcc239ac846e2ddf8002dbb112e1176dbf22e3e",
+          "bytes": 51688
+        },
+        {
+          "index": 3,
+          "phase": "BOUND",
+          "sha256": "18176bddeaa5ded28d5a34b7184f14f7732023bfd5a0e3324b0ce7202c298923",
+          "bytes": 52732
+        },
+        {
+          "index": 4,
+          "phase": "CHOSEN",
+          "sha256": "c50167bc34c55f0d7553e0f5c6584f08810ded16d3cbe4f2ed2ade75337b6d25",
+          "bytes": 53050
+        },
+        {
+          "index": 5,
+          "phase": "READY",
+          "sha256": "74aede07c77725fab47f6781945a91047d92b7bc3cde551f5aa8fde3c6808c93",
+          "bytes": 57604
+        },
+        {
+          "index": 6,
+          "phase": "STOPPED",
+          "sha256": "3536eb4eb092ccf2d5c4535fc1c04390dc1583e181c7d9530fe612648579725e",
+          "bytes": 155887
+        }
+      ],
+      "original_archives_unchanged": true,
+      "stock_counts": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "name": "word-and-frame",
+      "trace": [
+        {
+          "context": "mixed",
+          "strength": "1/1024",
+          "frame": "split",
+          "word": "HHHSUT",
+          "budget": 2,
+          "mode": "SYNTHESIZED_2",
+          "status": "ADMISSIBLE",
+          "frame_generators": [
+            [
+              "g0",
+              [
+                [
+                  [
+                    "x"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "y"
+                  ],
+                  [
+                    "-1/15",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "g1",
+              [
+                [
+                  [
+                    "x",
+                    "y"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "y",
+                    "y"
+                  ],
+                  [
+                    "-113/15",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "physical_generators": [
+            [
+              "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604",
+              [
+                [
+                  [
+                    "s"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "t"
+                  ],
+                  [
+                    "8/7",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "obs-5ce2ff375ff3cea84f4337c7c7ea9428c705c65b8fb8647ac2270708f8242814",
+              [
+                [
+                  [
+                    "s",
+                    "s"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "s",
+                    "t"
+                  ],
+                  [
+                    "-113/49",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "t",
+                    "t"
+                  ],
+                  [
+                    "64/49",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "proof_digest": "bd51d298c2ecf990e806015673308b1a55f936c7f56fafbe1509a309bd8dae27",
+          "reads": {
+            "new_feature_queries": 2,
+            "source_reads_for_registration": 2,
+            "newly_registered": [
+              "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604",
+              "obs-5ce2ff375ff3cea84f4337c7c7ea9428c705c65b8fb8647ac2270708f8242814"
+            ],
+            "derived_features": 0
+          },
+          "total_exact_queries": 4,
+          "new_keys": [
+            "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604",
+            "obs-5ce2ff375ff3cea84f4337c7c7ea9428c705c65b8fb8647ac2270708f8242814"
+          ],
+          "derived_keys": []
+        },
+        {
+          "context": "mixed",
+          "strength": "1/1024",
+          "frame": "shear",
+          "word": "HHHUST",
+          "budget": 2,
+          "mode": "SYNTHESIZED_2",
+          "status": "ADMISSIBLE",
+          "frame_generators": [
+            [
+              "g0",
+              [
+                [
+                  [
+                    "x"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "y"
+                  ],
+                  [
+                    "6",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "g1",
+              [
+                [
+                  [
+                    "x",
+                    "y"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "y",
+                    "y"
+                  ],
+                  [
+                    "34/15",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "physical_generators": [
+            [
+              "obs-cba0ca6d721dd62b64268dd4d7e64f001b01bd54c60515709017b9e9f86d30f6",
+              [
+                [
+                  [
+                    "s"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "t"
+                  ],
+                  [
+                    "7/8",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "obs-1a85f22ad7f6d2ec042556897e3e4405f7f7978de814e5bde20baa65b452a743",
+              [
+                [
+                  [
+                    "s",
+                    "s"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "s",
+                    "t"
+                  ],
+                  [
+                    "113/64",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "t",
+                    "t"
+                  ],
+                  [
+                    "49/64",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "proof_digest": "a5dc7e88991ef0c2508b1fdd5eba735fb83be2915855ba6158d488dd0a66d39c",
+          "reads": {
+            "new_feature_queries": 1,
+            "source_reads_for_registration": 2,
+            "newly_registered": [
+              "obs-cba0ca6d721dd62b64268dd4d7e64f001b01bd54c60515709017b9e9f86d30f6"
+            ],
+            "derived_features": 1
+          },
+          "total_exact_queries": 3,
+          "new_keys": [
+            "obs-cba0ca6d721dd62b64268dd4d7e64f001b01bd54c60515709017b9e9f86d30f6"
+          ],
+          "derived_keys": [
+            "obs-1a85f22ad7f6d2ec042556897e3e4405f7f7978de814e5bde20baa65b452a743"
+          ]
+        }
+      ],
+      "certified": true,
+      "checkpoints": [
+        {
+          "index": 0,
+          "phase": "BOUND",
+          "sha256": "46f2c74852b56280be19b9f5cbcfa0c8c08db7e567be651c0221710d960cfd16",
+          "bytes": 48982
+        },
+        {
+          "index": 1,
+          "phase": "CHOSEN",
+          "sha256": "395b144743018c825e3c2bbd0591d3af05d65cb7c8edbd56751c5f63d4b68ec5",
+          "bytes": 49300
+        },
+        {
+          "index": 2,
+          "phase": "READY",
+          "sha256": "54b723e4d34d10dfc90252577715c825ddb924df1e109e0538a82ad62c449326",
+          "bytes": 53852
+        },
+        {
+          "index": 3,
+          "phase": "BOUND",
+          "sha256": "9a28145bf57fa6ddae4e39f223c02a62d0ec0f39c5b0dd656f34ece95504486a",
+          "bytes": 54895
+        },
+        {
+          "index": 4,
+          "phase": "CHOSEN",
+          "sha256": "a82885cb555f9197523847d56da090937fe1cc8538b98243927737096bf71f2e",
+          "bytes": 55213
+        },
+        {
+          "index": 5,
+          "phase": "READY",
+          "sha256": "a04ec4e859e38b2b22adc086b7f90a2ece522ceec2e0f64f86396d9671feaa84",
+          "bytes": 58939
+        },
+        {
+          "index": 6,
+          "phase": "STOPPED",
+          "sha256": "c47d44b5932d892eee37e57e7bbd58400909108864161b4d17c17bebd32af635",
+          "bytes": 157212
+        }
+      ],
+      "original_archives_unchanged": true,
+      "stock_counts": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "name": "budget-recovery",
+      "trace": [
+        {
+          "context": "mixed",
+          "strength": "1/1024",
+          "frame": "shear",
+          "word": "HHHSUT",
+          "budget": 1,
+          "mode": "UNRESOLVED",
+          "status": "UNDETERMINED_FEATURE_COUNT_BUDGET",
+          "frame_generators": [
+            [
+              "g0",
+              [
+                [
+                  [
+                    "x"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "y"
+                  ],
+                  [
+                    "-9",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "physical_generators": [],
+          "proof_digest": "ad15161ac096b701ef50147970ac0ca53c7d6ec8ec502915a39016b055171e82",
+          "reads": {
+            "new_feature_queries": 0,
+            "source_reads_for_registration": 0,
+            "derived_features": 0
+          },
+          "total_exact_queries": 0,
+          "new_keys": [],
+          "derived_keys": []
+        },
+        {
+          "context": "mixed",
+          "strength": "1/1024",
+          "frame": "shear",
+          "word": "HHHSUT",
+          "budget": 2,
+          "mode": "SYNTHESIZED_2",
+          "status": "ADMISSIBLE",
+          "frame_generators": [
+            [
+              "g0",
+              [
+                [
+                  [
+                    "x"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "y"
+                  ],
+                  [
+                    "-9",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "g1",
+              [
+                [
+                  [
+                    "x",
+                    "y"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "y",
+                    "y"
+                  ],
+                  [
+                    "-79/15",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "physical_generators": [
+            [
+              "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604",
+              [
+                [
+                  [
+                    "s"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "t"
+                  ],
+                  [
+                    "8/7",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "obs-01410f9aa8ed51886dc41f3cf1b6cceac612c825201bc42150473ea04a855f4e",
+              [
+                [
+                  [
+                    "s",
+                    "s"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "s",
+                    "t"
+                  ],
+                  [
+                    "113/49",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "t",
+                    "t"
+                  ],
+                  [
+                    "64/49",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "proof_digest": "ee2a6ea49641b9c48114aad0c4a3a3870179120e0077a064ca2d550ee840dff9",
+          "reads": {
+            "new_feature_queries": 2,
+            "source_reads_for_registration": 2,
+            "newly_registered": [
+              "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604",
+              "obs-01410f9aa8ed51886dc41f3cf1b6cceac612c825201bc42150473ea04a855f4e"
+            ],
+            "derived_features": 0
+          },
+          "total_exact_queries": 4,
+          "new_keys": [
+            "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604",
+            "obs-01410f9aa8ed51886dc41f3cf1b6cceac612c825201bc42150473ea04a855f4e"
+          ],
+          "derived_keys": []
+        }
+      ],
+      "certified": true,
+      "checkpoints": [],
+      "original_archives_unchanged": true,
+      "stock_counts": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "name": "restore",
+      "trace": [
+        {
+          "context": "mixed",
+          "strength": "1/1024",
+          "frame": "split",
+          "word": "HHHSUT",
+          "budget": 2,
+          "mode": "SYNTHESIZED_2",
+          "status": "ADMISSIBLE",
+          "frame_generators": [
+            [
+              "g0",
+              [
+                [
+                  [
+                    "x"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "y"
+                  ],
+                  [
+                    "-1/15",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "g1",
+              [
+                [
+                  [
+                    "x",
+                    "y"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "y",
+                    "y"
+                  ],
+                  [
+                    "-113/15",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "physical_generators": [
+            [
+              "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604",
+              [
+                [
+                  [
+                    "s"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "t"
+                  ],
+                  [
+                    "8/7",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ],
+            [
+              "obs-5ce2ff375ff3cea84f4337c7c7ea9428c705c65b8fb8647ac2270708f8242814",
+              [
+                [
+                  [
+                    "s",
+                    "s"
+                  ],
+                  [
+                    "1",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "s",
+                    "t"
+                  ],
+                  [
+                    "-113/49",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ],
+                [
+                  [
+                    "t",
+                    "t"
+                  ],
+                  [
+                    "64/49",
+                    "0",
+                    "0",
+                    "0"
+                  ]
+                ]
+              ]
+            ]
+          ],
+          "proof_digest": "bd51d298c2ecf990e806015673308b1a55f936c7f56fafbe1509a309bd8dae27",
+          "reads": {
+            "new_feature_queries": 2,
+            "source_reads_for_registration": 2,
+            "newly_registered": [
+              "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604",
+              "obs-5ce2ff375ff3cea84f4337c7c7ea9428c705c65b8fb8647ac2270708f8242814"
+            ],
+            "derived_features": 0
+          },
+          "total_exact_queries": 4,
+          "new_keys": [
+            "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604",
+            "obs-5ce2ff375ff3cea84f4337c7c7ea9428c705c65b8fb8647ac2270708f8242814"
+          ],
+          "derived_keys": []
+        }
+      ],
+      "certified": true,
+      "checkpoints": [],
+      "original_archives_unchanged": true,
+      "stock_counts": [
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "retention_controls": [
+    {
+      "modes": [
+        "keep",
+        "keep"
+      ],
+      "status": "ADMISSIBLE",
+      "certified": true,
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "upper_endpoint": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "modes": [
+        "keep",
+        "erase"
+      ],
+      "status": "EMPTY",
+      "certified": false,
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "upper_endpoint": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "modes": [
+        "erase",
+        "keep"
+      ],
+      "status": "EMPTY",
+      "certified": false,
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "upper_endpoint": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "modes": [
+        "erase",
+        "erase"
+      ],
+      "status": "EMPTY",
+      "certified": false,
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "upper_endpoint": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "modes": [
+        "restore",
+        "restore"
+      ],
+      "status": "ADMISSIBLE",
+      "certified": true,
+      "local_endpoints": [
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "upper_endpoint": [
+        "1",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "declared_actual_bundles": 5,
+  "retention_control_motions": 5,
+  "checkpoint_stages": 14,
+  "catalogue_supplied_to_discovery": false,
+  "registration_costs_accounted": true,
+  "universal_minimal_observation_claimed": false,
+  "new_physical_connection_law_claimed": false
+}
