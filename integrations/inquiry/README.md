@@ -1,5 +1,17 @@
 # 精査を始める起点と、その後の成立判定
 
+## 固定した構成器を三輪へ渡す：RR69
+
+[入力・保証・三輪実行](../../docs/RR69_THREE_FLOWER_OBSERVATION_TRANSFER.md)。RR68の構成器と予算を固定し、RR65の厳密なsource族・RR53の接続則を三輪へ延長した有理演算へ渡す。多項式部分の恒等式保証を全除算のguardまで合成する。旧RR54の近似根の枝とは分ける。
+
+```sh
+python run_three_synthesis.py inspect --frame split
+python run_three_synthesis.py demo --frame split --out-dir .work/three-synthesis-demo
+python integrations/inquiry/validate_three_synthesis.py
+```
+
+288計画、五つの三輪実行、保持・消去・復元、14時点の保存再開。再計算先は`.work/rr69-local/`、固定記録はRR69ファイル群。
+
 ## 十分な観測を、要求の式から構成する：RR68
 
 [条件・保証・実行](../../docs/RR68_OBSERVATION_SYNTHESIS.md)。観測の固定候補を渡さず、全13作用・guard式から低次数の生成元を構成する。全再展開、動的登録、実行、保存再開を接続する。数値登録の元値読出しと、観測値の抽出を別に数える。

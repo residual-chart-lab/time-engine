@@ -1,0 +1,38 @@
+{
+  "schema": "time-engine-rr69-validation-v1",
+  "passed": true,
+  "tests": 141,
+  "test_counts": {
+    "test_three_flower_synthesis": 31,
+    "test_synthesized_session": 27,
+    "test_incremental_session": 22,
+    "test_adaptive_session": 34,
+    "test_mixed_action_sets": 27
+  },
+  "base_commit": "a189fc12382cdda3011c7b73c2e783821745a16c",
+  "unchanged_baseline_files": 375,
+  "input_commit": "828a7f9dd52855f10f27399d8dfb0f699e0323b0",
+  "input_sha256": "2a50ac6c2431d473555a9240c93defeaf58f9c07e26e66bbed2344f7b736c411",
+  "groups": 12,
+  "plans": 288,
+  "actual_three_flower_bundles": 5,
+  "retention_controls": 5,
+  "checkpoint_stages": 14,
+  "source_sha256": {
+    "integrations/inquiry/three_flower_synthesis.py": "a51b73af72cccb2e8f1cec73f72f8259b28b26d6d0375a5cfff053b15183afb1",
+    "integrations/inquiry/three_flower_session.py": "8dce242865104e54ba8ec03eda71b10940d5edbaf0b152a40ce8c00feed51f4a",
+    "integrations/inquiry/rr69_study.py": "6e18bdd8348270da01829526579f00d530185fc23e73db022bb3ad4725662038",
+    "integrations/inquiry/test_three_flower_synthesis.py": "45ec297bdd343f19b9d3294fc662fa9a674325edbe92b6cf70850dd5134407b6",
+    "integrations/inquiry/validate_three_synthesis.py": "69d4f0e9f38f142185f255804e576bd9f28f1dc3fb0f60e65f755297c54f40df",
+    "integrations/inquiry/RR69-inputs.json": "2a50ac6c2431d473555a9240c93defeaf58f9c07e26e66bbed2344f7b736c411",
+    "integrations/inquiry/RR69-BASELINE.json": "197f5325810788f5bb25c61bb85d06c11659bdc7bc568845f353133bbedeeb7a",
+    "integrations/inquiry/observation_synthesis.py": "407250087436ae8abe5dd487d9a2e9334fb45070e379ddbc04b9c857f706d5e0",
+    "run_three_synthesis.py": "17140bf6bc0992ec1396012af9e578ca6f0723a837cc6efbc82702058437a045"
+  },
+  "evidence_sha256": {
+    "starts.json": "1207525c03ceb0adc507b8e1f189ae0e9e4f4ad044b24c03a4cbbd63d9c170d6",
+    "result.json": "4ba62fbaf7862cd793683bf8786230d51f16bfeafb7a7b60e334c7f4202356c3",
+    "mixed-connected.record.json": "e9c12711a1a83ad0e00dc415dec22c304bdad6fd33e3bcb07e9a63c53b4dadb4",
+    "mixed-last-port.record.json": "e6a1ea7f211d33a1944224e1fe5b45ca08002fb4e78a0768b12b0f59eb760d15"
+  }
+}

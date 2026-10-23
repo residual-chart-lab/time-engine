@@ -10,6 +10,7 @@
 
 | 用途 | 入口 |
 |---|---|
+| 固定した観測構成器を、三輪の要求へ渡す | [RR69：三輪への観測保証の接続](docs/RR69_THREE_FLOWER_OBSERVATION_TRANSFER.md) |
 | 候補を渡さず、要求の式から十分な観測を構成する | [RR68：観測の構成と実行](docs/RR68_OBSERVATION_SYNTHESIS.md) |
 | 要求変更で、どの式と保証を計算し直すか取り出す | [RR67：要求の変更と、計算・証明の再利用](docs/RR67_INCREMENTAL_DEMAND_PROOFS.md) |
 | 要求に応じて必要な観測を選び、同じ履歴で切り替える | [RR66：同一性の解像度を変える実行器](docs/RR66_ADAPTIVE_IDENTITY_RESOLUTION.md) |
