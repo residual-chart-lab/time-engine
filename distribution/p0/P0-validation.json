@@ -1,0 +1,53 @@
+{
+  "schema": "time-engine-p0-validation-v1",
+  "date": "2026-10-24",
+  "passed": true,
+  "source_commit": "1c185365bfcb2ea9f6c52c73ba263cf48c356d32",
+  "archive": {
+    "name": "time-engine-p0.zip",
+    "bytes": 3498756,
+    "sha256": "91d9218bd368d7987e13ac2a14440ad38ed84d0d227b1102f225fdb0ef89fc4d"
+  },
+  "integrity": {
+    "passed": true,
+    "files": 429,
+    "manifest_sha256": "fcc23ef98c4f2f4972c956f1e1ed87a3e5ca3814dc795a0b27f6042d35d490bf"
+  },
+  "acceptance": {
+    "schema": "time-engine-p0-acceptance-v1",
+    "passed": true,
+    "integrity": {
+      "passed": true,
+      "files": 429,
+      "manifest_sha256": "fcc23ef98c4f2f4972c956f1e1ed87a3e5ca3814dc795a0b27f6042d35d490bf"
+    },
+    "runtime": {
+      "python": "3.14.3",
+      "system": "Windows",
+      "platform": "Windows-11-10.0.26200-SP0"
+    },
+    "source_commit": "1c185365bfcb2ea9f6c52c73ba263cf48c356d32",
+    "initial_resolution_exact_reads": 4,
+    "repeated_resolution_exact_reads": 0,
+    "saved_after": "CLOSED1",
+    "resumed": true,
+    "phase": "STOPPED",
+    "certified": true,
+    "stock": 9,
+    "executed_from_unpacked_candidate": true
+  },
+  "reproducible_from_unpacked_files": true,
+  "byte_identical_rebuild": true,
+  "builder_environment": {
+    "python": "3.12.14",
+    "zlib": "1.3.2"
+  },
+  "negative_checks": {
+    "modified_package_file_rejected": true,
+    "modified_frozen_source_rejected": true
+  },
+  "source_unit_tests_reused": 8,
+  "full_historical_suite_rerun": false,
+  "P0_independent_audit": false,
+  "P0_linux_tested": false
+}

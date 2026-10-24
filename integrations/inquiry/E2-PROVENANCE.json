@@ -1,0 +1,75 @@
+{
+  "schema": "time-engine-e2-provenance-v1",
+  "date": "2026-10-24",
+  "base_commit": "35e402979fcaab419d2756dddc6ee7e4b4241a28",
+  "base_tree": "364e833d1daa8fd0191f806cd068e9412a687e8e",
+  "unchanged_audited_files": 409,
+  "unchanged_E1_implementation": true,
+  "E1_audited_head": "0f708c1d35eda52415a24347839d122046cf595b",
+  "E1_audit_commit": "f88e5b1fa1d056ad6d28f0eeb04d498cbd3ec255",
+  "source_and_evidence": [
+    {
+      "path": "run_time_engine.py",
+      "sha256": "5a7a3986da1c01eacb9860026ea31406f5720fc4c57309a31142d9057ab41fc0",
+      "bytes": 3157
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "221397a11b9f40c0fd9050b4ddbb53bb02efb8cbea109c54a87ce819f8faef40",
+      "bytes": 858
+    },
+    {
+      "path": "examples/e2-three-flowers.jsonl",
+      "sha256": "f36222dea1fd8dd0c72e9a34305639368972dbf4836482b7c1a6d9a0abc822fb",
+      "bytes": 259
+    },
+    {
+      "path": "docs/ENTRY_TRANSPORT_E1_STATUS.md",
+      "sha256": "f6428fa6baaf1eabbaf170a77d0682041dda8d098caf798d792d67ac8257c39d",
+      "bytes": 1898
+    },
+    {
+      "path": "docs/STEP_SESSION_E2.md",
+      "sha256": "163fb88e26c8c5e94dee60936f2a356ee5283ab2301a204ab5bf6e49548e6fdf",
+      "bytes": 6581
+    },
+    {
+      "path": "integrations/inquiry/step_session.py",
+      "sha256": "c82634ae4f1aa9757450f48d4d1a9e6d49df35a5e29a59e9dbf0690e32683882",
+      "bytes": 7808
+    },
+    {
+      "path": "integrations/inquiry/test_step_session.py",
+      "sha256": "81ec8b4b796a604c16a2998d781f0318f84f101b7f865c2be8f525379deb7764",
+      "bytes": 9019
+    },
+    {
+      "path": "integrations/inquiry/validate_step_session.py",
+      "sha256": "aea5f474b83b5d53f62b53e9fb8d01e94031988bcff845f5ef487b2cb1720de7",
+      "bytes": 2318
+    },
+    {
+      "path": "integrations/inquiry/E2-validation.json",
+      "sha256": "6bd70ac47943f3e736f8c7023898b7705b43d7809be17f41cefcf21bb2d98501",
+      "bytes": 1168
+    },
+    {
+      "path": "integrations/inquiry/E2-validation.log",
+      "sha256": "e8fa62783e632efb4236f3a575f04f80c2d0453fd36cbd0851aa94f9b6f88e35",
+      "bytes": 1383
+    },
+    {
+      "path": "integrations/inquiry/E2-python314-resume.json",
+      "sha256": "a48521e8fb3e827aa8e427eda0066f2b3dc2fdf405dda9b5dcdc28ce9af9572b",
+      "bytes": 854
+    },
+    {
+      "path": "integrations/inquiry/E2-python314-resume.jsonl",
+      "sha256": "0acef04cf58e76635fa1162e89a7b44a1cd59bcf0ec9e7beec02f5e06340d818",
+      "bytes": 2558
+    }
+  ],
+  "provenance_self_hash_excluded": true,
+  "new_tests": 8,
+  "full_existing_suite_rerun": false
+}

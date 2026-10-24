@@ -1,0 +1,57 @@
+{
+  "schema": "time-engine-p0-provenance-v1",
+  "date": "2026-10-24",
+  "base_commit": "1c185365bfcb2ea9f6c52c73ba263cf48c356d32",
+  "base_tree": "b8e988ff1f04da038ec43454a45ec9d1e52a370a",
+  "unchanged_source_files": 422,
+  "source_and_evidence": [
+    {
+      "path": "build_candidate.py",
+      "sha256": "29d182a321a272397edb8960b0a23eac6e9868546b433cd2e7740e30676dd764",
+      "bytes": 3715
+    },
+    {
+      "path": "docs/P0_TECHNICAL_CANDIDATE.md",
+      "sha256": "d037289263a8312c53ec4f598203f5adeeda98a04f190769633fcea8779604a8",
+      "bytes": 3194
+    },
+    {
+      "path": "distribution/p0/README.md",
+      "sha256": "de8f4e7751b3661d9b3fc1356599ba74d6d4528b634850a177d5ae68738994f8",
+      "bytes": 2961
+    },
+    {
+      "path": "distribution/p0/AI_HANDOFF.md",
+      "sha256": "d2d3854350f9148201bdad5d14ce1843addaf4dab7bd7a7fffe481257e8b448a",
+      "bytes": 2949
+    },
+    {
+      "path": "distribution/p0/verify_package.py",
+      "sha256": "e8cb2d1b3ad8946d1a81c706e086a8da132632fded7200a09cbf8eb00e89140f",
+      "bytes": 1558
+    },
+    {
+      "path": "distribution/p0/smoke_test.py",
+      "sha256": "caed47dce4e69bea6f2986dcff86fd0e7c1cc003ea6bd6e5644559bb84f44c6e",
+      "bytes": 3833
+    },
+    {
+      "path": "distribution/p0/P0-SOURCE.json",
+      "sha256": "f122489c4ab328dd5fb4f568942a3f12b84fbe23d19efb413f043f28e173e6e0",
+      "bytes": 75753
+    },
+    {
+      "path": "distribution/p0/P0-validation.json",
+      "sha256": "24ab4a7963d200337b7aaf9f93ca603cfb1e56727ff9c1855719a151b9c3b26b",
+      "bytes": 1543
+    }
+  ],
+  "provenance_self_hash_excluded": true,
+  "archive_sha256": "91d9218bd368d7987e13ac2a14440ad38ed84d0d227b1102f225fdb0ef89fc4d",
+  "archive_bytes": 3498756,
+  "archive_files": 430,
+  "smoke_from_unpacked_candidate": true,
+  "reproducible_from_unpacked_candidate": true,
+  "independent_audit": false,
+  "linux_tested": false
+}
