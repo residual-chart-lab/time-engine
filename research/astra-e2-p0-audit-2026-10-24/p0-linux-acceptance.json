@@ -1,0 +1,23 @@
+{
+  "schema": "time-engine-p0-acceptance-v1",
+  "passed": true,
+  "integrity": {
+    "passed": true,
+    "files": 429,
+    "manifest_sha256": "fcc23ef98c4f2f4972c956f1e1ed87a3e5ca3814dc795a0b27f6042d35d490bf"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "system": "Linux",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39"
+  },
+  "source_commit": "1c185365bfcb2ea9f6c52c73ba263cf48c356d32",
+  "initial_resolution_exact_reads": 4,
+  "repeated_resolution_exact_reads": 0,
+  "saved_after": "CLOSED1",
+  "resumed": true,
+  "phase": "STOPPED",
+  "certified": true,
+  "stock": 9,
+  "executed_from_unpacked_candidate": true
+}

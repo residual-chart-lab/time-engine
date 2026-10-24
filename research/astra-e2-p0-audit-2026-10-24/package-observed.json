@@ -1,0 +1,10 @@
+{
+  "source_commit": "1c185365bfcb2ea9f6c52c73ba263cf48c356d32",
+  "source_blob_sha_matches": 422,
+  "changed_source_build_rejected": true,
+  "byte_identical_rebuild": true,
+  "zip_bytes": 3498756,
+  "zip_sha256": "91d9218bd368d7987e13ac2a14440ad38ed84d0d227b1102f225fdb0ef89fc4d",
+  "first_rebuild_artifact_inconsistent": true,
+  "first_rebuild_note": "Initial rebuild log reported the expected SHA, but later file inspection found a truncated ZIP. Cause not established. Separate-output rebuild and direct byte comparison succeeded."
+}

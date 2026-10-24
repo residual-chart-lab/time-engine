@@ -1,0 +1,11 @@
+{
+  "schema": "time-engine-p0-build-v1",
+  "passed": true,
+  "archive": "time-engine-p0.zip",
+  "sha256": "91d9218bd368d7987e13ac2a14440ad38ed84d0d227b1102f225fdb0ef89fc4d",
+  "bytes": 3498756,
+  "source_files": 422,
+  "archive_files": 430,
+  "source_commit": "1c185365bfcb2ea9f6c52c73ba263cf48c356d32",
+  "manifest_sha256": "fcc23ef98c4f2f4972c956f1e1ed87a3e5ca3814dc795a0b27f6042d35d490bf"
+}

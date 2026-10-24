@@ -1,0 +1,97 @@
+{
+  "pinned_commit": "f60fad90fcadaccf438c29a2f1a21bbf532dfea3",
+  "request_transitions": [
+    {
+      "label": "mixed",
+      "phase": "READY",
+      "action": "ADMISSIBLE",
+      "work": {
+        "new_feature_queries": 2,
+        "source_reads_for_registration": 2,
+        "newly_registered": [
+          "obs-1e1a22af0661f198d7e9c0e40bdb8a819890cd6c400200b3f007969f6ba06604",
+          "obs-5ce2ff375ff3cea84f4337c7c7ea9428c705c65b8fb8647ac2270708f8242814"
+        ],
+        "derived_features": [],
+        "total_exact_queries": 4
+      }
+    },
+    {
+      "label": "outside",
+      "phase": "REJECTED",
+      "action": "UNKNOWN_CHART",
+      "work": {}
+    },
+    {
+      "label": "zero",
+      "phase": "REJECTED",
+      "action": "EMPTY",
+      "work": {}
+    },
+    {
+      "label": "restricted",
+      "phase": "REJECTED",
+      "action": "EMPTY",
+      "work": {
+        "new_feature_queries": 0,
+        "source_reads_for_registration": 0,
+        "newly_registered": [],
+        "derived_features": [],
+        "total_exact_queries": 0
+      }
+    },
+    {
+      "label": "mixed_return",
+      "phase": "READY",
+      "action": "ADMISSIBLE",
+      "work": {
+        "new_feature_queries": 0,
+        "source_reads_for_registration": 0,
+        "newly_registered": [],
+        "derived_features": [],
+        "total_exact_queries": 0
+      }
+    }
+  ],
+  "restored_changed_requests_exactly": true,
+  "completed_certified": true,
+  "tampered_checkpoints": [
+    {
+      "name": "request",
+      "rejected": true,
+      "error": "request, observations, actual history or command chronology changed"
+    },
+    {
+      "name": "journal",
+      "rejected": true,
+      "error": "request, observations, actual history or command chronology changed"
+    },
+    {
+      "name": "reads",
+      "rejected": true,
+      "error": "request, observations, actual history or command chronology changed"
+    },
+    {
+      "name": "graph",
+      "rejected": true,
+      "error": "request, observations, actual history or command chronology changed"
+    },
+    {
+      "name": "cache",
+      "rejected": true,
+      "error": "request, observations, actual history or command chronology changed"
+    }
+  ],
+  "nested_command": {
+    "bytes": 2225,
+    "limit": 16384,
+    "returncode": 0,
+    "last_output_phase": "CLOSED1",
+    "recursion_error": false,
+    "continued_after_error": true
+  },
+  "package_negatives": [
+    "changed_file_rejected",
+    "extra_file_rejected"
+  ]
+}
