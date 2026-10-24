@@ -1,0 +1,29 @@
+{
+  "schema": "time-engine-p0-startup-guide-check-v1",
+  "date": "2026-10-24",
+  "passed": true,
+  "python_versions": [
+    "Python 3.12.14",
+    "Python 3.14.3"
+  ],
+  "system": "Windows",
+  "shell": "PowerShell",
+  "working_directory_outside_package": true,
+  "working_directory_contains_spaces": true,
+  "package_verification": {
+    "passed": true,
+    "files": 429,
+    "manifest_sha256": "fcc23ef98c4f2f4972c956f1e1ed87a3e5ca3814dc795a0b27f6042d35d490bf"
+  },
+  "initial_phase": "UNBOUND",
+  "initial_stock": 6,
+  "resumed_phase": "CLOSED1",
+  "resumed_stock": 7,
+  "checkpoint_sha256": "7eeacc493777697c6dec70831b9307f20918edc1d6fd566fe08d61582199a476",
+  "full_motion_rerun": false,
+  "full_test_suite_rerun": false,
+  "bash_snippet_executed": false,
+  "audited_package_modified": false,
+  "base_commit": "50682f53d461c675d0adf54e6d62f68d7507fd57",
+  "startup_guide_sha256": "26d933648494b4395228e9c583aed2dad4d713ae0b4e489cffd133cb845c9f42"
+}
