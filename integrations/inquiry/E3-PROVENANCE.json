@@ -1,0 +1,55 @@
+{
+  "schema": "time-engine-e3-feedback-provenance-v1",
+  "date": "2026-10-24",
+  "base_commit": "57021585f53070132d5aa8a17a17312529f2e5a9",
+  "changed_existing_files": [
+    "integrations/inquiry/step_session.py"
+  ],
+  "unchanged_existing_files": 436,
+  "source_and_evidence": [
+    {
+      "path": "integrations/inquiry/step_session.py",
+      "sha256": "3dcfe2606f26a948a62fa9be3d05a316f313269d005592fbe495b5822740085f",
+      "bytes": 8823
+    },
+    {
+      "path": "integrations/inquiry/test_phase_feedback.py",
+      "sha256": "a17115112325ca772240461780767669e420851097807079cf128e638a63f1fc",
+      "bytes": 4673
+    },
+    {
+      "path": "integrations/inquiry/validate_phase_feedback.py",
+      "sha256": "adc7d311de0a046742ba71fedcbd92c78cf4f984406705473a843e806b2251ae",
+      "bytes": 1599
+    },
+    {
+      "path": "integrations/inquiry/fixtures/P0-first-use-CLOSED1.record.json",
+      "sha256": "7eeacc493777697c6dec70831b9307f20918edc1d6fd566fe08d61582199a476",
+      "bytes": 98217
+    },
+    {
+      "path": "integrations/inquiry/E3-validation.json",
+      "sha256": "5c467a0bfbe44631aee5455f4e7332875ba768649c952a98c938769fafb9ac8f",
+      "bytes": 1505
+    },
+    {
+      "path": "integrations/inquiry/E3-validation.log",
+      "sha256": "fb477eb968b1bebbac8087a8463d37bc2608522dc18880a9f05ff9c1476bedec",
+      "bytes": 1881
+    },
+    {
+      "path": "docs/E3_DECISION_FEEDBACK.md",
+      "sha256": "9b3430be2aa616a9350264661fc83d32b1fe976f0a7aa3b43767c2135b030670",
+      "bytes": 5107
+    }
+  ],
+  "provenance_self_hash_excluded": true,
+  "tests": 11,
+  "new_tests": 3,
+  "existing_E2_tests": 8,
+  "checkpoint_schema_changed": false,
+  "legacy_P0_checkpoint_bytes_preserved": true,
+  "P0_archive_modified": false,
+  "P0_archive_sha256": "91d9218bd368d7987e13ac2a14440ad38ed84d0d227b1102f225fdb0ef89fc4d",
+  "independent_audit": false
+}

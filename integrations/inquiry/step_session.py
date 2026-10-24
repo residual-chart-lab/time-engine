@@ -64,6 +64,22 @@ class Session:
     def receive(cls, raw, trusted_sha256, expected_entry_digest):
         return cls(wire.loads(raw, trusted_sha256, expected_entry_digest))
 
+    def phase_operations(self):
+        """Phase/budget hints only; apply still validates every command."""
+        operations = ['status', 'save', 'quit']
+        if len(self._journal) >= MAX_COMMANDS:
+            return operations
+        state = self.state
+        if state is None:
+            return ['bind', *operations]
+        if not state.flowers and state.phase != 'STOPPED':
+            operations = ['bind', 'choose', *operations]
+        if state.phase == 'CHOSEN':
+            operations.insert(0, 'resolve')
+        if state.phase in ('READY', 'CLOSED1', 'CLOSED2', 'CLOSED3'):
+            operations.insert(0, 'advance')
+        return operations
+
     def status(self):
         state = self.state
         return dict(entry=self.entry.digest, phase='UNBOUND' if state is None else state.phase,
@@ -74,7 +90,11 @@ class Session:
                     stock=len(self.entry.base.engine.stock if state is None else state.engine.stock),
                     certified=False if state is None else state.certified,
                     cached_observations=len(self._cache), accepted_commands=len(self._journal),
-                    numerical_reads=self._numerical_reads, last_resolution_work=self._last_work)
+                    numerical_reads=self._numerical_reads, last_resolution_work=self._last_work,
+                    plan_status=None if state is None or state.plan is None else state.plan.status,
+                    assessment_status=None if state is None or state.action is None else state.action.status,
+                    phase_operations=self.phase_operations(),
+                    commands_remaining=max(0, MAX_COMMANDS-len(self._journal)))
 
     def apply(self, command):
         if type(command) is not dict or len(json.dumps(command)) > MAX_COMMAND_BYTES:
