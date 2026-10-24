@@ -10,6 +10,7 @@
 
 | 用途 | 入口 |
 |---|---|
+| 自由数の原典・実装・検証へ、問いから進む | [自由数への読書案内](docs/FREE_NUMBERS_READING_PATH.md) |
 | 固定した観測構成器を、三輪の要求へ渡す | [RR69：三輪への観測保証の接続](docs/RR69_THREE_FLOWER_OBSERVATION_TRANSFER.md) |
 | 候補を渡さず、要求の式から十分な観測を構成する | [RR68：観測の構成と実行](docs/RR68_OBSERVATION_SYNTHESIS.md) |
 | 要求変更で、どの式と保証を計算し直すか取り出す | [RR67：要求の変更と、計算・証明の再利用](docs/RR67_INCREMENTAL_DEMAND_PROOFS.md) |
