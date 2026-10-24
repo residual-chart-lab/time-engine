@@ -1,0 +1,11 @@
+{
+  "local_link_occurrences": 44,
+  "local_unique": 38,
+  "fixed_upstream_occurrences": 15,
+  "fixed_upstream_unique": 14,
+  "audit_links": [
+    "https://github.com/residual-chart-lab/time-engine/blob/1583d9a84800ed0259340db4eb1f07fcc4c5e8a0/research/astra-e2-p0-audit-2026-10-24/REVIEW.md",
+    "https://github.com/residual-chart-lab/time-engine/blob/f88e5b1fa1d056ad6d28f0eeb04d498cbd3ec255/research/astra-e1-audit-2026-10-23/REVIEW.md"
+  ],
+  "all_checked_paths_present": true
+}

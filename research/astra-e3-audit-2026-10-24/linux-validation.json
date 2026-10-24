@@ -1,0 +1,42 @@
+{
+  "schema": "time-engine-state-view-validation-v1",
+  "date": "2026-10-24",
+  "passed": true,
+  "tests": 14,
+  "new_tests": 3,
+  "existing_E3_tests": 3,
+  "existing_E2_tests": 8,
+  "runtime": {
+    "python": "3.12.14",
+    "system": "Linux"
+  },
+  "isolation": {
+    "nested_views_detached": true,
+    "checkpoint_bytes_unchanged": true,
+    "view_exact_reads": 0,
+    "restore_after_view_edits": true
+  },
+  "rejection": {
+    "status_as_entry_rejected": true,
+    "status_as_checkpoint_rejected": true,
+    "numeric_summary_as_checkpoint_rejected": true,
+    "summary_inside_checkpoint_rejected": true
+  },
+  "provenance": {
+    "same_values_replaced_origin_rejected": true,
+    "physical_graph_preserved_in_counterfeit": true,
+    "original_record_restored": true,
+    "legacy_checkpoint_sha256": "7eeacc493777697c6dec70831b9307f20918edc1d6fd566fe08d61582199a476"
+  },
+  "checkpoint_schema_changed": false,
+  "source_sha256": {
+    "integrations/inquiry/step_session.py": "b21d235eafbd1d3e267db8c062cd038839c322294cbe573b5ae3a8f1e28226fc",
+    "integrations/inquiry/test_state_view.py": "b7164554149ecbc1e6b2663b555fb2428e512a052d8027ab2f493bf6ffb49f47",
+    "integrations/inquiry/validate_state_view.py": "ba15a7cc3041ad17b6376190159acc8f383ee233d1ae75a7fe7acd09b6c083f4",
+    "integrations/inquiry/test_phase_feedback.py": "a17115112325ca772240461780767669e420851097807079cf128e638a63f1fc",
+    "integrations/inquiry/test_step_session.py": "81ec8b4b796a604c16a2998d781f0318f84f101b7f865c2be8f525379deb7764",
+    "integrations/inquiry/fixtures/P0-first-use-CLOSED1.record.json": "7eeacc493777697c6dec70831b9307f20918edc1d6fd566fe08d61582199a476"
+  },
+  "full_historical_suite_rerun": false,
+  "independent_audit": false
+}
