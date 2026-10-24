@@ -4,6 +4,7 @@ Entry authentication happens once. A new request clears the old permission,
 while authenticated observations can be reused before physical execution.
 """
 from dataclasses import replace
+from copy import deepcopy
 from fractions import Fraction as Q
 import hashlib
 import json
@@ -13,6 +14,7 @@ import three_flower_session as live
 from three_flower_session import n, a, m
 
 SCHEMA = 'time-engine-step-session-e2-v1'
+VIEW_SCHEMA = 'time-engine-session-view-v1'
 MAX_COMMANDS = 64
 MAX_COMMAND_BYTES = 16384
 MAX_SNAPSHOT_BYTES = 2_000_000
@@ -81,16 +83,17 @@ class Session:
         return operations
 
     def status(self):
+        """Return a detached readout, never a transferable execution state."""
         state = self.state
-        return dict(entry=self.entry.digest, phase='UNBOUND' if state is None else state.phase,
-                    requirement=self._request,
+        return dict(schema=VIEW_SCHEMA, entry=self.entry.digest, phase='UNBOUND' if state is None else state.phase,
+                    requirement=deepcopy(self._request),
                     choice=None if state is None or state.choice is None else
                     dict(v=str(state.choice[0]), u=str(state.choice[1]), word=state.choice[2]),
                     closed_flowers=0 if state is None else len(state.flowers),
                     stock=len(self.entry.base.engine.stock if state is None else state.engine.stock),
                     certified=False if state is None else state.certified,
                     cached_observations=len(self._cache), accepted_commands=len(self._journal),
-                    numerical_reads=self._numerical_reads, last_resolution_work=self._last_work,
+                    numerical_reads=self._numerical_reads, last_resolution_work=deepcopy(self._last_work),
                     plan_status=None if state is None or state.plan is None else state.plan.status,
                     assessment_status=None if state is None or state.action is None else state.action.status,
                     phase_operations=self.phase_operations(),

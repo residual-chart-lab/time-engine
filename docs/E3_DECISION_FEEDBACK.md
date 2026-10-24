@@ -70,3 +70,21 @@ python -I integrations/inquiry/validate_phase_feedback.py
 P0 ZIPの固定元sourceや同梱ファイルをE3に差し替えない。P0を再構築する場合は、監査済みP0の展開先にある `build_candidate.py`、または固定版 `f60fad90fcadaccf438c29a2f1a21bbf532dfea3` を使う。
 
 E3作業木はP0固定元の422ファイルとは異なるので、P0専用builderはそのままではsource変更として拒否する。E3を配布する際には、別候補としてsourceを固定し、名前とSHAを付ける。今回は判定応答を強化した実行版までとする。
+
+## 追補：表示と状態の境界
+
+自由数を知らない受け手も状態を落とさず使えるよう、statusに`schema: time-engine-session-view-v1`を付け、要求と費用の入れ子を内部から切り離した。従来はPythonの返答中の要求を書き換えると、内部の要求記録とjournalにも影響した。今回、その再現を確認して修正した。作用の認証を突破したという結果ではない。
+
+[状態と表示の扱い](STATE_AND_VALUE.md)に、通常利用の三つの約束と、実装を変える際の境界を記載した。表示は再開記録ではなく、値の一致だけから元の保持状態を再構成する入口は設けない。checkpoint形式は変えていない。
+
+```text
+python -I integrations/inquiry/validate_state_view.py
+```
+
+追補の新3件と、上記E3の3件・既存E2の8件を合わせて14テスト。現在のsourceと結果は`integrations/inquiry/STATE-VIEW-validation.json`、`.log`、`STATE-VIEW-PROVENANCE.json`に固定する。先の`E3-validation.*`と`E3-PROVENANCE.json`は追補前の版の記録として保持する。
+
+- status/applyの返答の入れ子を編集しても、内部の要求・journal・費用・保存バイト列が変わらず、再開できる。表示取得の数値読出しは0。
+- 外部SHAを付けた表示や数値要約でも、入口・再開記録の代わりにはならない。完全記録のcurrentだけ表示へ置き換えたものも拒否する。
+- 数値と物理履歴を保ったまま保持数の由来だけを差し替えた再開記録は、SHAを計算し直しても拒否する。原記録は再開できる。この試験は搬送境界の確認であり、合法な二状態で新しい後続差を発見した実験とは数えない。
+
+独立監査・全過去検査は追加していない。
