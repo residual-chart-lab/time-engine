@@ -63,7 +63,7 @@ python -I integrations/inquiry/validate_phase_feedback.py
 - 三輪完了後に表示リストを書き換えても、余分なadvanceは拒否される。
 - 命令予算が尽きても保存と状態確認の案内が残る。
 
-結果は `integrations/inquiry/E3-validation.json` と `.log`。今回のE3について独立監査・Linux/別Python実行を済ませたとは数えない。E1や過去の全件検査は繰り返していない。
+結果は `integrations/inquiry/E3-validation.json` と `.log`。この記録の作成時点では、独立監査・Linux/別Python実行を済ませたとは数えていなかった。後述のAstra監査でLinuxの14テストが通過した。E1や過去の全件検査は繰り返していない。
 
 ## P0との版の区別
 
@@ -88,3 +88,9 @@ python -I integrations/inquiry/validate_state_view.py
 - 数値と物理履歴を保ったまま保持数の由来だけを差し替えた再開記録は、SHAを計算し直しても拒否する。原記録は再開できる。この試験は搬送境界の確認であり、合法な二状態で新しい後続差を発見した実験とは数えない。
 
 独立監査・全過去検査は追加していない。
+
+## Astra独立監査の受入
+
+2026-10-24。[固定監査報告](https://github.com/residual-chart-lab/time-engine/blob/0dd5e8b71cc094a69c50a8d8c6899581789d505e/research/astra-e3-audit-2026-10-24/REVIEW.md)で、`ccc0b93840e207ce9c3b2630acdf359a66bc2b54`のE3実装と読書案内がPASS。Linux CPython 3.12.14で14テストが通過し、旧P0のCLOSED1記録も同じバイト列で復旧した。
+
+P0の構築元を明示する手順指摘を受け、P0受入状況と旧候補紹介を補修した。作用・認証・保持・checkpoint形式は変更していない。保存済みのE3検証JSON等の`independent_audit: false`は当時の出力として保持し、その後の監査は上記報告を根拠にする。E3はP0に含まれない別の固定成果であり、E3入りの新しい配布候補の梱包・受入はまだ行っていない。

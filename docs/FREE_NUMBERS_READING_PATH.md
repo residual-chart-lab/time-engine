@@ -83,4 +83,4 @@ Claims Ledgerの`PROVED`、`EXACT-CHECK`、`LEAN`、`SPECIFICATION`、`OPEN`は�
 
 ## この案内の版
 
-2026-10-24。次候補E3とともに整備している読書案内。E3の表示追加は独立監査前であり、監査済みP0 ZIPへ差し替えていない。案内自体は新しい定理・数値実験・監査結果を追加しない。自由数Core、runtime、TEで採用した作用則、それを使うAIの行動は、それぞれの根拠へ辿って確認する。
+2026-10-24。次候補E3とともに整備している読書案内。E3の実装とこの読書案内は、固定版`ccc0b938`で[Astraの独立監査](https://github.com/residual-chart-lab/time-engine/blob/0dd5e8b71cc094a69c50a8d8c6899581789d505e/research/astra-e3-audit-2026-10-24/REVIEW.md)を通過した。監査済みP0 ZIPへE3を差し替えてはいない。案内自体は新しい定理・数値実験・監査結果を追加しない。自由数Core、runtime、TEで採用した作用則、それを使うAIの行動は、それぞれの根拠へ辿って確認する。
