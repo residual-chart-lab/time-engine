@@ -1,0 +1,44 @@
+name: Monday TE one-shot (isolated)
+on:
+  push:
+    branches: [monday-te-one-shot-20261026]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  execute:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 57021585f53070132d5aa8a17a17312529f2e5a9
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify immutable checkout
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "57021585f53070132d5aa8a17a17312529f2e5a9"
+          sha256sum integrations/inquiry/E1-entry.record.json
+      - name: Execute E2 TE in one session
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -I run_time_engine.py \
+            --entry integrations/inquiry/E1-entry.record.json \
+            --trusted-sha256 d71a430cf049b645dd44d6ebfd9870acfe00ed2b3ac54d1b5766641fa1f805a3 \
+            --expected-entry-digest 24ccd25412e46f5051ee5e48325358f8f62a66ce1244b69ce65fa57abce6f5de \
+            < examples/e2-three-flowers.jsonl > te-one-shot-output.jsonl
+          python - <<'PY'
+          import json, pathlib
+          records = [json.loads(s) for s in pathlib.Path('te-one-shot-output.jsonl').read_text().splitlines()]
+          for row in records:
+              state = row.get('status', {})
+              print(json.dumps({'ok':row.get('ok'), 'event':row.get('event'), 'phase':state.get('phase'), 'closed_flowers':state.get('closed_flowers'), 'certified':state.get('certified')}, ensure_ascii=False))
+          assert records and all(r.get('ok') is True for r in records), 'E2 command error'
+          final = records[-1]['status']
+          assert final['phase'] == 'STOPPED' and final['closed_flowers'] == 3 and final['certified'], 'TE completion not certified'
+          print('MONDAY_TE_ONE_SHOT_PASS')
+          PY
