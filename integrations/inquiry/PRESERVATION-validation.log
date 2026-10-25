@@ -1,0 +1,14 @@
+test_changed_scope_invalid_projection_and_report_as_permission_are_rejected (test_preservation_targets.PreservationTests.test_changed_scope_invalid_projection_and_report_as_permission_are_rejected) ... ok
+test_prediction_matches_independent_matrices_and_real_closure_controls (test_preservation_targets.PreservationTests.test_prediction_matches_independent_matrices_and_real_closure_controls) ... ok
+test_real_external_cli_reports_the_targets_and_rejects_invalid_input (test_preservation_targets.PreservationTests.test_real_external_cli_reports_the_targets_and_rejects_invalid_input) ... ok
+test_same_current_endpoint_can_lose_the_declared_continuation_without_erasing_the_archive (test_preservation_targets.PreservationTests.test_same_current_endpoint_can_lose_the_declared_continuation_without_erasing_the_archive) ... ok
+test_two_empty_action_sets_are_not_reported_as_a_success (test_preservation_targets.PreservationTests.test_two_empty_action_sets_are_not_reported_as_a_success) ... ok
+test_unknown_chart_is_not_converted_into_same_or_different_future (test_preservation_targets.PreservationTests.test_unknown_chart_is_not_converted_into_same_or_different_future) ... ok
+test_zero_difference_control_has_the_same_requested_action (test_preservation_targets.PreservationTests.test_zero_difference_control_has_the_same_requested_action) ... ok
+test_zero_multiplication_does_not_erase_a_denominator_guard (test_three_flower_synthesis.RationalAdapterTests.test_zero_multiplication_does_not_erase_a_denominator_guard) ... ok
+test_canceled_division_is_not_legal_at_a_zero_denominator (test_three_flower_synthesis.RationalAdapterTests.test_canceled_division_is_not_legal_at_a_zero_denominator) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 18.278s
+
+OK
