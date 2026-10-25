@@ -1,0 +1,72 @@
+{
+  "schema": "time-engine-preservation-targets-provenance-v1",
+  "date": "2026-10-25",
+  "base_commit": "b741aaf52362901ad48eb854d0f9d5f5a9212959",
+  "changed_existing_files": [
+    "docs/FREE_NUMBERS_READING_PATH.md",
+    "docs/PRINCIPLES.md"
+  ],
+  "unchanged_existing_files": 456,
+  "source_and_evidence": [
+    {
+      "path": "integrations/inquiry/preservation_targets.py",
+      "bytes": 4606,
+      "sha256": "5ea0ce97ccf4f24ab533a24c9f196e2ceb0989d482e0e1b88159b4fc8ed7be40"
+    },
+    {
+      "path": "integrations/inquiry/test_preservation_targets.py",
+      "bytes": 6467,
+      "sha256": "c7e4c96e76b7fb217c2ccda279ec5d992db2c346497f44cf4127047e9260fa79"
+    },
+    {
+      "path": "integrations/inquiry/validate_preservation_targets.py",
+      "bytes": 2425,
+      "sha256": "35bc6c54ba6deaa8c24308d134462864b4509a71919e8f3fbe85c9d496588728"
+    },
+    {
+      "path": "run_preservation_check.py",
+      "bytes": 2032,
+      "sha256": "92105e5db55a203d5e44f17e2253661201fc44892312142a07fd17a397e742d2"
+    },
+    {
+      "path": "docs/PROTECTION_TARGETS.md",
+      "bytes": 5378,
+      "sha256": "bf9d8f94d3011ea3df2a684a329581e5b4fdefd94f329381377175c62a68cb42"
+    },
+    {
+      "path": "docs/PRINCIPLES.md",
+      "bytes": 4704,
+      "sha256": "8b9c3b9adde6f49cfc7e905ec91783e786ef54071ce25785da30efde1e682757"
+    },
+    {
+      "path": "docs/FREE_NUMBERS_READING_PATH.md",
+      "bytes": 13789,
+      "sha256": "185b91069c873fca46b1e9a7bff500e16681565cd4d031b0e9a9e6ed7d08f12f"
+    },
+    {
+      "path": "integrations/inquiry/PRESERVATION-validation.json",
+      "bytes": 6080,
+      "sha256": "94ce35029f0fa22fe155c369798b2c34dcec89e40768b6d9193f43f388c7af1e"
+    },
+    {
+      "path": "integrations/inquiry/PRESERVATION-validation.log",
+      "bytes": 1798,
+      "sha256": "41fc3ecc722768244875edc6f33bbfe8d564b36f436af0825c083fd71d7e42b4"
+    }
+  ],
+  "provenance_self_hash_excluded": true,
+  "tests": 9,
+  "new_tests": 7,
+  "reused_division_guard_tests": 2,
+  "existing_model_code_changed": false,
+  "diagnostic_reads_original_coordinates": true,
+  "source_exact_reads_per_query": 2,
+  "new_execution_permission_added": false,
+  "original_history_modified": false,
+  "P0_archive_modified": false,
+  "P0_archive_sha256": "91d9218bd368d7987e13ac2a14440ad38ed84d0d227b1102f225fdb0ef89fc4d",
+  "E3_audited_branch_modified": false,
+  "independent_audit": false,
+  "scope": "fixed E1/RR69 choices and three-flower requirements; hypothetical projection only; current endpoint is not whole cell certification",
+  "new_life_detection_or_automatic_breaking_policy": false
+}
