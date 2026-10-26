@@ -1,0 +1,15 @@
+{
+  "base_commit": "d836242c94f0915b1c1dad85e996a36104f7ee56",
+  "errors": 0,
+  "existing_source_tests": 16,
+  "failures": 0,
+  "legacy_checkpoint_count": 3,
+  "new_regressions": 6,
+  "passed": true,
+  "prior_global_suite": "31 tests verified at d836242c; this repair reruns the affected source-family suite only",
+  "python": "3.12.14",
+  "schema": "time-engine-source-reply-whitespace-test-results-v1",
+  "seconds": 56.188,
+  "system": "Windows",
+  "tests_run": 22
+}

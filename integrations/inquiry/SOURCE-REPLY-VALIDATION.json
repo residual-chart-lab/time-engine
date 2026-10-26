@@ -1,0 +1,147 @@
+{
+  "actual_after_only_case": {
+    "admissible_answers": 0,
+    "api_wire_key_order_canonicalized": true,
+    "case_digest": "e26a245c4e56b287fbe512d6a1061217205f5c5462736bdb543ec1562d038d65",
+    "checkpoint_sha256": "2cb5439eb0fafc0d0824fa233a41bd5b9ad92a2c4234f698a4267adae21eb405",
+    "contract_satisfied": false,
+    "executed_kind": "ask",
+    "independent_ai_trial": false,
+    "role": "before"
+  },
+  "audit_at_d836242": {
+    "p2_findings": 1,
+    "source": "Human-relayed Astra report; original report URL was not included.",
+    "status": "fix_required",
+    "tests_reported_passed": 31
+  },
+  "base_commit": "9c8f92c5ca947c9ea0fa4aa6ac7ae94ffbf2aaea",
+  "base_tree": "06fdda7e9b59689e8ad9312c6465d933e5b7d2f3",
+  "baseline_files_verified_unchanged": 487,
+  "contract_sha256": "31743f06065429306df35b87bd3a78dcdb70481b7f9585b1ac39efe3d2d6a334",
+  "derived_from_E1_quaternion_law": false,
+  "development_note": "Final shipped-artifact QA found API/wire JSON key ordering changed E4 registration order. Canonicalized the incoming bundle and added an execution/checkpoint regression. The three already-generated wire checkpoints remain byte-identical and replay. A first helper StopIteration was also corrected. The final focused 31 tests pass.",
+  "example": {
+    "answer_counts": {
+      "after-arrival": 2,
+      "blind-control": 2,
+      "current-only": 0,
+      "retained": 2,
+      "without-before": 0
+    },
+    "blind_control_same_answers": true,
+    "closed_question_preserved": true,
+    "driver_policy": "answer if a certified recipe is available, otherwise ask; fixed account_first style",
+    "restored_reply_matches_retained": true,
+    "same_current_observation": true
+  },
+  "files": {
+    "docs/AI_SOURCE_REPLY_HANDOFF.md": {
+      "bytes": 2634,
+      "sha256": "da759dee0d264e53f034f1cf6ad0e44327d08d87660cb2df89570c2a6d0925c2"
+    },
+    "docs/SOURCE_REPLY_V1.md": {
+      "bytes": 12829,
+      "sha256": "0e21ddd0b83b82cf2255cff6f0e22d1c4279c15fab21888d6f1c419296f9c7de"
+    },
+    "examples/source-reply-case.json": {
+      "bytes": 2862,
+      "sha256": "cae0cb339b414e3e723624e1b3cc9329530eac178fa159451ea5d7b11417765d"
+    },
+    "examples/source-reply-first-use.py": {
+      "bytes": 7081,
+      "sha256": "34b18571df3c40f932a4da1e2069784d1d061560dab7f98f2b221f17b14cb65e"
+    },
+    "examples/source-reply-requirement.json": {
+      "bytes": 183,
+      "sha256": "babf9df0e82c88fe0cfe8f00f742fe37a4db5942f382ef235503224a4e1b398b"
+    },
+    "integrations/inquiry/SOURCE-REPLY-CONTRACT.json": {
+      "bytes": 394,
+      "sha256": "31743f06065429306df35b87bd3a78dcdb70481b7f9585b1ac39efe3d2d6a334"
+    },
+    "integrations/inquiry/SOURCE-REPLY-EXAMPLE-RESULT.json": {
+      "bytes": 14538,
+      "sha256": "d179413b882f4e3eadad95ebf566edd4b3029edf4010d75a01163ede6660c4bb"
+    },
+    "integrations/inquiry/SOURCE-REPLY-TEST-RESULTS.json": {
+      "bytes": 451,
+      "sha256": "63caa0255959497f585973682b49a4b28d77da5bc3b81ee4484448e09f01d131"
+    },
+    "integrations/inquiry/SOURCE-REPLY-WHITESPACE-TEST-RESULTS.json": {
+      "bytes": 469,
+      "sha256": "94f9192556eb88cc3aa2c6d11afdc1f7f21876ada6e4334cbbb686ace7c767df"
+    },
+    "integrations/inquiry/SOURCE-REPLY-arrival.session.json": {
+      "bytes": 42859,
+      "sha256": "1a8071ba4a0e5a27d8d1bc9ca262456b5bb5124b1a2e4614338e1cba3a3ca350"
+    },
+    "integrations/inquiry/SOURCE-REPLY-missing.session.json": {
+      "bytes": 23573,
+      "sha256": "bd0b9ddde09ec2ff04284856968e3343c3e517514aaeeadfb9e35ac7e10e861e"
+    },
+    "integrations/inquiry/SOURCE-REPLY-retained.session.json": {
+      "bytes": 32170,
+      "sha256": "35f4acea7cbc15969650f5c3a8ab8590f99f7810dfae12c7194d25a44174ebf1"
+    },
+    "integrations/inquiry/source_reply.py": {
+      "bytes": 25039,
+      "sha256": "15a8e0d6ec746274be185bf2fae80723b67cacebe419a2d34f074572b27c023f"
+    },
+    "integrations/inquiry/test_source_reply.py": {
+      "bytes": 20808,
+      "sha256": "9efb72d88ae63468111ff87b1bf01b3e0f036f8701b10ef781ab2544132a65ae"
+    },
+    "run_source_reply.py": {
+      "bytes": 4817,
+      "sha256": "e7692b76125fbe0df36a1ddac0e7fc1b949b0ee3604a864534e265d61eae5305"
+    }
+  },
+  "independent_ai_behavior_trial": false,
+  "independent_audit": false,
+  "newly_defined_action_family": true,
+  "p0_zip_sha256": "91d9218bd368d7987e13ac2a14440ad38ed84d0d227b1102f225fdb0ef89fc4d",
+  "schema": "time-engine-source-reply-validation-v1",
+  "semantic_certification": false,
+  "tests": {
+    "base_commit": "d836242c94f0915b1c1dad85e996a36104f7ee56",
+    "errors": 0,
+    "existing_source_tests": 16,
+    "failures": 0,
+    "legacy_checkpoint_count": 3,
+    "new_regressions": 6,
+    "passed": true,
+    "prior_global_suite": "31 tests verified at d836242c; this repair reruns the affected source-family suite only",
+    "python": "3.12.14",
+    "schema": "time-engine-source-reply-whitespace-test-results-v1",
+    "seconds": 56.188,
+    "system": "Windows",
+    "tests_run": 22
+  },
+  "tests_before_whitespace_repair": {
+    "commit": "d836242c94f0915b1c1dad85e996a36104f7ee56",
+    "errors": 0,
+    "failures": 0,
+    "independent_packet_scopes_checked": 32,
+    "passed": true,
+    "python": "3.12.14",
+    "schema": "time-engine-source-reply-test-results-v1",
+    "seconds": 36.875,
+    "system": "Windows",
+    "tests_by_module": {
+      "test_correction_observer": 14,
+      "test_event_bridge.EventBridgeTests.test_real_diagnostic_changes_available_step_and_actual_execution_matches_e2": 1,
+      "test_source_reply": 16
+    },
+    "tests_run": 31
+  },
+  "whitespace_repair": {
+    "encoding": "json-string-v1 only for whitespace-only 300-code-point chunks",
+    "initial_e4_registration": "transactional clone; supplied ledger is not mutated",
+    "legacy_checkpoint_count": 3,
+    "normal_record_wire_format_unchanged": true,
+    "parent_commit": "d836242c94f0915b1c1dad85e996a36104f7ee56",
+    "source_text_trimmed": false,
+    "status": "implemented_pending_independent_confirmation"
+  }
+}

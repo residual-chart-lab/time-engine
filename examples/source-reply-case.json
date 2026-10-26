@@ -1,0 +1,107 @@
+{
+  "action": {
+    "evidence": [
+      {
+        "quote": "Which claims need evidence for this new use case?",
+        "source": "next"
+      }
+    ],
+    "explanation": "A quoted next question, not a tool operation.",
+    "identified_at": null,
+    "kind": "utterance"
+  },
+  "id": "source-reply-example",
+  "observations": {
+    "b": {
+      "evidence": [
+        {
+          "quote": "I no longer require physical proof before trying the model.",
+          "source": "after"
+        }
+      ],
+      "explanation": "An explicitly supplied fixture annotation",
+      "identified_at": null,
+      "judgment": "yes"
+    },
+    "p": {
+      "evidence": [
+        {
+          "quote": "I distinguish established claims from untested ones.",
+          "source": "before"
+        },
+        {
+          "quote": "I still distinguish established claims from untested ones.",
+          "source": "after"
+        }
+      ],
+      "explanation": "An explicitly supplied fixture annotation",
+      "identified_at": null,
+      "judgment": "yes"
+    },
+    "u": {
+      "evidence": [
+        {
+          "quote": "I no longer require physical proof before trying the model.",
+          "source": "after"
+        }
+      ],
+      "explanation": "An explicitly supplied fixture annotation",
+      "identified_at": null,
+      "judgment": "yes"
+    }
+  },
+  "question": {
+    "focus": "retained_basis",
+    "identified_at": null,
+    "text": "What basis survived this correction?"
+  },
+  "roles": {
+    "after": [
+      "after"
+    ],
+    "before": [
+      "before"
+    ],
+    "continuation": [
+      "next"
+    ],
+    "correction": [
+      "correction"
+    ]
+  },
+  "schema": "time-engine-correction-case-v1",
+  "sources": [
+    {
+      "event_time": null,
+      "id": "before",
+      "kind": "original_turn",
+      "location": "Synthetic test fixture, not historical evidence",
+      "origin": "received",
+      "text": "I require physical proof before using the model. I distinguish established claims from untested ones."
+    },
+    {
+      "event_time": null,
+      "id": "correction",
+      "kind": "original_turn",
+      "location": "Synthetic test fixture, not historical evidence",
+      "origin": "received",
+      "text": "Test usefulness without claiming a physical proof."
+    },
+    {
+      "event_time": null,
+      "id": "after",
+      "kind": "original_turn",
+      "location": "Synthetic test fixture, not historical evidence",
+      "origin": "received",
+      "text": "I no longer require physical proof before trying the model. I still distinguish established claims from untested ones."
+    },
+    {
+      "event_time": null,
+      "id": "next",
+      "kind": "original_turn",
+      "location": "Synthetic test fixture, not historical evidence",
+      "origin": "received",
+      "text": "Which claims need evidence for this new use case?"
+    }
+  ]
+}

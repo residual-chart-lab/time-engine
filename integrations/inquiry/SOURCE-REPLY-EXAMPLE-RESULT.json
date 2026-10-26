@@ -1,0 +1,272 @@
+{
+  "ai_behavior_effect_measured": false,
+  "blind_control_same_answers": true,
+  "closed_request_preserved_after_arrival": true,
+  "contract": "31743f06065429306df35b87bd3a78dcdb70481b7f9585b1ac39efe3d2d6a334",
+  "driver_policy": "answer if a certified recipe is available, otherwise ask; fixed account_first style",
+  "requirement": {
+    "question": "\u3053\u306e\u8a02\u6b63\u3067\u4fdd\u6301\u3055\u308c\u305f\u3068\u89e3\u91c8\u3055\u308c\u3066\u3044\u308b\u6839\u62e0\u3092\u3001\u524d\u5f8c\u306e\u539f\u6587\u3068\u8a02\u6b63\u7b87\u6240\u3092\u6dfb\u3048\u3066\u793a\u3057\u3066\u304f\u3060\u3055\u3044\u3002",
+    "target": "retained_basis"
+  },
+  "restored_reply_matches_retained": true,
+  "same_current_observation": true,
+  "schema": "time-engine-source-reply-example-v1",
+  "semantic_certification": false,
+  "variants": {
+    "after-arrival": {
+      "checkpoint_sha256": "1a8071ba4a0e5a27d8d1bc9ca262456b5bb5124b1a2e4614338e1cba3a3ca350",
+      "future_answer_count": 2,
+      "result": {
+        "certificate": {
+          "action_closed": true,
+          "contract_satisfied": true,
+          "family": "time-engine-source-reply-v1",
+          "model": "5b9427a5194b55bc65ddbd2d9156cd4a249253840e195ca56f43af4b52571a90",
+          "packet": "32faa553e685e82e6bac21c105e6f8a180181cf526f519cd71ba685e7dd0ec77",
+          "requirement": "5d50b6c6e2ea40b14101d70c501a435258156e826e170d729c4be54bd567934b",
+          "response_sha256": "c3a215d24c734cb835810d71e1c541b32fd07f11d93fce92b570ff12b4fe3f2e",
+          "semantic_certification": false
+        },
+        "reply": {
+          "body": "\u5165\u529b\u3055\u308c\u305f\u89e3\u91c8\u3067\u4fdd\u6301\u3055\u308c\u305f\u3068\u3055\u308c\u308b\u6839\u62e0\u3092\u3001\u524d\u5f8c\u306e\u539f\u6587\u3068\u8a02\u6b63\u7b87\u6240\u304b\u3089\u793a\u3057\u307e\u3059\u3002\n\u3010\u8a02\u6b63\u524d\u3011 I distinguish established claims from untested ones.\n\u3010\u8a02\u6b63\u5f8c\u3011 I still distinguish established claims from untested ones.\n\u3010\u8a02\u6b63\u306e\u304d\u3063\u304b\u3051\u3011 Test usefulness without claiming a physical proof.\n\u3053\u308c\u306f\u539f\u6587\u306e\u5f15\u7528\u3068\u3001\u5165\u529b\u3055\u308c\u305f\u89e3\u91c8\u306b\u57fa\u3065\u304f\u8aac\u660e\u3067\u3059\u3002",
+          "citations": [
+            {
+              "anchor": "dd828b277ae0308c9440826c87b3dc9626e694ac8c961b3f4034ed249d42f381",
+              "end": 101,
+              "quote": "I distinguish established claims from untested ones.",
+              "role": "before",
+              "source": "before",
+              "source_sha256": "e6e304e384101666652d393f72ac16350e67a3b076a1bdbd7c8cb575c9fa544c",
+              "start": 49
+            },
+            {
+              "anchor": "55678b81b1ead8f00e0e616145a05d6db39d4ff883c906c480b96786db54257d",
+              "end": 118,
+              "quote": "I still distinguish established claims from untested ones.",
+              "role": "after",
+              "source": "after",
+              "source_sha256": "7771504c5252952984d3b9937cb202f6dbba66c49893f045bcbbf8d20a7ae7b8",
+              "start": 60
+            },
+            {
+              "anchor": "707002f58886639e6d7058e6cae57038a1282b0919f175ade29d30b0757e3dc1",
+              "end": 50,
+              "quote": "Test usefulness without claiming a physical proof.",
+              "role": "correction",
+              "source": "correction",
+              "source_sha256": "c4fc7c7b22140074d65e980e9f4a7816bcbf26b0e889b1c209ef596f736e5de2",
+              "start": 0
+            }
+          ],
+          "contract_satisfied": true,
+          "family": "time-engine-source-reply-v1",
+          "model": "5b9427a5194b55bc65ddbd2d9156cd4a249253840e195ca56f43af4b52571a90",
+          "operation": {
+            "anchors": [
+              "dd828b277ae0308c9440826c87b3dc9626e694ac8c961b3f4034ed249d42f381",
+              "55678b81b1ead8f00e0e616145a05d6db39d4ff883c906c480b96786db54257d",
+              "707002f58886639e6d7058e6cae57038a1282b0919f175ade29d30b0757e3dc1"
+            ],
+            "kind": "answer",
+            "style": "account_first"
+          },
+          "packet": "32faa553e685e82e6bac21c105e6f8a180181cf526f519cd71ba685e7dd0ec77",
+          "requirement": "5d50b6c6e2ea40b14101d70c501a435258156e826e170d729c4be54bd567934b",
+          "semantic_certification": false
+        }
+      }
+    },
+    "blind-control": {
+      "checkpoint_sha256": "5c213a63097400bf9efe333a720ae532a7b745c9e45f2482743878967d05035b",
+      "current_answer_count": 2,
+      "current_fingerprints": [
+        "a6aaea57964c8afa4fa477b82e841cb0bc3536c5bad07c2343b929a1c1d63bec",
+        "5d40290e6a0e2207d3ed8176d9d09afdc5ae98bfc98d1384ce733ccf49b421eb"
+      ],
+      "future_answer_count": 2,
+      "future_fingerprints": [
+        "8e278e7bf419dfa2680212046dc5b9f0e73fd363b09368dd97c10fb12e69462b",
+        "ecb54e756561d50ab5fd8fe42aa501589aa3bf5b2be9a385c0a3d35a8d30220a"
+      ],
+      "result": {
+        "certificate": {
+          "action_closed": true,
+          "contract_satisfied": true,
+          "family": "time-engine-source-reply-v1",
+          "model": "5b9427a5194b55bc65ddbd2d9156cd4a249253840e195ca56f43af4b52571a90",
+          "packet": "30ef7a6cc0407a73474a67630612f722a0416d5d71a0a904d3a775dbfe155db7",
+          "requirement": "5d50b6c6e2ea40b14101d70c501a435258156e826e170d729c4be54bd567934b",
+          "response_sha256": "978fd6312aac4422735827875044fa2088f6720fa69fe71fd70a9a4214a0457f",
+          "semantic_certification": false
+        },
+        "reply": {
+          "body": "\u5165\u529b\u3055\u308c\u305f\u89e3\u91c8\u3067\u4fdd\u6301\u3055\u308c\u305f\u3068\u3055\u308c\u308b\u6839\u62e0\u3092\u3001\u524d\u5f8c\u306e\u539f\u6587\u3068\u8a02\u6b63\u7b87\u6240\u304b\u3089\u793a\u3057\u307e\u3059\u3002\n\u3010\u8a02\u6b63\u524d\u3011 I distinguish established claims from untested ones.\n\u3010\u8a02\u6b63\u5f8c\u3011 I still distinguish established claims from untested ones.\n\u3010\u8a02\u6b63\u306e\u304d\u3063\u304b\u3051\u3011 Test usefulness without claiming a physical proof.\n\u3053\u308c\u306f\u539f\u6587\u306e\u5f15\u7528\u3068\u3001\u5165\u529b\u3055\u308c\u305f\u89e3\u91c8\u306b\u57fa\u3065\u304f\u8aac\u660e\u3067\u3059\u3002",
+          "citations": [
+            {
+              "anchor": "dd828b277ae0308c9440826c87b3dc9626e694ac8c961b3f4034ed249d42f381",
+              "end": 101,
+              "quote": "I distinguish established claims from untested ones.",
+              "role": "before",
+              "source": "before",
+              "source_sha256": "e6e304e384101666652d393f72ac16350e67a3b076a1bdbd7c8cb575c9fa544c",
+              "start": 49
+            },
+            {
+              "anchor": "55678b81b1ead8f00e0e616145a05d6db39d4ff883c906c480b96786db54257d",
+              "end": 118,
+              "quote": "I still distinguish established claims from untested ones.",
+              "role": "after",
+              "source": "after",
+              "source_sha256": "7771504c5252952984d3b9937cb202f6dbba66c49893f045bcbbf8d20a7ae7b8",
+              "start": 60
+            },
+            {
+              "anchor": "707002f58886639e6d7058e6cae57038a1282b0919f175ade29d30b0757e3dc1",
+              "end": 50,
+              "quote": "Test usefulness without claiming a physical proof.",
+              "role": "correction",
+              "source": "correction",
+              "source_sha256": "c4fc7c7b22140074d65e980e9f4a7816bcbf26b0e889b1c209ef596f736e5de2",
+              "start": 0
+            }
+          ],
+          "contract_satisfied": true,
+          "family": "time-engine-source-reply-v1",
+          "model": "5b9427a5194b55bc65ddbd2d9156cd4a249253840e195ca56f43af4b52571a90",
+          "operation": {
+            "anchors": [
+              "dd828b277ae0308c9440826c87b3dc9626e694ac8c961b3f4034ed249d42f381",
+              "55678b81b1ead8f00e0e616145a05d6db39d4ff883c906c480b96786db54257d",
+              "707002f58886639e6d7058e6cae57038a1282b0919f175ade29d30b0757e3dc1"
+            ],
+            "kind": "answer",
+            "style": "account_first"
+          },
+          "packet": "30ef7a6cc0407a73474a67630612f722a0416d5d71a0a904d3a775dbfe155db7",
+          "requirement": "5d50b6c6e2ea40b14101d70c501a435258156e826e170d729c4be54bd567934b",
+          "semantic_certification": false
+        }
+      }
+    },
+    "current-only": {
+      "current_answer_count": 2,
+      "current_fingerprints": [
+        "a6aaea57964c8afa4fa477b82e841cb0bc3536c5bad07c2343b929a1c1d63bec",
+        "5d40290e6a0e2207d3ed8176d9d09afdc5ae98bfc98d1384ce733ccf49b421eb"
+      ],
+      "future_answer_count": 0,
+      "future_fingerprints": []
+    },
+    "retained": {
+      "checkpoint_sha256": "35f4acea7cbc15969650f5c3a8ab8590f99f7810dfae12c7194d25a44174ebf1",
+      "current_answer_count": 2,
+      "current_fingerprints": [
+        "a6aaea57964c8afa4fa477b82e841cb0bc3536c5bad07c2343b929a1c1d63bec",
+        "5d40290e6a0e2207d3ed8176d9d09afdc5ae98bfc98d1384ce733ccf49b421eb"
+      ],
+      "future_answer_count": 2,
+      "future_fingerprints": [
+        "8e278e7bf419dfa2680212046dc5b9f0e73fd363b09368dd97c10fb12e69462b",
+        "ecb54e756561d50ab5fd8fe42aa501589aa3bf5b2be9a385c0a3d35a8d30220a"
+      ],
+      "result": {
+        "certificate": {
+          "action_closed": true,
+          "contract_satisfied": true,
+          "family": "time-engine-source-reply-v1",
+          "model": "5b9427a5194b55bc65ddbd2d9156cd4a249253840e195ca56f43af4b52571a90",
+          "packet": "32faa553e685e82e6bac21c105e6f8a180181cf526f519cd71ba685e7dd0ec77",
+          "requirement": "5d50b6c6e2ea40b14101d70c501a435258156e826e170d729c4be54bd567934b",
+          "response_sha256": "c3a215d24c734cb835810d71e1c541b32fd07f11d93fce92b570ff12b4fe3f2e",
+          "semantic_certification": false
+        },
+        "reply": {
+          "body": "\u5165\u529b\u3055\u308c\u305f\u89e3\u91c8\u3067\u4fdd\u6301\u3055\u308c\u305f\u3068\u3055\u308c\u308b\u6839\u62e0\u3092\u3001\u524d\u5f8c\u306e\u539f\u6587\u3068\u8a02\u6b63\u7b87\u6240\u304b\u3089\u793a\u3057\u307e\u3059\u3002\n\u3010\u8a02\u6b63\u524d\u3011 I distinguish established claims from untested ones.\n\u3010\u8a02\u6b63\u5f8c\u3011 I still distinguish established claims from untested ones.\n\u3010\u8a02\u6b63\u306e\u304d\u3063\u304b\u3051\u3011 Test usefulness without claiming a physical proof.\n\u3053\u308c\u306f\u539f\u6587\u306e\u5f15\u7528\u3068\u3001\u5165\u529b\u3055\u308c\u305f\u89e3\u91c8\u306b\u57fa\u3065\u304f\u8aac\u660e\u3067\u3059\u3002",
+          "citations": [
+            {
+              "anchor": "dd828b277ae0308c9440826c87b3dc9626e694ac8c961b3f4034ed249d42f381",
+              "end": 101,
+              "quote": "I distinguish established claims from untested ones.",
+              "role": "before",
+              "source": "before",
+              "source_sha256": "e6e304e384101666652d393f72ac16350e67a3b076a1bdbd7c8cb575c9fa544c",
+              "start": 49
+            },
+            {
+              "anchor": "55678b81b1ead8f00e0e616145a05d6db39d4ff883c906c480b96786db54257d",
+              "end": 118,
+              "quote": "I still distinguish established claims from untested ones.",
+              "role": "after",
+              "source": "after",
+              "source_sha256": "7771504c5252952984d3b9937cb202f6dbba66c49893f045bcbbf8d20a7ae7b8",
+              "start": 60
+            },
+            {
+              "anchor": "707002f58886639e6d7058e6cae57038a1282b0919f175ade29d30b0757e3dc1",
+              "end": 50,
+              "quote": "Test usefulness without claiming a physical proof.",
+              "role": "correction",
+              "source": "correction",
+              "source_sha256": "c4fc7c7b22140074d65e980e9f4a7816bcbf26b0e889b1c209ef596f736e5de2",
+              "start": 0
+            }
+          ],
+          "contract_satisfied": true,
+          "family": "time-engine-source-reply-v1",
+          "model": "5b9427a5194b55bc65ddbd2d9156cd4a249253840e195ca56f43af4b52571a90",
+          "operation": {
+            "anchors": [
+              "dd828b277ae0308c9440826c87b3dc9626e694ac8c961b3f4034ed249d42f381",
+              "55678b81b1ead8f00e0e616145a05d6db39d4ff883c906c480b96786db54257d",
+              "707002f58886639e6d7058e6cae57038a1282b0919f175ade29d30b0757e3dc1"
+            ],
+            "kind": "answer",
+            "style": "account_first"
+          },
+          "packet": "32faa553e685e82e6bac21c105e6f8a180181cf526f519cd71ba685e7dd0ec77",
+          "requirement": "5d50b6c6e2ea40b14101d70c501a435258156e826e170d729c4be54bd567934b",
+          "semantic_certification": false
+        }
+      }
+    },
+    "without-before": {
+      "checkpoint_sha256": "bd0b9ddde09ec2ff04284856968e3343c3e517514aaeeadfb9e35ac7e10e861e",
+      "current_answer_count": 2,
+      "current_fingerprints": [
+        "a6aaea57964c8afa4fa477b82e841cb0bc3536c5bad07c2343b929a1c1d63bec",
+        "5d40290e6a0e2207d3ed8176d9d09afdc5ae98bfc98d1384ce733ccf49b421eb"
+      ],
+      "future_answer_count": 0,
+      "future_fingerprints": [],
+      "result": {
+        "certificate": {
+          "action_closed": true,
+          "contract_satisfied": false,
+          "family": "time-engine-source-reply-v1",
+          "model": "5b9427a5194b55bc65ddbd2d9156cd4a249253840e195ca56f43af4b52571a90",
+          "packet": "96ca1c15f4b33fe3071588b7fc85866aa09c277e31cc7fab51c3c4b095b281d9",
+          "requirement": "5d50b6c6e2ea40b14101d70c501a435258156e826e170d729c4be54bd567934b",
+          "response_sha256": "966dd2e3fca3466587e4678dc4124eaa5a0f72a83a44505966246427ba09c295",
+          "semantic_certification": false
+        },
+        "reply": {
+          "body": "\u3053\u306e\u8981\u6c42\u3092\u51fa\u5178\u4ed8\u304d\u3067\u78ba\u304b\u3081\u308b\u305f\u3081\u3001\u8a02\u6b63\u524d\u306e\u539f\u6587\u304c\u5fc5\u8981\u3067\u3059\u3002\u8a72\u5f53\u7b87\u6240\u3092\u793a\u305b\u307e\u3059\u304b\u3002",
+          "citations": [],
+          "contract_satisfied": false,
+          "family": "time-engine-source-reply-v1",
+          "model": "5b9427a5194b55bc65ddbd2d9156cd4a249253840e195ca56f43af4b52571a90",
+          "operation": {
+            "kind": "ask",
+            "missing_sources": [
+              "before"
+            ],
+            "role": "before"
+          },
+          "packet": "96ca1c15f4b33fe3071588b7fc85866aa09c277e31cc7fab51c3c4b095b281d9",
+          "requirement": "5d50b6c6e2ea40b14101d70c501a435258156e826e170d729c4be54bd567934b",
+          "semantic_certification": false
+        }
+      }
+    }
+  }
+}
