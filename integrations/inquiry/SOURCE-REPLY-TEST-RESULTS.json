@@ -1,0 +1,16 @@
+{
+  "errors": 0,
+  "failures": 0,
+  "independent_packet_scopes_checked": 32,
+  "passed": true,
+  "python": "3.12.14",
+  "schema": "time-engine-source-reply-test-results-v1",
+  "seconds": 33.953,
+  "system": "Windows",
+  "tests_by_module": {
+    "test_correction_observer": 14,
+    "test_event_bridge.EventBridgeTests.test_real_diagnostic_changes_available_step_and_actual_execution_matches_e2": 1,
+    "test_source_reply": 15
+  },
+  "tests_run": 30
+}
