@@ -276,8 +276,10 @@ class Session:
         verify_model(bundle_value['model']);verify_packet(bundle_value['model'],bundle_value['packet'])
         if ledger.status()['accepted_commands'] or ledger.status()['engine']['phase']!='UNBOUND':
             raise ValueError('a fresh E4 ledger required')
-        self.initial=deepcopy(bundle_value);self.model=deepcopy(bundle_value['model'])
-        self.available=deepcopy(bundle_value['packet']);self.ledger=ledger
+        # JSON object key order carries no source chronology. Canonicalize once
+        # so API-created and wire-loaded bundles issue the same E4 history.
+        self.initial=json.loads(obs.encode(bundle_value));self.model=deepcopy(self.initial['model'])
+        self.available=deepcopy(self.initial['packet']);self.ledger=ledger
         self.commands=[];self.req=None;self.phase='UNBOUND';self.choice=None
         self.prepared=None;self.permit=None;self.cache={};self.closed=[];self.reads=0
         self.prefix='reply-'+self.model['digest'][:10]

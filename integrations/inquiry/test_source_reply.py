@@ -86,6 +86,17 @@ class SourceReplyTests(unittest.TestCase):
                     checked+=1
         self.assertEqual(checked,32)
 
+    def test_bundle_key_order_does_not_change_execution_or_checkpoint(self):
+        value=api.bundle(fixture())
+        wire=json.loads(api.obs.encode(value))
+        a=api.Session(value,ledger());b=api.Session(wire,ledger())
+        self.assertEqual(a.snapshot(),b.snapshot())
+        for s in (a,b):
+            s.apply(dict(op='bind',requirement=REQ));execute(s)
+        self.assertEqual(a.snapshot(),b.snapshot())
+        raw,trusted=a.snapshot()
+        self.assertEqual(api.Session.restore(value,ledger(),raw,trusted).snapshot(),(raw,trusted))
+
     def test_blind_omission_and_restoration_controls(self):
         case=fixture();full=api.bundle(case);blind=api.bundle(case,('continuation',))
         witness=lambda b:sorted(p['fingerprint'] for p in api.plans(b['model'],b['packet'],REQ) if p['kind']=='answer')
