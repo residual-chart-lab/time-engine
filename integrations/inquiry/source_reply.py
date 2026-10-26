@@ -26,6 +26,7 @@ MAX_SNAPSHOT_BYTES = 2_000_000
 MAX_BUNDLE_BYTES = 256_000
 MAX_COMMAND_BYTES = 64_000
 ROLE_NAMES = dict(before='訂正前',after='訂正後',correction='訂正のきっかけ',continuation='その後')
+WHITESPACE_ENCODING = 'json-string-v1'
 
 
 def digest(value):
@@ -269,6 +270,27 @@ def verify_reply(model,available,req,reply):
     return True
 
 
+def decode_record_text(record):
+    """Recover text from a record emitted by this source-family runtime.
+
+    Only whitespace-only chunks need escaping for E4's nonempty text field.
+    The source metadata marks that reversible encoding; unmarked records are
+    unchanged, including literal text that happens to look like JSON.
+    """
+    metadata=json.loads(record['source'])
+    value=record['text']
+    if type(metadata) is not dict or type(value) is not str:
+        raise ValueError('complete source-family record required')
+    encoding=metadata.get('text_encoding')
+    if encoding is None:return value
+    if encoding!=WHITESPACE_ENCODING:
+        raise ValueError('unsupported source-family text encoding')
+    decoded=json.loads(value)
+    if type(decoded) is not str or not decoded or decoded.strip() or len(decoded)>300:
+        raise ValueError('a bounded whitespace-only JSON string required')
+    return decoded
+
+
 class Session:
     def __init__(self,bundle_value,ledger):
         obs._shape(bundle_value,('schema','model','packet'),'bundle')
@@ -289,15 +311,25 @@ class Session:
                            metadata=self.model['sources'][key]),self.model['sources'][key]['origin']))
         records.extend(self._records('model',obs.encode(self.model).decode(),
                        dict(kind='compiled_source_reply_family_not_E1',contract=digest(CONTRACT)),'reported_in_session'))
-        for cmd in records: self.ledger.apply(cmd)
+        # Borrowed E4 state must remain untouched if any initial record fails.
+        self.ledger=self._ledger_after(records)
         self.source_events=[c['id'] for c in records]
         self.model_event=next(c['id'] for c in records if '-model-' in c['id'])
         self.goal=None
 
     def _records(self,label,body,metadata,origin='reported_in_session'):
-        return [dict(op='record',id=self.prefix+'-'+label+'-'+str(start),origin=origin,
-                     source=json.dumps(metadata,sort_keys=True,separators=(',',':')),
-                     text=body[start:start+300]) for start in range(0,len(body),300)]
+        records=[]
+        for start in range(0,len(body),300):
+            chunk=body[start:start+300]
+            fields=metadata
+            if not chunk.strip():
+                # Do not trim or invent a visible source character. The quotes
+                # make the carrier nonempty; decoding recovers every code point.
+                fields=dict(metadata,text_encoding=WHITESPACE_ENCODING)
+                chunk=json.dumps(chunk,ensure_ascii=True,separators=(',',':'))
+            records.append(dict(op='record',id=self.prefix+'-'+label+'-'+str(start),origin=origin,
+                                source=json.dumps(fields,sort_keys=True,separators=(',',':')),text=chunk))
+        return records
 
     def _ledger_after(self,commands):
         from event_bridge import Episode

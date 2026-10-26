@@ -6,6 +6,8 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
+import event_bridge as e4
 from copy import deepcopy
 
 import source_reply as api
@@ -38,7 +40,108 @@ def execute(session,kind='answer'):
     return session.apply(dict(op='advance',permit=session.status()['permit']))['result']
 
 
+def whitespace_case(whitespace,position='middle'):
+    case=fixture()
+    before=case['sources'][0]['text']
+    prefix=before+'x'*(300-len(before))
+    if position=='leading':text=whitespace+before
+    elif position=='trailing':text=prefix+whitespace
+    else:text=prefix+whitespace+'tail'
+    case['sources'][0]['text']=text
+    return case
+
+
+def recovered_source(session,key):
+    pieces=[]
+    for record in session.ledger.status()['events']:
+        meta=json.loads(record['source'])
+        if (meta.get('kind') in ('received_source_slot','arrived_source_slot')
+                and meta.get('source')==key):
+            start=int(record['id'].rsplit('-',1)[1])
+            pieces.append((start,api.decode_record_text(record)))
+    return ''.join(text for _,text in sorted(pieces))
+
+
 class SourceReplyTests(unittest.TestCase):
+    def test_whitespace_only_chunks_round_trip_during_initial_receipt(self):
+        for whitespace in (' '*300,'\n'*300,'\r\n'*150,'\u2003'*300):
+            for position in ('leading','middle','trailing'):
+                with self.subTest(whitespace=repr(whitespace[:2]),position=position):
+                    case=whitespace_case(whitespace,position);value=api.bundle(case)
+                    s=api.Session(value,ledger());expected=case['sources'][0]['text']
+                    self.assertEqual(recovered_source(s,'before'),expected)
+                    self.assertEqual(hashlib.sha256(recovered_source(s,'before').encode()).hexdigest(),
+                                     value['model']['sources']['before']['sha256'])
+                    s.apply(dict(op='bind',requirement=REQ));reply=execute(s)['reply']
+                    citation=next(c for c in reply['citations'] if c['role']=='before')
+                    self.assertEqual(expected[citation['start']:citation['end']],citation['quote'])
+                    raw,sha=s.snapshot()
+                    self.assertEqual(api.Session.restore(value,ledger(),raw,sha).snapshot(),(raw,sha))
+
+    def test_whitespace_source_arrival_preserves_closed_history_and_replays(self):
+        for whitespace in ('\n'*300,'\u2003'*300):
+            with self.subTest(whitespace=repr(whitespace[:2])):
+                case=whitespace_case(whitespace);s=fresh(('before',),case)
+                s.apply(dict(op='bind',requirement=REQ));asked=execute(s,'ask')
+                prefix=json.loads(s.ledger.snapshot()[0])['journal']
+                expected=case['sources'][0]['text']
+                s.apply(dict(op='supply',source='before',text=expected))
+                self.assertEqual(recovered_source(s,'before'),expected)
+                self.assertEqual(s.closed[0],asked)
+                self.assertEqual(json.loads(s.ledger.snapshot()[0])['journal'][:len(prefix)],prefix)
+                s.apply(dict(op='bind',requirement=REQ));answered=execute(s)
+                self.assertTrue(answered['certificate']['contract_satisfied'])
+                raw,sha=s.snapshot()
+                self.assertEqual(api.Session.restore(s.initial,ledger(),raw,sha).snapshot(),(raw,sha))
+
+    def test_initial_receipt_failure_does_not_partially_register_external_e4(self):
+        external=ledger();before=external.snapshot()
+        with patch.object(e4,'MAX_COMMANDS',2):
+            with self.assertRaises(ValueError):api.Session(api.bundle(fixture()),external)
+        self.assertEqual(external.snapshot(),before)
+        self.assertEqual(external.status()['accepted_commands'],0)
+        # A failed attempt does not consume the supplied fresh entrance.
+        s=api.Session(api.bundle(fixture()),external)
+        self.assertGreater(s.status()['e4_accepted_commands'],2)
+        self.assertEqual(external.snapshot(),before)
+
+    def test_source_arrival_failure_is_atomic_even_after_one_chunk_registers(self):
+        case=whitespace_case(' '*300);s=fresh(('before',),case)
+        s.apply(dict(op='bind',requirement=REQ));execute(s,'ask')
+        before=s.snapshot();accepted=s.status()['e4_accepted_commands']
+        with patch.object(e4,'MAX_COMMANDS',accepted+1):
+            with self.assertRaises(ValueError):
+                s.apply(dict(op='supply',source='before',text=case['sources'][0]['text']))
+        self.assertEqual(s.snapshot(),before)
+        self.assertNotIn('before',s.available['texts'])
+        s.apply(dict(op='supply',source='before',text=case['sources'][0]['text']))
+        self.assertEqual(recovered_source(s,'before'),case['sources'][0]['text'])
+
+    def test_chunk_codec_marks_only_whitespace_and_preserves_literal_json(self):
+        s=fresh()
+        for text in (' '*300,'\t\r\n '*75,'\u2003'*300):
+            record=s._records('codec',text,dict(kind='codec_test'))[0]
+            self.assertTrue(record['text'].strip())
+            self.assertEqual(json.loads(record['source'])['text_encoding'],api.WHITESPACE_ENCODING)
+            self.assertEqual(api.decode_record_text(record),text)
+        for text in ('"   "','{"text":"   "}','source text'):
+            record=s._records('literal',text,dict(kind='codec_test'))[0]
+            self.assertNotIn('text_encoding',json.loads(record['source']))
+            self.assertEqual(api.decode_record_text(record),text)
+        record=s._records('invalid',' '*300,dict(kind='codec_test'))[0]
+        record['text']='"not whitespace"'
+        with self.assertRaises(ValueError):api.decode_record_text(record)
+
+    def test_shipped_d836242_checkpoints_remain_byte_identical_and_restore(self):
+        case=json.loads((ROOT/'examples/source-reply-case.json').read_bytes())
+        fixed=[('retained',(),'35f4acea7cbc15969650f5c3a8ab8590f99f7810dfae12c7194d25a44174ebf1'),
+               ('missing',('before',),'bd0b9ddde09ec2ff04284856968e3343c3e517514aaeeadfb9e35ac7e10e861e'),
+               ('arrival',('before',),'1a8071ba4a0e5a27d8d1bc9ca262456b5bb5124b1a2e4614338e1cba3a3ca350')]
+        for name,roles,sha in fixed:
+            raw=(ROOT/('integrations/inquiry/SOURCE-REPLY-'+name+'.session.json')).read_bytes()
+            self.assertEqual(hashlib.sha256(raw).hexdigest(),sha)
+            s=api.Session.restore(api.bundle(case,roles),ledger(),raw,sha)
+            self.assertEqual(s.snapshot(),(raw,sha))
     def test_same_current_observation_different_future_answers_and_actual_operations(self):
         full=fresh();projected=fresh(('before',))
         self.assertEqual(full.available['texts']['after'],projected.available['texts']['after'])
