@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "test_correction_observer": 14,
+    "test_event_bridge.EventBridgeTests.test_checkpoint_preserves_open_goals_reports_evidence_and_next_motion": 1,
+    "test_event_bridge.EventBridgeTests.test_real_diagnostic_changes_available_step_and_actual_execution_matches_e2": 1
+  },
+  "errors": 0,
+  "failures": 0,
+  "passed": true,
+  "python": "3.12.14",
+  "schema": "time-engine-correction-observer-test-results-v1",
+  "seconds": 20.047,
+  "system": "Windows",
+  "tests_run": 16
+}
