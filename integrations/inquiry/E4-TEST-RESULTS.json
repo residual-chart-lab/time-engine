@@ -1,0 +1,17 @@
+{
+  "errors": 0,
+  "failures": 0,
+  "passed": true,
+  "python": "3.12.14",
+  "schema": "time-engine-event-bridge-tests-v1",
+  "seconds": 98.312,
+  "skipped": 0,
+  "system": "Windows",
+  "tests_by_module": {
+    "test_event_bridge": 13,
+    "test_phase_feedback": 3,
+    "test_preservation_targets": 7,
+    "test_step_session": 8
+  },
+  "tests_run": 31
+}

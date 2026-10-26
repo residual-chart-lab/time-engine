@@ -1,0 +1,64 @@
+{
+  "base_commit": "c49754be0f2d55a94b529a787ee64c8f1e0611fe",
+  "base_tree": "d9ae29b6f27592b10e3f3efdf1a0dcd8b5c99d06",
+  "baseline_files_verified_unchanged": 466,
+  "entry_digest": "24ccd25412e46f5051ee5e48325358f8f62a66ce1244b69ce65fa57abce6f5de",
+  "entry_sha256": "d71a430cf049b645dd44d6ebfd9870acfe00ed2b3ac54d1b5766641fa1f805a3",
+  "example_checkpoint_sha256": "ae1fa50f31f44e2038a455481fac1b05bd356f2c88c5e2109678763553631fab",
+  "files": {
+    "docs/EVENT_BRIDGE_E4.md": {
+      "bytes": 11426,
+      "sha256": "5b3865de4c9d21ef97052b32401bd6416c6e276babc7aaa670aa5f94ca06149b"
+    },
+    "examples/e4-event-bridge.py": {
+      "bytes": 7346,
+      "sha256": "15ad5116bc27c4791da2111c22a3db524992f4c85e8c668855435d6c890bb72f"
+    },
+    "integrations/inquiry/E4-EXAMPLE-RESULT.json": {
+      "bytes": 2286,
+      "sha256": "1c9e4d57a68b56fa2c001d8895c6d22f67d4846cbb731838711d79d74c86c3d8"
+    },
+    "integrations/inquiry/E4-TEST-RESULTS.json": {
+      "bytes": 354,
+      "sha256": "f82f01426ec55dff173ff24a4fc9f22440378b8dc76e0373d1d32d170fd8b2fe"
+    },
+    "integrations/inquiry/E4-example.episode.json": {
+      "bytes": 116420,
+      "sha256": "ae1fa50f31f44e2038a455481fac1b05bd356f2c88c5e2109678763553631fab"
+    },
+    "integrations/inquiry/event_bridge.py": {
+      "bytes": 13963,
+      "sha256": "08deac449539641427903115f4d3b75302f674e8593989166299e8218190c7ab"
+    },
+    "integrations/inquiry/test_event_bridge.py": {
+      "bytes": 15504,
+      "sha256": "ef27b1a99cde6db5816375048b4218ecb303e0deb2313dd71f93d880f633b9c9"
+    },
+    "run_event_session.py": {
+      "bytes": 3288,
+      "sha256": "56a36d43be2f48921ed785a04439881730de9caebd325fb960db8f3890f66e66"
+    }
+  },
+  "independent_audit": false,
+  "initial_cli_test_issue": "Isolated Python could not import the root CLI helper. Replaced with a local bounded file reader; CLI test and final focused suite pass.",
+  "p0_zip_sha256": "91d9218bd368d7987e13ac2a14440ad38ed84d0d227b1102f225fdb0ef89fc4d",
+  "schema": "time-engine-event-bridge-validation-v1",
+  "semantic_mapping_verified": false,
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "passed": true,
+    "python": "3.12.14",
+    "schema": "time-engine-event-bridge-tests-v1",
+    "seconds": 98.312,
+    "skipped": 0,
+    "system": "Windows",
+    "tests_by_module": {
+      "test_event_bridge": 13,
+      "test_phase_feedback": 3,
+      "test_preservation_targets": 7,
+      "test_step_session": 8
+    },
+    "tests_run": 31
+  }
+}

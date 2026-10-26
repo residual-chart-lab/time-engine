@@ -1,0 +1,84 @@
+{
+  "actual_engine": {
+    "accepted_commands": 7,
+    "assessment_status": "ADMISSIBLE",
+    "cached_observations": 1,
+    "certified": true,
+    "choice": {
+      "u": "0",
+      "v": "1",
+      "word": "HHHSUT"
+    },
+    "closed_flowers": 3,
+    "commands_remaining": 57,
+    "entry": "24ccd25412e46f5051ee5e48325358f8f62a66ce1244b69ce65fa57abce6f5de",
+    "last_resolution_work": {
+      "derived_features": [],
+      "new_feature_queries": 1,
+      "newly_registered": [
+        "obs-8eaeae2b3968a2f51bec978215d36cc4869844dd7f6b0277b57835013f317292"
+      ],
+      "source_reads_for_registration": 2,
+      "total_exact_queries": 3
+    },
+    "numerical_reads": 3,
+    "phase": "STOPPED",
+    "phase_operations": [
+      "status",
+      "save",
+      "quit"
+    ],
+    "plan_status": "AVAILABLE",
+    "requirement": {
+      "context": "mixed",
+      "frame": "identity",
+      "strengths": [
+        "0",
+        "0"
+      ]
+    },
+    "schema": "time-engine-session-view-v1",
+    "stock": 9
+  },
+  "checkpoint_sha256": "ae1fa50f31f44e2038a455481fac1b05bd356f2c88c5e2109678763553631fab",
+  "current_endpoints_equal": true,
+  "exact_queries": {
+    "combined_exact_queries": 5,
+    "diagnostic_exact_source_reads": 2,
+    "execution_exact_queries": 3
+  },
+  "goals": [
+    {
+      "events": [
+        "question"
+      ],
+      "id": "continuation",
+      "model_status": "SCOPED_MODEL_CERTIFIED",
+      "semantic_certification": false,
+      "seq": 3,
+      "status": "OPEN",
+      "text": "Preserve the declared model continuation construction"
+    },
+    {
+      "events": [
+        "prior",
+        "question"
+      ],
+      "id": "commitment",
+      "model_status": "UNMAPPED",
+      "semantic_certification": false,
+      "seq": 4,
+      "status": "OPEN",
+      "text": "Carry the adopted commitment into later dialogue"
+    }
+  ],
+  "intermediate_checkpoint_sha256": "8cab23d58166fdebf6ea6a3db06c22c68040805f79ed5db95f1cb97ec6f0f3de",
+  "mapping": "caller-declared reference to existing E1 s; no text/persona encoding",
+  "original_status": "ADMISSIBLE",
+  "outer_episode": "OPEN",
+  "projected_status": "EMPTY",
+  "relation": "DIFFERENT_EXISTENCE",
+  "schema": "time-engine-event-bridge-example-v1",
+  "semantic_goal_certified": false,
+  "then_known_view_unchanged": true
+}
