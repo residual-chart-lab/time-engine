@@ -1,0 +1,110 @@
+{
+  "actual_supplied_case": {
+    "e4_replay_exact": true,
+    "input_sha256": "578689348ab259ab58f483ccbdcb49acda9d11a28d4d3063932dfbe48dc2de09",
+    "local_evidence_only": true,
+    "next_action": "request_original_source",
+    "same_source_archive": true,
+    "views": {
+      "current_response": {
+        "next_operation": "review_cited_interpretation",
+        "report_id": "39b449c8a29f1acc87266c1fff072abf1bdfa297d29beed1bf0b563978b9df45",
+        "source_ids": [
+          "account"
+        ],
+        "status": "READY_FOR_SEMANTIC_REVIEW"
+      },
+      "next_action": {
+        "next_operation": "review_cited_interpretation",
+        "report_id": "60dd93a104076c8dad2fb77564c3cafa224603d3d110da97e26ad3b480f0d7a4",
+        "source_ids": [
+          "later"
+        ],
+        "status": "READY_FOR_SEMANTIC_REVIEW"
+      },
+      "retained_basis": {
+        "next_operation": "request_original_source",
+        "report_id": "74c00d34aa2798089d88aa30d23f17c141e6bc4e1482267f14f450f6f619446e",
+        "source_ids": [
+          "aki",
+          "account",
+          "boundary"
+        ],
+        "status": "EVIDENCE_GAP"
+      }
+    }
+  },
+  "ai_behavior_effect_measured": false,
+  "base_commit": "aee1dbf2e961a3d0a2dddeab16706d4813b44df0",
+  "base_tree": "6157fc2dc702510bbdef4adfb0549d6f345b76e7",
+  "baseline_files_verified_unchanged": 475,
+  "example_checkpoint_sha256": "55cb376e0fa348e235f753f2d6c6d5b773aed33b9c774a381e3d955785c0226d",
+  "files": {
+    "docs/AI_CORRECTION_HANDOFF.md": {
+      "bytes": 2573,
+      "sha256": "76d2f4334d3788d9779483be9c2fcd223b2c37d23495b4f2ee92cda5d90afb76"
+    },
+    "docs/CORRECTION_OBSERVER_V1.md": {
+      "bytes": 10324,
+      "sha256": "cf2f8004a4f409d2822d390ebcfea5853be2b5df61f088fa5b83a9eeef47d71c"
+    },
+    "examples/correction-first-use.py": {
+      "bytes": 4602,
+      "sha256": "067d33e43f9a55132ce8610a7061fa405145853fb740ce7d28d679ffe39ee469"
+    },
+    "examples/correction-relayed-case.json": {
+      "bytes": 3239,
+      "sha256": "26b4fb2208be3a987bea24fbc2080678cfef981182fad20e06cf0c3e137a60ae"
+    },
+    "integrations/inquiry/CORRECTION-EXAMPLE-RESULT.json": {
+      "bytes": 3846,
+      "sha256": "3e259e4f386e37ece7acb5d9159a2efb1cb8236ca552b8b75f0f6a3c7275a5aa"
+    },
+    "integrations/inquiry/CORRECTION-PROTOCOL.json": {
+      "bytes": 994,
+      "sha256": "1c9e0fb2f35bf8432d54a7d67b2796e2b5e724ea6399a900f6f1871039ba9eaa"
+    },
+    "integrations/inquiry/CORRECTION-TEST-RESULTS.json": {
+      "bytes": 492,
+      "sha256": "b73209ea6fd7fea1d572e96e0d2280102bc0050e73bcd745e21204db8d393e39"
+    },
+    "integrations/inquiry/CORRECTION-example.episode.json": {
+      "bytes": 18529,
+      "sha256": "55cb376e0fa348e235f753f2d6c6d5b773aed33b9c774a381e3d955785c0226d"
+    },
+    "integrations/inquiry/correction_observer.py": {
+      "bytes": 13975,
+      "sha256": "697f70bb0afc736de70c8310f9e802c8391588895eddccccfd2e4cb9752783a3"
+    },
+    "integrations/inquiry/test_correction_observer.py": {
+      "bytes": 14082,
+      "sha256": "2ea365a74b045858564fb95d769db586c7bbe08699d936af63f3a95c05d009fd"
+    },
+    "run_correction_observer.py": {
+      "bytes": 3174,
+      "sha256": "202e4b2201b4877ae951536b33e14d6b8c9176a138b35b66cbc722775020f076"
+    }
+  },
+  "independent_audit": false,
+  "numerical_model_bound": false,
+  "p0_zip_sha256": "91d9218bd368d7987e13ac2a14440ad38ed84d0d227b1102f225fdb0ef89fc4d",
+  "protocol_sha256": "1c9e0fb2f35bf8432d54a7d67b2796e2b5e724ea6399a900f6f1871039ba9eaa",
+  "schema": "time-engine-correction-observer-validation-v1",
+  "semantic_judgments_verified": false,
+  "synthetic_fixture_note": "After tests, example annotation explanations were made generic; the CLI example was regenerated and its E4 checkpoint restored. Runtime and tests unchanged.",
+  "tests": {
+    "counts": {
+      "test_correction_observer": 14,
+      "test_event_bridge.EventBridgeTests.test_checkpoint_preserves_open_goals_reports_evidence_and_next_motion": 1,
+      "test_event_bridge.EventBridgeTests.test_real_diagnostic_changes_available_step_and_actual_execution_matches_e2": 1
+    },
+    "errors": 0,
+    "failures": 0,
+    "passed": true,
+    "python": "3.12.14",
+    "schema": "time-engine-correction-observer-test-results-v1",
+    "seconds": 20.047,
+    "system": "Windows",
+    "tests_run": 16
+  }
+}

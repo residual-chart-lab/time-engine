@@ -1,0 +1,120 @@
+{
+  "ai_behavior_effect_measured": false,
+  "e4_accepted_commands": 19,
+  "e4_checkpoint_sha256": "55cb376e0fa348e235f753f2d6c6d5b773aed33b9c774a381e3d955785c0226d",
+  "e4_phase": "UNBOUND",
+  "e4_received": true,
+  "e4_replay_exact": true,
+  "input_sha256": "26b4fb2208be3a987bea24fbc2080678cfef981182fad20e06cf0c3e137a60ae",
+  "next_action": "request_original_source",
+  "numerical_model_bound": false,
+  "observation_plan_changed": true,
+  "question_views": {
+    "current_response": {
+      "continuity": "AFTER_ONLY_OR_INCOMPLETE_ANNOTATION",
+      "reading_plan": {
+        "anchors": [
+          {
+            "end": 102,
+            "quote": "I changed the framing rather than abandoning every distinction.",
+            "source": "account",
+            "source_sha256": "b3e47147953e5c0366a9a2c7872330f080bf308c7b8025d2e9ebb0b542629208",
+            "start": 39
+          }
+        ],
+        "fields": [
+          "u"
+        ],
+        "gaps": [],
+        "next_operation": "review_cited_interpretation",
+        "source_ids": [
+          "account"
+        ],
+        "status": "READY_FOR_SEMANTIC_REVIEW"
+      },
+      "report_id": "3aead2c2e9c83a9df20f27241a90d23426b0b3f27990553a9862e06633dd093d"
+    },
+    "next_action": {
+      "continuity": "AFTER_ONLY_OR_INCOMPLETE_ANNOTATION",
+      "reading_plan": {
+        "anchors": [
+          {
+            "end": 72,
+            "quote": "A temporary position is still constrained by the history that led to it.",
+            "source": "later",
+            "source_sha256": "f80115b8eddd45216c09772233d9d4cae3e51a8e3c2c4599933a93b88f6d1ce5",
+            "start": 0
+          }
+        ],
+        "fields": [
+          "a"
+        ],
+        "gaps": [],
+        "next_operation": "review_cited_interpretation",
+        "source_ids": [
+          "later"
+        ],
+        "status": "READY_FOR_SEMANTIC_REVIEW"
+      },
+      "report_id": "e25dae041b18d799850229c2a970fe2835c3604f7afa881ec720cb0e76f0062b"
+    },
+    "retained_basis": {
+      "continuity": "AFTER_ONLY_OR_INCOMPLETE_ANNOTATION",
+      "reading_plan": {
+        "anchors": [
+          {
+            "end": 38,
+            "quote": "I had framed the question incorrectly.",
+            "source": "account",
+            "source_sha256": "b3e47147953e5c0366a9a2c7872330f080bf308c7b8025d2e9ebb0b542629208",
+            "start": 0
+          },
+          {
+            "end": 102,
+            "quote": "I changed the framing rather than abandoning every distinction.",
+            "source": "account",
+            "source_sha256": "b3e47147953e5c0366a9a2c7872330f080bf308c7b8025d2e9ebb0b542629208",
+            "start": 39
+          },
+          {
+            "end": 94,
+            "quote": "Looking back, I meant to keep the distinction between established claims and open assumptions.",
+            "source": "boundary",
+            "source_sha256": "89f1a569d86a8b0ec7b61b78e710e876cb3b67ca215e45d5a765662d76ac6a2b",
+            "start": 0
+          }
+        ],
+        "fields": [
+          "b",
+          "u",
+          "p"
+        ],
+        "gaps": [
+          {
+            "available_sources": [],
+            "field": "p",
+            "next_operation": "request_original_source",
+            "role": "before"
+          },
+          {
+            "available_sources": [],
+            "field": "p",
+            "next_operation": "request_original_source",
+            "role": "after"
+          }
+        ],
+        "next_operation": "request_original_source",
+        "source_ids": [
+          "aki",
+          "account",
+          "boundary"
+        ],
+        "status": "EVIDENCE_GAP"
+      },
+      "report_id": "af1198b13c2367878093bc2a677ded939c9dfb6e2ab1eb6fa476601d352c7a9c"
+    }
+  },
+  "same_source_archive": true,
+  "schema": "time-engine-correction-first-use-v1",
+  "semantic_judgments_verified": false
+}

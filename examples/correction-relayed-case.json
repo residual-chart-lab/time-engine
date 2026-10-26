@@ -1,0 +1,102 @@
+{
+  "schema": "time-engine-correction-case-v1",
+  "id": "after-only-example",
+  "sources": [
+    {
+      "id": "aki",
+      "origin": "received",
+      "kind": "original_turn",
+      "location": "Synthetic after-only example; not a transcript or a report of a real subject.",
+      "event_time": null,
+      "text": "Try the computational principle without claiming a physical proof."
+    },
+    {
+      "id": "account",
+      "origin": "received",
+      "kind": "retrospective_account",
+      "location": "Synthetic after-only example; not a transcript or a report of a real subject.",
+      "event_time": null,
+      "text": "I had framed the question incorrectly. I changed the framing rather than abandoning every distinction."
+    },
+    {
+      "id": "boundary",
+      "origin": "received",
+      "kind": "retrospective_account",
+      "location": "Synthetic after-only example; not a transcript or a report of a real subject.",
+      "event_time": null,
+      "text": "Looking back, I meant to keep the distinction between established claims and open assumptions."
+    },
+    {
+      "id": "later",
+      "origin": "received",
+      "kind": "original_turn",
+      "location": "Synthetic after-only example; not a transcript or a report of a real subject.",
+      "event_time": null,
+      "text": "A temporary position is still constrained by the history that led to it."
+    }
+  ],
+  "roles": {
+    "before": [],
+    "correction": [
+      "aki"
+    ],
+    "after": [
+      "account",
+      "boundary"
+    ],
+    "continuation": [
+      "later"
+    ]
+  },
+  "observations": {
+    "b": {
+      "judgment": "yes",
+      "explanation": "The synthetic after-only account acknowledges a framing error. This is an annotator-supplied interpretation.",
+      "identified_at": null,
+      "evidence": [
+        {
+          "source": "account",
+          "quote": "I had framed the question incorrectly."
+        }
+      ]
+    },
+    "u": {
+      "judgment": "yes",
+      "explanation": "The synthetic account reports a changed framing; the historical transition is not independently established.",
+      "identified_at": null,
+      "evidence": [
+        {
+          "source": "account",
+          "quote": "I changed the framing rather than abandoning every distinction."
+        }
+      ]
+    },
+    "p": {
+      "judgment": "yes",
+      "explanation": "This synthetic later account describes a retained basis; the original before-turn has not been supplied.",
+      "identified_at": null,
+      "evidence": [
+        {
+          "source": "boundary",
+          "quote": "Looking back, I meant to keep the distinction between established claims and open assumptions."
+        }
+      ]
+    }
+  },
+  "action": {
+    "kind": "utterance",
+    "explanation": "A later synthetic quoted utterance qualifies a premise. Its dependence on the correction remains unverified.",
+    "identified_at": null,
+    "evidence": [
+      {
+        "source": "later",
+        "quote": "A temporary position is still constrained by the history that led to it."
+      }
+    ]
+  },
+  "question": {
+    "text": "For a new correction, what basis can I trace to both sides of this earlier correction?",
+    "focus": "retained_basis",
+    "identified_at": null
+  }
+}
