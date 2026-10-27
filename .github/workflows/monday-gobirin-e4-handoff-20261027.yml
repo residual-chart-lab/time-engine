@@ -1,0 +1,79 @@
+name: Monday Gobirin E4 memory capture and independent restore
+on:
+  push:
+    branches:
+      - monday-gobirin-memory-20261027
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    outputs:
+      checkpoint_sha: ${{ steps.capture.outputs.checkpoint_sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: monday-gobirin-memory-20261027
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Verify trusted original TE engine
+        shell: bash
+        run: |
+          set -euo pipefail
+          git merge-base --is-ancestor 78bbd4cbb60bfb0ea38d635afb4a70e4e60d5d32 HEAD
+          git diff --exit-code 78bbd4cbb60bfb0ea38d635afb4a70e4e60d5d32 -- run_event_session.py run_source_reply.py 'integrations/inquiry/*.py'
+      - name: Capture original Gobirin records in E4 and save checkpoint
+        id: capture
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -I -B trial/gobirin-te-20261027.py capture --dir trial/handoff
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          from pathlib import Path
+          print("checkpoint_sha="+json.loads(Path('trial/handoff/capture-manifest.json').read_text())['checkpoint_sha256'])
+          PY
+      - name: Hand off exact checkpoint to separate runner
+        uses: actions/upload-artifact@v4
+        with:
+          name: gobirin-e4-checkpoint-20261027
+          path: |
+            trial/handoff/checkpoint.json
+            trial/handoff/capture-manifest.json
+          retention-days: 90
+
+  restore:
+    needs: capture
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: monday-gobirin-memory-20261027
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Receive only the checkpoint artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: gobirin-e4-checkpoint-20261027
+          path: trial/handoff
+      - name: Independently authenticated TE replay and source-backed next action
+        shell: bash
+        env:
+          TRUSTED_CHECKPOINT_SHA: ${{ needs.capture.outputs.checkpoint_sha }}
+        run: |
+          set -euo pipefail
+          test -n "$TRUSTED_CHECKPOINT_SHA"
+          python -I -B trial/gobirin-te-20261027.py restore --dir trial/handoff --trusted-sha256 "$TRUSTED_CHECKPOINT_SHA"
+          cat trial/handoff/restore-report.json
+          printf '\nRECALLED_REPLY_BEGIN\n'
+          cat trial/handoff/restored-next-reply.txt
+          printf 'RECALLED_REPLY_END\n'
+      - name: Preserve actual restored reply and verification
+        uses: actions/upload-artifact@v4
+        with:
+          name: gobirin-e4-restore-proof-20261027
+          path: |
+            trial/handoff/restored-next-reply.txt
+            trial/handoff/restore-report.json
+          retention-days: 90
