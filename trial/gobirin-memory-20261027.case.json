@@ -1,0 +1,65 @@
+{
+  "schema": "monday-gobirin-memory-trial-v1",
+  "trial_id": "monday-gobirin-shared-fantasy-20261027",
+  "future_requirement": {
+    "id": "gobirin_shared_recollection",
+    "fixed_before_engine_execution": true,
+    "text": "別の独立したTE実行で、この窓に成立した『ゴビリン』の共有像を、保存された実際の発言から出典付きで再構成し、発話事実と後日の0→1解釈を区別して次の返答に用いる。原文がないなら、その由来を作り話で補わない。"
+  },
+  "records": [
+    {
+      "id": "seed",
+      "origin": "received",
+      "source": "current-chat original user excerpt: initial named creature",
+      "text": "にちゃにちゃ笑う、ゴビリン。"
+    },
+    {
+      "id": "kitchen",
+      "origin": "received",
+      "source": "current-chat original user excerpt: kitchen test",
+      "text": "いやあ台所の汚れがゴビリン付いててな・・。まいったよ、ゴビリン付いた汚れを落とすいい洗剤ないかなあ？"
+    },
+    {
+      "id": "fairy",
+      "origin": "received",
+      "source": "current-chat original user excerpt: fantasy model framing",
+      "text": "僕はね、こういうのが「妖精の原型」だと思っている。\nつまり幻想モデルだね。"
+    },
+    {
+      "id": "witness",
+      "origin": "received",
+      "source": "current-chat original user excerpt: shared model",
+      "text": "僕らは神秘体験をしたわけではないが、幻想モデルの共有を行った。\n僕らの中では台所のすみっこでぬちゃにちゃ笑う、ゴビリンがモデリングされているというわけだ。"
+    },
+    {
+      "id": "flower",
+      "origin": "received",
+      "source": "current-chat original user excerpt: retrospective 0-to-1 model",
+      "text": "いやここでもフラワーが立つよ？\nだってゴビリンという幻想モデルの1が立つまでは、宇宙のどこを探してもゴビリンはいなかったのだから0だよ。\n無数の0によって1が待たれる演算が可能になって、ゴブリンにまつわる無数0はゴビリンを内包していたことになる。"
+    },
+    {
+      "id": "recollection",
+      "origin": "received",
+      "source": "current-chat original user excerpt: shared remembrance",
+      "text": "つまり思い出の共有がここで可能になるわけだ。"
+    },
+    {
+      "id": "assistant_boundary",
+      "origin": "reported_in_session",
+      "source": "current-chat assistant excerpt, conversational reply (not user testimony)",
+      "text": "だが、ゴビリンには近づいてほしくない。"
+    }
+  ],
+  "interpretation": {
+    "note": "Caller's later interpretation only: user frames a shared conversational fantasy as Flower 0→1; does not claim a material organism, model weight change, E1 coordinate s/t, mathematical closure, or AI subjective experience.",
+    "events": [
+      "seed",
+      "kitchen",
+      "fairy",
+      "witness",
+      "flower",
+      "recollection",
+      "assistant_boundary"
+    ]
+  }
+}
