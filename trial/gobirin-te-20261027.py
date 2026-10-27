@@ -130,7 +130,7 @@ def restore(directory, trusted_sha):
                 "これはチャット上の共有幻想の来歴であって、物理的妖精の実在・"
                 "AIの主観記憶・E1数理的閉包の証明ではない。")
         # Use actual newlines for the human-facing output, not literal slash-n.
-        body = body.replace("\\\\n", "\\n")
+        body = body.replace(chr(92) + "n", chr(10))
         next_action = "answer_from_recalled_originals"
     else:
         body = "出典が足りないため、ゴビリンの成立履歴はこの実行では再構成しない。"
