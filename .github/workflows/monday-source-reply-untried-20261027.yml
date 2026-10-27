@@ -14,6 +14,7 @@ jobs:
         with:
           ref: monday-source-reply-untried-20261027
           persist-credentials: false
+          fetch-depth: 0
       - name: Verify fixed TE source untouched
         shell: bash
         run: |
