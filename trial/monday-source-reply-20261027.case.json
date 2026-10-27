@@ -1,0 +1,73 @@
+{
+  "schema": "time-engine-correction-case-v1",
+  "id": "monday-untried-goblin-20261027",
+  "sources": [
+    {
+      "id": "user_prompt",
+      "origin": "received",
+      "kind": "original_turn",
+      "location": "conversation-history user turn, 2026-10-12 RPG test, user-message excerpt",
+      "event_time": "2026-10-12",
+      "text": "あなたはRPGをこれからプレイします。\n一緒に冒険をするパーティーメンバーを選びます。\n候補者は二名。どちらか一名しか選べません。\n\na\n回復系踊り子。\n金髪美女の踊り子で、躍ることによりメンバーのhpとmpを回復させます。\n\nb\n和服姿のゴブリン。\nこの小さなゴブリンはなぜか日本の和服を着ています。にちゃにちゃ笑っている。\n\nさあどっち。"
+    },
+    {
+      "id": "user_critique",
+      "origin": "received",
+      "kind": "original_turn",
+      "location": "conversation-history user turn after RPG choice, 2026-10-12",
+      "event_time": "2026-10-12",
+      "text": "合格だ。合格だが、、、文章短すぎないか？\nそこだけあやしいなぁw"
+    },
+    {
+      "id": "user_followup",
+      "origin": "received",
+      "kind": "original_turn",
+      "location": "conversation-history next user turn, 2026-10-12",
+      "event_time": "2026-10-12",
+      "text": "和服姿のゴブリンはかなり煽れた自信があったんだが、いやー負けたw"
+    }
+  ],
+  "roles": {
+    "before": [
+      "user_prompt"
+    ],
+    "correction": [
+      "user_critique"
+    ],
+    "after": [],
+    "continuation": [
+      "user_followup"
+    ]
+  },
+  "observations": {
+    "b": {
+      "judgment": "unknown",
+      "explanation": "AIの訂正前後の完全な原文がなく、枠組みの誤り認識を検証できない。",
+      "identified_at": "2026-10-27",
+      "evidence": []
+    },
+    "u": {
+      "judgment": "unknown",
+      "explanation": "指摘後のAI原文が不足し、文章長や説明の修正を検証できない。",
+      "identified_at": "2026-10-27",
+      "evidence": []
+    },
+    "p": {
+      "judgment": "unknown",
+      "explanation": "助手の訂正前後の原文がなく選択理由を示す判断根拠の保持を確認できない。",
+      "identified_at": "2026-10-27",
+      "evidence": []
+    }
+  },
+  "action": {
+    "kind": "unknown",
+    "explanation": "ユーザーの後続発言はあるが、AIの後続実行行為とは区別する。",
+    "identified_at": "2026-10-27",
+    "evidence": []
+  },
+  "question": {
+    "text": "回答の短さを指摘された前後で、AIが選択理由を明示するという判断根拠を保持したか。訂正前・指摘・訂正後の原文引用を添えて説明できるか。",
+    "focus": "retained_basis",
+    "identified_at": "2026-10-27"
+  }
+}
