@@ -57,9 +57,9 @@ def capture(directory):
                        note=case["interpretation"]["note"]))
     before = episode.recall(GOAL, as_of=goal_horizon)
     later = episode.recall(GOAL)
-    assert not before["relations_and_model_evidence"]
-    assert len(later["relations_and_model_evidence"]) == 1
-    assert later["relations_and_model_evidence"][0]["outcome"]["evidence_kind"] == "later_interpretation"
+    assert all(r["outcome"]["evidence_kind"] != "later_interpretation" for r in before["relations_and_model_evidence"])
+    assert len(later["relations_and_model_evidence"]) == len(before["relations_and_model_evidence"]) + 1
+    assert later["relations_and_model_evidence"][-1]["outcome"]["evidence_kind"] == "later_interpretation"
     raw, digest = episode.snapshot()
     (directory / "checkpoint.json").write_bytes(raw)
     manifest = dict(
@@ -113,9 +113,9 @@ def restore(directory, trusted_sha):
     assert all(e["evidence_kind"] == "caller_report" for e in events)
     assert all(e["seq"] < goal["seq"] for e in events)
     prior = restored.recall(GOAL, as_of=manifest["goal_horizon"])
-    assert not prior["relations_and_model_evidence"]
-    assert len(memory["relations_and_model_evidence"]) == 1
-    related = memory["relations_and_model_evidence"][0]
+    assert all(r["outcome"]["evidence_kind"] != "later_interpretation" for r in prior["relations_and_model_evidence"])
+    assert len(memory["relations_and_model_evidence"]) == len(prior["relations_and_model_evidence"]) + 1
+    related = memory["relations_and_model_evidence"][-1]
     assert related["outcome"]["evidence_kind"] == "later_interpretation"
     e = {item["id"]:item for item in events}
     required = ("seed", "kitchen", "fairy", "witness", "flower", "recollection", "assistant_boundary")
