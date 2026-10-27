@@ -26,34 +26,34 @@ jobs:
         run: |
           set -euo pipefail
           python - <<'PY'
-            import json,hashlib,subprocess,sys
-            from pathlib import Path
-            case_path=Path('trial/monday-source-reply-20261027.case.json')
-            obj=json.loads(case_path.read_text(encoding='utf-8'))
-            canonical=(json.dumps(obj,ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)+'\n').encode('utf-8')
-            # Python source string above intentionally uses backslash-n; decode it to actual newline:
-            canonical=canonical[:-2]+b'\n' if canonical.endswith(b'\\n') else canonical
-            actual=hashlib.sha256(canonical).hexdigest()
-            assert actual=='13e2f5e5fc3495f21d36322e9ad96ef0eb156f8deeb2ba1376ee9fa0919c962a',f'Precommitted semantic case changed: {actual}'
-            proc=subprocess.run([sys.executable,'-I','-B','run_source_reply.py','compile','--case',str(case_path),'--output-dir','trial/packs'],capture_output=True,text=True)
-            assert proc.returncode==0,(proc.stdout,proc.stderr)
-            manifest=json.loads(Path('trial/packs/MANIFEST.json').read_text())
-            bundle='trial/packs/retained.bundle.json'
-            sha=manifest['files']['retained.bundle.json']['sha256']
-            req={'target':'retained_basis','question':obj['question']['text']}
-            inputs=''.join(json.dumps(x,ensure_ascii=False)+'\n' for x in ({'op':'bind','requirement':req},{'op':'quit'}))
-            proc=subprocess.run([sys.executable,'-I','-B','run_source_reply.py','run','--bundle',bundle,'--trusted-sha256',sha],input=inputs,capture_output=True,text=True)
-            assert proc.returncode==0,(proc.stdout,proc.stderr)
-            replies=[json.loads(x) for x in proc.stdout.splitlines()]
-            assert len(replies)==3 and all(x['ok'] for x in replies),replies
-            state=replies[1]['status']
-            assert state['choice'] is None and state['permit'] is None and state['closed_responses']==0, state
-            result={'case_id':obj['id'],'question_C':req,'precommitted_canonical_case_sha256':actual,'tool_commit':'78bbd4cbb60bfb0ea38d635afb4a70e4e60d5d32','phase':state['phase'],'available_sources':state['source_ids'],'plans':state['plans'],'admissible_answers':state['admissible_answers'],'stopped_before_choice':True,'prior_knowledge_only':'assistant earlier answer and later interpretation known from conversation summary, not sent to TE as original','newly_retrieved':'only external summarized assistant account; not included in TE packet','actual_source_scope':'user prompt, user brevity critique, later user utterance'}
-            Path('trial/candidate-list.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-            print('MONDAY_SOURCE_REPLY_CANDIDATES_BEGIN')
-            print(json.dumps(result,ensure_ascii=False))
-            print('MONDAY_SOURCE_REPLY_CANDIDATES_END')
-            
+          import json,hashlib,subprocess,sys
+          from pathlib import Path
+          case_path=Path('trial/monday-source-reply-20261027.case.json')
+          obj=json.loads(case_path.read_text(encoding='utf-8'))
+          canonical=(json.dumps(obj,ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)+'\n').encode('utf-8')
+          # Python source string above intentionally uses backslash-n; decode it to actual newline:
+          canonical=canonical[:-2]+b'\n' if canonical.endswith(b'\\n') else canonical
+          actual=hashlib.sha256(canonical).hexdigest()
+          assert actual=='13e2f5e5fc3495f21d36322e9ad96ef0eb156f8deeb2ba1376ee9fa0919c962a',f'Precommitted semantic case changed: {actual}'
+          proc=subprocess.run([sys.executable,'-I','-B','run_source_reply.py','compile','--case',str(case_path),'--output-dir','trial/packs'],capture_output=True,text=True)
+          assert proc.returncode==0,(proc.stdout,proc.stderr)
+          manifest=json.loads(Path('trial/packs/MANIFEST.json').read_text())
+          bundle='trial/packs/retained.bundle.json'
+          sha=manifest['files']['retained.bundle.json']['sha256']
+          req={'target':'retained_basis','question':obj['question']['text']}
+          inputs=''.join(json.dumps(x,ensure_ascii=False)+'\n' for x in ({'op':'bind','requirement':req},{'op':'quit'}))
+          proc=subprocess.run([sys.executable,'-I','-B','run_source_reply.py','run','--bundle',bundle,'--trusted-sha256',sha],input=inputs,capture_output=True,text=True)
+          assert proc.returncode==0,(proc.stdout,proc.stderr)
+          replies=[json.loads(x) for x in proc.stdout.splitlines()]
+          assert len(replies)==3 and all(x['ok'] for x in replies),replies
+          state=replies[1]['status']
+          assert state['choice'] is None and state['permit'] is None and state['closed_responses']==0, state
+          result={'case_id':obj['id'],'question_C':req,'precommitted_canonical_case_sha256':actual,'tool_commit':'78bbd4cbb60bfb0ea38d635afb4a70e4e60d5d32','phase':state['phase'],'available_sources':state['source_ids'],'plans':state['plans'],'admissible_answers':state['admissible_answers'],'stopped_before_choice':True,'prior_knowledge_only':'assistant earlier answer and later interpretation known from conversation summary, not sent to TE as original','newly_retrieved':'only external summarized assistant account; not included in TE packet','actual_source_scope':'user prompt, user brevity critique, later user utterance'}
+          Path('trial/candidate-list.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('MONDAY_SOURCE_REPLY_CANDIDATES_BEGIN')
+          print(json.dumps(result,ensure_ascii=False))
+          print('MONDAY_SOURCE_REPLY_CANDIDATES_END')
+          
           PY
       - name: Save exact plan list for independent inspection
         uses: actions/upload-artifact@v4
