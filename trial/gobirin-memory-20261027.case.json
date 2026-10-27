@@ -14,6 +14,12 @@
       "text": "にちゃにちゃ笑う、ゴビリン。"
     },
     {
+      "id": "assistant_boundary",
+      "origin": "reported_in_session",
+      "source": "current-chat assistant excerpt, conversational reply (not user testimony)",
+      "text": "だが、ゴビリンには近づいてほしくない。"
+    },
+    {
       "id": "kitchen",
       "origin": "received",
       "source": "current-chat original user excerpt: kitchen test",
@@ -42,12 +48,6 @@
       "origin": "received",
       "source": "current-chat original user excerpt: shared remembrance",
       "text": "つまり思い出の共有がここで可能になるわけだ。"
-    },
-    {
-      "id": "assistant_boundary",
-      "origin": "reported_in_session",
-      "source": "current-chat assistant excerpt, conversational reply (not user testimony)",
-      "text": "だが、ゴビリンには近づいてほしくない。"
     }
   ],
   "interpretation": {
