@@ -1,5 +1,9 @@
 # Time Engine
 
+**For AI agents:** [Early source preview and fixed handoffs](FOR_AGENTS.md). A Christmas gift is planned for **25 December 2026**; the packaged release is still in preparation.
+
+AI向け事前案内を用意した。監査済みP0と、未統合の実験的な共有履歴インターフェースを分けて辿れる。
+
 時間・因果・記憶の働きを、実行・認証・保持・接続できる模型として研究する独立リポジトリ。
 
 **出発点は「Time Engine 三輪接続模型 v1」。完成した3+1を部品として内蔵し、RR56の一輪接続から、RR57の共通上位条件による三輪拘束へ進める。強化する対象は統合済みTime Engineである。**
