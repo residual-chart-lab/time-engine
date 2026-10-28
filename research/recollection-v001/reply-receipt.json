@@ -1,0 +1,87 @@
+{
+  "ok": true,
+  "receipt": {
+    "as_of": 10,
+    "goal": "gobirin_shared_recollection",
+    "goal_closed": false,
+    "id": "example-next",
+    "memory": "gobirin",
+    "other_context": [
+      "external"
+    ],
+    "packet_sha256": "22b5fb8acfc868d90a82ff3ce5794a5c65fe1a4e045f05e0ad49aabf5c572c39",
+    "parts": [
+      "rc-part-ec40c5a81fd9c0ddc088e38e-0"
+    ],
+    "schema": "time-engine-recollection-v1-reply",
+    "semantic_certification": false,
+    "text_sha256": "2298ea3c1cd206b081ea5529d45d701dc5a02c86b5a7130b46f8291cd4fd2c30",
+    "use_kind": "caller_declared_use",
+    "used_sources": [
+      {
+        "id": "seed",
+        "kind": "caller_report",
+        "origin": "received",
+        "seq": 1,
+        "source_hint": "current-chat original user excerpt: initial named creature",
+        "source_sha256": "05623c7d510065e5bc31fe39bdf666c87d59277c062133f384ae8ce6e38f293c",
+        "stored_text_sha256": "b727d5882574391c97677b320f48d583607325245444124d3ad6ecbb904aaef4"
+      },
+      {
+        "id": "witness",
+        "kind": "caller_report",
+        "origin": "received",
+        "seq": 5,
+        "source_hint": "current-chat original user excerpt: shared model",
+        "source_sha256": "8efa5ce17aedbcb4973e4f758f91332487d044a45095b39f1e1bbe3b3144b6b1",
+        "stored_text_sha256": "10df009a5055b4e1b5199b1fb4663010e5bc8ade750cc00d8fb45801215aa26b"
+      }
+    ],
+    "used_summary": true
+  },
+  "receipt_event": "rc-reply-ec40c5a81fd9c0ddc088e38e",
+  "status": {
+    "accepted_commands": 13,
+    "commands_remaining": 115,
+    "e4_head": "1b3f2f19a3658aae188d520946cc688932eca0f95a0f2effbc2de44172aaaf5c",
+    "engine": {
+      "accepted_commands": 0,
+      "assessment_status": null,
+      "cached_observations": 0,
+      "certified": false,
+      "choice": null,
+      "closed_flowers": 0,
+      "commands_remaining": 64,
+      "entry": "24ccd25412e46f5051ee5e48325358f8f62a66ce1244b69ce65fa57abce6f5de",
+      "last_resolution_work": {},
+      "numerical_reads": 0,
+      "phase": "UNBOUND",
+      "phase_operations": [
+        "bind",
+        "status",
+        "save",
+        "quit"
+      ],
+      "plan_status": null,
+      "requirement": null,
+      "schema": "time-engine-session-view-v1",
+      "stock": 6
+    },
+    "erasure_authorized": false,
+    "memories": [
+      {
+        "cues": [
+          "ゴビリン"
+        ],
+        "goal": "gobirin_shared_recollection",
+        "id": "gobirin",
+        "registered_seq": 9,
+        "summary": "台所の相談へ転用され、共有幻想として語られたゴビリン。これは呼出し側の要約であり、元の発言は別に保持している。",
+        "summary_event": "rc-memory-78f865313ef0d3151f589d54",
+        "summary_kind": "caller_summary"
+      }
+    ],
+    "schema": "time-engine-recollection-v1",
+    "semantic_certification": false
+  }
+}

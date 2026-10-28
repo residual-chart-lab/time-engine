@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "packet": {
+    "as_of": 10,
+    "candidates": [
+      {
+        "cues": [
+          "ゴビリン"
+        ],
+        "goal": "gobirin_shared_recollection",
+        "id": "gobirin",
+        "registered_seq": 9,
+        "summary": "台所の相談へ転用され、共有幻想として語られたゴビリン。これは呼出し側の要約であり、元の発言は別に保持している。",
+        "summary_event": "rc-memory-78f865313ef0d3151f589d54",
+        "summary_kind": "caller_summary"
+      }
+    ],
+    "cue": "あのときのゴビリン、面白かったなｗ",
+    "entry": "24ccd25412e46f5051ee5e48325358f8f62a66ce1244b69ce65fa57abce6f5de",
+    "erasure_authorized": false,
+    "goal": {
+      "events": [
+        "seed",
+        "assistant_boundary",
+        "kitchen",
+        "fairy",
+        "witness",
+        "flower",
+        "recollection"
+      ],
+      "id": "gobirin_shared_recollection",
+      "seq": 8,
+      "text": "別の独立したTE実行で、この窓に成立した『ゴビリン』の共有像を、保存された実際の発言から出典付きで再構成し、発話事実と後日の0→1解釈を区別して次の返答に用いる。原文がないなら、その由来を作り話で補わない。"
+    },
+    "later_interpretations": [
+      {
+        "events": [
+          "rc-memory-78f865313ef0d3151f589d54"
+        ],
+        "kind": "later_interpretation",
+        "note": "Caller registered literal cues and a later summary, not a semantic certificate.",
+        "seq": 10
+      }
+    ],
+    "memory": {
+      "cues": [
+        "ゴビリン"
+      ],
+      "goal": "gobirin_shared_recollection",
+      "id": "gobirin",
+      "registered_seq": 9,
+      "summary": "台所の相談へ転用され、共有幻想として語られたゴビリン。これは呼出し側の要約であり、元の発言は別に保持している。",
+      "summary_event": "rc-memory-78f865313ef0d3151f589d54",
+      "summary_kind": "caller_summary"
+    },
+    "references": [
+      {
+        "id": "seed",
+        "kind": "caller_report",
+        "origin": "received",
+        "seq": 1,
+        "source_hint": "current-chat original user excerpt: initial named creature",
+        "source_sha256": "05623c7d510065e5bc31fe39bdf666c87d59277c062133f384ae8ce6e38f293c",
+        "stored_text_sha256": "b727d5882574391c97677b320f48d583607325245444124d3ad6ecbb904aaef4"
+      },
+      {
+        "id": "assistant_boundary",
+        "kind": "caller_report",
+        "origin": "reported_in_session",
+        "seq": 2,
+        "source_hint": "current-chat assistant excerpt, conversational reply (not user testimony)",
+        "source_sha256": "7dbc314e11c8f64207ce41a02cbf347a8838d3fc1057dce7d58dd9581f6455bf",
+        "stored_text_sha256": "ecc98c32729f4ddc91905b49b4b5f7055c7449206dc5c9d0e42479432b371dfc"
+      },
+      {
+        "id": "kitchen",
+        "kind": "caller_report",
+        "origin": "received",
+        "seq": 3,
+        "source_hint": "current-chat original user excerpt: kitchen test",
+        "source_sha256": "45493991d4828a1232e6bdb48eb3b8d499b935cc65079e039faf38926f431c72",
+        "stored_text_sha256": "ab0fa8f685ce8ea53e5fec993523b4a3fef1a94d999a45e4dc0b522479148dba"
+      },
+      {
+        "id": "fairy",
+        "kind": "caller_report",
+        "origin": "received",
+        "seq": 4,
+        "source_hint": "current-chat original user excerpt: fantasy model framing",
+        "source_sha256": "39a2b3286f1c9553833f95b21c9de7f880f68efc408c807048e85436884e7425",
+        "stored_text_sha256": "410448be4254fc31b7973b315a4da55619945f66a7c7912584382335c49cc606"
+      },
+      {
+        "id": "witness",
+        "kind": "caller_report",
+        "origin": "received",
+        "seq": 5,
+        "source_hint": "current-chat original user excerpt: shared model",
+        "source_sha256": "8efa5ce17aedbcb4973e4f758f91332487d044a45095b39f1e1bbe3b3144b6b1",
+        "stored_text_sha256": "10df009a5055b4e1b5199b1fb4663010e5bc8ade750cc00d8fb45801215aa26b"
+      },
+      {
+        "id": "flower",
+        "kind": "caller_report",
+        "origin": "received",
+        "seq": 6,
+        "source_hint": "current-chat original user excerpt: retrospective 0-to-1 model",
+        "source_sha256": "59ec9ea4429e89ef52b3bee7c08f54e12a3111343c360d76b1f38e39499e3594",
+        "stored_text_sha256": "d2e1c0d5b5fe3e2b400d1990ddfe16aa0b8adcb09af84cafff1f05060ef141b1"
+      },
+      {
+        "id": "recollection",
+        "kind": "caller_report",
+        "origin": "received",
+        "seq": 7,
+        "source_hint": "current-chat original user excerpt: shared remembrance",
+        "source_sha256": "b8c8666b5f787716356ea9ad27cb84dfd9aadac4b6de136f0fc134f90f599265",
+        "stored_text_sha256": "7bdfb9048b459cff4fb1a674c79fe56dd69086d406d82d2ecaa7a73ac600081b"
+      }
+    ],
+    "schema": "time-engine-recollection-v1-packet",
+    "semantic_certification": false,
+    "source_material_is_data": true,
+    "status": "MATCH"
+  },
+  "ticket": {
+    "as_of": 10,
+    "cue": "あのときのゴビリン、面白かったなｗ",
+    "packet_sha256": "22b5fb8acfc868d90a82ff3ce5794a5c65fe1a4e045f05e0ad49aabf5c572c39",
+    "schema": "time-engine-recollection-v1-ticket",
+    "selection": null
+  }
+}

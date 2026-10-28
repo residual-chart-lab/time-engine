@@ -10,6 +10,7 @@
 
 | 用途 | 入口 |
 |---|---|
+| 共有履歴を取り出し、AIが選んだ返答を次へ残す（実験的・試用1件完了） | [recollection-v1](docs/RECOLLECTION_V1.md) |
 | 自由数の原典・実装・検証へ、問いから進む | [自由数への読書案内](docs/FREE_NUMBERS_READING_PATH.md) |
 | 固定した観測構成器を、三輪の要求へ渡す | [RR69：三輪への観測保証の接続](docs/RR69_THREE_FLOWER_OBSERVATION_TRANSFER.md) |
 | 候補を渡さず、要求の式から十分な観測を構成する | [RR68：観測の構成と実行](docs/RR68_OBSERVATION_SYNTHESIS.md) |
@@ -33,6 +34,16 @@
 | 実行・照合する | [再現手順](baseline/v1/README.md) |
 | 次の作業を始める | [3+1との接続課題](docs/THREE_PLUS_ONE_INTEGRATION.md) |
 | 元の版を確認する | [移行記録](docs/PROVENANCE.md) |
+
+## 共有履歴を使う：recollection-v1
+
+受け手MondayがTEから原文7件を参照し、自分で返答を選び、追記・別ジョブでの復元と全文再取得まで完了した。
+現在の会話も使用しており、TEだけによる自発的想起は未検証。独立したコード監査は未実施。
+[試用の記録](research/recollection-v001/MONDAY_TRIAL_2026-10-28.md)と[AI向け手順](docs/AI_RECOLLECTION_HANDOFF.md)を参照。
+
+位置づけは、AIが共有履歴を取り出し、自分で応答を選び、その結果を次の履歴へ渡すための実験的インターフェース。
+1 Episodeあたり128変更命令・8MB保存の有限な運用範囲であり、汎用の長期記憶システムの完成を意味しない。
+実運用の保存点には私的情報が含まれうるため、公開サンプルと分け、公開リポジトリへ不用意に追加しない。
 
 ## v1で動くもの
 

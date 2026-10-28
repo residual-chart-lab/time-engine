@@ -1,0 +1,14 @@
+{
+  "after_reply_checkpoint_sha256": "28011d6ee1d2ce533cb7d7ecf4a16a199fc6045bfc4bdd506d63d3c844d8f155",
+  "e1_math_phase": "UNBOUND",
+  "fixed_driver": true,
+  "independent_ai_behavior_test": false,
+  "matched_sources": 7,
+  "missing_episode": "NO_MATCH",
+  "old_journal_prefix_unchanged": true,
+  "ready_checkpoint_sha256": "668b845e48f3976ad1a653bf9b6deb0e9324ab8472b7917a5431df1675236d6a",
+  "reply_linked_into_next_recall": true,
+  "same_ticket_after_restart": true,
+  "schema": "recollection-first-use-result-v1",
+  "source_use": "caller_declared_use"
+}

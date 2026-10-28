@@ -1,0 +1,34 @@
+[
+  {
+    "event": {
+      "evidence_kind": "caller_report",
+      "id": "seed",
+      "origin": "received",
+      "seq": 1,
+      "source": "current-chat original user excerpt: initial named creature",
+      "text": "にちゃにちゃ笑う、ゴビリン。"
+    },
+    "ok": true,
+    "packet_sha256": "22b5fb8acfc868d90a82ff3ce5794a5c65fe1a4e045f05e0ad49aabf5c572c39",
+    "provenance_kind": "stored_caller_report",
+    "semantic_certification": false,
+    "text": "にちゃにちゃ笑う、ゴビリン。",
+    "text_sha256": "b727d5882574391c97677b320f48d583607325245444124d3ad6ecbb904aaef4"
+  },
+  {
+    "event": {
+      "evidence_kind": "caller_report",
+      "id": "witness",
+      "origin": "received",
+      "seq": 5,
+      "source": "current-chat original user excerpt: shared model",
+      "text": "僕らは神秘体験をしたわけではないが、幻想モデルの共有を行った。\n僕らの中では台所のすみっこでぬちゃにちゃ笑う、ゴビリンがモデリングされているというわけだ。"
+    },
+    "ok": true,
+    "packet_sha256": "22b5fb8acfc868d90a82ff3ce5794a5c65fe1a4e045f05e0ad49aabf5c572c39",
+    "provenance_kind": "stored_caller_report",
+    "semantic_certification": false,
+    "text": "僕らは神秘体験をしたわけではないが、幻想モデルの共有を行った。\n僕らの中では台所のすみっこでぬちゃにちゃ笑う、ゴビリンがモデリングされているというわけだ。",
+    "text_sha256": "10df009a5055b4e1b5199b1fb4663010e5bc8ade750cc00d8fb45801215aa26b"
+  }
+]
