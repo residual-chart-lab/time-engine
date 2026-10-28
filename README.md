@@ -10,6 +10,7 @@
 
 | 用途 | 入口 |
 |---|---|
+| 短い呼びかけから、E4の履歴を読み、実際の返答を次へ残す（追加案） | [recollection-v1](docs/RECOLLECTION_V1.md) |
 | 自由数の原典・実装・検証へ、問いから進む | [自由数への読書案内](docs/FREE_NUMBERS_READING_PATH.md) |
 | 固定した観測構成器を、三輪の要求へ渡す | [RR69：三輪への観測保証の接続](docs/RR69_THREE_FLOWER_OBSERVATION_TRANSFER.md) |
 | 候補を渡さず、要求の式から十分な観測を構成する | [RR68：観測の構成と実行](docs/RR68_OBSERVATION_SYNTHESIS.md) |

@@ -1,0 +1,23 @@
+test_ambiguous_cue_keeps_current_choice_and_explicit_selection (test_recollection.RecollectionTests.test_ambiguous_cue_keeps_current_choice_and_explicit_selection) ... ok
+test_cli_resume_lookup_and_save_keeps_normal_e4_format (test_recollection.RecollectionTests.test_cli_resume_lookup_and_save_keeps_normal_e4_format) ... ok
+test_corrupted_e4_checkpoint_is_rejected (test_recollection.RecollectionTests.test_corrupted_e4_checkpoint_is_rejected) ... ok
+test_e4_budget_failure_leaves_no_partial_registration (test_recollection.RecollectionTests.test_e4_budget_failure_leaves_no_partial_registration) ... ok
+test_mid_reply_failure_rolls_back_all_new_parts_and_allows_retry (test_recollection.RecollectionTests.test_mid_reply_failure_rolls_back_all_new_parts_and_allows_retry) ... ok
+test_missing_record_does_not_generate_a_memory_and_can_record_an_inquiry (test_recollection.RecollectionTests.test_missing_record_does_not_generate_a_memory_and_can_record_an_inquiry) ... ok
+test_ordinary_e4_roundtrip_preserves_tickets_and_extended_records (test_recollection.RecollectionTests.test_ordinary_e4_roundtrip_preserves_tickets_and_extended_records) ... ok
+test_original_monday_checkpoint_is_accepted_without_rewriting_it (test_recollection.RecollectionTests.test_original_monday_checkpoint_is_accepted_without_rewriting_it) ... ok
+test_read_returns_exact_report_and_rejects_outside_sources (test_recollection.RecollectionTests.test_read_returns_exact_report_and_rejects_outside_sources) ... ok
+test_registered_summaries_cannot_be_overwritten (test_recollection.RecollectionTests.test_registered_summaries_cannot_be_overwritten) ... ok
+test_reply_appends_new_history_preserving_old_horizon_and_prefix (test_recollection.RecollectionTests.test_reply_appends_new_history_preserving_old_horizon_and_prefix) ... ok
+test_reply_whitespace_unicode_and_crlf_are_lossless (test_recollection.RecollectionTests.test_reply_whitespace_unicode_and_crlf_are_lossless) ... ok
+test_short_cue_returns_summary_and_refs_without_replaying_all_originals (test_recollection.RecollectionTests.test_short_cue_returns_summary_and_refs_without_replaying_all_originals) ... ok
+test_snapshot_budget_failure_is_atomic (test_recollection.RecollectionTests.test_snapshot_budget_failure_is_atomic) ... ok
+test_summary_only_and_other_context_are_separate_declarations (test_recollection.RecollectionTests.test_summary_only_and_other_context_are_separate_declarations) ... ok
+test_tampered_ticket_or_unavailable_declared_source_cannot_write (test_recollection.RecollectionTests.test_tampered_ticket_or_unavailable_declared_source_cannot_write) ... ok
+test_then_known_history_and_later_interpretation_do_not_rewrite_one_another (test_event_bridge.EventBridgeTests.test_then_known_history_and_later_interpretation_do_not_rewrite_one_another) ... ok
+test_unmapped_natural_goal_cannot_certify_itself_or_execute (test_event_bridge.EventBridgeTests.test_unmapped_natural_goal_cannot_certify_itself_or_execute) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 4.684s
+
+OK

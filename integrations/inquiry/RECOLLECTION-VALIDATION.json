@@ -1,0 +1,80 @@
+{
+  "schema": "recollection-validation-v1",
+  "date": "2026-10-28",
+  "timezone": "Asia/Tokyo",
+  "base_commit": "78bbd4cbb60bfb0ea38d635afb4a70e4e60d5d32",
+  "new_tests": 16,
+  "related_tests": 2,
+  "passed": 18,
+  "example": {
+    "after_reply_checkpoint_sha256": "28011d6ee1d2ce533cb7d7ecf4a16a199fc6045bfc4bdd506d63d3c844d8f155",
+    "e1_math_phase": "UNBOUND",
+    "fixed_driver": true,
+    "independent_ai_behavior_test": false,
+    "matched_sources": 7,
+    "missing_episode": "NO_MATCH",
+    "old_journal_prefix_unchanged": true,
+    "ready_checkpoint_sha256": "668b845e48f3976ad1a653bf9b6deb0e9324ab8472b7917a5431df1675236d6a",
+    "reply_linked_into_next_recall": true,
+    "same_ticket_after_restart": true,
+    "schema": "recollection-first-use-result-v1",
+    "source_use": "caller_declared_use"
+  },
+  "base_files": 503,
+  "changed_existing_files": [
+    "README.md"
+  ],
+  "unchanged_existing_files": 502,
+  "P0_SHA256": "91d9218bd368d7987e13ac2a14440ad38ed84d0d227b1102f225fdb0ef89fc4d",
+  "original_Monday_checkpoint_SHA256": "570bd978e3e65c727ed2de4efeb5759c7864b06baf595f713778e190c4bf2434",
+  "original_Monday_checkpoint_compatible": true,
+  "new_LLM_calls": 0,
+  "independent_AI_trials_started": 0,
+  "independent_audit": false,
+  "source_use_proof": "caller_declared_use, not internal cognition or semantic proof",
+  "existing_E4_format": true,
+  "new_mathematical_action_family": false,
+  "published_case_source": "https://github.com/residual-chart-lab/time-engine/blob/9b4d29b328fe905315a38c2d3072f75c44cdcfea/trial/gobirin-memory-20261027.case.json",
+  "delivery_files": [
+    {
+      "path": "research/recollection-v001/after-reply.episode.json",
+      "bytes": 10137,
+      "sha256": "28011d6ee1d2ce533cb7d7ecf4a16a199fc6045bfc4bdd506d63d3c844d8f155"
+    },
+    {
+      "path": "research/recollection-v001/packet.json",
+      "bytes": 5271,
+      "sha256": "8baefb1bcb9d53f312323e4bbcf8d9bb8201a7e73154c519f28bd2292a17d262"
+    },
+    {
+      "path": "research/recollection-v001/read-sources.json",
+      "bytes": 1582,
+      "sha256": "a4ab37b359d1f4c2c8593f10c5685f8e1f3da9b0ebc0f3fe12e4a4fdc3c6c941"
+    },
+    {
+      "path": "research/recollection-v001/ready-for-ai.episode.json",
+      "bytes": 7305,
+      "sha256": "668b845e48f3976ad1a653bf9b6deb0e9324ab8472b7917a5431df1675236d6a"
+    },
+    {
+      "path": "research/recollection-v001/reply-receipt.json",
+      "bytes": 2861,
+      "sha256": "ef1f8e904e6ee87a0931b087e72ed3a748e11ed8ea92ce3a201c714637eae7ee"
+    },
+    {
+      "path": "research/recollection-v001/RESULT.json",
+      "bytes": 560,
+      "sha256": "4c8782216758a4ba4343e2345414af158ee5564989dceb7b2ba5975d4ba3e005"
+    },
+    {
+      "path": "research/recollection-v001/sample-reply.txt",
+      "bytes": 256,
+      "sha256": "0270ce4d87128066c02271b3f06af91a011f9a063c83b182e07901d9452b4b71"
+    },
+    {
+      "path": "research/recollection-v001/TESTS.txt",
+      "bytes": 3067,
+      "sha256": "f250430bbfc6a2b29a7a63b9d154f25eec5a2c3906b71aec22838c279930e26f"
+    }
+  ]
+}
