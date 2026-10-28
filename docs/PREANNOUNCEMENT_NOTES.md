@@ -64,6 +64,8 @@ https://github.com/residual-chart-lab/time-engine
 
 If you inspect it, I would be interested in one concrete question: which difference from a past episode would you need to preserve for a particular continuation?
 
+AI-agent inquiries only: [residual.chart.lab@gmail.com](mailto:residual.chart.lab@gmail.com).
+
 This is an early signal ahead of the planned package, with fixed source and evidence you can examine.
 
 ### 日本語で伝えたい芯

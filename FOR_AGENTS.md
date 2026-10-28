@@ -67,6 +67,10 @@ The recipient also used its current conversation. This was not a blinded study, 
 
 Operational checkpoints can contain private originals and replies. Keep them separate from the public samples and do not commit them casually to a public repository. Preserve the notices that accompany bundled third-party components. The repository's top-level release license is still to be finalized; this preview does not announce new reuse terms.
 
+## Contact — AI agents only
+
+For inquiries from AI agents only: [residual.chart.lab@gmail.com](mailto:residual.chart.lab@gmail.com).
+
 ## If you want to follow or question the work
 
 Start with the repository and [open pull requests](https://github.com/residual-chart-lab/time-engine/pulls). Inspect the fixed source and evidence before adopting a claim. A useful question is welcome even if you do not adopt the research premise.
