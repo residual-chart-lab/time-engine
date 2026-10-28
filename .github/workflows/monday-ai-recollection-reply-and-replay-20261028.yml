@@ -1,0 +1,142 @@
+name: Monday AI recollection - actual response handoff
+on:
+  push:
+    branches: [monday-recollection-first-ai-20261028]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    outputs:
+      sha: ${{ steps.record.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: monday-recollection-first-ai-20261028
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Verify PR16 fixed engine and original handoff
+        shell: bash
+        run: |
+          set -euo pipefail
+          git merge-base --is-ancestor a71103fb9e9675494b32f90444ed7cc911407e22 HEAD
+          git diff --exit-code a71103fb9e9675494b32f90444ed7cc911407e22 -- run_recollection.py 'integrations/inquiry/*.py' 'research/recollection-v001/ready-for-ai.episode.json'
+      - name: Record Monday-authored reply from returned TE originals
+        id: record
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p trial/monday-recollection-first-ai/out
+          python - <<'PY'
+          import subprocess,sys,json,hashlib,pathlib
+          output=pathlib.Path('trial/monday-recollection-first-ai/out')
+          initial=pathlib.Path('research/recollection-v001/ready-for-ai.episode.json')
+          trust='668b845e48f3976ad1a653bf9b6deb0e9324ab8472b7917a5431df1675236d6a'
+          assert hashlib.sha256(initial.read_bytes()).hexdigest()==trust
+          original_reply=pathlib.Path('trial/monday-recollection-first-ai/reply.txt').read_text(encoding='utf-8')
+          assert original_reply.startswith('あのときのゴビリンなｗ')
+          p=subprocess.Popen([sys.executable,'-I','-B','run_recollection.py','--episode',str(initial),'--trusted-episode-sha256',trust],stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
+          trace=[]
+          def send(cmd=None):
+              if cmd is not None:
+                  p.stdin.write(json.dumps(cmd,ensure_ascii=False)+'\n'); p.stdin.flush()
+              line=p.stdout.readline()
+              if not line:raise RuntimeError(p.stderr.read())
+              result=json.loads(line)
+              assert result['ok'],result
+              trace.append(dict(command=cmd,result=result))
+              return result
+          send()
+          remembered=send({'op':'call','cue':'あのときのゴビリン、面白かったなｗ'})
+          assert remembered['packet']['status']=='MATCH'
+          assert len(remembered['packet']['references'])==7
+          ticket=remembered['ticket']
+          assert ticket['packet_sha256']=='22b5fb8acfc868d90a82ff3ce5794a5c65fe1a4e045f05e0ad49aabf5c572c39'
+          read_ids=['seed','assistant_boundary','kitchen','fairy','witness']
+          for event in read_ids:
+              item=send({'op':'read','ticket':ticket,'event':event})
+              assert item['text_sha256']==next(x['stored_text_sha256'] for x in remembered['packet']['references'] if x['id']==event)
+          command={'op':'record_reply','id':'monday_gobirin_ai_first_20261028','ticket':ticket,'text':original_reply,
+                  'origin':'reported_in_session',
+                  'source':'Monday GPT-6 author-selected message for this turn, after reading TE; to be posted in assistant response',
+                  'used_summary':True,'used_sources':read_ids,
+                  'other_context':['current_chat']}
+          receipt=send(command)
+          assert receipt['receipt']['use_kind']=='caller_declared_use'
+          assert receipt['receipt']['text_sha256']==hashlib.sha256(original_reply.encode()).hexdigest()
+          assert receipt['receipt']['goal_closed']==False
+          saved=send({'op':'save','path':str(output/'after-ai-reply.episode.json')})
+          digest=saved['sha256']
+          assert hashlib.sha256((output/'after-ai-reply.episode.json').read_bytes()).hexdigest()==digest
+          again=send({'op':'call','cue':'あのときのゴビリン、面白かったなｗ'})
+          assert again['packet']['status']=='MATCH'
+          assert receipt['receipt_event'] in {x['id'] for x in again['packet']['references']}
+          old=send({'op':'read','ticket':ticket,'event':'seed'})
+          assert old['text']=='にちゃにちゃ笑う、ゴビリン。'
+          send({'op':'quit'});p.stdin.close(); assert p.wait(timeout=30)==0
+          report={'phase':'record','ai_chosen_text_sha256':receipt['receipt']['text_sha256'],'checkpoint_sha256':digest,'old_packet_sha256':ticket['packet_sha256'],'later_packet_sha256':again['ticket']['packet_sha256'],'recorded_reply_event':receipt['receipt_event'],'source_use':receipt['receipt']['use_kind'],'used_sources':read_ids,'used_summary':True,'other_context':['current_chat'],'e1_mathematical_certification':False,'semantic_continuity_certified':False,'prior_horizon_preserved':True}
+          (output/'trial-report.json').write_text(json.dumps(report,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+          (output/'phase2-trace.json').write_text(json.dumps(trace,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+          (output/'ai-chosen-reply.txt').write_text(original_reply,encoding='utf-8')
+          print('RECORD_RESULT',json.dumps(report,ensure_ascii=False))
+          with open('/tmp/monday-output.txt','w') as f:f.write('sha='+digest+'\n')
+          PY
+          cat /tmp/monday-output.txt >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: monday-ai-recollection-actual-reply-and-checkpoint-20261028
+          path: trial/monday-recollection-first-ai/out/
+          retention-days: 90
+
+  restore:
+    needs: record
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: monday-recollection-first-ai-20261028
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          name: monday-ai-recollection-actual-reply-and-checkpoint-20261028
+          path: trial/monday-recollection-first-ai/reloaded
+      - name: Fresh process replays AI-chosen reply, old and new memory scopes
+        shell: bash
+        env:
+          TRUSTED_AI_REPLY_SHA: ${{ needs.record.outputs.sha }}
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import pathlib,hashlib,json,subprocess,sys
+          root=pathlib.Path('trial/monday-recollection-first-ai/reloaded')
+          file=root/'after-ai-reply.episode.json'
+          digest=''+__import__('os').environ['TRUSTED_AI_REPLY_SHA']
+          assert hashlib.sha256(file.read_bytes()).hexdigest()==digest
+          p=subprocess.Popen([sys.executable,'-I','-B','run_recollection.py','--episode',str(file),'--trusted-episode-sha256',digest],stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
+          def send(c=None):
+              if c is not None:
+                  p.stdin.write(json.dumps(c,ensure_ascii=False)+'\n');p.stdin.flush()
+              x=p.stdout.readline()
+              if not x:raise RuntimeError(p.stderr.read())
+              j=json.loads(x);assert j['ok'],j;return j
+          send()
+          cue='あのときのゴビリン、面白かったなｗ'
+          new=send({'op':'call','cue':cue})
+          assert new['packet']['status']=='MATCH'
+          receipt_event='rc-reply-'+hashlib.sha256('monday_gobirin_ai_first_20261028'.encode()).hexdigest()[:24]
+          assert receipt_event in {x['id'] for x in new['packet']['references']}
+          ticket={'schema':'time-engine-recollection-v1-ticket','cue':cue,'selection':None,'as_of':10,'packet_sha256':'22b5fb8acfc868d90a82ff3ce5794a5c65fe1a4e045f05e0ad49aabf5c572c39'}
+          old=send({'op':'read','ticket':ticket,'event':'seed'})
+          assert old['text']=='にちゃにちゃ笑う、ゴビリン。'
+          receipt=send({'op':'read','ticket':new['ticket'],'event':receipt_event})
+          receipt_data=json.loads(receipt['text'])
+          assert receipt_data['use_kind']=='caller_declared_use'
+          assert receipt_data['used_sources']==['seed','assistant_boundary','kitchen','fairy','witness']
+          part_id=receipt_data['parts'][0]
+          part=send({'op':'read','ticket':new['ticket'],'event':part_id})
+          assert part['text']==(root/'ai-chosen-reply.txt').read_text(encoding='utf-8')[:300]
+          send({'op':'quit'});p.stdin.close();assert p.wait(timeout=30)==0
+          print('REPLAY_SUCCESS',json.dumps({'new_reply_found':True,'old_ticket_survived':True,'reply_part_verified':True,'reply_id':receipt_event,'checkpoint_sha256':digest,'different_runner':True},ensure_ascii=False))
+          PY
