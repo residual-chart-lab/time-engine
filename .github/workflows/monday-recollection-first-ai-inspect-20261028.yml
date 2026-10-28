@@ -1,0 +1,68 @@
+name: Monday real AI recollection trial - phase 1 inspect
+on:
+  push:
+    branches: [monday-recollection-first-ai-20261028]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: monday-recollection-first-ai-20261028
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Verify pinned PR16 implementation remains unchanged
+        shell: bash
+        run: |
+          set -euo pipefail
+          git merge-base --is-ancestor a71103fb9e9675494b32f90444ed7cc911407e22 HEAD
+          git diff --exit-code a71103fb9e9675494b32f90444ed7cc911407e22 -- run_recollection.py 'integrations/inquiry/*.py' 'research/recollection-v001/ready-for-ai.episode.json'
+      - name: First contact with TE, call memory and inspect original sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p trial/monday-recollection-first-ai
+          python - <<'PY'
+          import subprocess,json,sys,hashlib,pathlib
+          root=pathlib.Path('trial/monday-recollection-first-ai')
+          target=pathlib.Path('research/recollection-v001/ready-for-ai.episode.json')
+          pinned='668b845e48f3976ad1a653bf9b6deb0e9324ab8472b7917a5431df1675236d6a'
+          assert hashlib.sha256(target.read_bytes()).hexdigest()==pinned
+          cmd=[sys.executable,'-I','-B','run_recollection.py','--episode',str(target),'--trusted-episode-sha256',pinned]
+          p=subprocess.Popen(cmd,stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
+          transcript=[]
+          def recv(command=None):
+              if command is not None:
+                  p.stdin.write(json.dumps(command,ensure_ascii=False)+'\n');p.stdin.flush()
+              line=p.stdout.readline()
+              if not line:raise RuntimeError('TE process exited: '+p.stderr.read())
+              response=json.loads(line)
+              transcript.append(dict(command=command,response=response))
+              if not response['ok']:raise RuntimeError(response)
+              return response
+          received=recv()
+          print('RECEIVED_INITIAL', json.dumps(dict(event=received['event'], memories=received['status']['memories']),ensure_ascii=False))
+          query='あのときのゴビリン、面白かったなｗ'
+          out=recv(dict(op='call',cue=query))
+          assert out['packet']['status']=='MATCH'
+          ids=[r['id'] for r in out['packet']['references']]
+          print('CALLED_TE_PACKET',json.dumps(out,ensure_ascii=False))
+          for event in ('seed','assistant_boundary','kitchen','fairy','witness','flower','recollection'):
+              assert event in ids
+              response=recv(dict(op='read',ticket=out['ticket'],event=event))
+              print('ORIGINAL_SOURCE',event,json.dumps(dict(text=response['text'],origin=response['event']['origin'],sha=response['text_sha256']),ensure_ascii=False))
+          recv(dict(op='quit'))
+          p.stdin.close()
+          assert p.wait(timeout=30)==0,p.stderr.read()
+          (root/'phase1-call-and-read.json').write_text(json.dumps(transcript,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          (root/'phase1-ticket.json').write_text(json.dumps(out['ticket'],ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('PHASE1_STOP_BEFORE_REPLY', True)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: monday-ai-recollection-inspected-sources-20261028
+          path: trial/monday-recollection-first-ai/*.json
+          retention-days: 90
