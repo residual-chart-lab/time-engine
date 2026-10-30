@@ -1,0 +1,42 @@
+{
+  "repository": "residual-chart-lab/time-engine",
+  "ref": "fce0c40dfebfb575a8e00149d4b40ec556342444",
+  "files": [
+    {
+      "path": "integrations/inquiry/E1-entry.record.json",
+      "git_blob": "512e876e798d877f3b717ea84e24aaae52bde2e2"
+    },
+    {
+      "path": "integrations/inquiry/event_bridge.py",
+      "git_blob": "a30b694494d80e36ec1702a7aade6199d66fd512"
+    },
+    {
+      "path": "integrations/inquiry/recollection.py",
+      "git_blob": "915d949d362de9062510fa8a6840f02da6502687"
+    },
+    {
+      "path": "integrations/inquiry/step_session.py",
+      "git_blob": "201e9b4b78a8942757f9c9b8724cbc6270fd947c"
+    },
+    {
+      "path": "run_recollection.py",
+      "git_blob": "08bc89198e7d9e036b5ce8f4f194f82d6cd94c69"
+    },
+    {
+      "path": "examples/source-reply-case.json",
+      "git_blob": "8c06f0842ac0a3a2bb4be24f7b3abd5c864a2aa6"
+    },
+    {
+      "path": "integrations/inquiry/correction_observer.py",
+      "git_blob": "01362725c62ece12c10437a44122e18cd1efe291"
+    },
+    {
+      "path": "integrations/inquiry/source_reply.py",
+      "git_blob": "0389655e8f713da961b58f4bf0cc18f7ea51b831"
+    },
+    {
+      "path": "run_source_reply.py",
+      "git_blob": "7c91edb3fb863fc31c41a6e93b23a06e3770f756"
+    }
+  ]
+}

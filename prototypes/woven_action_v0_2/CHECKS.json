@@ -1,0 +1,131 @@
+{
+  "schema": "woven-action-local-checks-v0.2",
+  "date": "2026-10-30",
+  "tests": 16,
+  "test_status": "PASS",
+  "runtime_reference": "fce0c40dfebfb575a8e00149d4b40ec556342444",
+  "baseline_blob_matches": 9,
+  "route_adapter_sha256": "1646975df28daa4cc90851ba7a16ff761910216092c9a33de6d08e53928938ce",
+  "final_checkpoint_restore": "PASS",
+  "independent_astra_audit": false,
+  "independent_ai_behavior_trial": false,
+  "fixed_driver": true,
+  "internal_delta_review_findings_fixed": 2,
+  "files": [
+    {
+      "path": "woven_action.py",
+      "bytes": 22046,
+      "sha256": "68e011698ca31ccdbdc07a48b370d08bf54f5db4d307a44eb298829558dbd5cd"
+    },
+    {
+      "path": "woven_time_v0_1.py",
+      "bytes": 13349,
+      "sha256": "1646975df28daa4cc90851ba7a16ff761910216092c9a33de6d08e53928938ce"
+    },
+    {
+      "path": "demo.py",
+      "bytes": 9876,
+      "sha256": "1ebcd264799653b58e2f7c8f65fbf572596350dba4aac67543e3ce78f3118478"
+    },
+    {
+      "path": "test_woven_action.py",
+      "bytes": 11720,
+      "sha256": "b9a1a39b519810a0f3ffddd9689d2ecd6909465732b19729525c36b7d0c40c60"
+    },
+    {
+      "path": "case.json",
+      "bytes": 2862,
+      "sha256": "cae0cb339b414e3e723624e1b3cc9329530eac178fa159451ea5d7b11417765d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4292,
+      "sha256": "916aa3d64e79725130970db5b14b94e84f9b41db4e4888d88408ebb1d314356e"
+    },
+    {
+      "path": "DESIGN.md",
+      "bytes": 7396,
+      "sha256": "b8c8c7de92704faceabf3529db6f72cf6d90d0a5fa35a1c3ec849215c59032bf"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 1361,
+      "sha256": "4d6ba8329264a5881361cdf5c87886095f9c8c9b9836946c448e82d7980c1aa1"
+    },
+    {
+      "path": "TESTS.txt",
+      "bytes": 2611,
+      "sha256": "2dc88c1b31209ed4a7566da604e6fcccd040c3670bcc7d1fb683b713e946f7f3"
+    },
+    {
+      "path": "BASELINE_GIT_BLOBS.json",
+      "bytes": 1290,
+      "sha256": "94dfdd3928d80ead1ec989adac5a73cc7885fef13d2a8d61a708f6e732e5a85d"
+    },
+    {
+      "path": "RESTORE_CHECK.json",
+      "bytes": 214,
+      "sha256": "b789f3f7eeb525e1e6cc33b7808027472dcb451bd424e33d8ea6d907aa523a70"
+    },
+    {
+      "path": "evidence-v02/RESULT.json",
+      "bytes": 1146,
+      "sha256": "6a39e960c39c9b2a5508d6da1563ea049076faf0a75268b06c12fd1f7ea8d7a8"
+    },
+    {
+      "path": "evidence-v02/after-answer.pair.json",
+      "bytes": 82458,
+      "sha256": "8815189c9cdfd3d33d1eb6391fb16294e29efa6321172650214e3b4ebccf3557"
+    },
+    {
+      "path": "evidence-v02/after-request.pair.json",
+      "bytes": 44894,
+      "sha256": "db8554e43906930d54123486e41370f3ff2d203e37c6ae3b462ed00c60e0da3c"
+    },
+    {
+      "path": "evidence-v02/retained.pair.json",
+      "bytes": 53477,
+      "sha256": "39dd53dc1a9c4491a4a31d931b7ad97c5af983bccc5907c7729ded71c65b1a07"
+    },
+    {
+      "path": "evidence-v02/boundary-witness.json",
+      "bytes": 10409,
+      "sha256": "71328d0241f89c78fc77abd34bd2548fc4f322c1a4ca80546fe3d5c26c3ddb06"
+    },
+    {
+      "path": "evidence-v02/operation-route.json",
+      "bytes": 3945,
+      "sha256": "b0f5663a68dd245850e4664bc4ecff7a06be6d74e4956548b7233100cb8d0487"
+    },
+    {
+      "path": "evidence-v02/projections.json",
+      "bytes": 11943,
+      "sha256": "00380c82bebbe39574d29e8618752a7e2bf0a377b0e23e23fdb7e2a1c7f4907c"
+    },
+    {
+      "path": "evidence-v02/branch-results.json",
+      "bytes": 5256,
+      "sha256": "7f67d1679bf94ecea75abb4c935db96305ea479b66fd630aa44de621ab82ad04"
+    },
+    {
+      "path": "evidence-v02/omitted-trace.json",
+      "bytes": 45225,
+      "sha256": "fd5c352e8d650f6e104d2a601ce75915187e5e68a7618bd9c75e384b66901970"
+    },
+    {
+      "path": "evidence-v02/retained-trace.json",
+      "bytes": 31917,
+      "sha256": "5d371b39761797a36488d5b1a154dfd540c205a4e178e5c094d43dfc11f9db4d"
+    },
+    {
+      "path": "evidence-v02/request.txt",
+      "bytes": 122,
+      "sha256": "f145e82c7bd7e50fcfe9d300776145f928689b3449947a5185dff206b5d875b8"
+    },
+    {
+      "path": "evidence-v02/answer.txt",
+      "bytes": 422,
+      "sha256": "6d3ae791f2acd3d01a66afea5f6f47c56ec27eab3c20223fd4a29120827f7d18"
+    }
+  ]
+}

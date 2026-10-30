@@ -1,0 +1,10 @@
+{
+  "baseline_blob_matches": 9,
+  "final_pairs_restored": [
+    "retained.pair.json",
+    "after-request.pair.json",
+    "after-answer.pair.json"
+  ],
+  "complete_omitted_trace": 13,
+  "status": "PASS"
+}

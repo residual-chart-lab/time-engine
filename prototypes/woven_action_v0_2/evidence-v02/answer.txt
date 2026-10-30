@@ -1,0 +1,5 @@
+入力された解釈で保持されたとされる根拠を、前後の原文と訂正箇所から示します。
+【訂正前】 I distinguish established claims from untested ones.
+【訂正後】 I still distinguish established claims from untested ones.
+【訂正のきっかけ】 Test usefulness without claiming a physical proof.
+これは原文の引用と、入力された解釈に基づく説明です。
