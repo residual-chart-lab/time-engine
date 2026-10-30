@@ -310,6 +310,8 @@ class Bridge:
             raise ValueError('computed arrival receipts and boundary witnesses must match both ways')
         # Computed action receipts also refer to a real completed source prefix,
         # not merely an opaque statement stored in an otherwise valid E4 log.
+        if any(r.get('requirement') != result.requirement for r in executed):
+            raise ValueError('computed action receipt belongs to a different bridge requirement')
         wanted = {r['source_state_sha256'] for r in executed}
         verified_actions = {}
         if wanted:
@@ -318,6 +320,8 @@ class Bridge:
                 replay_actions.apply(command)
                 _, state_sha = replay_actions.snapshot()
                 if state_sha in wanted and command['op'] == 'advance' and replay_actions.phase == 'CLOSED':
+                    if replay_actions.req != result.requirement:
+                        raise ValueError('executed source prefix belongs to a different bridge requirement')
                     verified_actions[state_sha] = execution_receipt(
                         env, replay_actions.req, replay_actions.closed[-1], state_sha)
             if any(verified_actions.get(r['source_state_sha256']) != r for r in executed):

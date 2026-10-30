@@ -208,6 +208,52 @@ class WovenActionTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'immediately before'):
             wa.Bridge.restore(ENV, raw, hashlib.sha256(raw).hexdigest())
 
+    def cross_scope_pair(self, other_requirement, relabel=False):
+        """A valid other-C response remains in the real source history.
+
+        Substitute only the E4 receipt, replaying E4 to keep its own hashes
+        consistent. This isolates bridge-scope binding from byte tampering.
+        """
+        actor = self.receiver('full-route', other_requirement)
+        response = demo.execute(actor, 'answer', [])['result']
+        _, old_sha = actor.snapshot()
+        foreign = wa.execution_receipt(ENV, other_requirement, response, old_sha)
+        with self.assertRaises(ValueError):
+            self.bridge.record_action(actor, 'wrong-live-C', 'src-after')
+        actor.apply(dict(op='bind', requirement=demo.REQ))
+        demo.execute(actor, 'answer', [])
+        bridge, _ = self.bridge.record_action(actor, 'scoped-answer', 'src-after')
+        original, trusted = bridge.snapshot(actor)
+        pair = json.loads(original)
+        if relabel:
+            foreign['requirement'] = deepcopy(demo.REQ)
+        replacement = wa.fresh_memory(ENV)
+        for row in pair['memory']['journal']:
+            cmd = deepcopy(row['command'])
+            if cmd.get('id') == 'scoped-answer':
+                cmd['text'] = wa.encode(foreign).decode().rstrip('\n')
+            replacement.apply(cmd)
+        pair['memory'] = json.loads(replacement.snapshot()[0])
+        return wa.encode(pair), trusted
+
+    def test_restore_rejects_a_valid_current_response_receipt_for_the_basis_goal(self):
+        raw, original_sha = self.cross_scope_pair(demo.NOW)
+        with self.assertRaisesRegex(ValueError, 'externally trusted SHA'):
+            wa.Bridge.restore(ENV, raw, original_sha)
+        with self.assertRaisesRegex(ValueError, 'bridge requirement'):
+            wa.Bridge.restore(ENV, raw, hashlib.sha256(raw).hexdigest())
+
+    def test_restore_checks_the_complete_requirement_not_only_its_target(self):
+        other = dict(demo.REQ, question='A distinct future question with the same retained_basis target.')
+        raw, _ = self.cross_scope_pair(other)
+        with self.assertRaisesRegex(ValueError, 'bridge requirement'):
+            wa.Bridge.restore(ENV, raw, hashlib.sha256(raw).hexdigest())
+
+    def test_restore_checks_replayed_C_even_if_the_receipt_is_relabeled(self):
+        raw, _ = self.cross_scope_pair(demo.NOW, relabel=True)
+        with self.assertRaises(ValueError):
+            wa.Bridge.restore(ENV, raw, hashlib.sha256(raw).hexdigest())
+
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:

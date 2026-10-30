@@ -1,21 +1,38 @@
 {
-  "schema": "woven-action-local-checks-v0.2",
+  "schema": "woven-action-local-checks-v0.2-C-scope-fix",
   "date": "2026-10-30",
-  "tests": 16,
-  "test_status": "PASS",
+  "baseline_head": "e56c9441d9ae002485a8d73270764ee07506e364",
+  "tests_in_suite": 19,
+  "baseline_test_count": 16,
+  "baseline_test_status": "PASS",
+  "baseline_tests_log": "TESTS.txt",
+  "new_regression_tests_run": 3,
+  "new_regression_status": "PASS",
+  "new_regression_log": "SCOPE_FIX_TESTS.txt",
+  "full_suite_rerun_after_fix": false,
+  "unchanged_published_pair_restores": 3,
+  "normal_run_json_byte_matches": 10,
   "runtime_reference": "fce0c40dfebfb575a8e00149d4b40ec556342444",
   "baseline_blob_matches": 9,
   "route_adapter_sha256": "1646975df28daa4cc90851ba7a16ff761910216092c9a33de6d08e53928938ce",
-  "final_checkpoint_restore": "PASS",
-  "independent_astra_audit": false,
+  "independent_astra_audit": {
+    "audited_head": "e56c9441d9ae002485a8d73270764ee07506e364",
+    "source": "Report provided by Aki",
+    "status": "P2_FIX_REQUIRED",
+    "reported_baseline_tests": 16,
+    "reported_independent_conditions": 32,
+    "reported_boundary_comparisons": 512,
+    "corrected_revision_reaudit": "PENDING"
+  },
   "independent_ai_behavior_trial": false,
   "fixed_driver": true,
   "internal_delta_review_findings_fixed": 2,
+  "astra_scope_binding_fix_implemented": true,
   "files": [
     {
       "path": "woven_action.py",
-      "bytes": 22046,
-      "sha256": "68e011698ca31ccdbdc07a48b370d08bf54f5db4d307a44eb298829558dbd5cd"
+      "bytes": 22396,
+      "sha256": "d062907533cca0534b7437f6027d5662ae0c9712070ef09e851e8359de682e8c"
     },
     {
       "path": "woven_time_v0_1.py",
@@ -29,8 +46,8 @@
     },
     {
       "path": "test_woven_action.py",
-      "bytes": 11720,
-      "sha256": "b9a1a39b519810a0f3ffddd9689d2ecd6909465732b19729525c36b7d0c40c60"
+      "bytes": 14185,
+      "sha256": "8e113aa090ec31b7eb2f75c4f3baf103e51b980e96abda23bb4d889d54da564f"
     },
     {
       "path": "case.json",
@@ -39,18 +56,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 4292,
-      "sha256": "916aa3d64e79725130970db5b14b94e84f9b41db4e4888d88408ebb1d314356e"
+      "bytes": 5238,
+      "sha256": "773b047e8b8ff22f2c9313c3eb06a5e7d29ff2e600acdf8dd68f31204de92f33"
     },
     {
       "path": "DESIGN.md",
-      "bytes": 7396,
-      "sha256": "b8c8c7de92704faceabf3529db6f72cf6d90d0a5fa35a1c3ec849215c59032bf"
+      "bytes": 8008,
+      "sha256": "04e22292eb35418b893247abe2211d138de5a962df5c46f296e05f7eb887fa39"
     },
     {
       "path": "REVIEW.md",
-      "bytes": 1361,
-      "sha256": "4d6ba8329264a5881361cdf5c87886095f9c8c9b9836946c448e82d7980c1aa1"
+      "bytes": 2641,
+      "sha256": "e04800530b5dae4d633057fa54fa6c01ba26d1914ccbff6119f4d48db76b35ac"
     },
     {
       "path": "TESTS.txt",
@@ -126,6 +143,21 @@
       "path": "evidence-v02/answer.txt",
       "bytes": 422,
       "sha256": "6d3ae791f2acd3d01a66afea5f6f47c56ec27eab3c20223fd4a29120827f7d18"
+    },
+    {
+      "path": "SCOPE_FIX_TESTS.txt",
+      "bytes": 643,
+      "sha256": "f05b6ea60d407219c15c25be953afa44d533e6e772982dd4f1a85d132b041db4"
+    },
+    {
+      "path": "SCOPE_FIX_RESTORE.json",
+      "bytes": 688,
+      "sha256": "09c8437241667935dbbac1c6654792856cf03312b75bf9124713d28921091b17"
+    },
+    {
+      "path": "SCOPE_FIX_REPLAY.json",
+      "bytes": 1863,
+      "sha256": "16bf7376310a9e792c957102b026e52c070d1c47ace2eea532e126e84d974810"
     }
   ]
 }

@@ -1,0 +1,58 @@
+{
+  "schema": "woven-action-C-scope-fix-replay-v1",
+  "baseline": "e56c9441d9ae002485a8d73270764ee07506e364",
+  "json_count": 10,
+  "files": [
+    {
+      "file": "after-answer.pair.json",
+      "sha256": "8815189c9cdfd3d33d1eb6391fb16294e29efa6321172650214e3b4ebccf3557",
+      "all_bytes_equal": true
+    },
+    {
+      "file": "after-request.pair.json",
+      "sha256": "db8554e43906930d54123486e41370f3ff2d203e37c6ae3b462ed00c60e0da3c",
+      "all_bytes_equal": true
+    },
+    {
+      "file": "boundary-witness.json",
+      "sha256": "71328d0241f89c78fc77abd34bd2548fc4f322c1a4ca80546fe3d5c26c3ddb06",
+      "all_bytes_equal": true
+    },
+    {
+      "file": "branch-results.json",
+      "sha256": "7f67d1679bf94ecea75abb4c935db96305ea479b66fd630aa44de621ab82ad04",
+      "all_bytes_equal": true
+    },
+    {
+      "file": "omitted-trace.json",
+      "sha256": "fd5c352e8d650f6e104d2a601ce75915187e5e68a7618bd9c75e384b66901970",
+      "all_bytes_equal": true
+    },
+    {
+      "file": "operation-route.json",
+      "sha256": "b0f5663a68dd245850e4664bc4ecff7a06be6d74e4956548b7233100cb8d0487",
+      "all_bytes_equal": true
+    },
+    {
+      "file": "projections.json",
+      "sha256": "00380c82bebbe39574d29e8618752a7e2bf0a377b0e23e23fdb7e2a1c7f4907c",
+      "all_bytes_equal": true
+    },
+    {
+      "file": "RESULT.json",
+      "sha256": "6a39e960c39c9b2a5508d6da1563ea049076faf0a75268b06c12fd1f7ea8d7a8",
+      "all_bytes_equal": true
+    },
+    {
+      "file": "retained-trace.json",
+      "sha256": "5d371b39761797a36488d5b1a154dfd540c205a4e178e5c094d43dfc11f9db4d",
+      "all_bytes_equal": true
+    },
+    {
+      "file": "retained.pair.json",
+      "sha256": "39dd53dc1a9c4491a4a31d931b7ad97c5af983bccc5907c7729ded71c65b1a07",
+      "all_bytes_equal": true
+    }
+  ],
+  "status": "PASS"
+}
