@@ -1,0 +1,21 @@
+test_arrival_changes_basis_window_but_not_current_window (__main__.WovenActionTests.test_arrival_changes_basis_window_but_not_current_window) ... ok
+test_arrival_from_short_route_cannot_invent_missing_text (__main__.WovenActionTests.test_arrival_from_short_route_cannot_invent_missing_text) ... ok
+test_arrival_invalidates_a_previously_prepared_permit (__main__.WovenActionTests.test_arrival_invalidates_a_previously_prepared_permit) ... ok
+test_changed_c_is_incomparable_instead_of_a_fake_boundary (__main__.WovenActionTests.test_changed_c_is_incomparable_instead_of_a_fake_boundary) ... ok
+test_forged_candidate_list_fails_fixed_generator_verification (__main__.WovenActionTests.test_forged_candidate_list_fails_fixed_generator_verification) ... ok
+test_later_projection_cannot_be_presented_as_a_pre_arrival_read (__main__.WovenActionTests.test_later_projection_cannot_be_presented_as_a_pre_arrival_read) ... ok
+test_missing_source_rejects_retained_answer_plan (__main__.WovenActionTests.test_missing_source_rejects_retained_answer_plan) ... ok
+test_omitting_witness_cannot_skip_verification_of_a_stored_arrival (__main__.WovenActionTests.test_omitting_witness_cannot_skip_verification_of_a_stored_arrival) ... ok
+test_phase_only_change_is_not_a_panel_crossing (__main__.WovenActionTests.test_phase_only_change_is_not_a_panel_crossing) ... ok
+test_recomputed_other_c_cannot_replace_the_active_boundary (__main__.WovenActionTests.test_recomputed_other_c_cannot_replace_the_active_boundary) ... ok
+test_recording_failure_does_not_partially_supply_either_borrowed_state (__main__.WovenActionTests.test_recording_failure_does_not_partially_supply_either_borrowed_state) ... ok
+test_replayed_e4_cannot_relabel_a_computed_boundary_as_no_change (__main__.WovenActionTests.test_replayed_e4_cannot_relabel_a_computed_boundary_as_no_change) ... ok
+test_restore_replays_source_transition_and_preserves_previous_view (__main__.WovenActionTests.test_restore_replays_source_transition_and_preserves_previous_view) ... ok
+test_routes_supply_actual_texts_and_same_current_reply (__main__.WovenActionTests.test_routes_supply_actual_texts_and_same_current_reply) ... ok
+test_tampered_checkpoint_and_self_consistent_wrong_boundary_are_rejected (__main__.WovenActionTests.test_tampered_checkpoint_and_self_consistent_wrong_boundary_are_rejected) ... ok
+test_wrong_source_mapping_and_changed_original_are_rejected (__main__.WovenActionTests.test_wrong_source_mapping_and_changed_original_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 70.450s
+
+OK

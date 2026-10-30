@@ -1,0 +1,8 @@
+test_restore_rejects_a_valid_current_response_receipt_for_the_basis_goal (test_woven_action.WovenActionTests.test_restore_rejects_a_valid_current_response_receipt_for_the_basis_goal) ... ok
+test_restore_checks_the_complete_requirement_not_only_its_target (test_woven_action.WovenActionTests.test_restore_checks_the_complete_requirement_not_only_its_target) ... ok
+test_restore_checks_replayed_C_even_if_the_receipt_is_relabeled (test_woven_action.WovenActionTests.test_restore_checks_replayed_C_even_if_the_receipt_is_relabeled) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 29.950s
+
+OK
