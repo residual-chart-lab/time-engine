@@ -9,20 +9,21 @@
   "new_regression_tests_run": 3,
   "new_regression_status": "PASS",
   "new_regression_log": "SCOPE_FIX_TESTS.txt",
-  "full_suite_rerun_after_fix": false,
   "unchanged_published_pair_restores": 3,
   "normal_run_json_byte_matches": 10,
   "runtime_reference": "fce0c40dfebfb575a8e00149d4b40ec556342444",
   "baseline_blob_matches": 9,
   "route_adapter_sha256": "1646975df28daa4cc90851ba7a16ff761910216092c9a33de6d08e53928938ce",
   "independent_astra_audit": {
-    "audited_head": "e56c9441d9ae002485a8d73270764ee07506e364",
-    "source": "Report provided by Aki",
-    "status": "P2_FIX_REQUIRED",
-    "reported_baseline_tests": 16,
-    "reported_independent_conditions": 32,
-    "reported_boundary_comparisons": 512,
-    "corrected_revision_reaudit": "PENDING"
+    "audited_head": "606ae07eac00d9636aba2be1020a68ae7ad9518e",
+    "source": "Re-audit report provided by Aki in this chat",
+    "status": "PASS_SCOPED_FIX",
+    "reported_test_count": 19,
+    "reported_prior_counterexample_rejected_with_recomputed_sha": true,
+    "reported_relabeled_requirement_rejected": true,
+    "reported_published_pair_restores": 3,
+    "reported_json_byte_matches": 10,
+    "acceptance_record": "AUDIT_ACCEPTED.md"
   },
   "independent_ai_behavior_trial": false,
   "fixed_driver": true,
@@ -56,18 +57,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 5238,
-      "sha256": "773b047e8b8ff22f2c9313c3eb06a5e7d29ff2e600acdf8dd68f31204de92f33"
+      "bytes": 5596,
+      "sha256": "3fb9ef5696055f955cb08f3a75ce8dcf8d014cc06a05e51ca2d2c6b9b94d0b11"
     },
     {
       "path": "DESIGN.md",
-      "bytes": 8008,
-      "sha256": "04e22292eb35418b893247abe2211d138de5a962df5c46f296e05f7eb887fa39"
+      "bytes": 8307,
+      "sha256": "e0876d57070b1f2ea82f05f15eea050b68440de2c362f775138f3e1208a72e44"
     },
     {
       "path": "REVIEW.md",
-      "bytes": 2641,
-      "sha256": "e04800530b5dae4d633057fa54fa6c01ba26d1914ccbff6119f4d48db76b35ac"
+      "bytes": 3434,
+      "sha256": "b31f0436ae3432e09c8fecba9485ab29ef1f454ca74fe9a4a52c2ed9fe769a73"
     },
     {
       "path": "TESTS.txt",
@@ -158,6 +159,23 @@
       "path": "SCOPE_FIX_REPLAY.json",
       "bytes": 1863,
       "sha256": "16bf7376310a9e792c957102b026e52c070d1c47ace2eea532e126e84d974810"
+    },
+    {
+      "path": "AUDIT_ACCEPTED.md",
+      "bytes": 1803,
+      "sha256": "88fbcf5a4abab27f6df9e3423a1f0b6b4825f4cf8e1a0ecb035f116bd3109228"
     }
-  ]
+  ],
+  "previous_independent_audit": {
+    "audited_head": "e56c9441d9ae002485a8d73270764ee07506e364",
+    "source": "Report provided by Aki",
+    "status": "P2_FIX_REQUIRED",
+    "reported_baseline_tests": 16,
+    "reported_independent_conditions": 32,
+    "reported_boundary_comparisons": 512,
+    "corrected_revision_reaudit": "PENDING"
+  },
+  "audit_evidence_url": null,
+  "local_full_suite_rerun_after_fix": false,
+  "audit_status_update_only": true
 }
