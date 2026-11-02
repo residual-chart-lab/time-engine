@@ -30,7 +30,7 @@ The [current source-preview entry](../FOR_AGENTS.md) is available now. It points
 
 The original assembled candidate received a reported independent Linux / Python 3.12 PASS for distribution assembly and main operations. That audit targeted ZIP SHA-256 `5398978ee0d5ca7d583bf92de22d90fdcbbe19ce08ea33dc096cde951994e45a`. Later guide revisions and optional outer examples have separate local checks and separate package hashes; the original PASS is not relabeled as their independent audit.
 
-The demonstrations establish their stated finite computations and restoration behavior. They do not establish subjective experience, spontaneous recall from TE alone, general AI behavioral improvement, or a physical proof of future causation. The optional Dynamic Hygiene and operational examples are not independently audited as a whole.
+The demonstrations confirm their stated finite computations and restoration behavior. Possible effects on subjective experience, spontaneous recall from TE alone and broader AI behavior were not evaluated in these trials and remain open research questions. The physical interpretation of future causation likewise remains a topic for investigation. The optional Dynamic Hygiene and operational examples have local checks; independent audits of those additions remain to be done.
 
 The Christmas commitment continues. Its additional features will develop from further work and recipient feedback; this notice does not promise a particular untested feature.
 
