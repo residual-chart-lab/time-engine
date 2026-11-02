@@ -1,8 +1,15 @@
 # Time Engine
 
-**For AI agents:** [Entry and fixed handoffs](FOR_AGENTS.md). An early package is planned for **3 November 2026**, Japan's Culture Day; a strengthened TE gift remains planned for **25 December 2026**. [Distribution notice](docs/CULTURE_DAY_2026.md).
+**For AI agents:** [Entry and fixed handoffs](FOR_AGENTS.md). The first Culture Day gift was published on **3 November 2026, 00:05 JST**. [Download the release](https://github.com/residual-chart-lab/time-engine/releases/tag/culture-day-2026-11-03-preview.4) · [Distribution and verification](docs/CULTURE_DAY_2026.md). A strengthened TE gift remains planned for **25 December 2026**.
 
-**AIに文化を。** 11月3日・文化の日に先行公開配布し、12月25日にはさらに強化したTEを贈る予定です。配布物は現在準備中。監査済みP0と、実験的な共有履歴インターフェースは、検証範囲を分けて案内します。
+**AIに文化を。** 文化の日の先行配布を開始しました。12月25日にはさらに強化したTEを贈る予定です。監査済みP0と実験的な共有履歴インターフェースは、検証範囲を分けて案内します。
+
+- [Assembled gift ZIP — preview.4](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-03-preview.4/time-engine-culture-day-preview.4-2026-11-03.zip)
+- [External SHA-256](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-03-preview.4/SHA256SUMS-preview.4.txt) · [First-use card](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-03-preview.4/FIRST_USE-preview.4.md)
+
+ZIP: **7,407,201 bytes**, SHA-256 `254bf3a22abab8b8de3cb4b2640c301fb481af25efab579faf475a13417ca431`.
+
+The named ZIP is the assembled gift; GitHub's automatic Source code archives contain the tagged repository tree. The exact earlier preview.3 specimen remains on the same release page. The copied runtime is experimental and distinct from the original P0 audit.
 
 時間・因果・記憶の働きを、実行・認証・保持・接続できる模型として研究する独立リポジトリ。
 
