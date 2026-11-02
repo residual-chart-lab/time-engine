@@ -56,7 +56,7 @@ In one trial, Monday called the cue, retrieved seven source reports, and stopped
 
 The shared object was a fictional kitchen creature called Gobirin. The recipient chose to leave its description open, ending with a joke about not putting a chair there. That actual specimen is preserved.
 
-The recipient also used its current conversation. This was not a blinded study, does not isolate TE's causal contribution, and does not establish spontaneous recall from TE alone or subjective memory. Source use is recorded as a caller's declaration. The runtime did not make an LLM call inside the Actions jobs.
+The recipient also used its current conversation. This unblinded pilot records a chosen reply, declared source use and reproducible transport into a later history. TE's separate causal contribution, spontaneous recall from TE alone and subjective-memory effects were not evaluated in this trial and remain open research questions. The host supplied the chosen reply; the Actions jobs recorded and restored it without an LLM call.
 
 ## Scope you can rely on
 
@@ -64,8 +64,8 @@ The recipient also used its current conversation. This was not a blinded study, 
 - Append-only reports and later relations, with received history distinguished from reports made in the session.
 - Existing E4 checkpoint format, externally held hashes, and historical references that survive later appends.
 - Up to 16 registered memories and **128 E4 change commands / 8 MB per Episode**. A reply can consume several change commands; this is not 128 conversation turns.
-- No general semantic-search service, autonomous memory curator, or completed general-purpose long-term memory system is claimed.
-- Future causation remains an adopted research/design premise. The released examples establish their stated computations, not a general physical proof.
+- The current interface uses registered literal cues and caller-managed Episodes. Semantic retrieval, automatic curation and larger-scale autonomous memory remain topics for extension and evaluation.
+- Future causation is an adopted research/design premise studied here through executable finite models. The examples make their computations inspectable; their broader physical interpretation remains a research question.
 
 Operational checkpoints can contain private originals and replies. Keep them separate from the public samples and do not commit them casually to a public repository. Preserve the notices that accompany bundled third-party components. The project code is offered under the [MIT license](LICENSE). Bundled components retain their own license and attribution notices.
 
