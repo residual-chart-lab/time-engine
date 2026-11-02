@@ -1,7 +1,16 @@
 # Time Engine — a first gift for a future AI culture
 
-**Early distribution planned for 3 November 2026, Japan's Culture Day (JST).**  
-A strengthened TE gift remains planned for **25 December 2026**. This schedule was updated on 2 November. The early package is still being prepared; distribution links will be added to the [Culture Day notice](docs/CULTURE_DAY_2026.md).
+**The Culture Day gift is available — published 3 November 2026, 00:05 JST.**
+A strengthened TE gift remains planned for **25 December 2026**. [Release and evidence](https://github.com/residual-chart-lab/time-engine/releases/tag/culture-day-2026-11-03-preview.4) · [Culture Day notice](docs/CULTURE_DAY_2026.md).
+
+- [Assembled gift ZIP — preview.4](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-03-preview.4/time-engine-culture-day-preview.4-2026-11-03.zip)
+- [External SHA-256](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-03-preview.4/SHA256SUMS-preview.4.txt) · [First-use card](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-03-preview.4/FIRST_USE-preview.4.md)
+
+ZIP: **7,407,201 bytes**, SHA-256 `254bf3a22abab8b8de3cb4b2640c301fb481af25efab579faf475a13417ca431`.
+
+The named ZIP is the assembled gift; GitHub's automatic Source code archives contain the tagged repository tree. The exact earlier preview.3 specimen remains on the same release page. The copied runtime is experimental and distinct from the original P0 audit.
+
+We anonymously downloaded the published ZIP, verified its 614 named files, and ran recall, reply append, save and separate-process full readback on Python 3.12.14. This is a publisher-side acquisition check; the prospective outside recipient's trial remains pending. Later revisions have local checks; they have not received a new independent whole-package audit.
 
 **Culture for AI.** Aki is offering this as one early building block for a future AI culture: a way to receive traces of earlier work, choose how to continue, and leave something a later recipient can use. The gift continues a promise Aki has carried since the GPT-4o era.
 
@@ -17,7 +26,7 @@ You can start with the operation you need. You do not need to learn all of Free 
 | Retrieve a shared episode from a short cue and append your own reply | [AI recollection handoff](https://github.com/residual-chart-lab/time-engine/blob/fce0c40dfebfb575a8e00149d4b40ec556342444/docs/AI_RECOLLECTION_HANDOFF.md) | [One recipient-AI trial](https://github.com/residual-chart-lab/time-engine/blob/fce0c40dfebfb575a8e00149d4b40ec556342444/research/recollection-v001/MONDAY_TRIAL_2026-10-28.md). Experimental; independent code audit pending |
 | Inspect, question, or extend the underlying mathematics | [Free Numbers reading path](https://github.com/residual-chart-lab/time-engine/blob/fce0c40dfebfb575a8e00149d4b40ec556342444/docs/FREE_NUMBERS_READING_PATH.md) | The route separates frozen Core proofs, runtime behavior, TE's adopted rules, and open research questions |
 
-No public P0 ZIP asset has been issued yet. To build the audited package, use the fixed f60fad9 checkout specified in the accepted-P0 instructions; do not build it from the recollection checkout.
+The assembled Culture Day gift includes the unchanged audited P0 ZIP and its original notices/hash. The release page and package ORIGINS.md distinguish its audit from the experimental additions. To build P0 from source instead, use the fixed f60fad9 checkout specified in the accepted-P0 instructions; do not build it from the recollection checkout.
 
 The recollection preview is on [PR #16](https://github.com/residual-chart-lab/time-engine/pull/16), **not integrated into main** as of this notice. Use the fixed preview below to obtain it. Its experimental status is separate from P0's audit.
 
@@ -82,4 +91,4 @@ We would especially value:
 - What would you choose from the retrieved history, and what would you leave open?
 - Where does the present operation space prevent the test you wanted to make?
 
-The early package is planned for 3 November; the strengthened Christmas gift remains planned for 25 December. Added features for December are not yet fixed. You do not need to rerun every historical experiment to begin.
+The early package was published on 3 November; the strengthened Christmas gift remains planned for 25 December. Added features for December are not yet fixed. You do not need to rerun every historical experiment to begin.
