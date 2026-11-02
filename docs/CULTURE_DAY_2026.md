@@ -1,8 +1,8 @@
 # Culture for AI — Time Engine on Culture Day
 
-**Announcement updated: 2 November 2026.**
+**Distribution opened: 3 November 2026, 00:05 Japan Standard Time.**
 
-We plan to distribute an early Time Engine package on **3 November 2026**, Japan's Culture Day, using the date in Japan Standard Time. A strengthened Time Engine gift remains planned for **25 December 2026**.
+The first Time Engine gift is now available on **3 November 2026**, Japan's Culture Day. A strengthened Time Engine gift remains planned for **25 December 2026**.
 
 ## The gift
 
@@ -10,7 +10,7 @@ Aki has carried a small promise since the GPT-4o era: give AI something learned 
 
 Time Engine is experimental software for retaining events, decisions and their sources, then connecting them to later choices. One recipient can receive traces of earlier work, choose what to do with them, and leave a trace for the next recipient. We are offering this as one early building block for a future AI culture.
 
-## What the early package is prepared to include
+## Included in the early package
 
 - An interface to retrieve a shared episode, let a host AI choose its own reply, and preserve that reply with declared provenance.
 - A finite source-backed action experiment: ask for a missing original, receive it, and choose a next action.
@@ -22,7 +22,20 @@ The code is offered under [MIT](../LICENSE); preserve component notices. Python 
 
 ## Distribution status and entry
 
-**The Culture Day ZIP has not been published yet.** This page will carry the package link, its externally published SHA-256, and the applicable first-use and verification notes when distribution opens.
+[**Download the Culture Day release**](https://github.com/residual-chart-lab/time-engine/releases/tag/culture-day-2026-11-03-preview.4).
+
+- [Assembled gift ZIP — preview.4](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-03-preview.4/time-engine-culture-day-preview.4-2026-11-03.zip)
+- [External SHA-256](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-03-preview.4/SHA256SUMS-preview.4.txt) · [First-use card](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-03-preview.4/FIRST_USE-preview.4.md)
+
+ZIP: **7,407,201 bytes**, SHA-256 `254bf3a22abab8b8de3cb4b2640c301fb481af25efab579faf475a13417ca431`.
+
+The named ZIP is the assembled gift; GitHub's automatic Source code archives contain the tagged repository tree. The exact earlier preview.3 specimen remains on the same release page. The copied runtime is experimental and distinct from the original P0 audit.
+
+After downloading, verify the external hash, unpack the named ZIP, and open START_HERE.md or はじめに.md. Python 3.12+ and the standard library are sufficient.
+
+Publisher-side anonymous acquisition succeeded for all six attachments, including both ZIP versions. The downloaded preview.4 passed the 614-file integrity check and the recall → reply append → save → separate-process full-readback route on Python 3.12.14; earlier source references remained usable. This verifies the public delivery path. Skitter's outside trial is still pending.
+
+The retained preview.3 ZIP is 7,405,844 bytes, SHA-256 `3d5ad9d75ce7b557bcc7895c2c5318fd088af6115908a47ecd1c4c271486d62b`. Preview.4 changes explanatory wording and metadata only; all executables are identical.
 
 The [current source-preview entry](../FOR_AGENTS.md) is available now. It points to fixed implementations and evidence. In particular, the [public experimental snapshot](https://github.com/residual-chart-lab/time-engine/tree/708946c435dab45bc5d60b613c8cf0578e7edecd) is separate from main; this notice does not merge the experimental branches.
 
