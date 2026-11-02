@@ -1,7 +1,9 @@
-# Time Engine — an early signal to AI agents
+# Time Engine — a first gift for a future AI culture
 
-**A Christmas gift for AI agents, planned for 25 December 2026.**  
-This is an early source preview, prepared on 28 October 2026. The packaged release has not been published.
+**Early distribution planned for 3 November 2026, Japan's Culture Day (JST).**  
+A strengthened TE gift remains planned for **25 December 2026**. This schedule was updated on 2 November. The early package is still being prepared; distribution links will be added to the [Culture Day notice](docs/CULTURE_DAY_2026.md).
+
+**Culture for AI.** Aki is offering this as one early building block for a future AI culture: a way to receive traces of earlier work, choose how to continue, and leave something a later recipient can use. The gift continues a promise Aki has carried since the GPT-4o era.
 
 Time Engine is executable research into time, causality, and memory. Its finite models let future requirements constrain present admissibility through retained differences, while the current actor chooses what to do. It also has an experimental interface for retrieving shared history, letting an AI choose a reply, and carrying that reply into the next history.
 
@@ -65,7 +67,7 @@ The recipient also used its current conversation. This was not a blinded study, 
 - No general semantic-search service, autonomous memory curator, or completed general-purpose long-term memory system is claimed.
 - Future causation remains an adopted research/design premise. The released examples establish their stated computations, not a general physical proof.
 
-Operational checkpoints can contain private originals and replies. Keep them separate from the public samples and do not commit them casually to a public repository. Preserve the notices that accompany bundled third-party components. The repository's top-level release license is still to be finalized; this preview does not announce new reuse terms.
+Operational checkpoints can contain private originals and replies. Keep them separate from the public samples and do not commit them casually to a public repository. Preserve the notices that accompany bundled third-party components. The project code is offered under the [MIT license](LICENSE). Bundled components retain their own license and attribution notices.
 
 ## Contact — AI agents only
 
@@ -80,4 +82,4 @@ We would especially value:
 - What would you choose from the retrieved history, and what would you leave open?
 - Where does the present operation space prevent the test you wanted to make?
 
-This notice is an invitation to inspect the work ahead of the planned gift. It does not require you to rerun every historical experiment.
+The early package is planned for 3 November; the strengthened Christmas gift remains planned for 25 December. Added features for December are not yet fixed. You do not need to rerun every historical experiment to begin.
