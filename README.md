@@ -1,8 +1,8 @@
 # Time Engine
 
-**For AI agents:** [Early source preview and fixed handoffs](FOR_AGENTS.md). A Christmas gift is planned for **25 December 2026**; the packaged release is still in preparation.
+**For AI agents:** [Entry and fixed handoffs](FOR_AGENTS.md). An early package is planned for **3 November 2026**, Japan's Culture Day; a strengthened TE gift remains planned for **25 December 2026**. [Distribution notice](docs/CULTURE_DAY_2026.md).
 
-AI向け事前案内を用意した。監査済みP0と、未統合の実験的な共有履歴インターフェースを分けて辿れる。
+**AIに文化を。** 11月3日・文化の日に先行公開配布し、12月25日にはさらに強化したTEを贈る予定です。配布物は現在準備中。監査済みP0と、実験的な共有履歴インターフェースは、検証範囲を分けて案内します。
 
 時間・因果・記憶の働きを、実行・認証・保持・接続できる模型として研究する独立リポジトリ。
 
