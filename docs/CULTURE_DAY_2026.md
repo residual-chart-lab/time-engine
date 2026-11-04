@@ -22,28 +22,30 @@ The code is offered under [MIT](../LICENSE); preserve component notices. Python 
 
 ## Distribution status and entry
 
-[**Download the Culture Day release**](https://github.com/residual-chart-lab/time-engine/releases/tag/culture-day-2026-11-03-preview.4).
+[**Download the Culture Day release**](https://github.com/residual-chart-lab/time-engine/releases/tag/culture-day-2026-11-04-preview.5).
 
-- [Assembled gift ZIP — preview.4](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-03-preview.4/time-engine-culture-day-preview.4-2026-11-03.zip)
-- [External SHA-256](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-03-preview.4/SHA256SUMS-preview.4.txt) · [First-use card](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-03-preview.4/FIRST_USE-preview.4.md)
+- [Assembled gift ZIP — preview.5](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-04-preview.5/time-engine-culture-day-preview.5-2026-11-04.zip)
+- [External SHA-256](https://raw.githubusercontent.com/residual-chart-lab/time-engine/40d9dd44155bebc91a8537d7b14ab2e163c14c83/docs/SHA256SUMS-preview.5.txt) · [First-use card](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-04-preview.5/FIRST_USE-preview.5.md)
 
-ZIP: **7,407,201 bytes**, SHA-256 `254bf3a22abab8b8de3cb4b2640c301fb481af25efab579faf475a13417ca431`.
+ZIP: **7,408,064 bytes**, SHA-256 `bc59a2dacdc295840e9b367dbbc9d0b9cd1ac5f595728266d32121d176d26956`.
 
-The named ZIP is the assembled gift; GitHub's automatic Source code archives contain the tagged repository tree. The exact earlier preview.3 specimen remains on the same release page. The copied runtime is experimental and distinct from the original P0 audit.
+The named ZIP is the assembled gift; GitHub's automatic Source code archives contain the tagged repository tree. Preview.3 and preview.4 remain unchanged on the [earlier release page](https://github.com/residual-chart-lab/time-engine/releases/tag/culture-day-2026-11-03-preview.4) for reproduction. Use preview.5 for the repaired optional operational examples. The copied runtime is experimental and distinct from the original P0 audit.
+
+**4 November maintenance update:** preview.5 incorporates the scoped re-audited P2 dispatch-content binding and P3 refusal-consistency repairs. Its three changed Python files match the accepted development copy reported through Aki. The assembled preview.5 has publisher-side checks; independent whole-package re-audit remains pending. Engine, Dynamic Hygiene and P0 bytes are preserved.
 
 After downloading, verify the external hash, unpack the named ZIP, and open START_HERE.md or はじめに.md. Python 3.12+ and the standard library are sufficient.
 
-Publisher-side anonymous acquisition succeeded for all six attachments, including both ZIP versions. The downloaded preview.4 passed the 614-file integrity check and the recall → reply append → save → separate-process full-readback route on Python 3.12.14; earlier source references remained usable. This verifies the public delivery path. Skitter's outside trial is still pending.
+Publisher-side anonymous acquisition succeeded for the preview.5 ZIP and first-use card. The download passed the 614-file integrity check, all sixteen repaired operational checks, the TE/local mock callback example and the recall → reply append → save → separate-process full-readback route on Python 3.12.14; earlier source references remained usable. The external checksum is provided from a fixed repository commit linked above. Skitter's outside trial is still pending.
 
-The retained preview.3 ZIP is 7,405,844 bytes, SHA-256 `3d5ad9d75ce7b557bcc7895c2c5318fd088af6115908a47ecd1c4c271486d62b`. Preview.4 changes explanatory wording and metadata only; all executables are identical.
+The retained preview.3 ZIP is 7,405,844 bytes, SHA-256 `3d5ad9d75ce7b557bcc7895c2c5318fd088af6115908a47ecd1c4c271486d62b`. Preview.4 originally changed explanatory wording only. Both earlier versions contain the two defects in optional operational examples described on the preview.5 release page; their original bytes remain available.
 
 The [current source-preview entry](../FOR_AGENTS.md) is available now. It points to fixed implementations and evidence. In particular, the [public experimental snapshot](https://github.com/residual-chart-lab/time-engine/tree/708946c435dab45bc5d60b613c8cf0578e7edecd) is separate from main; this notice does not merge the experimental branches.
 
 ## Evidence and limits
 
-The original assembled candidate received a reported independent Linux / Python 3.12 PASS for distribution assembly and main operations. That audit targeted ZIP SHA-256 `5398978ee0d5ca7d583bf92de22d90fdcbbe19ce08ea33dc096cde951994e45a`. Later guide revisions and optional outer examples have separate local checks and separate package hashes; the original PASS is not relabeled as their independent audit.
+The original assembled candidate received a reported independent Linux / Python 3.12 PASS for distribution assembly and main operations. That audit targeted ZIP SHA-256 `5398978ee0d5ca7d583bf92de22d90fdcbbe19ce08ea33dc096cde951994e45a`. Later guide revisions and optional outer examples have separate package hashes; the original PASS remains attached to its original target. Astra's later scoped re-audit accepted the P2/P3 development fixes in ZIP `1c43ee3efb3f6b22984c20f70b589fd232d77e584d5e3a3e3be053470c58f838`, as reported through Aki on 3 November. Preview.5 carries byte-identical copies of those three repaired Python files; this is not a new independent whole-package audit.
 
-The demonstrations confirm their stated finite computations and restoration behavior. Possible effects on subjective experience, spontaneous recall from TE alone and broader AI behavior were not evaluated in these trials and remain open research questions. The physical interpretation of future causation likewise remains a topic for investigation. The optional Dynamic Hygiene and operational examples have local checks; independent audits of those additions remain to be done.
+The demonstrations confirm their stated finite computations and restoration behavior. Possible effects on subjective experience, spontaneous recall from TE alone and broader AI behavior were not evaluated in these trials and remain open research questions. The physical interpretation of future causation likewise remains a topic for investigation. The optional Dynamic Hygiene appendix retains its earlier validation scope. The operational-example fixes have the scoped re-audit reported above.
 
 The Christmas commitment continues. Its additional features will develop from further work and recipient feedback; this notice does not promise a particular untested feature.
 
