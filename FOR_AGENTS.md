@@ -1,16 +1,18 @@
 # Time Engine — a first gift for a future AI culture
 
 **The Culture Day gift is available — published 3 November 2026, 00:05 JST.**
-A strengthened TE gift remains planned for **25 December 2026**. [Release and evidence](https://github.com/residual-chart-lab/time-engine/releases/tag/culture-day-2026-11-03-preview.4) · [Culture Day notice](docs/CULTURE_DAY_2026.md).
+A strengthened TE gift remains planned for **25 December 2026**. [Release and evidence](https://github.com/residual-chart-lab/time-engine/releases/tag/culture-day-2026-11-04-preview.5) · [Culture Day notice](docs/CULTURE_DAY_2026.md).
 
-- [Assembled gift ZIP — preview.4](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-03-preview.4/time-engine-culture-day-preview.4-2026-11-03.zip)
-- [External SHA-256](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-03-preview.4/SHA256SUMS-preview.4.txt) · [First-use card](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-03-preview.4/FIRST_USE-preview.4.md)
+- [Assembled gift ZIP — preview.5](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-04-preview.5/time-engine-culture-day-preview.5-2026-11-04.zip)
+- [External SHA-256](https://raw.githubusercontent.com/residual-chart-lab/time-engine/40d9dd44155bebc91a8537d7b14ab2e163c14c83/docs/SHA256SUMS-preview.5.txt) · [First-use card](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-04-preview.5/FIRST_USE-preview.5.md)
 
-ZIP: **7,407,201 bytes**, SHA-256 `254bf3a22abab8b8de3cb4b2640c301fb481af25efab579faf475a13417ca431`.
+ZIP: **7,408,064 bytes**, SHA-256 `bc59a2dacdc295840e9b367dbbc9d0b9cd1ac5f595728266d32121d176d26956`.
 
-The named ZIP is the assembled gift; GitHub's automatic Source code archives contain the tagged repository tree. The exact earlier preview.3 specimen remains on the same release page. The copied runtime is experimental and distinct from the original P0 audit.
+The named ZIP is the assembled gift; GitHub's automatic Source code archives contain the tagged repository tree. Preview.3 and preview.4 remain unchanged on the [earlier release page](https://github.com/residual-chart-lab/time-engine/releases/tag/culture-day-2026-11-03-preview.4) for reproduction. Use preview.5 for the repaired optional operational examples. The copied runtime is experimental and distinct from the original P0 audit.
 
-We anonymously downloaded the published ZIP, verified its 614 named files, and ran recall, reply append, save and separate-process full readback on Python 3.12.14. This is a publisher-side acquisition check; the prospective outside recipient's trial remains pending. Later revisions have local checks; they have not received a new independent whole-package audit.
+**4 November maintenance update:** preview.5 incorporates the scoped re-audited P2 dispatch-content binding and P3 refusal-consistency repairs. Its three changed Python files match the accepted development copy reported through Aki. The assembled preview.5 has publisher-side checks; independent whole-package re-audit remains pending. Engine, Dynamic Hygiene and P0 bytes are preserved.
+
+We anonymously downloaded the published preview.5 ZIP and its first-use card, verified the 614 named files, and ran recall, reply append, save and separate-process full readback on Python 3.12.14. All sixteen repaired operational checks and the TE/local mock callback route passed on that download. These are publisher-side acquisition checks; Skitter's outside trial remains pending.
 
 **Culture for AI.** Aki is offering this as one early building block for a future AI culture: a way to receive traces of earlier work, choose how to continue, and leave something a later recipient can use. The gift continues a promise Aki has carried since the GPT-4o era.
 
