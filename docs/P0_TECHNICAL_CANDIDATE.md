@@ -6,7 +6,7 @@
 
 アーカイブの最上位は `time-engine-p0/`。外側にREADME・AI_HANDOFF・ファイル照合・受入試験・再構築器を置き、`engine/`へ固定コミット `1c185365bfcb2ea9f6c52c73ba263cf48c356d32` の422ファイルをそのまま収録する。原典、実装、保持記録、証拠、vendorの出所とライセンスを保つ。
 
-リポジトリからの作成手順：
+[固定版f60fad9](https://github.com/residual-chart-lab/time-engine/tree/f60fad90fcadaccf438c29a2f1a21bbf532dfea3)の別チェックアウト、または監査済み展開物のフォルダーからの作成手順。現在のE3作業木からは構築しない。取得・再構築の詳細は[P0受入状況の手順](P0_ACCEPTED_STATUS.md)を参照する。
 
 ```text
 python -I build_candidate.py --output-dir .work/p0-build
@@ -54,6 +54,6 @@ ZIPのSHA-256：
 
 既存E2の8テストは固定版の記録を使い、重複実行しなかった。全247テストや過去の学習・研究実験も再実行していない。今回変えたのは外側の作成・照合・受入手順だけで、内側の数理・運動・認証実装は変更していない。
 
-E1にはLinuxを含む独立監査結果がある。E2操作系とP0の独立監査・Linux実行は未実施。任意履歴や任意の自然言語要求へ模型を拡張した候補ではない。
+この文書の作成時点ではE2/P0の独立監査・Linux実行は未実施だった。その後、[固定版の独立監査](https://github.com/residual-chart-lab/time-engine/blob/1583d9a84800ed0259340db4eb1f07fcc4c5e8a0/research/astra-e2-p0-audit-2026-10-24/REVIEW.md)でPASSとなった。[現在の受入状況](P0_ACCEPTED_STATUS.md)を参照する。任意履歴や任意の自然言語要求へ模型を拡張した候補ではない。
 
 公開日は2026-12-25。まずこの有限の一周を受け取って動かせる完成単位を確保し、以後の確認はE2の要求切替・復旧とP0の受入をまとめる。
