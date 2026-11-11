@@ -1,0 +1,47 @@
+{
+  "schema": "time-engine-e3-feedback-validation-v1",
+  "date": "2026-10-24",
+  "passed": true,
+  "tests": 11,
+  "new_tests": 3,
+  "existing_E2_tests": 8,
+  "runtime": {
+    "python": "3.12.14",
+    "system": "Windows"
+  },
+  "cli": {
+    "contexts": [
+      "mixed",
+      "outside_chart",
+      "zero_head",
+      "mixed"
+    ],
+    "assessment_statuses": [
+      "ADMISSIBLE",
+      "UNKNOWN_CHART",
+      "EMPTY",
+      "ADMISSIBLE"
+    ],
+    "repeated_resolution_additional_reads": 0,
+    "status_observation_changed_state": false
+  },
+  "legacy_checkpoint": {
+    "snapshot_sha256": "7eeacc493777697c6dec70831b9307f20918edc1d6fd566fe08d61582199a476",
+    "original_bytes_preserved": true,
+    "feedback_additional_exact_reads": 0,
+    "resumed_from": "CLOSED1",
+    "phase": "STOPPED",
+    "certified": true,
+    "stock": 9,
+    "hints_do_not_override_guards": true
+  },
+  "checkpoint_schema_changed": false,
+  "source_sha256": {
+    "integrations/inquiry/step_session.py": "3dcfe2606f26a948a62fa9be3d05a316f313269d005592fbe495b5822740085f",
+    "integrations/inquiry/test_phase_feedback.py": "a17115112325ca772240461780767669e420851097807079cf128e638a63f1fc",
+    "integrations/inquiry/validate_phase_feedback.py": "adc7d311de0a046742ba71fedcbd92c78cf4f984406705473a843e806b2251ae",
+    "integrations/inquiry/fixtures/P0-first-use-CLOSED1.record.json": "7eeacc493777697c6dec70831b9307f20918edc1d6fd566fe08d61582199a476"
+  },
+  "full_historical_suite_rerun": false,
+  "independent_audit": false
+}

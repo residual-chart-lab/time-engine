@@ -1,0 +1,390 @@
+{
+  "schema": "time-engine-free-number-reading-path-links-v1",
+  "date": "2026-10-24",
+  "source_parent": "d97e5bbdb407a3502cceec27035d91b8327ec101",
+  "documents": [
+    "README.md",
+    "START_HERE.md",
+    "docs/P0_STARTUP.md",
+    "docs/STATE_AND_VALUE.md",
+    "docs/FREE_NUMBERS_READING_PATH.md"
+  ],
+  "relative_links_checked": 87,
+  "relative_links": [
+    {
+      "source": "README.md",
+      "target": "docs/FREE_NUMBERS_READING_PATH.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR69_THREE_FLOWER_OBSERVATION_TRANSFER.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR68_OBSERVATION_SYNTHESIS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR67_INCREMENTAL_DEMAND_PROOFS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR66_ADAPTIVE_IDENTITY_RESOLUTION.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR65_MIXED_RESIDUAL_ACTION_SETS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR64_TWO_FLOWER_BUNDLE_DEMAND.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR63_LIVE_FLOWER.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR62_DEMAND_DIRECTED_RESIDUE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR61_INDEPENDENT_C_PULLBACK.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR60_INTERNAL_INQUIRY.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR59_INQUIRY_INITIATION.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR58_DEFERRED_RESIDUE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/PRINCIPLES.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR57_EMBEDDED_THREE_FLOWER.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR56_PORTABILITY_REPAIR.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR56_THREE_PLUS_ONE_OUTBOUND.md"
+    },
+    {
+      "source": "README.md",
+      "target": "baseline/v1/note55-consolidated.md"
+    },
+    {
+      "source": "README.md",
+      "target": "baseline/v1/MODEL-SPEC.md"
+    },
+    {
+      "source": "README.md",
+      "target": "baseline/v1/EVIDENCE-MAP.md"
+    },
+    {
+      "source": "README.md",
+      "target": "baseline/v1/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/THREE_PLUS_ONE_INTEGRATION.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/PROVENANCE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR68_OBSERVATION_SYNTHESIS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR67_INCREMENTAL_DEMAND_PROOFS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR66_ADAPTIVE_IDENTITY_RESOLUTION.md"
+    },
+    {
+      "source": "README.md",
+      "target": "research/rr66-read-repair-v001/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR65_MIXED_RESIDUAL_ACTION_SETS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR64_TWO_FLOWER_BUNDLE_DEMAND.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR63_LIVE_FLOWER.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR62_DEMAND_DIRECTED_RESIDUE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR61_INDEPENDENT_C_PULLBACK.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR60_INTERNAL_INQUIRY.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR59_INQUIRY_INITIATION.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR58_DEFERRED_RESIDUE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR57_EMBEDDED_THREE_FLOWER.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR56_PORTABILITY_TEST_FIX.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR56_PORTABILITY_REPAIR.md"
+    },
+    {
+      "source": "README.md",
+      "target": "integrations/three_plus_one/README.md"
+    },
+    {
+      "source": "README.md",
+      "target": "docs/RR56_THREE_PLUS_ONE_OUTBOUND.md"
+    },
+    {
+      "source": "README.md",
+      "target": "baseline/v1/README.md"
+    },
+    {
+      "source": "START_HERE.md",
+      "target": "docs/ENTRY_TRANSPORT_E1_STATUS.md"
+    },
+    {
+      "source": "START_HERE.md",
+      "target": "docs/STEP_SESSION_E2.md"
+    },
+    {
+      "source": "START_HERE.md",
+      "target": "docs/FREE_NUMBERS_READING_PATH.md"
+    },
+    {
+      "source": "docs/P0_STARTUP.md",
+      "target": "STATE_AND_VALUE.md"
+    },
+    {
+      "source": "docs/P0_STARTUP.md",
+      "target": "FREE_NUMBERS_READING_PATH.md"
+    },
+    {
+      "source": "docs/STATE_AND_VALUE.md",
+      "target": "P0_STARTUP.md"
+    },
+    {
+      "source": "docs/STATE_AND_VALUE.md",
+      "target": "E3_DECISION_FEEDBACK.md"
+    },
+    {
+      "source": "docs/STATE_AND_VALUE.md",
+      "target": "FREE_NUMBERS_READING_PATH.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "P0_STARTUP.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "STATE_AND_VALUE.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "PRINCIPLES.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "RR58_DEFERRED_RESIDUE.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/free_numbers/deferred.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/free_numbers/README.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "RR66_ADAPTIVE_IDENTITY_RESOLUTION.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "RR68_OBSERVATION_SYNTHESIS.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "RR65_MIXED_RESIDUAL_ACTION_SETS.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "RR69_THREE_FLOWER_OBSERVATION_TRANSFER.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "PRINCIPLES.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../vendor/free-number-core/core/04-length-two-exact-splitting.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../vendor/free-number-core/SOURCE.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/free_numbers/deferred.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/free_numbers/test_deferred.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/free_numbers/RR58-result.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/free_numbers/RR58-validation.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/adaptive_resolution.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/test_adaptive_session.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../research/rr66-read-repair-v001/README.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../research/rr66-read-repair-v001/repair-validation.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/observation_synthesis.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/synthesized_resolution.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/test_synthesized_session.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/RR68-result.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/RR68-validation.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/three_flower_synthesis.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/three_flower_session.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/test_three_flower_synthesis.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/RR69-inputs.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/RR69-result.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/RR69-validation.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../vendor/free-number-runtime/runtime/free_numbers/retention.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../vendor/free-number-runtime/runtime/free_numbers/algebra.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../vendor/free-number-runtime/runtime/free_numbers/checkpoint.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../vendor/free-number-runtime/SOURCE.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/free_numbers/README.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/README.md"
+    }
+  ],
+  "external_core_commit": "9efc241d38e5ca2cd07f425b747bfb5d67ea0235",
+  "external_core_links": [
+    "https://github.com/residual-chart-lab/free-number-core/blob/9efc241d38e5ca2cd07f425b747bfb5d67ea0235/core/09-core-closure-theorem.md",
+    "https://github.com/residual-chart-lab/free-number-core/blob/9efc241d38e5ca2cd07f425b747bfb5d67ea0235/core/00-capability-ledger.md",
+    "https://github.com/residual-chart-lab/free-number-core/blob/9efc241d38e5ca2cd07f425b747bfb5d67ea0235/core/01-abstract-core.md",
+    "https://github.com/residual-chart-lab/free-number-core/blob/9efc241d38e5ca2cd07f425b747bfb5d67ea0235/core/02-conditioned-zero.md",
+    "https://github.com/residual-chart-lab/free-number-core/blob/9efc241d38e5ca2cd07f425b747bfb5d67ea0235/core/03-independence-audit.md",
+    "https://github.com/residual-chart-lab/free-number-core/blob/9efc241d38e5ca2cd07f425b747bfb5d67ea0235/core/05-length-three-propagation.md",
+    "https://github.com/residual-chart-lab/free-number-core/blob/9efc241d38e5ca2cd07f425b747bfb5d67ea0235/core/07-length-four-cross-boundary-propagation.md",
+    "https://github.com/residual-chart-lab/free-number-core/blob/9efc241d38e5ca2cd07f425b747bfb5d67ea0235/core/07-kernel-identification-amendment.md",
+    "https://github.com/residual-chart-lab/free-number-core/blob/9efc241d38e5ca2cd07f425b747bfb5d67ea0235/core/08-all-grade-response-reconstruction.md"
+  ],
+  "external_link_check": "file paths compared against fixed Core tree; do not infer current website status",
+  "P0_archive_sha256": "91d9218bd368d7987e13ac2a14440ad38ed84d0d227b1102f225fdb0ef89fc4d",
+  "P0_archive_modified": false,
+  "new_math_claims": false,
+  "model_code_changed": false,
+  "numerical_tests_rerun": false,
+  "independent_audit_added": false,
+  "previous_files": 450,
+  "changed_previous_files": [
+    "README.md",
+    "START_HERE.md",
+    "docs/P0_STARTUP.md",
+    "docs/STATE_AND_VALUE.md"
+  ],
+  "unchanged_previous_files": 446
+}

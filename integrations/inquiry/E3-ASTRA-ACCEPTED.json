@@ -1,0 +1,17 @@
+{
+  "schema": "time-engine-e3-astra-accepted-v1",
+  "date": "2026-10-24",
+  "audited_commit": "ccc0b93840e207ce9c3b2630acdf359a66bc2b54",
+  "audit_record_commit": "0dd5e8b71cc094a69c50a8d8c6899581789d505e",
+  "audit_report": "https://github.com/residual-chart-lab/time-engine/blob/0dd5e8b71cc094a69c50a8d8c6899581789d505e/research/astra-e3-audit-2026-10-24/REVIEW.md",
+  "verdict": "PASS for E3 implementation and reading guide; P2 build-instruction correction",
+  "runtime": "Linux CPython 3.12.14",
+  "tests_passed": 14,
+  "old_P0_checkpoint_bytes_preserved": true,
+  "scope": "E3 status presentation, detached Python readouts, old P0 recovery compatibility, reading guide distinctions and links",
+  "P0_full_audit_rerun": false,
+  "Core_general_theorems_reproved": false,
+  "followup": "build source clarified in P0_ACCEPTED_STATUS and P0_TECHNICAL_CANDIDATE; subsequent changes documentation/evidence only",
+  "P0_archive_contains_E3": false,
+  "validator_false_audit_flags_are_historical": true
+}

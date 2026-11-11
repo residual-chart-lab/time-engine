@@ -1,0 +1,19 @@
+test_mutating_nested_readouts_cannot_mutate_request_journal_or_work (test_state_view.StateViewTests.test_mutating_nested_readouts_cannot_mutate_request_journal_or_work) ... ok
+test_same_values_do_not_make_replaced_provenance_an_original_state (test_state_view.StateViewTests.test_same_values_do_not_make_replaced_provenance_an_original_state) ... ok
+test_status_or_numeric_summary_cannot_replace_entry_or_checkpoint (test_state_view.StateViewTests.test_status_or_numeric_summary_cannot_replace_entry_or_checkpoint) ... ok
+test_audited_P0_checkpoint_bytes_survive_feedback_and_motion (test_phase_feedback.FeedbackTests.test_audited_P0_checkpoint_bytes_survive_feedback_and_motion) ... ok
+test_budget_exhaustion_still_leaves_recovery_operations (test_phase_feedback.FeedbackTests.test_budget_exhaustion_still_leaves_recovery_operations) ... ok
+test_cli_distinguishes_rejection_reasons_and_clears_stale_feedback (test_phase_feedback.FeedbackTests.test_cli_distinguishes_rejection_reasons_and_clears_stale_feedback) ... ok
+test_checkpoint_replays_rebinding_cache_and_closed_prefix (test_step_session.StepSessionTests.test_checkpoint_replays_rebinding_cache_and_closed_prefix) ... ok
+test_checkpoint_requires_external_hash_and_exact_actual_history (test_step_session.StepSessionTests.test_checkpoint_requires_external_hash_and_exact_actual_history) ... ok
+test_closed_past_cannot_be_rebound_or_reselected (test_step_session.StepSessionTests.test_closed_past_cannot_be_rebound_or_reselected) ... ok
+test_finite_limits_apply_to_normal_execution_and_resume (test_step_session.StepSessionTests.test_finite_limits_apply_to_normal_execution_and_resume) ... ok
+test_invalid_commands_do_not_move_current_state (test_step_session.StepSessionTests.test_invalid_commands_do_not_move_current_state) ... ok
+test_new_request_discards_old_permission_and_can_reject (test_step_session.StepSessionTests.test_new_request_discards_old_permission_and_can_reject) ... ok
+test_real_json_lines_cli_saves_and_resumes_without_reimport_per_command (test_step_session.StepSessionTests.test_real_json_lines_cli_saves_and_resumes_without_reimport_per_command) ... ok
+test_receive_once_reuses_cache_and_advances_exactly_one_flower (test_step_session.StepSessionTests.test_receive_once_reuses_cache_and_advances_exactly_one_flower) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 48.027s
+
+OK
