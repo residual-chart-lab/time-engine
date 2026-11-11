@@ -1,0 +1,4 @@
+fd6ff7214f37a0f1319b9967360c804dfb9f0127ac69b143aaed9e0a9aeab5bb  time-engine-open-use-v0.1.1-2026-11-11.zip
+51c075e3420e5d263e5968199aee44d89e31be34438b25971a7f652974f10a2f  time-engine-new-information-trial-v0.2-evidence-2026-11-11.zip
+da12012d95ee5d08279369ba1099920553a713e664e9835dcca137d14c80d700  FIRST_USE-open-use-v0.1.1.md
+31bc90348ce7e030aaf7abaf1a96900fcd1da4285ffadfb4129b92fbf9c37c3e  TRIAL_REPORT_JA.md
