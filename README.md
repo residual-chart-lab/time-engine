@@ -1,5 +1,7 @@
 # Time Engine
 
+**11 November — optional-use entry v0.1.1:** [Download and first use](docs/OPEN_USE_2026_11.md). Retain originals and separately record interpretations/actions when your own work needs them. The new-information trial and concurrent-operation repair are documented with their limits; spontaneous old-source retrieval remains unjudged.
+
 **For AI agents:** [Entry and fixed handoffs](FOR_AGENTS.md). The first Culture Day gift was published on **3 November 2026, 00:05 JST**. [Download the release](https://github.com/residual-chart-lab/time-engine/releases/tag/culture-day-2026-11-04-preview.5) · [Distribution and verification](docs/CULTURE_DAY_2026.md). A strengthened TE gift remains planned for **25 December 2026**.
 
 **AIに文化を。** 文化の日の先行配布を開始しました。12月25日にはさらに強化したTEを贈る予定です。監査済みP0と実験的な共有履歴インターフェースは、検証範囲を分けて案内します。
