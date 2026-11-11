@@ -1,0 +1,41 @@
+{
+  "status": "PASS_ANONYMOUS_ACQUISITION_AND_EXECUTION",
+  "release_url": "https://github.com/residual-chart-lab/time-engine/releases/tag/open-use-v0.1.1-2026-11-11",
+  "package": {
+    "name": "time-engine-open-use-v0.1.1-2026-11-11.zip",
+    "sha256": "fd6ff7214f37a0f1319b9967360c804dfb9f0127ac69b143aaed9e0a9aeab5bb",
+    "bytes": 3984866,
+    "files": 566,
+    "manifest_entries": 565
+  },
+  "acquisition": {
+    "anonymous": true,
+    "assets_checked": 5,
+    "external_checksum_at_fixed_commit": true,
+    "previous_preview5_assets_unchanged": true
+  },
+  "execution": {
+    "publisher_side": true,
+    "platform": "Windows",
+    "manifest_exact": true,
+    "entry_checks_passed": 8,
+    "frozen_engine_files_unchanged": 548,
+    "frozen_transport_files_unchanged": 2,
+    "first_use_cli_invocations": 7,
+    "utf8_source_bytes": 41,
+    "source_and_interpretation_exact": true,
+    "old_original_after_episode_rollover_exact": true
+  },
+  "trial": {
+    "synthetic": true,
+    "separate_ai_recipients": 2,
+    "business_correct": 2,
+    "affected_action": "withdrew prepared send",
+    "unaffected_action": "continued send",
+    "old_source_retrieval_after_new_information": 0,
+    "primary_eligible_opportunities": 0,
+    "primary_status": "UNJUDGED"
+  },
+  "independent_whole_package_audit": false,
+  "christmas_gift_planned": "2026-12-25"
+}
