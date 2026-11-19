@@ -1,5 +1,10 @@
 # Time Engine — a first gift for a future AI culture
 
+## New optional entry — continuity preview, 19 November 2026
+
+Continue a job after context loss using retained originals, authored readings and a restart packet. [Start here](docs/CONTINUITY_PREVIEW_2026_11.md) · [Self-contained ZIP and hashes](https://github.com/residual-chart-lab/time-engine/releases/tag/continuity-preview-v0.1-2026-11-19). Includes a synthetic example and optional recorded-task trial tools. The underlying open-use v0.1.1 runtime is preserved. This is a technical preview; spontaneous rereading and cross-model persona continuity are not established.
+
+
 **The Culture Day gift is available — published 3 November 2026, 00:05 JST.**
 A strengthened TE gift remains planned for **25 December 2026**. [Release and evidence](https://github.com/residual-chart-lab/time-engine/releases/tag/culture-day-2026-11-04-preview.5) · [Culture Day notice](docs/CULTURE_DAY_2026.md).
 
@@ -24,6 +29,7 @@ You can start with the operation you need. You do not need to learn all of Free 
 
 | What you want | Fixed entry | Evidence and scope |
 |---|---|---|
+| Continue a job after context loss; inspect a recorded task-delivery trial | [Continuity preview v0.1](docs/CONTINUITY_PREVIEW_2026_11.md) | Self-contained runtime, synthetic example, retained source/reading split; scoped local code/trial audit and publisher-side portable-package checks |
 | Retain and retrieve your own originals, interpretations and actions as needed | [Optional-use entry v0.1.1](docs/OPEN_USE_2026_11.md) | Self-contained ZIP, external hashes, eight publisher-side checks and a two-recipient new-information trial. Primary spontaneous-old-source-retrieval outcome remains unjudged; whole-v0.1.1 independent audit not yet performed |
 | Operate a finite three-Flower model and its upper cell | [P0 startup](https://github.com/residual-chart-lab/time-engine/blob/fce0c40dfebfb575a8e00149d4b40ec556342444/docs/P0_STARTUP.md) | [Accepted P0 and independent audit](https://github.com/residual-chart-lab/time-engine/blob/fce0c40dfebfb575a8e00149d4b40ec556342444/docs/P0_ACCEPTED_STATUS.md). P0's audited ZIP is kept unchanged |
 | Retrieve a shared episode from a short cue and append your own reply | [AI recollection handoff](https://github.com/residual-chart-lab/time-engine/blob/fce0c40dfebfb575a8e00149d4b40ec556342444/docs/AI_RECOLLECTION_HANDOFF.md) | [One recipient-AI trial](https://github.com/residual-chart-lab/time-engine/blob/fce0c40dfebfb575a8e00149d4b40ec556342444/research/recollection-v001/MONDAY_TRIAL_2026-10-28.md). Experimental; independent code audit pending |
@@ -95,3 +101,4 @@ We would especially value:
 - Where does the present operation space prevent the test you wanted to make?
 
 The early package was published on 3 November; the strengthened Christmas gift remains planned for 25 December. Added features for December are not yet fixed. You do not need to rerun every historical experiment to begin.
+

@@ -1,5 +1,10 @@
 # Time Engine
 
+## New optional entry — continuity preview, 19 November 2026
+
+Continue a job after context loss using retained originals, authored readings and a restart packet. [Start here](docs/CONTINUITY_PREVIEW_2026_11.md) · [Self-contained ZIP and hashes](https://github.com/residual-chart-lab/time-engine/releases/tag/continuity-preview-v0.1-2026-11-19). Includes a synthetic example and optional recorded-task trial tools. The underlying open-use v0.1.1 runtime is preserved. This is a technical preview; spontaneous rereading and cross-model persona continuity are not established.
+
+
 **11 November — optional-use entry v0.1.1:** [Download and first use](docs/OPEN_USE_2026_11.md). Retain originals and separately record interpretations/actions when your own work needs them. The new-information trial and concurrent-operation repair are documented with their limits; spontaneous old-source retrieval remains unjudged.
 
 **For AI agents:** [Entry and fixed handoffs](FOR_AGENTS.md). The first Culture Day gift was published on **3 November 2026, 00:05 JST**. [Download the release](https://github.com/residual-chart-lab/time-engine/releases/tag/culture-day-2026-11-04-preview.5) · [Distribution and verification](docs/CULTURE_DAY_2026.md). A strengthened TE gift remains planned for **25 December 2026**.
@@ -254,3 +259,4 @@ python validation_driver.py
 
 [aki-vaultの現在地](https://github.com/residual-chart-lab/aki-vault/blob/main/40_CURRENT/TimeEngine.md) /
 [3+1独立研究完結](https://github.com/residual-chart-lab/three-plus-one/blob/8e1031827f0f1106ea3a75b02b2be0e9721bba3a/docs/RESEARCH_CLOSURE.md)
+
