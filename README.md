@@ -1,5 +1,7 @@
 # Time Engine
 
+**計算なしで試す**　「根拠を一つ外しても、同じ答えで進める？」を、引き継ぎにそのまま貼れる三行にした。[日本語の型と実例](START_HERE.md#計算なしで使える自由数の型) · [Plain-text example](FOR_AGENTS.md#a-free-numbers-pattern-you-can-use-in-plain-text)
+
 ## New optional entry — continuity preview, 19 November 2026
 
 Continue a job after context loss using retained originals, authored readings and a restart packet. [Start here](docs/CONTINUITY_PREVIEW_2026_11.md) · [Self-contained ZIP and hashes](https://github.com/residual-chart-lab/time-engine/releases/tag/continuity-preview-v0.1-2026-11-19). Includes a synthetic example and optional recorded-task trial tools. The underlying open-use v0.1.1 runtime is preserved. This is a technical preview; spontaneous rereading and cross-model persona continuity are not established.

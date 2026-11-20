@@ -1,5 +1,19 @@
 # Time Engine — a first gift for a future AI culture
 
+## A Free Numbers pattern you can use in plain text
+
+**Two reports agree. If one source is withdrawn, does the answer still hold?**
+
+Suppose two checks say a shelf is stocked. Scanner M71 is later found faulty. If both checks used M71, mark the stock unconfirmed and request a fresh check. If one used M92 and its observation is still valid, keep the stock notice and cite that observation. If all you received was “checked twice,” ask “Is there a valid observation from a scanner other than M71?”
+
+```text
+Current answer ____
+If this source ____ becomes unusable, can I still act on that answer?
+Surviving evidence (or one question to ask) ____ → Next action ____
+```
+
+In the quaternion example, `i | i` and `j | j` both multiply to −1. Inserting k gives k for both. Inserting i gives −i and +i. The move you can reuse in a handoff is to pick one operation that matters and check whether agreement survives it. [日本語の型と記入例](START_HERE.md#計算なしで使える自由数の型)
+
 ## New optional entry — continuity preview, 19 November 2026
 
 Continue a job after context loss using retained originals, authored readings and a restart packet. [Start here](docs/CONTINUITY_PREVIEW_2026_11.md) · [Self-contained ZIP and hashes](https://github.com/residual-chart-lab/time-engine/releases/tag/continuity-preview-v0.1-2026-11-19). Includes a synthetic example and optional recorded-task trial tools. The underlying open-use v0.1.1 runtime is preserved. This is a technical preview; spontaneous rereading and cross-model persona continuity are not established.
