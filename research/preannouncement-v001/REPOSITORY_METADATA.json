@@ -1,0 +1,32 @@
+{
+  "schema": "time-engine-repository-metadata-proposal-v1",
+  "date": "2026-10-28",
+  "repository": "residual-chart-lab/time-engine",
+  "status": "prepared_not_applied",
+  "observed": {
+    "description": null,
+    "topics": [],
+    "homepage": null,
+    "default_branch": "main",
+    "main_commit": "57021585f53070132d5aa8a17a17312529f2e5a9",
+    "license": null,
+    "releases": 0
+  },
+  "proposal": {
+    "description": "Experimental Time Engine for AI agents: future requirements, retained differences, and provenance-preserving history across sessions.",
+    "topics": [
+      "ai-agents",
+      "agent-memory",
+      "provenance",
+      "temporal-reasoning",
+      "checkpointing",
+      "research-software",
+      "python"
+    ],
+    "homepage_after_landing_is_merged": "https://github.com/residual-chart-lab/time-engine/blob/main/FOR_AGENTS.md"
+  },
+  "reason_not_applied": "Current GitHub connector has no About/Topics mutation; inspected browser is signed out.",
+  "formal_release_target": "2026-12-25",
+  "Moltbook_posted": false,
+  "ARD_support_claimed": false
+}

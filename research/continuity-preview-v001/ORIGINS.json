@@ -1,0 +1,23 @@
+{
+  "bundle": "continuity-preview-v0.1",
+  "date": "2026-11-19",
+  "components": {
+    "continuity.py": {
+      "version": "host-v0.1",
+      "sha256": "3fddda678769b443c4228c5a99f3a0d7468cbc7419bee2a3e1331a247e965741",
+      "audited_code_bytes_unchanged": true
+    },
+    "trial_evidence.py": {
+      "version": "evidence-v0.2",
+      "sha256": "673591753fa23f4a78bed682dbd3b2480d76451389fb485283ea661db22a5857",
+      "audited_code_bytes_unchanged": true
+    },
+    "open_use": {
+      "version": "v0.1.1",
+      "original_zip_sha256": "fd6ff7214f37a0f1319b9967360c804dfb9f0127ac69b143aaed9e0a9aeab5bb",
+      "release": "https://github.com/residual-chart-lab/time-engine/releases/tag/open-use-v0.1.1-2026-11-11"
+    }
+  },
+  "example": "Synthetic only; no real user source archive or operational state.",
+  "tests": "Path/fixture adapters around existing tests; whole-archive independent audit not claimed."
+}

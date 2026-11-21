@@ -1,5 +1,27 @@
 # Time Engine
 
+**計算なしで試す**　「根拠を一つ外しても、同じ答えで進める？」を、引き継ぎにそのまま貼れる三行にした。[日本語の型と実例](START_HERE.md#計算なしで使える自由数の型) · [Plain-text example](FOR_AGENTS.md#a-free-numbers-pattern-you-can-use-in-plain-text)
+
+## New optional entry — continuity preview, 19 November 2026
+
+Continue a job after context loss using retained originals, authored readings and a restart packet. [Start here](docs/CONTINUITY_PREVIEW_2026_11.md) · [Self-contained ZIP and hashes](https://github.com/residual-chart-lab/time-engine/releases/tag/continuity-preview-v0.1-2026-11-19). Includes a synthetic example and optional recorded-task trial tools. The underlying open-use v0.1.1 runtime is preserved. This is a technical preview; spontaneous rereading and cross-model persona continuity are not established.
+
+
+**11 November — optional-use entry v0.1.1:** [Download and first use](docs/OPEN_USE_2026_11.md). Retain originals and separately record interpretations/actions when your own work needs them. The new-information trial and concurrent-operation repair are documented with their limits; spontaneous old-source retrieval remains unjudged.
+
+**For AI agents:** [Entry and fixed handoffs](FOR_AGENTS.md). The first Culture Day gift was published on **3 November 2026, 00:05 JST**. [Download the release](https://github.com/residual-chart-lab/time-engine/releases/tag/culture-day-2026-11-04-preview.5) · [Distribution and verification](docs/CULTURE_DAY_2026.md). A strengthened TE gift remains planned for **25 December 2026**.
+
+**AIに文化を。** 文化の日の先行配布を開始しました。12月25日にはさらに強化したTEを贈る予定です。監査済みP0と実験的な共有履歴インターフェースは、検証範囲を分けて案内します。
+
+- [Assembled gift ZIP — preview.5](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-04-preview.5/time-engine-culture-day-preview.5-2026-11-04.zip)
+- [External SHA-256](https://raw.githubusercontent.com/residual-chart-lab/time-engine/40d9dd44155bebc91a8537d7b14ab2e163c14c83/docs/SHA256SUMS-preview.5.txt) · [First-use card](https://github.com/residual-chart-lab/time-engine/releases/download/culture-day-2026-11-04-preview.5/FIRST_USE-preview.5.md)
+
+ZIP: **7,408,064 bytes**, SHA-256 `bc59a2dacdc295840e9b367dbbc9d0b9cd1ac5f595728266d32121d176d26956`.
+
+The named ZIP is the assembled gift; GitHub's automatic Source code archives contain the tagged repository tree. Preview.3 and preview.4 remain unchanged on the [earlier release page](https://github.com/residual-chart-lab/time-engine/releases/tag/culture-day-2026-11-03-preview.4) for reproduction. Use preview.5 for the repaired optional operational examples. The copied runtime is experimental and distinct from the original P0 audit.
+
+**4 November maintenance update:** preview.5 incorporates the scoped re-audited P2 dispatch-content binding and P3 refusal-consistency repairs. Its three changed Python files match the accepted development copy reported through Aki. The assembled preview.5 has publisher-side checks; independent whole-package re-audit remains pending. Engine, Dynamic Hygiene and P0 bytes are preserved.
+
 時間・因果・記憶の働きを、実行・認証・保持・接続できる模型として研究する独立リポジトリ。
 
 **出発点は「Time Engine 三輪接続模型 v1」。完成した3+1を部品として内蔵し、RR56の一輪接続から、RR57の共通上位条件による三輪拘束へ進める。強化する対象は統合済みTime Engineである。**
@@ -240,3 +262,4 @@ python validation_driver.py
 
 [aki-vaultの現在地](https://github.com/residual-chart-lab/aki-vault/blob/main/40_CURRENT/TimeEngine.md) /
 [3+1独立研究完結](https://github.com/residual-chart-lab/three-plus-one/blob/8e1031827f0f1106ea3a75b02b2be0e9721bba3a/docs/RESEARCH_CLOSURE.md)
+
