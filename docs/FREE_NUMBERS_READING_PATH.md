@@ -15,6 +15,7 @@
 | 要求が変わると、何を読み直す？ | [RR66：同一性の解像度](RR66_ADAPTIVE_IDENTITY_RESOLUTION.md) | [RR68：読み方そのものを構成する](RR68_OBSERVATION_SYNTHESIS.md) |
 | 保持した差は、本当にTEの成立へ効く？ | [RR65：混合残差と実作用集合](RR65_MIXED_RESIDUAL_ACTION_SETS.md) | [RR69：三輪への保証の接続](RR69_THREE_FLOWER_OBSERVATION_TRANSFER.md) |
 | 主張に納得できない。どこを検証すればよい？ | 下の「主張を疑うとき」 | Coreの主張台帳・証明・計算証明書、TEの独立対照・監査へ |
+| 今の形を守ることと、次に成立する運動を守ることは同じ？ | [保護対象を分ける](PROTECTION_TARGETS.md) | 追加の読み取り専用診断。固定P0の同梱機能・E3監査の対象外 |
 | 実装を変えるなら、何を保つ？ | [保持と置換の原則](PRINCIPLES.md) | 下の「コードと根拠へ」から、変える箇所の元の検査へ |
 
 ## 数学の原典へ

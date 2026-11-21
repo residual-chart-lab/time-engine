@@ -1,0 +1,202 @@
+{
+  "schema": "time-engine-preservation-target-validation-v1",
+  "date": "2026-10-25",
+  "passed": true,
+  "tests": 9,
+  "new_tests": 7,
+  "reused_division_guard_tests": 2,
+  "runtime": {
+    "python": "3.12.14",
+    "system": "Windows"
+  },
+  "separation": [
+    {
+      "schema": "time-engine-preservation-targets-v1",
+      "entry": "24ccd25412e46f5051ee5e48325358f8f62a66ce1244b69ce65fa57abce6f5de",
+      "scope": "c94668ea50a7a57bdab0d8d8e0d003eb416907b3dc446b87e56040b17e1d9897",
+      "choice": {
+        "v": "1",
+        "u": "0",
+        "word": "HHHSUT"
+      },
+      "projection": {
+        "omitted": [
+          "s"
+        ],
+        "rule": "set these coordinates to zero in a diagnostic shadow"
+      },
+      "current": {
+        "observation": "first-word endpoint at the actual inherited context",
+        "original": [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        "projected": [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        "equal": true,
+        "cell_certification_claimed": false
+      },
+      "requested": {
+        "observation": "new T/R2/R3 or empty set for this fixed choice and three-flower requirement",
+        "original_status": "ADMISSIBLE",
+        "projected_status": "EMPTY",
+        "relation": "DIFFERENT_EXISTENCE",
+        "original_new_action_digest": "4bea435c6166c4ed411fb94dd9ebc0b4aa962dceb21ffcf81be5cf6b9aa7f549",
+        "projected_new_action_digest": null
+      },
+      "exact_source_reads": 2,
+      "hypothetical_projection_only": true,
+      "erasure_authorized": false,
+      "execution_authorized": false
+    },
+    {
+      "schema": "time-engine-preservation-targets-v1",
+      "entry": "24ccd25412e46f5051ee5e48325358f8f62a66ce1244b69ce65fa57abce6f5de",
+      "scope": "c94668ea50a7a57bdab0d8d8e0d003eb416907b3dc446b87e56040b17e1d9897",
+      "choice": {
+        "v": "1",
+        "u": "0",
+        "word": "HHHSUT"
+      },
+      "projection": {
+        "omitted": [
+          "t"
+        ],
+        "rule": "set these coordinates to zero in a diagnostic shadow"
+      },
+      "current": {
+        "observation": "first-word endpoint at the actual inherited context",
+        "original": [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        "projected": [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        "equal": true,
+        "cell_certification_claimed": false
+      },
+      "requested": {
+        "observation": "new T/R2/R3 or empty set for this fixed choice and three-flower requirement",
+        "original_status": "ADMISSIBLE",
+        "projected_status": "EMPTY",
+        "relation": "DIFFERENT_EXISTENCE",
+        "original_new_action_digest": "4bea435c6166c4ed411fb94dd9ebc0b4aa962dceb21ffcf81be5cf6b9aa7f549",
+        "projected_new_action_digest": null
+      },
+      "exact_source_reads": 2,
+      "hypothetical_projection_only": true,
+      "erasure_authorized": false,
+      "execution_authorized": false
+    },
+    {
+      "schema": "time-engine-preservation-targets-v1",
+      "entry": "24ccd25412e46f5051ee5e48325358f8f62a66ce1244b69ce65fa57abce6f5de",
+      "scope": "c94668ea50a7a57bdab0d8d8e0d003eb416907b3dc446b87e56040b17e1d9897",
+      "choice": {
+        "v": "1",
+        "u": "0",
+        "word": "HHHSUT"
+      },
+      "projection": {
+        "omitted": [
+          "s",
+          "t"
+        ],
+        "rule": "set these coordinates to zero in a diagnostic shadow"
+      },
+      "current": {
+        "observation": "first-word endpoint at the actual inherited context",
+        "original": [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        "projected": [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        "equal": true,
+        "cell_certification_claimed": false
+      },
+      "requested": {
+        "observation": "new T/R2/R3 or empty set for this fixed choice and three-flower requirement",
+        "original_status": "ADMISSIBLE",
+        "projected_status": "EMPTY",
+        "relation": "DIFFERENT_EXISTENCE",
+        "original_new_action_digest": "4bea435c6166c4ed411fb94dd9ebc0b4aa962dceb21ffcf81be5cf6b9aa7f549",
+        "projected_new_action_digest": null
+      },
+      "exact_source_reads": 2,
+      "hypothetical_projection_only": true,
+      "erasure_authorized": false,
+      "execution_authorized": false
+    }
+  ],
+  "execution_control": {
+    "original_certified": true,
+    "original_upper": [
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    "projected_control_locals": [
+      [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-1",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "projected_control_upper": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "projected_success_record_issued": false,
+    "original_action_matches_independent_matrix_solve": true
+  },
+  "source_sha256": {
+    "integrations/inquiry/preservation_targets.py": "5ea0ce97ccf4f24ab533a24c9f196e2ceb0989d482e0e1b88159b4fc8ed7be40",
+    "integrations/inquiry/test_preservation_targets.py": "c7e4c96e76b7fb217c2ccda279ec5d992db2c346497f44cf4127047e9260fa79",
+    "integrations/inquiry/validate_preservation_targets.py": "35bc6c54ba6deaa8c24308d134462864b4509a71919e8f3fbe85c9d496588728",
+    "run_preservation_check.py": "92105e5db55a203d5e44f17e2253661201fc44892312142a07fd17a397e742d2",
+    "integrations/inquiry/three_flower_synthesis.py": "a51b73af72cccb2e8f1cec73f72f8259b28b26d6d0375a5cfff053b15183afb1",
+    "integrations/inquiry/three_flower_session.py": "8dce242865104e54ba8ec03eda71b10940d5edbaf0b152a40ce8c00feed51f4a",
+    "integrations/inquiry/rr69_study.py": "6e18bdd8348270da01829526579f00d530185fc23e73db022bb3ad4725662038"
+  },
+  "existing_model_code_changed": false,
+  "original_P0_archive_modified": false,
+  "independent_audit": false,
+  "full_historical_suite_rerun": false,
+  "life_detection_claimed": false,
+  "automatic_crack_or_erasure_policy_added": false
+}
