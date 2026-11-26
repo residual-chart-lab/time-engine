@@ -250,6 +250,9 @@ class ContinuityTests(unittest.TestCase):
                 opened = self.result(self.call('read', '--id', name, '--bookmark'))
                 self.assertEqual(opened['state'], state)
                 self.assertEqual({role: row['id'] for role, row in opened['sources'].items()}, roles)
+        # Both names share a literal cue prefix and both records now exist.
+        for name in ('sign-deferred', 'sign-deferred-offer'):
+            self.assertEqual(self.result(self.call('read', '--id', name))['id'], name)
 
     def test_18_one_message_can_supply_both_sources(self):
         text = '進行係「『ここでお待ちください』と提案します。今、その文に決めました」'

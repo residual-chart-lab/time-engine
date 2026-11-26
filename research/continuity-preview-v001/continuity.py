@@ -387,6 +387,19 @@ def drain(ws, con, backend):
     return completed
 
 
+class SelectedMemory:
+    """Command transport for the frozen ledger's ticketed read_groups decoder."""
+
+    def __init__(self, ledger, note_id):
+        self.ledger = ledger
+        self.memory = "m-" + note_id  # Registration ID used by open-use record().
+
+    def send(self, command):
+        if command["op"] == "call":
+            command = dict(command, memory=self.memory)
+        return self.ledger.send(command)
+
+
 def read_note(ws, con, backend, identifier):
     row = con.execute("SELECT i.*,r.value_sha256 FROM intake i JOIN receipts r USING(id) WHERE id=?",(identifier,)).fetchone()
     if row is None:
@@ -394,7 +407,10 @@ def read_note(ws, con, backend, identifier):
     episode,entry = backend.find(meta(con,"backend_state"),identifier)
     ledger = backend.open_ledger(ws/"te",episode)
     try:
-        actual = ledger.read_groups([entry["cue"]])["records"][identifier]
+        # Literal cues may match several registered memories. This caller already
+        # supplied the exact note ID, so carry that choice into the issued ticket.
+        group = backend.Ledger.read_groups(SelectedMemory(ledger, identifier), [entry["cue"]])
+        actual = group["records"][identifier]
         fingerprint = backend.digest(backend.encoded(actual["value"]))
         if actual["seq"]!=entry["receipt_seq"] or fingerprint!=entry["value_sha256"] or fingerprint!=row["value_sha256"]:
             raise ValueError("TE read differs from the committed receipt")
