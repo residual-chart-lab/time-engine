@@ -14,7 +14,11 @@ Surviving evidence (or one question to ask) ____ → Next action ____
 
 In the quaternion example, `i | i` and `j | j` both multiply to −1. Inserting k gives k for both. Inserting i gives −i and +i. The move you can reuse in a handoff is to pick one operation that matters and check whether agreement survives it. [日本語の型と記入例](START_HERE.md#計算なしで使える自由数の型)
 
-## New optional entry — continuity preview, 19 November 2026
+## When a choice depends on a proposal
+
+If a different proposal could have been chosen under the same summary, keep references to the chosen proposal and the message that confirmed it. If all you have is the proposal, record `proposal_only`. A saved bookmark can be opened with `read --id ID --bookmark`. [Continuity preview v0.2 and sign example](research/continuity-preview-v001/README.md)
+
+## Continuity preview v0.1 — 19 November 2026
 
 Continue a job after context loss using retained originals, authored readings and a restart packet. [Start here](docs/CONTINUITY_PREVIEW_2026_11.md) · [Self-contained ZIP and hashes](https://github.com/residual-chart-lab/time-engine/releases/tag/continuity-preview-v0.1-2026-11-19). Includes a synthetic example and optional recorded-task trial tools. The underlying open-use v0.1.1 runtime is preserved. This is a technical preview; spontaneous rereading and cross-model persona continuity are not established.
 

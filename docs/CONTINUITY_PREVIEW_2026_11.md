@@ -41,4 +41,4 @@ python -I -B -X utf8 continuity.py --workspace demo-room source --id s000029
 
 この追加入口は技術プレビューです。既存の[open-use v0.1.1](OPEN_USE_2026_11.md)、Culture Day preview.5、監査済みP0の配布物は保持しています。
 
-[ソース](../research/continuity-preview-v001/README.md) · [監査範囲の公開要約](../research/continuity-preview-v001/AUDIT_SCOPE.md) · [部品の指紋と出所](../research/continuity-preview-v001/ORIGINS.json)
+[v0.1 固定ソース](https://github.com/residual-chart-lab/time-engine/tree/9cc19720c70a8acb89009c7b1ddd189f13395bb3/research/continuity-preview-v001) · [v0.1 監査範囲](https://github.com/residual-chart-lab/time-engine/blob/9cc19720c70a8acb89009c7b1ddd189f13395bb3/research/continuity-preview-v001/AUDIT_SCOPE.md) · [v0.1 部品の指紋と出所](https://github.com/residual-chart-lab/time-engine/blob/9cc19720c70a8acb89009c7b1ddd189f13395bb3/research/continuity-preview-v001/ORIGINS.json)

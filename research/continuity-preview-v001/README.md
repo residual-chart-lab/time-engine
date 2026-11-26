@@ -1,13 +1,14 @@
-> Repository source slice: use the [self-contained release ZIP](https://github.com/residual-chart-lab/time-engine/releases/tag/continuity-preview-v0.1-2026-11-19) for the bundled runtime and runnable tests. This source directory does not duplicate `open_use/`. To assemble it yourself, obtain the unchanged open-use v0.1.1 ZIP named in ORIGINS.json, verify its external SHA, and place its extracted contents in `open_use/` beside these modules. The module bytes are the same as the release ZIP.
+# Time Engine continuity preview v0.2
 
-# Time Engine continuity preview v0.1
+When a handoff says “we chose the wording,” the next reader may need to know whose proposal was chosen and who confirmed it. A decision bookmark binds those roles to the archived messages. It can also record that the team explicitly deferred the choice, or that the writer has only found a proposal.
 
-Receive a job after context loss, keep originals separate from later readings, and return to an exact source when the current task needs it.
+Use Python 3.12+ and a local writable folder. In the self-contained package, try the sign example:
 
-This technical preview adds a local continuity host and an optional trial-evidence route. It includes the unchanged published open-use v0.1.1 backend and runtime. Python 3.12+ and local writable storage are required; no network or external Python libraries are needed to run the examples.
+```console
+python -I -B -X utf8 make_demo.py --workspace demo-room
+python -I -B -X utf8 continuity.py --workspace demo-room read --id demo-outcome --bookmark
+```
 
-Start with [START_HERE_JA.md](START_HERE_JA.md). Run `python -I -B -X utf8 make_demo.py --workspace demo-room` to create an entirely invented notebook. Existing workspaces are refused.
+The returned `sources.proposal.text` and `sources.decision.text` are the actual archived messages, with IDs and fingerprints. The person or agent writing the bookmark chooses the roles. A normal `resume` carries the references in its record budget. Open them when the exact wording or decision matters. To open a v0.1 room with the new host, keep its original backend at the path recorded in the room's configuration. See the [authoring example in Japanese](START_HERE_JA.md#案と決定を一緒に読み返す).
 
-The archive contains code and synthetic examples, not the authors' conversation archives, private operational checkpoints, credentials, or recipient traces. Audit evidence here is a scoped public summary; the whole assembled archive has publisher-side extraction checks, not a new independent whole-package audit.
-
-The continuity and trial-evidence modules match the locally audited code bytes. See [ORIGINS.json](ORIGINS.json), [AUDIT_SCOPE.md](AUDIT_SCOPE.md), and [CHANGES.md](CHANGES.md). Earlier public releases remain available for reproduction.
+The repository source slice uses the historical directory name `continuity-preview-v001`. To run it directly, place the verified open-use v0.1.1 package contents in `open_use/` beside these files. From the repository root, `python tools/build_continuity_preview.py --base-zip <v0.1-continuity-zip> --out-dir <output-folder>` assembles the v0.2 ZIP from the pinned previous package and current source. [Previous self-contained package](https://github.com/residual-chart-lab/time-engine/releases/tag/continuity-preview-v0.1-2026-11-19) · [Component fingerprints](ORIGINS.json) · [Audit scope](AUDIT_SCOPE.md)

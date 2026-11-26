@@ -264,8 +264,29 @@ def source_record(con, identifier):
                 source=row["source"], source_line=row["source_line"])
 
 
+def validate_decision_bookmark(bookmark, sources):
+    """Check the author's labels against the source IDs bound by this note."""
+    if not isinstance(bookmark, dict):
+        raise ValueError("decision_bookmark must be an object")
+    roles = set(bookmark) - {"state"}
+    state = bookmark.get("state")
+    if state == "adopted":
+        valid = roles == {"proposal", "decision"}
+    elif state == "deferred":
+        valid = roles in ({"decision"}, {"decision", "proposal"})
+    elif state == "proposal_only":
+        valid = roles == {"proposal"}
+    else:
+        raise ValueError("decision_bookmark state must be adopted, deferred or proposal_only")
+    if not valid:
+        raise ValueError("decision_bookmark source roles do not match its state")
+    for role in roles:
+        if not isinstance(bookmark[role], str) or bookmark[role] not in sources:
+            raise ValueError(f"decision_bookmark {role} must name an ID in sources")
+
+
 def submit(con, request):
-    allowed = {"id","kind","actor","actor_role","payload","sources","links","slot","adoption","reading_time"}
+    allowed = {"id","kind","actor","actor_role","payload","sources","links","slot","adoption","reading_time","decision_bookmark"}
     if type(request) is not dict or set(request) - allowed:
         raise ValueError("unexpected note fields")
     if not ID.fullmatch(request.get("id", "")) or "-piece-" in request["id"] or request["id"].startswith("archive-"):
@@ -281,6 +302,8 @@ def submit(con, request):
         raise ValueError("use at most eight distinct earlier-note links")
     for identifier in sources:
         source_record(con, identifier)
+    if "decision_bookmark" in request:
+        validate_decision_bookmark(request["decision_bookmark"], sources)
     for identifier in links:
         if not con.execute("SELECT 1 FROM intake WHERE id=?", (identifier,)).fetchone():
             raise ValueError("unknown earlier note: " + str(identifier))
@@ -382,6 +405,18 @@ def read_note(ws, con, backend, identifier):
         ledger.close()
 
 
+def open_decision_bookmark(con, record):
+    request = record["payload"]["request"]
+    if "decision_bookmark" not in request:
+        raise ValueError("no decision bookmark on this note; use read or source to inspect its references")
+    bookmark = request["decision_bookmark"]
+    # read_note has already verified the TE receipt and every bound source fingerprint.
+    sources = {role: source_record(con, bookmark[role])
+               for role in ("proposal", "decision") if role in bookmark}
+    return dict(id=record["id"], state=bookmark["state"], sources=sources,
+                assurance="Author-declared decision state and source roles; inspect the originals.")
+
+
 def status(ws, con):
     state = meta(con,"backend_state")
     known = {meta(con,"initial_checkpoint")["file"]}
@@ -454,6 +489,8 @@ def main():
     p=sub.add_parser("note"); p.add_argument("--file",type=Path,required=True); p.add_argument("--queue-only",action="store_true")
     p=sub.add_parser("source"); p.add_argument("--id",required=True)
     p=sub.add_parser("read"); p.add_argument("--id",required=True)
+    p.add_argument("--bookmark",action="store_true",
+                   help="open the decision bookmark and read its role-labeled originals")
     p=sub.add_parser("resume"); p.add_argument("--max-records",type=int,default=8); p.add_argument("--max-chars",type=int,default=12000)
     p.add_argument("--session",type=Path); p.add_argument("--start-marker")
     sub.add_parser("drain"); sub.add_parser("status")
@@ -493,6 +530,8 @@ def main():
                                 resume(ws,con,backend,config)
                         elif args.command=="read":
                             result=read_note(ws,con,backend,args.id)
+                            if args.bookmark:
+                                result=open_decision_bookmark(con,result)
                         elif args.command=="drain":
                             result=dict(committed=drain(ws,con,backend))
                         elif args.command=="resume":

@@ -1,6 +1,6 @@
 {
-  "version": "continuity-preview-v0.1",
-  "release_date": "2026-11-19",
+  "version": "continuity-preview-v0.2",
+  "release_date": "2026-11-26",
   "host_schema": "te-continuity-host-v0.1",
   "evidence_schema": "te-trial-evidence-v0.2",
   "backend": "open-use-v0.1.1"
