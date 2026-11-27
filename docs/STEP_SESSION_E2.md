@@ -92,6 +92,6 @@ python -I integrations/inquiry/validate_step_session.py
 
 Python 3.12.14で第一輪を保存し、同じWindows PCのPython 3.14.3でCLIから再開、残り二輪と上位認証まで通過した。結果とログは `integrations/inquiry/E2-*` に収録。再実行時の一時出力は `.work/e2-validation/`。
 
-E1のLinux試験はAstraの監査結果として参照する。新しいE2操作系のLinux実行は未実施。E1の42件や既存全247件は重複実行していない。監査済みの元409ファイルと入口実装は変更していない。
+E1のLinux試験はAstraの監査結果として参照する。この記録の作成時点ではE2のLinux実行は未実施。その後、[E2/P0固定監査](https://github.com/residual-chart-lab/time-engine/blob/1583d9a84800ed0259340db4eb1f07fcc4c5e8a0/research/astra-e2-p0-audit-2026-10-24/REVIEW.md)でLinux実行と保存再開が通過した。E1の42件や既存全247件は重複実行していない。監査済みの元409ファイルと入口実装は変更していない。
 
 操作履歴は成功命令64件、入力一行16,384 bytes、復旧記録2,000,000 bytesを上限とする。入口の上限と混同しない。この版の用途は有限三輪。常時稼働やregistryの長期容量管理を実装したものではない。ローカルプロセスで使う操作口であり、同一プロセス内の悪意あるPythonコードの隔離や、ネットワークサービスの認証を担うものではない。

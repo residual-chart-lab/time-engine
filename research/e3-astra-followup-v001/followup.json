@@ -1,0 +1,305 @@
+{
+  "schema": "time-engine-e3-audit-followup-v1",
+  "date": "2026-10-24",
+  "source_parent": "ccc0b93840e207ce9c3b2630acdf359a66bc2b54",
+  "audit_record_commit": "0dd5e8b71cc094a69c50a8d8c6899581789d505e",
+  "accepted_scope": "E3 implementation and reading guide PASS; P2 instruction fix",
+  "corrected_build_instruction_pages": [
+    "docs/P0_ACCEPTED_STATUS.md",
+    "docs/P0_TECHNICAL_CANDIDATE.md"
+  ],
+  "changed_previous_files": [
+    "docs/E3_DECISION_FEEDBACK.md",
+    "docs/FREE_NUMBERS_READING_PATH.md",
+    "docs/P0_ACCEPTED_STATUS.md",
+    "docs/P0_TECHNICAL_CANDIDATE.md",
+    "docs/STEP_SESSION_E2.md"
+  ],
+  "unchanged_previous_files": 449,
+  "model_code_changed": false,
+  "relative_links_checked": 56,
+  "relative_links": [
+    {
+      "source": "docs/P0_ACCEPTED_STATUS.md",
+      "target": "P0_STARTUP.md"
+    },
+    {
+      "source": "docs/P0_ACCEPTED_STATUS.md",
+      "target": "P0_STARTUP.md"
+    },
+    {
+      "source": "docs/P0_ACCEPTED_STATUS.md",
+      "target": "../research/p0-startup-guide-v001/startup-check.json"
+    },
+    {
+      "source": "docs/P0_ACCEPTED_STATUS.md",
+      "target": "P0_RELEASE_HANDOFF.md"
+    },
+    {
+      "source": "docs/P0_TECHNICAL_CANDIDATE.md",
+      "target": "P0_ACCEPTED_STATUS.md"
+    },
+    {
+      "source": "docs/P0_TECHNICAL_CANDIDATE.md",
+      "target": "P0_ACCEPTED_STATUS.md"
+    },
+    {
+      "source": "docs/E3_DECISION_FEEDBACK.md",
+      "target": "STATE_AND_VALUE.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "P0_STARTUP.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "STATE_AND_VALUE.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "PRINCIPLES.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "RR58_DEFERRED_RESIDUE.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/free_numbers/deferred.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/free_numbers/README.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "RR66_ADAPTIVE_IDENTITY_RESOLUTION.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "RR68_OBSERVATION_SYNTHESIS.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "RR65_MIXED_RESIDUAL_ACTION_SETS.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "RR69_THREE_FLOWER_OBSERVATION_TRANSFER.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "PRINCIPLES.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../vendor/free-number-core/core/04-length-two-exact-splitting.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../vendor/free-number-core/SOURCE.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/free_numbers/deferred.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/free_numbers/test_deferred.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/free_numbers/RR58-result.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/free_numbers/RR58-validation.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/adaptive_resolution.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/test_adaptive_session.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../research/rr66-read-repair-v001/README.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../research/rr66-read-repair-v001/repair-validation.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/observation_synthesis.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/synthesized_resolution.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/test_synthesized_session.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/RR68-result.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/RR68-validation.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/three_flower_synthesis.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/three_flower_session.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/test_three_flower_synthesis.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/RR69-inputs.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/RR69-result.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/RR69-validation.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../vendor/free-number-runtime/runtime/free_numbers/retention.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../vendor/free-number-runtime/runtime/free_numbers/algebra.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../vendor/free-number-runtime/runtime/free_numbers/checkpoint.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../vendor/free-number-runtime/SOURCE.json"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/free_numbers/README.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/README.md"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/free_numbers/test_deferred.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/three_flower_synthesis.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/rr69_study.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/test_three_flower_synthesis.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/test_entry_transport.py"
+    },
+    {
+      "source": "docs/FREE_NUMBERS_READING_PATH.md",
+      "target": "../integrations/inquiry/test_step_session.py"
+    },
+    {
+      "source": "docs/P0_RELEASE_HANDOFF.md",
+      "target": "P0_ACCEPTED_STATUS.md"
+    },
+    {
+      "source": "docs/P0_RELEASE_HANDOFF.md",
+      "target": "P0_STARTUP.md"
+    },
+    {
+      "source": "docs/P0_RELEASE_HANDOFF.md",
+      "target": "FREE_NUMBERS_READING_PATH.md"
+    },
+    {
+      "source": "docs/P0_RELEASE_HANDOFF.md",
+      "target": "../integrations/inquiry/E3-ASTRA-ACCEPTED.json"
+    }
+  ],
+  "rebuild": {
+    "schema": "time-engine-p0-rebuild-after-audit-v1",
+    "date": "2026-10-24",
+    "builder_source": "audited unpacked P0; not E3 working tree",
+    "source_commit": "1c185365bfcb2ea9f6c52c73ba263cf48c356d32",
+    "pinned_repository_build_commit": "f60fad90fcadaccf438c29a2f1a21bbf532dfea3",
+    "original_archive_modified": false,
+    "byte_identical_to_original": true,
+    "archive_sha256": "91d9218bd368d7987e13ac2a14440ad38ed84d0d227b1102f225fdb0ef89fc4d",
+    "archive_bytes": 3498756,
+    "archive_files": 430,
+    "manifest_files_checked": 429,
+    "zip_crc_passed": true,
+    "model_code_changed": false,
+    "full_numerical_suite_rerun": false
+  },
+  "source_checkout_commands_executed": false,
+  "audited_unpacked_builder_executed": true,
+  "P0_original_archive_modified": false,
+  "new_numerical_tests_run": 0,
+  "Astra_Linux_14_tests_reused": true,
+  "participant_AB_experiment": false,
+  "publication_status": {
+    "GitHub_Release_created": false,
+    "site_page_created": false,
+    "Zenn_posted": false,
+    "download_URL": null
+  },
+  "sources": [
+    {
+      "path": "docs/P0_ACCEPTED_STATUS.md",
+      "sha256": "5064d28a448ec7403bc977e3c6410d62507bc7e41d236a04c1a968441bd26a61"
+    },
+    {
+      "path": "docs/P0_TECHNICAL_CANDIDATE.md",
+      "sha256": "361360ea2e929aa5eb7c36f265b608f01e25cde8c94c8f8b64e898f6b6e3fade"
+    },
+    {
+      "path": "docs/E3_DECISION_FEEDBACK.md",
+      "sha256": "f3ff5ed78c27e63adc19aca58d6c8d928ce634cc4b3f121dd1e6a5a6136b5e54"
+    },
+    {
+      "path": "docs/FREE_NUMBERS_READING_PATH.md",
+      "sha256": "8f66e341e81ea2e7856e5eb2b04450c02c10504d955d66fefc85998db4aaca41"
+    },
+    {
+      "path": "docs/STEP_SESSION_E2.md",
+      "sha256": "480fc1e5aa6cd51948534c70449e39809916554c1cbe906aebd947d7889921fc"
+    },
+    {
+      "path": "docs/P0_RELEASE_HANDOFF.md",
+      "sha256": "c1f11eeb28245e3972df7bb70c004be7e0f0e56097b3ec7a257b7530bc245d3e"
+    },
+    {
+      "path": "integrations/inquiry/E3-ASTRA-ACCEPTED.json",
+      "sha256": "9bcbbb4fd3bd071607afda2576d20615ee8e576ab249149def2af9d5142332f0"
+    },
+    {
+      "path": "research/e3-astra-followup-v001/CHECK.md",
+      "sha256": "54b8556e2fe1276a725b7a06a09267647a26ed52ea00a9d2253e3c5804631e6d"
+    }
+  ]
+}

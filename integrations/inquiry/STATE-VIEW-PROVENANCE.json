@@ -1,0 +1,75 @@
+{
+  "schema": "time-engine-state-view-provenance-v1",
+  "date": "2026-10-24",
+  "base_commit": "57021585f53070132d5aa8a17a17312529f2e5a9",
+  "previous_E3_commit": "ee81c48a82293f018783a7173741b539cf02d03c",
+  "changed_existing_main_files": [
+    "docs/P0_STARTUP.md",
+    "integrations/inquiry/step_session.py"
+  ],
+  "unchanged_existing_main_files": 435,
+  "source_and_evidence": [
+    {
+      "path": "integrations/inquiry/step_session.py",
+      "bytes": 9012,
+      "sha256": "b21d235eafbd1d3e267db8c062cd038839c322294cbe573b5ae3a8f1e28226fc",
+      "blob_sha": "201e9b4b78a8942757f9c9b8724cbc6270fd947c"
+    },
+    {
+      "path": "integrations/inquiry/test_state_view.py",
+      "bytes": 4606,
+      "sha256": "b7164554149ecbc1e6b2663b555fb2428e512a052d8027ab2f493bf6ffb49f47",
+      "blob_sha": "511bf607012c42157a0d3d68a1475543afddfe18"
+    },
+    {
+      "path": "integrations/inquiry/validate_state_view.py",
+      "bytes": 1969,
+      "sha256": "ba15a7cc3041ad17b6376190159acc8f383ee233d1ae75a7fe7acd09b6c083f4",
+      "blob_sha": "50cca78c2a8976726532530814725e5f9f9cb140"
+    },
+    {
+      "path": "integrations/inquiry/STATE-VIEW-validation.json",
+      "bytes": 1730,
+      "sha256": "cc37e8c65d4779c08a76a79e7b990c1458922ecae3a19a074c0929d82bb25961",
+      "blob_sha": "787d90090f8b1c9ab63cb647cd0ed06c3023a552"
+    },
+    {
+      "path": "integrations/inquiry/STATE-VIEW-validation.log",
+      "bytes": 2403,
+      "sha256": "8ceeba6161b341fe76a09c318feecdfdc8dc159189f63d42fbe5e21babf450f1",
+      "blob_sha": "6606f17684f7d31945f6fdffd7a62c2da7a6d141"
+    },
+    {
+      "path": "docs/STATE_AND_VALUE.md",
+      "bytes": 4093,
+      "sha256": "d2c0056011700934bb2c891bb8c7a83a78faf5b8ebc306cb06344e24a9539c69",
+      "blob_sha": "8a6968ceb47a3464dd6f927221f1a34360dd3e4d"
+    },
+    {
+      "path": "docs/P0_STARTUP.md",
+      "bytes": 5660,
+      "sha256": "2fc8daba064da8fae0e0997d86dfc387f4c360b80e4dd8b953e207eea4b74af5",
+      "blob_sha": "d5fd29215f28561db938aa8fa2c4cfdda69cc56c"
+    },
+    {
+      "path": "docs/E3_DECISION_FEEDBACK.md",
+      "bytes": 6977,
+      "sha256": "dba632351467ce923d089c3e427855b15d0b95adff136ac84a9a5cae04f413fa",
+      "blob_sha": "39bb4d0e3d8de18f5376d91f613f23808f7373ca"
+    }
+  ],
+  "provenance_self_hash_excluded": true,
+  "tests": 14,
+  "new_tests": 3,
+  "existing_E3_tests": 3,
+  "existing_E2_tests": 8,
+  "reproduced_before_fix": {
+    "status_request_alias_mutated_snapshot": true
+  },
+  "view_schema": "time-engine-session-view-v1",
+  "checkpoint_schema_changed": false,
+  "P0_archive_modified": false,
+  "P0_archive_sha256": "91d9218bd368d7987e13ac2a14440ad38ed84d0d227b1102f225fdb0ef89fc4d",
+  "legacy_P0_checkpoint_bytes_preserved": true,
+  "independent_audit": false
+}
