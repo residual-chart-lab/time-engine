@@ -31,6 +31,11 @@ def main():
     source = workspace.parent / ('synthetic-input-' + uuid.uuid4().hex + '.jsonl')
     messages = ['DEMO START: invented observations, no real conversation data.']
     messages.extend('Synthetic observation ' + str(i) for i in range(2, 29))
+    messages[23:26] = [
+        '舞台係「入口の札は『合図をお待ちください』でどうでしょう」',
+        '受付係「『合図があるまで、ここでお待ちください』にしましょう」',
+        '進行係「受付係の文に決めます。札はすりガラスの手前に置きます」',
+    ]
     messages.append('Synthetic scene.\n僕は黙って手帳を閉じた。案内係は入口を指し、同行者は椅子を寄せている。\nEnd of synthetic scene.')
     with source.open('x', encoding='utf-8', newline='\n') as stream:
         for text in messages:
@@ -43,13 +48,15 @@ def main():
         ('demo-reading', 'reading', 'reading', ['s000029'], dict(reading='A fictional narrator closes a notebook while two others move near a doorway. This is a paraphrase, not a direct quotation.')),
         ('demo-memory', 'flower', 'memory', ['s000029'], dict(memory_owner='fictional narrator', reading='An invented room and three figures; not an AI subjective-memory claim.')),
         ('demo-candidate', 'candidate', 'candidate', ['s000001'], dict(status='unclassified', reason=None)),
-        ('demo-outcome', 'outcome', 'last-outcome', ['s000001'], dict(reading='Synthetic fixture prepared; not an independently observed real event.')),
+        ('demo-outcome', 'outcome', 'last-outcome', ['s000025', 's000026'], dict(reading='The team chose the wording for the entrance sign.')),
         ('demo-next', 'choice', 'current-work', ['s000001'], dict(reading='Continue from the current packet and retrieve exact originals only as needed.')),
     ]
     for identifier, kind, slot, sources, payload in definitions:
         value = dict(id=identifier, kind=kind, actor='synthetic-author', actor_role='main',
             reading_time='current', sources=sources, links=['continuity-choice-01'] if identifier == 'demo-next' else [],
             slot=slot, adoption='adopt', payload=payload)
+        if identifier == 'demo-outcome':
+            value['decision_bookmark'] = dict(state='adopted', proposal='s000025', decision='s000026')
         file = workspace / (identifier + '.request.json')
         file.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
         call('note', '--file', str(file))

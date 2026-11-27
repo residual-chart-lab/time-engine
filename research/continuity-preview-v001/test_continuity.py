@@ -191,6 +191,108 @@ class ContinuityTests(unittest.TestCase):
             finally: cp.write_bytes(raw)
         finally: con.close()
 
+    def capture_texts(self, *lines):
+        with self.session.open('ab') as stream:
+            for text in lines:
+                stream.write(frame('user', text))
+        result = self.result(self.call('capture', '--session', str(self.session)))
+        self.assertEqual(result['captured'], len(lines))
+        return result['ids']
+
+    def test_16_selected_proposal_and_decision_reopen_together(self):
+        draft = '舞台係「札には『合図をお待ちください』と書きましょう」'
+        other = '受付係「札には『ここでお待ちください』と書きましょう」'
+        decision = '進行係「受付係の文に決めます」'
+        draft_id, other_id, decision_id = self.capture_texts(draft, other, decision)
+        specs = {'state': 'adopted', 'proposal': other_id, 'decision': decision_id}
+        request = self.note('sign-final', sources=[decision_id, draft_id, other_id],
+                            slot='entrance-sign', adoption='adopt', decision_bookmark=specs)
+        self.result(self.call('note', '--queue-only', '--file', str(request)))
+        resumed = self.result(self.call('resume'))
+        entry = next(row['record'] for row in resumed['records'] if row['slot'] == 'entrance-sign')
+        self.assertEqual(entry['payload']['request']['decision_bookmark'], specs)
+        self.assertEqual(self.result(self.call('read', '--id', 'sign-final')), entry)
+        self.assertNotIn(other, json.dumps(entry, ensure_ascii=False))
+
+        opened = self.result(self.call('read', '--id', 'sign-final', '--bookmark'))
+        self.assertEqual((opened['id'], opened['state']), ('sign-final', 'adopted'))
+        self.assertTrue(opened['assurance'])
+        self.assertEqual(set(opened['sources']), {'proposal', 'decision'})
+        for role, source_id, text in [('proposal', other_id, other), ('decision', decision_id, decision)]:
+            original = opened['sources'][role]
+            self.assertEqual((original['id'], original['text']), (source_id, text))
+            self.assertEqual(original['sha256'], hashlib.sha256(text.encode('utf-8')).hexdigest())
+            self.assertEqual(original, self.result(self.call('source', '--id', source_id)))
+
+        # A bookmark must go through the committed TE record before it can return originals.
+        con = H.database(self.ws)
+        try:
+            name, = con.execute("SELECT checkpoint FROM receipts WHERE id=?", ('sign-final',)).fetchone()
+        finally:
+            con.close()
+        checkpoint = self.ws / 'te' / name
+        saved = checkpoint.read_bytes()
+        try:
+            checkpoint.write_bytes(saved + b' ')
+            self.assertEqual(self.call('read', '--id', 'sign-final', '--bookmark').returncode, 2)
+        finally:
+            checkpoint.write_bytes(saved)
+
+    def test_17_proposal_only_and_explicit_deferral_have_different_evidence(self):
+        proposal, decision = self.capture_texts('受付係「入口で待つ案です」', '進行係「文面は次回決めます」')
+        cases = [('sign-offer', 'proposal_only', {'proposal': proposal}),
+                 ('sign-deferred', 'deferred', {'decision': decision}),
+                 ('sign-deferred-offer', 'deferred', {'decision': decision, 'proposal': proposal})]
+        for name, state, roles in cases:
+            with self.subTest(state=state, roles=tuple(roles)):
+                request = self.note(name, sources=list(roles.values()), decision_bookmark={'state': state, **roles})
+                self.result(self.call('note', '--file', str(request)))
+                opened = self.result(self.call('read', '--id', name, '--bookmark'))
+                self.assertEqual(opened['state'], state)
+                self.assertEqual({role: row['id'] for role, row in opened['sources'].items()}, roles)
+        # Both names share a literal cue prefix and both records now exist.
+        for name in ('sign-deferred', 'sign-deferred-offer'):
+            self.assertEqual(self.result(self.call('read', '--id', name))['id'], name)
+
+    def test_18_one_message_can_supply_both_sources(self):
+        text = '進行係「『ここでお待ちください』と提案します。今、その文に決めました」'
+        source_id, = self.capture_texts(text)
+        specs = {'state': 'adopted', 'proposal': source_id, 'decision': source_id}
+        request = self.note('sign-same', sources=[source_id], decision_bookmark=specs)
+        self.result(self.call('note', '--file', str(request)))
+        sources = self.result(self.call('read', '--id', 'sign-same', '--bookmark'))['sources']
+        self.assertEqual(sources['proposal'], sources['decision'])
+        self.assertEqual(sources['decision']['text'], text)
+
+    def test_19_invalid_bookmarks_never_enter_the_queue(self):
+        a, b = 's000001', 's000002'
+        invalid = [None, [], {}, {'state': 'unknown', 'proposal': a},
+                   {'state': 'adopted', 'proposal': a}, {'state': 'adopted', 'decision': a},
+                   {'state': 'proposal_only'}, {'state': 'proposal_only', 'proposal': a, 'decision': a},
+                   {'state': 'deferred', 'proposal': a}, {'state': 'deferred', 'decision': None},
+                   {'state': 'deferred', 'decision': a, 'extra': a},
+                   {'state': 'adopted', 'proposal': a, 'decision': b},
+                   {'state': 'proposal_only', 'proposal': 's999999'}]
+        before = self.result(self.call('status'))
+        for index, specs in enumerate(invalid):
+            with self.subTest(specs=specs):
+                path = self.note(f'bad-bookmark-{index}', sources=[a], decision_bookmark=specs)
+                rejected = self.call('note', '--queue-only', '--file', str(path))
+                self.assertEqual(rejected.returncode, 2, rejected.stdout + rejected.stderr)
+        after = self.result(self.call('status'))
+        for key in ('notes', 'te_saved', 'pending'):
+            self.assertEqual(after[key], before[key])
+
+    def test_20_legacy_records_keep_their_original_read_shape(self):
+        path = self.note('ordinary-reading', slot='ordinary-slot', adoption='adopt')
+        self.result(self.call('note', '--file', str(path)))
+        ordinary = self.result(self.call('read', '--id', 'ordinary-reading'))
+        self.assertNotIn('decision_bookmark', ordinary['payload']['request'])
+        self.assertEqual(self.call('read', '--id', 'ordinary-reading', '--bookmark').returncode, 2)
+        packet = self.result(self.call('resume'))
+        active = next(e['record'] for e in packet['records'] if e['slot'] == 'ordinary-slot')
+        self.assertEqual(active, ordinary)
+
 
 if __name__=='__main__':
     suite=unittest.defaultTestLoader.loadTestsFromTestCase(ContinuityTests)

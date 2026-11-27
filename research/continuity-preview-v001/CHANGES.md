@@ -1,4 +1,10 @@
-# Continuity preview v0.1 — 2026-11-19
+# Continuity preview v0.2 — 2026-11-26
+
+A note can carry a decision bookmark that points to the original proposal, the decision about it, or both. Open a committed bookmark with `read --id ID --bookmark`. The author records an adopted proposal, an explicit deferral, or the proposal alone. Existing v0.1 workspaces can be opened directly. The synthetic demo now includes two competing texts for an entrance sign.
+
+Exact note reads pass the requested memory ID into the TE recollection ticket. This also lets a reader reopen earlier records whose literal cues overlap, such as `sign-deferred` and `sign-deferred-offer`.
+
+## Continuity preview v0.1 — 2026-11-19
 
 - Added a local original-text warehouse, separate authored readings, accepted-note recovery, and a bootstrap/resume entry.
 - Added optional fixed-task delivery, stage-scoped receipts and exact submission-byte preservation for trials.

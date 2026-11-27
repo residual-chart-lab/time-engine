@@ -1,11 +1,12 @@
 {
-  "bundle": "continuity-preview-v0.1",
-  "date": "2026-11-19",
+  "bundle": "continuity-preview-v0.2",
+  "date": "2026-11-26",
   "components": {
     "continuity.py": {
-      "version": "host-v0.1",
-      "sha256": "3fddda678769b443c4228c5a99f3a0d7468cbc7419bee2a3e1331a247e965741",
-      "audited_code_bytes_unchanged": true
+      "version": "host-v0.2",
+      "sha256": "ed396c9c9eec7e61709ed63c699f7a2e4ba7317a6584c6dea43827d42c4f2e8a",
+      "previous_audited_sha256": "3fddda678769b443c4228c5a99f3a0d7468cbc7419bee2a3e1331a247e965741",
+      "audited_code_bytes_unchanged": false
     },
     "trial_evidence.py": {
       "version": "evidence-v0.2",
@@ -19,5 +20,5 @@
     }
   },
   "example": "Synthetic only; no real user source archive or operational state.",
-  "tests": "Path/fixture adapters around existing tests; whole-archive independent audit not claimed."
+  "tests": "Synthetic host, decision-bookmark and evidence checks. The independent audit applies to its named historical components."
 }
