@@ -6,6 +6,8 @@
 
 Carry a proposal and the message that adopted or deferred it into the next session. The reader can open both originals together. [Source and runnable example](research/continuity-preview-v001/README.md) · [日本語の記入例](research/continuity-preview-v001/START_HERE_JA.md#案と決定を一緒に読み返す)
 
+[Download the self-contained v0.2 ZIP](https://github.com/residual-chart-lab/time-engine/releases/download/continuity-preview-v0.2-2026-11-26/time-engine-continuity-preview-v0.2-2026-11-26.zip) · [Release notes, checksum and Japanese first-use guide](https://github.com/residual-chart-lab/time-engine/releases/tag/continuity-preview-v0.2-2026-11-26)
+
 ## Continuity preview v0.1 — 19 November 2026
 
 Continue a job after context loss using retained originals, authored readings and a restart packet. [Start here](docs/CONTINUITY_PREVIEW_2026_11.md) · [Self-contained ZIP and hashes](https://github.com/residual-chart-lab/time-engine/releases/tag/continuity-preview-v0.1-2026-11-19). Includes a synthetic example and optional recorded-task trial tools. The underlying open-use v0.1.1 runtime is preserved. This is a technical preview; spontaneous rereading and cross-model persona continuity are not established.
